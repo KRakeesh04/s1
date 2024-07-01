@@ -34,6 +34,12 @@ export default defineConfig({
 					link: "/",
 				},
 				{
+					label: "Fluid Mechanics",
+					autogenerate: {
+						directory: "CE1023",
+					},
+				},
+				{
 					label: "Properties of Material",
 					autogenerate: {
 						directory: "MT1023",
