@@ -1,23 +1,19 @@
 import starlight from "@astrojs/starlight";
 import tailwind from "@astrojs/tailwind";
 import { defineConfig } from "astro/config";
+import rehypeKatex from "rehype-katex";
+import remarkMath from "remark-math";
 
 const DEFAULT_TITLE = "UOM E23 Sem1 Notes";
 
 // https://astro.build/config
 export default defineConfig({
 	markdown: {
-		remarkPlugins: ["remark-math"],
+		remarkPlugins: [remarkMath],
 		rehypePlugins: [
-			[
-				"rehype-katex",
-				/**
-				 */
-				{
-					// Katex plugin options
-					trust: true,
-				},
-			],
+			rehypeKatex({
+				trust: true,
+			}),
 		],
 	},
 	integrations: [
