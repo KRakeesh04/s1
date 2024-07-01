@@ -6,6 +6,20 @@ const DEFAULT_TITLE = "UOM ME23 Notes";
 
 // https://astro.build/config
 export default defineConfig({
+	markdown: {
+		remarkPlugins: ["remark-math"],
+		rehypePlugins: [
+			[
+				"rehype-katex",
+				/**
+				 */
+				{
+					// Katex plugin options
+					trust: true,
+				},
+			],
+		],
+	},
 	integrations: [
 		starlight({
 			title: DEFAULT_TITLE,
@@ -18,6 +32,14 @@ export default defineConfig({
 						property: "og:title",
 					},
 					content: DEFAULT_TITLE,
+				},
+				{
+					tag: "link",
+					attrs: {
+						rel: "stylesheet",
+						href: "https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css",
+						crossOrigin: "anonymous",
+					},
 				},
 			],
 			customCss: ["./src/global.css"],

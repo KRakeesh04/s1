@@ -9,11 +9,15 @@
 * {
 	font-variant-ligatures: none;
 }
-
 p {
 	@apply text-md;
 }
-
 p img {
 	@apply mx-auto;
+}
+p:has(.katex) {
+	@apply text-center;
+}
+.katex {
+	@apply text-3xl;
 }
