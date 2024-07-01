@@ -50,6 +50,12 @@ export default defineConfig({
 					link: "/",
 				},
 				{
+					label: "Electrical Fundamentals",
+					autogenerate: {
+						directory: "EE1040",
+					},
+				},
+				{
 					label: "Fluid Mechanics",
 					autogenerate: {
 						directory: "CE1023",
