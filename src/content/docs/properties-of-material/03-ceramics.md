@@ -2,6 +2,8 @@
 title: Ceramics
 ---
 
+Inter-molecular bonds: covalent and/or ionic.
+
 ## Properties
 
 - Non metalics

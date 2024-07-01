@@ -2,7 +2,11 @@
 title: Polymers
 ---
 
-Has a repeating structure.
+Inter-molecular bonds: Covalent and Van der Waals or Hydrogen.
+
+## Properties
+
+- Has a repeating structure.
 - lightweight
 - corrosion-resistent
 - easy to process at low temperatures

@@ -14,78 +14,7 @@ Stainless Steel  Suthu Ragadda
 Cast Iron  Cheenachaddi
 Fiber  kenthi
 
-## Metals
-
-Pure iron doesn't have any practical use.
-
-Steel (Fe + C) has maximum of 2% C. (won't break easily) (not brittle = ductile)
-Cast Iron (Fe + C) has 2%  4% C. (will break easily) (brittle)
-
-Duralamin (Al + Cu)  used for aircraft body (pure Al is not strong enough)
-
-Alloys
- Parent metal (mostly used metal  % wise)
- Alloying elements (other than the parent metal)
-
-Super Alloys
- Too many alloying elements (maybe even 20)
-
-Stiffness directly related to young's modulus. (more is more)
- Steel 200 GPA
-
-Most of engineering requires high stiffness materials
-ductile easily change shape by applying force
-brittle easily break when applying force
-
-Fe, Co, Ni magnetic (including their alloys)
-
-## Polymers
-
-Generally insulators.
-But we have conductingpolymers.
-
 ### Examples
 
-Polypropylene  kitchen were
-Polymethylmethacrylite PMMA Perspex  transparent (= as glass). lightweight. used in aircrafts' windows, contact lenses.
-PTFE (Teflon)
 
 HW: Find out 5 uncommon usages of Plastics (mentioned in Handout 1). Keep it with us.
-
-## Ceremics
-
-Highly insulators. There are ceremic magnets.
-
-Behaves like glasses mostly. Brittle as glass.
-doesn't mean glass not element of ceremics. Hugely differs in structure. (will explain next week)
-
-### Examples
-
-Sand
-Tiles
-Cement
-Concrete
-
-2 types
-Traditional
-Advanced
-
-Piezoelectric materials  materials that convert mechanic energy (sound) <> electrical energy (electric current)
-Ceremics can also be made to be Superconductors
-
-Some ceremics can survive upto 8K deg C.
-
-## Composites
-
-Plusses of two materials combined together.
-
-### Examples
-
-Concrete (conventional one)
-Fiber glass (GFRP)
-
-Fiber glass
-
-combination of glass and plastic
-the procedure: glass > fiber (a shape not material) > add plastic == fiber glass
-unlike glass  not brittle 

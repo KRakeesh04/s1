@@ -2,6 +2,8 @@
 title: Introduction
 ---
 
+Be sure to revise the second unit of Chemistry in G.C.E (A/L).
+
 ## Materials
 
 Materials can be divided into 4 sub-classifications.

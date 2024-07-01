@@ -10,7 +10,7 @@ At extremely low temperatures, some metals tend to be superconductors.
 
 ## Pure Metals
 
-Commonly not used in the pure form. 
+Inter-molecular bongs: Metalic bonds. Commonly not used in the pure form. 
 
 Pure metals might be:
 - not strong enough
