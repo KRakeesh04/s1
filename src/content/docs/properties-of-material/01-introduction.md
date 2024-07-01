@@ -1,0 +1,22 @@
+---
+title: Introduction
+---
+
+## Materials
+
+Materials can be divided into 4 sub-classifications.
+- Metals
+- Ceramics
+- Polymers
+- Composites
+
+Materials can also be categorized based on their usage.
+
+## Property
+
+A property is the response given by a material to a specific stimulus
+- Mechanical properties – stress
+- Electrical properties – electric field
+- Magnetic properties – magnetic field
+- Optical properties – electromagnetic
+or light radiation
