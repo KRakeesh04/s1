@@ -16,11 +16,13 @@ Inter-molecular bonds: covalent and/or ionic.
 - Generally good insulators (electrical and thermal)
 - Brittle as glass. Behaves glass-like mostly.
 
-**Glass is not an element of ceremics**. Hugely differs in structure. 
+**Glass is not an element of ceremics**. Hugely differs in structure.
 
 Some ceramic materials are:
+
 - magnetic
-- piezoelectric - converts mechanic energy (sound) <> electrical energy (electric current)
+- piezoelectric - converts mechanic energy (sound) <> electrical energy
+  (electric current)
 - superconductors (only few, and only at very low temperatures)
 
 ## Examples
@@ -31,5 +33,6 @@ Some ceramic materials are:
 - Concrete
 
 2 types:
+
 - Traditional - clay-based items (like pottery, porcelain, tiles)
 - Advanced - (like silicon carbide, boron nitride, zirconia)

@@ -1,26 +1,26 @@
 ---
-import { Image } from 'astro:assets';
-import type { Props } from '@astrojs/starlight/props';
-import CallToAction from "@astrojs/starlight/components/CallToAction.astro"
+import { Image } from "astro:assets";
+import CallToAction from "@astrojs/starlight/components/CallToAction.astro";
+import type { Props } from "@astrojs/starlight/props";
 
 const { data } = Astro.props.entry;
 const { title = data.title, tagline, image, actions = [] } = data.hero || {};
 
 const imageAttrs = {
-	loading: 'eager' as const,
-	decoding: 'async' as const,
+	loading: "eager" as const,
+	decoding: "async" as const,
 	width: 400,
 	height: 400,
-	alt: image?.alt || '',
+	alt: image?.alt || "",
 };
 
 let darkImage: ImageMetadata | undefined;
 let lightImage: ImageMetadata | undefined;
 let rawHtml: string | undefined;
 if (image) {
-	if ('file' in image) {
+	if ("file" in image) {
 		darkImage = image.file;
-	} else if ('dark' in image) {
+	} else if ("dark" in image) {
 		darkImage = image.dark;
 		lightImage = image.light;
 	} else {

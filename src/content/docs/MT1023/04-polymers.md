@@ -20,6 +20,7 @@ We also have conducting polymers.
 ## Examples
 
 ### Plastics
+
 - Polyvinylchloride (PVC)
 - Polyethylene / Polythene (PE)
 - Polypropylene (PP)
@@ -29,10 +30,12 @@ We also have conducting polymers.
 - Polytetrafluoroethylene (PTFE) Teflon
 
 PMMA Perspex is
+
 - transparent (like glass)
 - lightweight
 - used in aircrafts' windows & contact lenses.
 
 ### Rubber
+
 - Polyisoprene / Natural rubber
 - Styrenebutadiene rubber (SBR)

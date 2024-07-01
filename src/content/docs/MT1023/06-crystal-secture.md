@@ -2,7 +2,9 @@
 title: Crystal Structure
 ---
 
-Materials are categorized into 2, based on the arrangments of atoms or molecules.
+Materials are categorized into 2, based on the arrangments of atoms or
+molecules.
+
 - Crystalline
 - Amorphous
 
@@ -10,9 +12,9 @@ Materials are categorized into 2, based on the arrangments of atoms or molecules
 
 - Ordered arrangment of atoms or molecules.
 - Situated in a repeating array over large atomic distances (long-range order).
-- Metals and Ceramics. 
+- Metals and Ceramics.
 
-Atomic arrangement is usually described by __space lattice__.
+Atomic arrangement is usually described by **space lattice**.
 
 ## Amorphous (or Non Crystalline)
 
