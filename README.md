@@ -1,12 +1,11 @@
-# sahithyan/utils
+# UOM E23 Semester 1
 
-utils is a community-driven, open-source project that aims to provide common
-utility functions and code snippets to be used in a copy-paste manner.
+My personal notes of Semester 1 of Engineering degree at University of Moratuwa.
 
 ## Prerequisites
 
 - Node (>= v18)
-- [Bun](https://bun.sh) (>= v1.1.5) as package manager and runtime
+- [Bun](https://bun.sh) (>= v1.1.7) as package manager and runtime
 
 ## Project Structure
 
@@ -24,11 +23,8 @@ utility functions and code snippets to be used in a copy-paste manner.
 └── tsconfig.json
 ```
 
-Each markdown (`.md` or `.mdx`) file under `src/content/docs` directory, is
-exposes as a route bsaed on its file name.
-
-Images can be added to `src/assets/` and embedded in Markdown with a relative
-link.
+Each markdown (`.md`) file under `src/content/docs` directory, is
+exposed as a route bsaed on its file name.
 
 Static assets, like favicons, should be placed in the `public/` directory.
 
