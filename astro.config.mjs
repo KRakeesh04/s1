@@ -47,6 +47,7 @@ export default defineConfig({
 				github: "https://github.com/sahithyandev/me23-notes",
 			},
 			tableOfContents: false,
+			lastUpdated: true,
 			components: {
 				Hero: "./src/components/Hero.astro",
 			},
