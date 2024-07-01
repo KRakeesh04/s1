@@ -10,11 +10,7 @@ const DEFAULT_TITLE = "UOM E23 Sem1 Notes";
 export default defineConfig({
 	markdown: {
 		remarkPlugins: [remarkMath],
-		rehypePlugins: [
-			rehypeKatex({
-				trust: true,
-			}),
-		],
+		rehypePlugins: [rehypeKatex],
 	},
 	integrations: [
 		starlight({
@@ -43,7 +39,8 @@ export default defineConfig({
 				github: "https://github.com/sahithyandev/me23-notes",
 			},
 			tableOfContents: false,
-			lastUpdated: true,
+			lastUpdated: false,
+			expressiveCode: false,
 			components: {
 				Hero: "./src/components/Hero.astro",
 			},
