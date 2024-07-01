@@ -4,4 +4,16 @@ title: Properties of Fluids
 
 ## Mass Density
 
-$$ \int_0^\infty = \frac{1}{x^2+1} \;dx=\frac{\pi}{2} $$
+$$ \rho = \frac{\text{Mass}}{\text{Volume}} = \frac{m}{v} $$
+
+### At a point
+
+```math
+\rho = \lim_{\delta v \to 0} \frac{\delta m}{\delta v}
+```
+
+## Dimensions
+
+| Property     | Dimension     | Units          |
+| ------------ | ------------- | -------------- |
+| Mass Density | $$ ML^{-3} $$ | $$ kgm^{-3} $$ |

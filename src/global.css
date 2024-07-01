@@ -16,8 +16,11 @@ p img {
 	@apply mx-auto;
 }
 p:has(.katex) {
-	@apply text-center;
+	@apply text-center text-2xl;
 }
 .katex {
 	@apply text-3xl;
+}
+table .katex {
+	@apply text-xl;
 }
