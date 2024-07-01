@@ -2,7 +2,7 @@ import starlight from "@astrojs/starlight";
 import tailwind from "@astrojs/tailwind";
 import { defineConfig } from "astro/config";
 
-const DEFAULT_TITLE = "UOM ME23 Notes";
+const DEFAULT_TITLE = "UOM E23 Sem1 Notes";
 
 // https://astro.build/config
 export default defineConfig({

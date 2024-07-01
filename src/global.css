@@ -15,12 +15,20 @@ p {
 p img {
 	@apply mx-auto;
 }
-p:has(.katex) {
+p:has(.katex:only-of-type),
+.katex-display {
 	@apply text-center text-2xl;
 }
-.katex {
-	@apply text-3xl;
+table {
+	@apply w-full !table;
+	thead, tbody, tr {
+		@apply w-full;
+	}
+
+	.katex {
+		@apply text-xl;
+	}
 }
-table .katex {
-	@apply text-xl;
+li .katex {
+	@apply text-2xl;
 }
