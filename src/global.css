@@ -13,3 +13,7 @@
 p {
 	@apply text-md;
 }
+
+p img {
+	@apply mx-auto;
+}
