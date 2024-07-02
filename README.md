@@ -23,8 +23,8 @@ My personal notes of Semester 1 of Engineering degree at University of Moratuwa.
 └── tsconfig.json
 ```
 
-Each markdown (`.md`) file under `src/content/docs` directory, is
-exposed as a route bsaed on its file name.
+Each markdown (`.md`) file under `src/content/docs` directory, is exposed as a
+route bsaed on its file name.
 
 Static assets, like favicons, should be placed in the `public/` directory.
 

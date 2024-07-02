@@ -62,6 +62,12 @@ export default defineConfig({
 					},
 				},
 				{
+					label: "Mechanics",
+					autogenerate: {
+						directory: "ME1033",
+					},
+				},
+				{
 					label: "Properties of Material",
 					autogenerate: {
 						directory: "MT1023",

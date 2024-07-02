@@ -12,7 +12,8 @@ Currently includes WIP notes for these subjects:
 - CE1023 Fluid Mechanics
 - EE1040 Electrical Fundamentals
 
-These subjects are hard to be kept in a website.
+These subjects are hard to be kept in a website. However, I am trying to include
+some details on them.
 
 - MA1014 Mathematics
 - CS1033 Programming Fundamentals
