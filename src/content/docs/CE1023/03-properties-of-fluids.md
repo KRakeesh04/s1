@@ -108,9 +108,3 @@ $ v = \frac{\mu}{\rho} $
 A force is exerted on all surfaces in contact with a fluid. A scalar.
 
 $ P = \frac{\text{Normal Force}}{\text{Area}} = \frac{F}{A} $
-
-At a point,
-
-```math
-P = \lim_{\delta A \to 0} \frac{\delta F}{\delta A}
-```

@@ -17,6 +17,10 @@ Measured in respect to perfect vaccum.
 $ \text{Absolute Pressure} = \text{Armospheric Pressure} + \text{Guage Pressure}
 $
 
+## Relation between the 3
+
+![Pressures](/CE1023/pressures.png)
+
 ## Pressure Measurements
 
 ### Barometer
@@ -45,8 +49,32 @@ Measures the pressure head of a liquid.
 
 ![Manometer](/CE1023/manometer.png)
 
-Hydrostatic principle is used here.
+Hydrostatic principle is used here. Measures absolute pressue. Manometer liquid
+should not mix with the liquid in which the pressure is to be measured.
+
+$ P_x = P_y $
+
+```math
+P_{A} + a\rho g = P_{\text{atm}} + h \rho_{m} g
+```
+
+```math
+P_{A} = P_{\text{atm}} + h \rho_{m} - a\rho g
+```
+
+<!-- prettier-ignore -->
+If $ P_{\text{atm}} = 0 $, $ P_{A} = h \rho_{m} - a\rho g $. That's gauge pressure.
+
+#### Differential Manometer
+
+![Differential Manometer](/CE1023/differential-manometer.png)
+
+Used to measure pressure difference between two points. Can be used for both
+liquids and gases. Difficult to measure small pressure differences (because
+small displacement of manometer liquid).
 
 ### Pressure Gauges
+
+Example: Bourdon Pressure Gauge
 
 ### Other devices
