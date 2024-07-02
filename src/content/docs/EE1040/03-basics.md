@@ -66,17 +66,3 @@ w = integral of p of dt from t0 to t
 w = integral of vi of dt from t0 to t
 
 **Only when $ v $ and $ i $ is constant**, total work done is $ E = vit $.
-
-## Dimensions & Units
-
-| Property    | Dimension              | Units                |
-| ----------- | ---------------------- | -------------------- |
-| Charge      | $ IT $                 | $ C $                |
-| Current     | $ I $                  | $ A $                |
-| Voltage     | $ ML^{2}T^{-2}I^{-1} $ | $ V $                |
-| Energy/Work |                        |                      |
-| Power       | $ ML^{2}T^{-2} $       | $ Js^{-1} $          |
-| Resistivity | $ MLT^{-2}I^{-1} $     |                      |
-| Resistance  | $ ML^{2}T^{-2}I^{-2} $ | $ \ohm $             |
-| Capacitance | $ $                    | $ \text{Farad} (F) $ |
-| Inductance  | $ $                    | $ \text{Henry} (H) $ |
