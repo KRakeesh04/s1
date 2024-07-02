@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Introduction to Properties of Materials
 ---
 
 Be sure to revise the second unit of Chemistry in G.C.E (A/L).

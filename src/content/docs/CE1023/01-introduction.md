@@ -1,5 +1,6 @@
 ---
-title: Introduction
+title: Introduction to Fluid Mechanics
+label: HI
 ---
 
 Study of Fluids Mechanics include

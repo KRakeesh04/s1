@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Introduction to Electrical Fundamentals
 ---
 
 An electric power system consists of 3 principle sections
