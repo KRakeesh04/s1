@@ -22,8 +22,8 @@ export default defineConfig({
 					tag: "meta",
 					attrs: {
 						property: "og:title",
+						content: DEFAULT_TITLE,
 					},
-					content: DEFAULT_TITLE,
 				},
 				{
 					tag: "link",
@@ -36,7 +36,8 @@ export default defineConfig({
 			],
 			customCss: ["./src/global.css"],
 			social: {
-				github: "https://github.com/sahithyandev/me23-notes",
+				github: "https://github.com/sahithyandev/uom-e23-sem1",
+				twitter: "https://x.com/sahithyandev",
 			},
 			tableOfContents: false,
 			lastUpdated: true,
