@@ -4,13 +4,16 @@
 
 :root {
 	--sl-content-width: 68rem;
-	font-size: 16px;
+	--sl-text-h1: var(--sl-text-4xl);
+	--sl-text-h2: var(--sl-text-3xl);
+	--sl-sidebar-width: 22rem;
+	font-size: 17px;
 }
 * {
 	font-variant-ligatures: none;
 }
 p {
-	@apply text-md;
+	@apply text-lg;
 }
 p img {
 	@apply mx-auto;
