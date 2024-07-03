@@ -64,9 +64,20 @@ export default defineConfig({
 				},
 				{
 					label: "Mathematics",
-					autogenerate: {
-						directory: "MA1014",
-					},
+					items: [
+						{
+							label: "Real Analysis",
+							autogenerate: {
+								directory: "MA1014/Real Analysis",
+							},
+						},
+						{
+							label: "ODE",
+							autogenerate: {
+								directory: "MA1014/ODE",
+							},
+						},
+					],
 				},
 				{
 					label: "Mechanics",
