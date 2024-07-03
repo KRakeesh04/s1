@@ -42,7 +42,7 @@ export default defineConfig({
 			lastUpdated: true,
 			expressiveCode: false,
 			components: {
-				Hero: "./src/components/Hero.astro",
+				Sidebar: "./src/components/Sidebar.astro",
 			},
 			sidebar: [
 				{
