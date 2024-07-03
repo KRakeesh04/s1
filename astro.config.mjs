@@ -62,6 +62,12 @@ export default defineConfig({
 					},
 				},
 				{
+					label: "Mathematics",
+					autogenerate: {
+						directory: "MA1014",
+					},
+				},
+				{
 					label: "Mechanics",
 					autogenerate: {
 						directory: "ME1033",
