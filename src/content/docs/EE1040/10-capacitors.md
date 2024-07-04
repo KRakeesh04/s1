@@ -16,7 +16,7 @@ $ V $ across the plates.
 
 $ Q = CV $
 
-## v and i
+## $ v $ and $ i $
 
 As $ C $ is constant, current $ i $ passing through the capacitor and the
 voltage $ v $ across the capacitor are related by:
