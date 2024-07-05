@@ -10,13 +10,14 @@ A length of wire turned into a coil works as a inductor.
 
 ## Inductance ($ L $)
 
-For an ideal inductor, the voltage is proportional to the time rate of change of
-the current and the polarity is such as to oppose the change in current.
+For an ideal inductor:
 
 $ v = L \frac{\text{d}i}{\text{d}t} $
 
 Here the $ v $ is the voltage difference between the inductor, and $ i $ is the
 current through the inductor.
+
+The polarity is such as to oppose the change in current.
 
 ## Energy stored
 

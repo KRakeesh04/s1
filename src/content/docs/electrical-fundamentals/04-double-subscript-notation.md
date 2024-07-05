@@ -8,7 +8,8 @@ title: Double subscript notation
 i_{ab} = - i_{ba}
 ```
 
-$ i\_{ab} $ means current is flowing from point $ a $ to point $ b $.
+When current is flowing **from point $ a $ to point $ b $**, it's noted as
+above.
 
 ## Voltage
 
@@ -16,4 +17,5 @@ $ i\_{ab} $ means current is flowing from point $ a $ to point $ b $.
 v_{ab} = -v_{ba} = v_a - v_b
 ```
 
-$ v\_{ab} $ means voltage is higher at point $ a $ and lower at point $ b $.
+When voltage is **higher at point $ a $ and lower at point $ b $**, it's notes
+as above.

@@ -17,9 +17,10 @@ $ q $.
 ## Current
 
 Amount of charges (in $ C
-$) flowing through a point in unit time. Measured in Ampere ($ A $).
-Conventional current (opposite to electron flow) flows from positive to negative
-potentials.
+$) flowing through a point in unit time. Conventional
+current (opposite to electron flow) flows from positive to negative potentials.
+$
+$
 
 $ I = \frac{\text{d}Q}{\text{d}t} $
 
@@ -44,7 +45,9 @@ $ v $.
 Voltage difference is the work that must be done against the electric field to
 move a unit positive charge from one point to another.
 
-$ V\_{AB} = V_A - V_B $
+```math
+V_{AB} = V_A - V_B
+```
 
 ## Electric Circuit
 
@@ -61,8 +64,14 @@ Types of circuits
 $ p = \frac{\text{d}w}{\text{d}t} = \frac{\text{d}w}{\text{d}q}
 \frac{\text{d}q}{\text{d}t} = vi $
 
-w = integral of p of dt from t0 to t
+## Total Work
 
-w = integral of vi of dt from t0 to t
+```math
+w = \int_{t_0}^{t} {p\text{d}t} = \int_{t_0}^{t} {vi\text{d}t}
+```
 
-**Only when $ v $ and $ i $ is constant**, total work done is $ E = vit $.
+#### When $ v $ and $ i $ is constant
+
+```math
+w = vi \int_{t_0}^{t} {\text{d}t} = vi(t - t_0)
+```
