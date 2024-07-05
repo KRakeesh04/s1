@@ -48,7 +48,7 @@ $ V\_{AB} = V_A - V_B $
 
 ## Electric Circuit
 
-![Different ways to depict circuits](/EE1040/types-of-circuits.png)
+![Different ways to depict circuits](/electrical/types-of-circuits.png)
 
 Types of circuits
 

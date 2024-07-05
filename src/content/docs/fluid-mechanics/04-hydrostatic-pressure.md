@@ -2,7 +2,7 @@
 title: Hydrostatic Pressure
 ---
 
-![Pressure Definition](/CE1023/pressure-definition.png)
+![Pressure Definition](/fluids/pressure-definition.png)
 
 At a point,
 
@@ -19,16 +19,16 @@ only for hydrostatic pressure.
 
 #### Proof
 
-![Proof of Pascal's law](/CE1023/pascal-law-proof.png)
+![Proof of Pascal's law](/fluids/pascal-law-proof.png)
 
 ### Variation along directions
 
 #### Proof
 
-![Proof of variation of hydrostatic pressure: part 1](/CE1023/proof-variation-of-hydrostatic-pressure-1.png)
-![Proof of variation of hydrostatic pressure: part 2](/CE1023/proof-variation-of-hydrostatic-pressure-2.png)
-![Proof of variation of hydrostatic pressure: part 3](/CE1023/proof-variation-of-hydrostatic-pressure-3.png)
-![Proof of variation of hydrostatic pressure: part 4](/CE1023/proof-variation-of-hydrostatic-pressure-4.png)
+![Proof of variation of hydrostatic pressure: part 1](/fluids/proof-variation-of-hydrostatic-pressure-1.png)
+![Proof of variation of hydrostatic pressure: part 2](/fluids/proof-variation-of-hydrostatic-pressure-2.png)
+![Proof of variation of hydrostatic pressure: part 3](/fluids/proof-variation-of-hydrostatic-pressure-3.png)
+![Proof of variation of hydrostatic pressure: part 4](/fluids/proof-variation-of-hydrostatic-pressure-4.png)
 
 ## Piezometric pressure
 
@@ -40,7 +40,7 @@ P + \rho gz = c = P^{*}
 
 ## Pressure difference between 2 points
 
-![Pressure difference](/CE1023/pressure-difference.png)
+![Pressure difference](/fluids/pressure-difference.png)
 
 $ P_1 = -\rho gz_1 + c $
 
