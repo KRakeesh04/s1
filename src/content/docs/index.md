@@ -6,27 +6,19 @@ It's a website of my short notes.
 
 ## Why?
 
-- Exercise books are not indexable.
-- Searching in exercise books takes more time.
+Exercise books are not indexable. Searching in exercise books takes more time
+than imaginable.
 
-## Included subjects
+## Included topics
 
-Currently includes WIP notes for these subjects:
-
-- MT1023 Properties of Materials
-- CE1023 Fluid Mechanics
-- EE1040 Electrical Fundamentals
-
-These subjects are hard to be kept in a website. However, I am trying to include
-some details on them.
-
-- MA1014 Mathematics
-- CS1033 Programming Fundamentals
-- ME1033 Mechanics
-
-Just no.
-
-- EL1030 Language Skills Enhancement
+- Electrical Fundamentals
+- Fluid Mechanics
+- Mathematics
+  - Algebra
+  - Real analysis
+  - Ordinary Differential Equations
+- Mechanics
+- Properties of Materials
 
 ## License
 
