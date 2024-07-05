@@ -23,7 +23,7 @@ voltage $ v $ across the capacitor are related by:
 
 $ i = C \frac{\text{d}v}{\text{d}t} $
 
-## Energy stored in the capacitor
+## Energy stored
 
 Assume voltage across an initially uncharged capacitor rises to $ V $ during a
 time period of $ t $seconds.

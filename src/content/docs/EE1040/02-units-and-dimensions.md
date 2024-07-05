@@ -11,5 +11,5 @@ title: Dimensions & Units
 | Power       | $ ML^{2}T^{-2} $       | $ Js^{-1} $          |
 | Resistivity | $ MLT^{-2}I^{-1} $     |                      |
 | Resistance  | $ ML^{2}T^{-2}I^{-2} $ | $ \Omega $           |
-| Capacitance | $ $                    | $ \text{Farad} (F) $ |
-| Inductance  | $ $                    | $ \text{Henry} (H) $ |
+| Capacitance | $ ML^{2}T^{-1} $       | $ \text{Farad} (F) $ |
+| Inductance  | $ ML^{2}T^{-2}I^{-2} $ | $ \text{Henry} (H) $ |
