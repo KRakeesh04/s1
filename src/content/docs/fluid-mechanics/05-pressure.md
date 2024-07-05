@@ -17,10 +17,6 @@ Measured in respect to perfect vaccum.
 $ \text{Absolute Pressure} = \text{Armospheric Pressure} + \text{Guage Pressure}
 $
 
-## Relation between the 3
-
-![Pressures](/fluids/pressures.png)
-
 ## Pressure Measurements
 
 ### Barometer
