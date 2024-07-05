@@ -12,6 +12,7 @@ export default defineConfig({
 		remarkPlugins: [remarkMath],
 		rehypePlugins: [rehypeKatex],
 	},
+	site: "https://s1.sahithyan.dev",
 	integrations: [
 		starlight({
 			title: DEFAULT_TITLE,
@@ -55,6 +56,7 @@ export default defineConfig({
 			lastUpdated: true,
 			expressiveCode: false,
 			components: {
+				Head: "./src/components/Head.astro",
 				Sidebar: "./src/components/Sidebar.astro",
 			},
 			sidebar: [

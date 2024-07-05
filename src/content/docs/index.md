@@ -1,5 +1,6 @@
 ---
 title: What's this?
+description: Short notes of my 1st semester.
 ---
 
 It's a website of [my](https://sahithyan.dev) short notes.
