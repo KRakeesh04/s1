@@ -13,8 +13,7 @@ is a two terminal element.
 
 ## Node
 
-A branch represents a single element, such as a resistor or a battery. A branch
-is a two terminal element.
+A node is the point connecting more than 1 branches. Denoted by a dot.
 
 ## Loop
 
