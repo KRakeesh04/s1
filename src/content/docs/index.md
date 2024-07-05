@@ -1,10 +1,15 @@
 ---
-title: Home
+title: What's this?
 ---
 
-1st semester notes of Engineering at University of Moratuwa.
+It's a website of my short notes.
 
-## Subjects
+## Why?
+
+- Exercise books are not indexable.
+- Searching in exercise books takes more time.
+
+## Included subjects
 
 Currently includes WIP notes for these subjects:
 
@@ -25,7 +30,9 @@ Just no.
 
 ## License
 
-This whole website and its content are licensed by
+All of the content in this website is **INTENDED FOR MY PERSONAL USE ONLY**.
+
+Your use of the content is licensed by
 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 Your are free to

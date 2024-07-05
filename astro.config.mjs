@@ -4,7 +4,7 @@ import { defineConfig } from "astro/config";
 import rehypeKatex from "rehype-katex";
 import remarkMath from "remark-math";
 
-const DEFAULT_TITLE = "UOM E23 Sem1 Notes";
+const DEFAULT_TITLE = "S1";
 
 // https://astro.build/config
 export default defineConfig({
@@ -16,7 +16,7 @@ export default defineConfig({
 		starlight({
 			title: DEFAULT_TITLE,
 			description:
-				"Notes of 1st semester of Engineering at University of Moratuwa of batch 2023.",
+				"Short notes of my 1st semester notes. INTENDED FOR PERSONAL USE.",
 			head: [
 				{
 					tag: "meta",
@@ -48,7 +48,6 @@ export default defineConfig({
 			],
 			customCss: ["./src/global.css"],
 			social: {
-				github: "https://github.com/sahithyandev/uom-e23-sem1",
 				twitter: "https://x.com/sahithyandev",
 			},
 			tableOfContents: false,

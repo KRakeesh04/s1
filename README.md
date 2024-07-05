@@ -1,6 +1,6 @@
-# UOM E23 Semester 1
+# S1
 
-My personal notes of Semester 1 of Engineering degree at University of Moratuwa.
+My personal 1st semester notes.
 
 ## Prerequisites
 
