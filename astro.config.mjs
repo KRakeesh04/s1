@@ -33,6 +33,18 @@ export default defineConfig({
 						crossOrigin: "anonymous",
 					},
 				},
+				{
+					tag: "script",
+					attrs: {
+						async: true,
+						src: "https://www.googletagmanager.com/gtag/js?id=G-CM1QCK35XF",
+					},
+				},
+				{
+					tag: "script",
+					content:
+						"window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config', 'G-CM1QCK35XF');",
+				},
 			],
 			customCss: ["./src/global.css"],
 			social: {
