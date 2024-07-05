@@ -64,13 +64,13 @@ export default defineConfig({
 				{
 					label: "Electrical Fundamentals",
 					autogenerate: {
-						directory: "EE1040",
+						directory: "electrical-fundamentals",
 					},
 				},
 				{
 					label: "Fluid Mechanics",
 					autogenerate: {
-						directory: "CE1023",
+						directory: "fluid-mechanics",
 					},
 				},
 				{
@@ -79,19 +79,19 @@ export default defineConfig({
 						{
 							label: "Algebra",
 							autogenerate: {
-								directory: "MA1014/Algebra",
+								directory: "maths/Algebra",
 							},
 						},
 						{
 							label: "Real Analysis",
 							autogenerate: {
-								directory: "MA1014/Real Analysis",
+								directory: "maths/Real Analysis",
 							},
 						},
 						{
 							label: "ODE",
 							autogenerate: {
-								directory: "MA1014/ODE",
+								directory: "maths/ODE",
 							},
 						},
 					],
@@ -99,13 +99,13 @@ export default defineConfig({
 				{
 					label: "Mechanics",
 					autogenerate: {
-						directory: "ME1033",
+						directory: "mechanics",
 					},
 				},
 				{
-					label: "Properties of Material",
+					label: "Properties of Materials",
 					autogenerate: {
-						directory: "MT1023",
+						directory: "properties-of-materials",
 					},
 				},
 			],
