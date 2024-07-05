@@ -12,14 +12,14 @@ than imaginable.
 
 ## Included topics
 
-- Electrical Fundamentals
-- Fluid Mechanics
+- [Electrical Fundamentals](/electrical-fundamentals/01-introduction/)
+- [Fluid Mechanics](/fluid-mechanics/01-introduction/)
 - Mathematics
-  - Algebra
-  - Real analysis
-  - Ordinary Differential Equations
-- Mechanics
-- Properties of Materials
+  - [Algebra](/maths/algebra/01-introduction)
+  - [Real analysis](/maths/real-analysis/01-introduction)
+  - [Ordinary Differential Equations](/maths/ode/01-introduction)
+- [Mechanics](/mechanics/01-introduction.md)
+- [Properties of Materials](/properties-of-materials/01-introduction)
 
 ## License
 
