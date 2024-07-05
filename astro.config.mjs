@@ -15,6 +15,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: DEFAULT_TITLE,
+			favicon: "/favicon.ico",
 			description:
 				"Short notes of my 1st semester notes. INTENDED FOR PERSONAL USE.",
 			head: [

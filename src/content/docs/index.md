@@ -2,7 +2,7 @@
 title: What's this?
 ---
 
-It's a website of my short notes.
+It's a website of [my](https://sahithyan.dev) short notes.
 
 ## Why?
 
