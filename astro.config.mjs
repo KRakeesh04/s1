@@ -101,9 +101,14 @@ export default defineConfig({
 				},
 				{
 					label: "Mechanics",
-					autogenerate: {
-						directory: "mechanics",
-					},
+					items: [
+						{
+							label: "Statics",
+							autogenerate: {
+								directory: "mechanics/statics",
+							},
+						},
+					],
 				},
 				{
 					label: "Properties of Materials",

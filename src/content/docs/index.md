@@ -18,7 +18,8 @@ than imaginable.
   - [Algebra](/maths/algebra/01-introduction)
   - [Real analysis](/maths/real-analysis/01-introduction)
   - [Ordinary Differential Equations](/maths/ode/01-introduction)
-- [Mechanics](/mechanics/01-introduction.md)
+- Mechanics
+  - [Statics](/mechanics/statics/01-introduction)
 - [Properties of Materials](/properties-of-materials/01-introduction)
 
 ## License
