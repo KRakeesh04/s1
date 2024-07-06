@@ -62,6 +62,3 @@ table {
 li .katex {
 	@apply text-2xl;
 }
-img {
-	@apply !hidden;
-}
