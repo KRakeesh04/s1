@@ -122,6 +122,10 @@ export default defineConfig({
 						directory: "properties-of-materials",
 					},
 				},
+				{
+					label: "License",
+					link: "/license",
+				},
 			],
 		}),
 		tailwind({
