@@ -47,3 +47,8 @@ We are only going to study about 4 of them.
 - Body-centered cubic (**bcc**)
 - Face-centered cubic (**fcc**)
 - Hexagonal close packed or Close packed hexagonal (**hcp/cph**)
+
+## Coordination number (ligancy)
+
+Coordination number of a lattice system is the number of particles that each
+particle contacts.
