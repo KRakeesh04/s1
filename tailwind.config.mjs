@@ -13,7 +13,6 @@ export default {
 			},
 			fontFamily: {
 				sans: ["Inter"],
-				mono: ['"JetBrains Mono"'],
 			},
 		},
 	},

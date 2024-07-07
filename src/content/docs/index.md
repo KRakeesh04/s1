@@ -20,6 +20,7 @@ than imaginable.
   - [Ordinary Differential Equations](/maths/ode/01-introduction)
 - Mechanics
   - [Statics](/mechanics/statics/01-introduction)
+- [Programming Fundamentals](/programming-fundamentals/01-introduction)
 - [Properties of Materials](/properties-of-materials/01-introduction)
 
 ## License

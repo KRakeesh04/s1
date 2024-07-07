@@ -111,6 +111,12 @@ export default defineConfig({
 					],
 				},
 				{
+					label: "Programming Fundamentals",
+					autogenerate: {
+						directory: "programming-fundamentals",
+					},
+				},
+				{
 					label: "Properties of Materials",
 					autogenerate: {
 						directory: "properties-of-materials",
