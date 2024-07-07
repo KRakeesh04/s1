@@ -39,16 +39,31 @@ satisfying the following properties
 11. Multiplication is distributive over addition: $ a \cdot (b + c) = a \cdot
     b + a \cdot c $
 
-Required proofs:
-
-1. $ a\cdot0 = 0 $
-2. $ 1\not = 0 $
-3. Additive identity is unique
-4. Multiplicative identity is unique
-
 :::note[Field]
 
 Any set satisfying the above axioms with two binary operations (commonly $ + $
 and $ \cdot $) is called a **field**.
 
 :::
+
+### Required proofs
+
+The below mentioned propositions can and should be proven using the
+above-mentioned axioms. $ a, b, c \in \reals $. $ $
+
+- $ a\cdot0 = 0 $
+- $ 1\not = 0 $
+- Additive identity ($ 0 $) is unique
+- Multiplicative identity ($ 1 $) is unique
+- Additive inverse ($ -a $) is unique is unique for a given $ a $
+- Multiplicative inverse ($ a^{-1} $) is unique for a given $ a $
+- $ a + b = 0 \implies b = -a $
+- $ a + c = b + c \implies a = b $
+- $ -(a + b) = (-a) + (-b) $
+- $ -(-a) = a $
+- $ ac = bc \implies a = b $
+- $ ab = 0 \implies a = 0 \lor b = 0 $
+- $ −(ab) = (−a)b = a(−b) $
+- $ (−a)(-b) = ab $
+- $ a \not = 0 \implies {(a^{-1})}^{-1} = a $
+- $ a, b \not = 0 \implies {ab}^{-1} = a^{-1}b^{-1} $
