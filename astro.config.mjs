@@ -82,19 +82,19 @@ export default defineConfig({
 						{
 							label: "Algebra",
 							autogenerate: {
-								directory: "maths/Algebra",
+								directory: "maths/algebra",
 							},
 						},
 						{
 							label: "Real Analysis",
 							autogenerate: {
-								directory: "maths/Real Analysis",
+								directory: "maths/real-analysis",
 							},
 						},
 						{
 							label: "ODE",
 							autogenerate: {
-								directory: "maths/ODE",
+								directory: "maths/ode",
 							},
 						},
 					],
