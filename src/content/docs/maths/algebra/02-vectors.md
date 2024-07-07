@@ -6,10 +6,63 @@ Revise Vectors unit from G.C.E (A/L) Combined Mathematics.
 
 ## Cross Product
 
+```math
+a \times b
+= \lvert a \rvert \lvert b \rvert sin{(\theta)} n
+= \det
+\Bigg(
+\begin{matrix}
+   i & j & k \\
+	 a_x & a_y & a_z \\
+   b_x & b_y & b_z
+\end{matrix}
+\Bigg)
+```
+
+$ n $ is the **unit normal vector** to $ a $ and $ b $. Direction is based on
+the right hand rule.
+
+$ a \times b = 0 \implies \lvert a \rvert = 0 \lor \lvert b \rvert = 0 \lor a
+\parallel b $
+
+Cross products between $i$, $j$, $k$ are circular. TODO: include image.
+
+:::note
+
+Area of a parallelogram ABCD = $ \lvert \vec{AB} \times \vec{AD} \rvert $. $ $
+
+:::
+
 ## Scalar Triple Product
 
-$ [a,b,c] = a \cdot (b \times c)$
+```math
+[a,b,c]
+= a \cdot (b \times c)
+= \det
+\Bigg(
+\begin{matrix}
+	 a_x & a_y & a_z \\
+   b_x & b_y & b_z \\
+   c_x & c_y & c_z
+\end{matrix}
+\Bigg)
+```
 
-Where $ a, b, c $ are vectors. $ $
+$ [a,b,c] = a \cdot (b \times c) = (a \times b) \cdot c $
+
+$ [a,b,c] = [b,c,a] = [c,b,a] $
+
+$ [a,b,c] = 0 $ **iff** $a$, $b$, $c$ are coplanar.
+
+:::note
+
+Volume of a parallelepiped with $a$, $b$, $c$ as adjacent edges = $ [a,b,c] $
+
+Volume of a tetrahedron with $a$, $b$, $c$ as adjacent edges = $
+\frac{1}{6}[a,b,c] $
+
+:::
 
 ## Vector Triple Product
+
+$ a \times (b \times c) = (a \cdot c)b - (a \cdot b)c $
