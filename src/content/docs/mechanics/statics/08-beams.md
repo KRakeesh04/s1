@@ -10,12 +10,14 @@ title: Beams
 
 ## Classified by supporting conditions
 
+First 3 are the mandatory ones.
+
 | Type                      | Image                                                                  |
 | ------------------------- | ---------------------------------------------------------------------- |
 | Simply supported beam     | ![Simply supported beam](/mechanics/simply-supported-beam.png)         |
 | Cantilevered beam         | ![Cantilevered beam](/mechanics/cantilevered-beam.png)                 |
-| Propped cantilevered beam | ![Propped cantilevered beam](/mechanics/propped-cantilevered-beam.png) |
 | Overhanging beam          | ![Overhanging beam](/mechanics/overhanging-beam.png)                   |
+| Propped cantilevered beam | ![Propped cantilevered beam](/mechanics/propped-cantilevered-beam.png) |
 | Continuous beam           | ![Continuous beam](/mechanics/continuous-beam.png)                     |
 | Fixed beam                | ![Fixed beam](/mechanics/fixed-beam.png)                               |
 
