@@ -12,6 +12,11 @@ eye. They are not part of the lattice.
 Smallest repeating parallelepiped inside the lattice. By stacking in all
 directions, the lattice can be generated.
 
+### Density
+
+$ \rho = \frac{\text{Mass/unit cell}}{\text{Volume/unit cell}} =
+\frac{\frac{M}{L} \times n}{v} $
+
 ## Crystalline systems
 
 - All crystalline materials fall within one of the 7 possible shapes and 4
@@ -48,7 +53,15 @@ We are only going to study about 4 of them.
 - Face-centered cubic (**fcc**)
 - Hexagonal close packed or Close packed hexagonal (**hcp/cph**)
 
-## Coordination number (ligancy)
+## Coordination number
 
 Coordination number of a lattice system is the number of particles that each
 particle contacts.
+
+## Atomic Packing Factor (APF)
+
+$ \text{APF} = \frac{\text{True volume}}{\text{Bulk volume}} =
+\frac{\text{Volume of atoms/unit cell}}{\text{Volume/unit cell}} $
+
+Geometrically maximum APF in real life (assuming spherical atoms) is 74%. If a
+structure has 74% APF, the structure is called a **close-packed structure**.
