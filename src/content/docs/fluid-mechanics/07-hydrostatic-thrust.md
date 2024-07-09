@@ -79,3 +79,26 @@ y_p
 = \frac{I_{oo}}{Ay_c}
 = y_c + \frac{I_{cc}}{Ay_c}
 ```
+
+## On a Curved Surface
+
+$ F_x = \text{Thrust exerted on the vertical projection of the submerged
+surface} $
+
+$ F_y = \text{Weight of the fluid above submerged surface} $
+
+### Proof
+
+![Hydrostatic thrust on a curved surface](/fluids/hydrostatic-thrust-on-a-curved-surface.png)
+
+For the equilibrium of the fluid volume $ABCDA$. $ $
+
+```math
+F_y = W_{ABCDA}
+```
+
+For the equilibrium of the fluid volume $ABEA$. $ $
+
+```math
+F_x = F_{AE}
+```
