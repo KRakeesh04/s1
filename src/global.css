@@ -51,7 +51,6 @@ mjx-container[display="true"] svg {
 }
 p:has(.MathJax):not(:has(.MathJax:only-of-type)) mjx-container svg {
 	@apply inline-block;
-
 }
 p:has(.MathJax:only-of-type),
 .katex-display {

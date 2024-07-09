@@ -25,10 +25,93 @@ only for hydrostatic pressure.
 
 #### Proof
 
-![Proof of variation of hydrostatic pressure: part 1](/fluids/proof-variation-of-hydrostatic-pressure-1.png)
-![Proof of variation of hydrostatic pressure: part 2](/fluids/proof-variation-of-hydrostatic-pressure-2.png)
-![Proof of variation of hydrostatic pressure: part 3](/fluids/proof-variation-of-hydrostatic-pressure-3.png)
-![Proof of variation of hydrostatic pressure: part 4](/fluids/proof-variation-of-hydrostatic-pressure-4.png)
+Let $p$ be the pressure at the point $A\equiv (x,y,z)$.
+
+$ p = f(x,y,z) $
+
+```math
+dp =
+\frac{\partial p}{\partial x} \text{d}x
++
+\frac{\partial p}{\partial y} \text{d}y
++
+\frac{\partial p}{\partial z} \text{d}z
+```
+
+By considering equilibrium of this fluid element containing $A$. $ $
+
+![Fluid element containing point A](/fluids/fluid-element-containing-a.png)
+
+In the $x$ direction,$ $
+
+```math
+\bigg(
+	p -
+	\frac{\partial p}{\partial x} \frac{\Delta{x}}{2}
+\bigg)
+\Delta{y}
+\Delta{z}
+-
+\bigg(
+	p +
+	\frac{\partial p}{\partial x} \frac{\Delta{x}}{2}
+\bigg)
+\Delta{y}
+\Delta{z}
+
+= 0
+```
+
+```math
+\frac{\partial p}{\partial x} = 0
+```
+
+Similarly $ \frac{\partial p}{\partial y} = 0 $ can be proven. $ $
+
+In the $z$ direction,$ $
+
+```math
+\bigg(
+	p -
+	\frac{\partial p}{\partial z} \frac{\Delta{z}}{2}
+\bigg)
+\Delta{x}
+\Delta{y}
+-
+\bigg(
+	p +
+	\frac{\partial p}{\partial z} \frac{\Delta{z}}{2}
+\bigg)
+\Delta{x}
+\Delta{y}
+
+-
+\Delta{x}
+\Delta{y}
+\Delta{z}
+\rho
+g
+
+= 0
+```
+
+```math
+\frac{\partial p}{\partial z} = -\rho g
+```
+
+```math
+dp = -\rho g\,\text{d}z
+```
+
+```math
+p = -\int{\rho g\,\text{d}z}
+```
+
+:::note[For incompressible fluids]
+
+$\rho$ is constant. $p = -\rho g\int{\text{d}z} = -\rho gz + c = f(z)$.
+
+:::
 
 ## Piezometric pressure
 
