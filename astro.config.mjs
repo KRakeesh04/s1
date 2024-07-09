@@ -65,6 +65,10 @@ export default defineConfig({
 					link: "/",
 				},
 				{
+					label: "Thinkpad",
+					link: "/thinkpad",
+				},
+				{
 					label: "Electrical Fundamentals",
 					autogenerate: {
 						directory: "electrical-fundamentals",

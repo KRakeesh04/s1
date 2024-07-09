@@ -1,5 +1,5 @@
 ---
-title: Dimensions & Units
+title: Units | Electrical Fundamentals
 ---
 
 | Property    | Dimension                  | Units                |
