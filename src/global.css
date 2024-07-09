@@ -79,3 +79,6 @@ li .MathJax {
 		@apply inline-block mx-1;
 	}
 }
+.starlight-aside .MathJax {
+	@apply text-xl;
+}

@@ -27,3 +27,10 @@ Here:
   surface
 - $I_{\text{GG}}$ - Second moment of submerged area about the centroidal surface
   parallel to the free surface
+
+:::note[For a plane surface]
+
+$ \frac{\text{Hydrostatic thrust}}{\text{Unit length}} = \text{Area of the
+pressure diagram} $
+
+:::
