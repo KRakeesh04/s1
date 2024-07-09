@@ -15,6 +15,9 @@ is a two terminal element.
 
 A node is the point connecting more than 1 branches. Denoted by a dot.
 
+All points in a circuit that are connected directly by ideal conductors can be
+considered to be a single node.
+
 ## Loop
 
 A loop is a closed path through a circuit in which no node is encountered more

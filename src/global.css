@@ -54,9 +54,11 @@ table {
 	thead, tbody, tr {
 		@apply w-full;
 	}
-
 	.katex {
 		@apply text-xl;
+	}
+	img {
+		@apply m-auto;
 	}
 }
 li .katex {
