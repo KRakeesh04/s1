@@ -45,7 +45,15 @@ p {
 p img {
 	@apply mx-auto;
 }
-p:has(.katex:only-of-type),
+p:has(.MathJax:only-of-type) mjx-container svg,
+mjx-container[display="true"] svg {
+	@apply text-center text-2xl mx-auto;
+}
+p:has(.MathJax):not(:has(.MathJax:only-of-type)) mjx-container svg {
+	@apply inline-block;
+
+}
+p:has(.MathJax:only-of-type),
 .katex-display {
 	@apply text-center text-2xl;
 }
@@ -54,13 +62,17 @@ table {
 	thead, tbody, tr {
 		@apply w-full;
 	}
-	.katex {
-		@apply text-xl;
+	.MathJax {
+		@apply inline-block text-xl;
 	}
 	img {
 		@apply m-auto;
 	}
+	
+	td .MathJax {
+		@apply m-auto;
+	}
 }
-li .katex {
+li .MathJax {
 	@apply text-2xl;
 }

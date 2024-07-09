@@ -1,7 +1,7 @@
 import starlight from "@astrojs/starlight";
 import tailwind from "@astrojs/tailwind";
 import { defineConfig } from "astro/config";
-import rehypeKatex from "rehype-katex";
+import rehypeMathjax from "rehype-mathjax";
 import remarkMath from "remark-math";
 
 const DEFAULT_TITLE = "S1";
@@ -10,7 +10,7 @@ const DEFAULT_TITLE = "S1";
 export default defineConfig({
 	markdown: {
 		remarkPlugins: [remarkMath],
-		rehypePlugins: [rehypeKatex],
+		rehypePlugins: [rehypeMathjax],
 	},
 	site: "https://s1.sahithyan.dev",
 	integrations: [
@@ -25,14 +25,6 @@ export default defineConfig({
 					attrs: {
 						property: "og:title",
 						content: DEFAULT_TITLE,
-					},
-				},
-				{
-					tag: "link",
-					attrs: {
-						rel: "stylesheet",
-						href: "https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css",
-						crossOrigin: "anonymous",
 					},
 				},
 				{
