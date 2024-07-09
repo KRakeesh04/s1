@@ -75,4 +75,7 @@ table {
 }
 li .MathJax {
 	@apply text-2xl;
+	svg {
+		@apply inline-block mx-1;
+	}
 }

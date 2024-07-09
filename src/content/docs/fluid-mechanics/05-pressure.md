@@ -17,6 +17,10 @@ Measured in respect to perfect vaccum.
 $ \text{Absolute Pressure} = \text{Armospheric Pressure} + \text{Guage Pressure}
 $
 
+## Pressure diagram
+
+A diagram showing the variation of pressure along a submerged surface.
+
 ## Pressure Measurements
 
 ### Barometer
@@ -71,6 +75,18 @@ small displacement of manometer liquid).
 
 ### Pressure Gauges
 
-Example: Bourdon Pressure Gauge
+#### Bourdon Pressure Gauge
 
-### Other devices
+##### Advantages
+
+- Easy to use
+- Wide range of pressures can be measured
+
+##### Disadvantages
+
+- Not very accurate
+- Needs to be calibrated regulary
+
+## Uses in real life
+
+- Hydraulic jack
