@@ -6,7 +6,6 @@ const entries = await getCollection("docs");
 const pages = Object.fromEntries(
 	entries.map(({ data, id }) => {
 		const _id = id.replace(".md", "");
-		console.log(_id);
 		return [_id, { data }];
 	}),
 );

@@ -12,7 +12,6 @@ const x = Astro.props.slug;
 <script>
 	const activeEl = document.querySelector("#starlight__sidebar a[aria-current]");
 	if (activeEl instanceof HTMLElement) {
-		console.log("ac", activeEl.innerText);
 		activeEl.scrollIntoView({
 			behavior: "instant",
 			block: "center"

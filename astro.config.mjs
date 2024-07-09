@@ -27,19 +27,24 @@ export default defineConfig({
 						content: DEFAULT_TITLE,
 					},
 				},
-				{
-					tag: "script",
-					attrs: {
-						async: true,
-						src: "https://www.googletagmanager.com/gtag/js?id=G-CM1QCK35XF",
-					},
-				},
-				{
-					tag: "script",
-					content:
-						"window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config', 'G-CM1QCK35XF');",
-				},
-			],
+			].concat(
+				process.env.NODE_ENV === "production"
+					? [
+							{
+								tag: "script",
+								attrs: {
+									async: true,
+									src: "https://www.googletagmanager.com/gtag/js?id=G-CM1QCK35XF",
+								},
+							},
+							{
+								tag: "script",
+								content:
+									"window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config', 'G-CM1QCK35XF');",
+							},
+						]
+					: [],
+			),
 			customCss: ["./src/global.css"],
 			social: {
 				twitter: "https://x.com/sahithyandev",
