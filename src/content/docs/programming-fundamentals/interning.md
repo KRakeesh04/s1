@@ -37,3 +37,11 @@ print(c is d) # False
 ```
 
 Strings in python can be manually interned using `sys.intern` function.
+
+```py
+a,b=8,8
+c=8
+d=8
+```
+
+Likewise, in the above code, only 1 integer object is created.
