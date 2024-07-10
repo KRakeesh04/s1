@@ -19,7 +19,7 @@ print(c is d) # False
 ```
 
 In the above code, `120` is intered by the Python interpreter but not `2000`.
-Python's integer interning is done only for numbers in the range: `[5, 256]`
+Python's integer interning is done only for numbers in the range: `[-5, 256]`
 
 Python interpreter also interns small strings.
 
