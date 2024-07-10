@@ -1,8 +1,6 @@
 ---
-title: Vector Equations
+title: Vector Equation of Straight Lines
 ---
-
-## Straight Lines
 
 ## Line that passes through the point $\underline{r_0}$ and parallel to $\underline{v}$
 
