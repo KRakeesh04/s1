@@ -66,6 +66,10 @@ export default defineConfig({
 					link: "/thinkpad",
 				},
 				{
+					label: "Units | Common",
+					link: "/dimensions-and-units",
+				},
+				{
 					label: "Electrical Fundamentals",
 					autogenerate: {
 						directory: "electrical-fundamentals",
