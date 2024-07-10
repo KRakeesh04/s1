@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-	@apply text-[12.5px] lg:text-[14px] xl:text-[15px] 2xl:text-[16.5px];
+	@apply text-[13px] lg:text-[14.5px] xl:text-[15.5px] 2xl:text-[17px];
 
 	--sl-content-width: 68rem;
 	--sl-text-h1: var(--sl-text-4xl);
@@ -47,14 +47,17 @@ p img {
 }
 p:has(.MathJax:only-of-type) mjx-container svg,
 mjx-container[display="true"] svg {
-	@apply text-center text-2xl mx-auto;
+	@apply text-center text-xl mx-auto;
 }
 p:has(.MathJax):not(:has(.MathJax:only-of-type)) mjx-container svg {
-	@apply inline-block;
+	@apply inline-block text-xl;
+}
+h2 mjx-container svg {
+	@apply !inline-block;
 }
 p:has(.MathJax:only-of-type),
 .katex-display {
-	@apply text-center text-2xl;
+	@apply text-center text-xl;
 }
 table {
 	@apply w-full !table;
@@ -73,7 +76,7 @@ table {
 	}
 }
 li .MathJax {
-	@apply text-2xl;
+	@apply text-xl;
 	svg {
 		@apply inline-block mx-1;
 	}

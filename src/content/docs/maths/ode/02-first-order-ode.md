@@ -62,7 +62,7 @@ Otherwise:
 
 $ \frac{\text{d}y}{\text{d}x} + P(x)y = Q(x)y^n $
 
-The above equation is Bernoulli's equations when $ n \in \Reals $. $ $
+The above equation is Bernoulli's equations when $ n \in \mathbb{R} $. $ $
 
 When $ n = 0 $ or $ n = 1 $, the equation would be linear.
 
