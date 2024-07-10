@@ -21,8 +21,8 @@ The polarity is such as to oppose the change in current.
 
 ## Energy stored
 
-Assume voltage across an initially uncharged capacitor rises to $ V $ during a
-time period of $ t $seconds.
+Assume voltage across an inductor rises from $0$ to $ i $ during a time period
+of $t$ seconds.
 
 ```math
 e = \int_{0}^{t} p dt = \int_{0}^{t} vi dt = L \int_{0}^{i} i di
