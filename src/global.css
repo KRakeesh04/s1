@@ -42,12 +42,15 @@
 p {
 	@apply text-lg;
 }
+p:not(:has(.MathJax:only-of-type)) {
+	@apply max-w-prose
+}
 p img {
 	@apply mx-auto;
 }
 p:has(.MathJax:only-of-type) mjx-container svg,
 mjx-container[display="true"] svg {
-	@apply text-center text-xl mx-auto;
+	@apply text-center text-xl mx-auto my-10;
 }
 p:has(.MathJax):not(:has(.MathJax:only-of-type)) mjx-container svg {
 	@apply inline-block text-xl;
