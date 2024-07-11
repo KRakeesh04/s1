@@ -11,7 +11,7 @@ At extremely low temperatures, some metals tend to be superconductors.
 
 ## Pure Metals
 
-Inter-molecular bongs: Metalic bonds. Commonly not used in the pure form.
+Inter-molecular bonds: Metalic bonds. Commonly not used in the pure form.
 
 Pure metals might be:
 

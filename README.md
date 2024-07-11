@@ -24,7 +24,7 @@ My personal 1st semester notes.
 ```
 
 Each markdown (`.md`) file under `src/content/docs` directory, is exposed as a
-route bsaed on its file name.
+route based on its file name.
 
 Static assets, like favicons, should be placed in the `public/` directory.
 

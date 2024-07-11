@@ -2,7 +2,7 @@
 title: Composites
 ---
 
-Pros of two materials combined together.
+Advantages of two materials combined together.
 
 ## Examples
 
