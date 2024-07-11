@@ -40,6 +40,15 @@ $\underline{r}=(1-t)\underline{r_A}+t\underline{r_B};\;t\in\mathbb{R}$
 \frac{z-z_1}{z_2-z_1}
 ```
 
+:::note
+
+To show that two straight lines intersect in 3D space, it is **not** enough to
+show that the cross product of their parallel vectors is non-zero.
+
+**Existence of a point which satisfies both lines must be proven.**
+
+:::
+
 ## Angle between two straight lines
 
 Let $\alpha:\frac{x-x_1}{a_1}=\frac{y-y_1}{b_1}=\frac{z-z_1}{c_1}$,
