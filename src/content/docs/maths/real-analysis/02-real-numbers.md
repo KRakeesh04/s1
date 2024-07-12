@@ -57,7 +57,7 @@ above-mentioned axioms. $ a, b, c \in \mathbb{R} $. $ $
 - $ 1\not = 0 $
 - Additive identity ($ 0 $) is unique
 - Multiplicative identity ($ 1 $) is unique
-- Additive inverse ($ -a $) is unique is unique for a given $ a $
+- Additive inverse ($-a$) is unique for a given $a$
 - Multiplicative inverse ($ a^{-1} $) is unique for a given $ a $
 - $ a + b = 0 \implies b = -a $
 - $ a + c = b + c \implies a = b $
