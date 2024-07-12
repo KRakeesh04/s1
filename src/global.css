@@ -55,7 +55,9 @@ mjx-container[display="true"] svg {
 p:has(.MathJax):not(:has(.MathJax:only-of-type)) mjx-container svg {
 	@apply inline-block text-xl;
 }
-h2 mjx-container svg {
+h2 mjx-container svg,
+h3 mjx-container svg,
+h4 mjx-container svg {
 	@apply !inline-block;
 }
 p:has(.MathJax:only-of-type),
