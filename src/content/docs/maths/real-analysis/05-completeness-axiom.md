@@ -10,8 +10,8 @@ Let $A$ be a non empty subset of $\mathbb{R}$.
   $A$
 - Supremum of $A$ $\sup{A}$, is the smallest upper bound of $A$
 - $l$ is the lower bound of $A$ if: $\forall a\in A;a\ge l$
-- $A$ is bounded below if $A$ has an lower bound
-- Minimum element of $A$: $\min{A} = l$ if $l\in A$ and $l$ is an lower bound of
+- $A$ is bounded below if $A$ has a lower bound
+- Minimum element of $A$: $\min{A} = l$ if $l\in A$ and $l$ is a lower bound of
   $A$
 - Infimum of $A$ $\inf{A}$, is the largest lower bound of $A$
 
