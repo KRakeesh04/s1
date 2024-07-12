@@ -66,5 +66,5 @@ above-mentioned axioms. $ a, b, c \in \mathbb{R} $. $ $
 | $(\mathbb{Q}^c,+,\cdot)$                                | False     | $\sqrt{2}\cdot\sqrt{2}\not\in\mathbb{Q}^c$ |
 | Boolean algebra                                         | False     | Additive inverse doesn't exist             |
 | $(\set{0,1},+\;\text{mod}\;2,\cdot\;\text{mod}\;2)$     | True      |                                            |
-| $(\set{0,1,2},+\;\text{mod}\;3,\cdot\;\text{mod}\;3)$   | False     | Multiplicative inverse doesn't exist       |
+| $(\set{0,1,2},+\;\text{mod}\;3,\cdot\;\text{mod}\;3)$   | True      |                                            |
 | $(\set{0,1,2,3},+\;\text{mod}\;4,\cdot\;\text{mod}\;4)$ | False     | Multiplicative inverse doesn't exist       |
