@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-	@apply text-[13px] lg:text-[14.5px] xl:text-[15.5px] 2xl:text-[17px];
+	@apply text-[13.25px] lg:text-[14.7px] xl:text-[15.8px] 2xl:text-[17px];
 
 	--sl-content-width: 68rem;
 	--sl-text-h1: var(--sl-text-4xl);
