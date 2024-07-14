@@ -4,13 +4,13 @@ title: Miller Indices
 
 ![Miller Indices in Simple Cubic](/props/miller-indices.png)
 
-Any vortex can be chosen as the origin.
+Any vertex can be chosen as the origin.
 
 ## Notation
 
 - Minus noted as a bar
 - Addition and subtraction is carried out like vectors
-- $ (1,1,0) $ - Vortex
+- $ (1,1,0) $ - Atom/Vertex
 - $ [110] $ - Direction, **no commas**
 - $ \text{<}110\text{>} $ - Family of directions
 
