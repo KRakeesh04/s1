@@ -52,3 +52,21 @@ Highest order derivative.
 ## Degree
 
 Power of highest order derivative.
+
+#### Picard's Existence and Uniqueness Theorem
+
+Consider the below IVP.
+
+```math
+\frac{\text{d}y}{\text{d}x}
+= f(x,y)
+\;;\;
+y(x_0)=y_0
+```
+
+Suppose: $D$ is an open neighbourhood in $\mathbb{R}^2$ containing the point
+$(x_0,y_0)$.
+
+**If** $f$ and $\frac{\partial{f}}{\partial{y}}$ are continuous functions in
+$D$, **then** the IVP has a unique solution in some closed interval containing
+$x_0$.
