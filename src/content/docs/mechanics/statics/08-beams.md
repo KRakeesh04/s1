@@ -38,7 +38,9 @@ A plane member have 3 degress of freedom. Any of the 3 can be restrained.
 - Displacement in y-direction
 - Rotation about z-direction
 
-## Sign convention
+## SFD & BMD
+
+### Sign convention
 
 - Bending moment
   - Hogging (curves upwards) is **(+)ve**
@@ -46,3 +48,10 @@ A plane member have 3 degress of freedom. Any of the 3 can be restrained.
 - Shear force
   - Clockwise shear is **(+)ve**.
   - Counterclockwise shear is **(-)ve**.
+
+:::note
+
+A member is in pure bending when shear force is 0 and bending moment is a
+constant in a part of a beam.
+
+:::
