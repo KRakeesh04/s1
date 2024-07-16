@@ -1,5 +1,6 @@
 ---
 title: Double subscript notation
+slug: electrical-fundamentals/double-subscript-notation
 ---
 
 | -                | Current                                                | Voltage                                                       |

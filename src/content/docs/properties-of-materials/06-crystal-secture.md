@@ -1,5 +1,6 @@
 ---
 title: Crystal Structure
+slug: properties-of-materials/crystal-secture
 ---
 
 Materials are categorized into 2, based on the arrangments of atoms or

@@ -1,5 +1,6 @@
 ---
 title: Pressure
+slug: fluid-mechanics/pressure
 ---
 
 ## Atmospheric Pressure

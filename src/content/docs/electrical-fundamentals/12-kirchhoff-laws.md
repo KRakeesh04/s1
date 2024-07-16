@@ -1,5 +1,6 @@
 ---
 title: Kirchhoff Laws
+slug: electrical-fundamentals/kirchhoff-laws
 ---
 
 ## Kirchhoff Current Law

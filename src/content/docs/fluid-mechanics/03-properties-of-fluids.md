@@ -1,5 +1,6 @@
 ---
 title: Properties of Fluids
+slug: fluid-mechanics/properties-of-fluids
 ---
 
 ## Mass Density

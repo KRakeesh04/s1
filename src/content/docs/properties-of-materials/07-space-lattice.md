@@ -1,5 +1,6 @@
 ---
 title: Space Lattice
+slug: properties-of-materials/space-lattice
 ---
 
 An infinite set of equally-spaced **points** in a space.

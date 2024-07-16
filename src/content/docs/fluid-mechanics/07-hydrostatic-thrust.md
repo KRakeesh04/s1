@@ -1,5 +1,6 @@
 ---
 title: Hydrostatic Thrust
+slug: fluid-mechanics/hydrostatic-thrust
 ---
 
 ## On a Plane Surface

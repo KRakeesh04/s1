@@ -1,5 +1,6 @@
 ---
 title: Inductors
+slug: electrical-fundamentals/inductors
 ---
 
 When there is a current in the inductor, a magnetic field is created. Any change

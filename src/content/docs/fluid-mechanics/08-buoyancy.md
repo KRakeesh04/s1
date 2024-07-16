@@ -1,6 +1,7 @@
 ---
 title: Buoyancy
 description: Thrust exerted on a submerged object in a liquid
+slug: fluid-mechanics/buoyancy
 ---
 
 Thrust exerted on a submerged object in a liquid. Direction is vertically

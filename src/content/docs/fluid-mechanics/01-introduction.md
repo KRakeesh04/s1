@@ -1,5 +1,6 @@
 ---
 title: Introduction to Fluid Mechanics
+slug: fluid-mechanics/introduction
 ---
 
 Study of Fluids Mechanics include

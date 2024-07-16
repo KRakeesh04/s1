@@ -1,6 +1,7 @@
 ---
 title: Introduction to Electrical Fundamentals
 prev: false
+slug: electrical-fundamentals/introduction
 ---
 
 An electric power system consists of 3 principle sections

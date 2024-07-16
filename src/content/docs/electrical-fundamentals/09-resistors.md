@@ -1,5 +1,6 @@
 ---
 title: Resistors
+slug: electrical-fundamentals/resistors
 ---
 
 Resistance, in terms of physical dimensions:

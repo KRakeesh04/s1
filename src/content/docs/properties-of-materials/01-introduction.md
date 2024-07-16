@@ -1,6 +1,7 @@
 ---
 title: Introduction to Properties of Materials
 prev: false
+slug: properties-of-materials/introduction
 ---
 
 Be sure to revise the second unit of Chemistry in G.C.E (A/L).

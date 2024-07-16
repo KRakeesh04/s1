@@ -1,5 +1,6 @@
 ---
 title: Miller Indices
+slug: properties-of-materials/miller-indices
 ---
 
 ![Miller Indices in Simple Cubic](/props/miller-indices.png)

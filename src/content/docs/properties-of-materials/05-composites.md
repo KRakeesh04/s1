@@ -1,5 +1,6 @@
 ---
 title: Composites
+slug: properties-of-materials/composites
 ---
 
 Advantages of two materials combined together.

@@ -1,5 +1,6 @@
 ---
 title: AC Theory
+slug: electrical-fundamentals/ac-theory
 ---
 
 ## Introduction

@@ -1,5 +1,6 @@
 ---
 title: Common Terms
+slug: electrical-fundamentals/terms
 ---
 
 ## Two terminal element

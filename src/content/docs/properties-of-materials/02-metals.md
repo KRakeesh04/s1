@@ -1,5 +1,6 @@
 ---
 title: Metals
+slug: properties-of-materials/metals
 ---
 
 Metals can be categorized into 2 types.

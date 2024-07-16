@@ -1,5 +1,6 @@
 ---
 title: Equilibrium of Submerged Bodies
+slug: fluid-mechanics/equilibrium-of-submerged-bodies
 ---
 
 Two types.

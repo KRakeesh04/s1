@@ -1,5 +1,6 @@
 ---
 title: Hydrostatic Pressure
+slug: fluid-mechanics/hydrostatic-pressure
 ---
 
 ![Pressure Definition](/fluids/pressure-definition.png)

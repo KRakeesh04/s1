@@ -1,5 +1,6 @@
 ---
 title: Ceramics
+slug: properties-of-materials/ceramics
 ---
 
 Inter-molecular bonds: covalent and/or ionic.

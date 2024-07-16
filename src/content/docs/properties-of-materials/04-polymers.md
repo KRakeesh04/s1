@@ -1,5 +1,6 @@
 ---
 title: Polymers
+slug: properties-of-materials/polymers
 ---
 
 Inter-molecular bonds: Covalent and Van der Waals or Hydrogen.

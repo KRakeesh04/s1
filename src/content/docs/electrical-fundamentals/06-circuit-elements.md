@@ -1,5 +1,6 @@
 ---
 title: Circuit elements
+slug: electrical-fundamentals/circuit-elements
 ---
 
 Two types of circuit elements.

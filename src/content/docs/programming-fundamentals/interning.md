@@ -1,5 +1,6 @@
 ---
 title: Interning
+slug: programming-fundamentals/interning
 ---
 
 Interning is re-using objects of equal value on-demand instead of creating new

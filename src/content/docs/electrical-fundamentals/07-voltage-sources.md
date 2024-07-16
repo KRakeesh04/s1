@@ -1,5 +1,6 @@
 ---
 title: Voltage sources
+slug: electrical-fundamentals/voltage-sources
 ---
 
 - Batteries - electrochemical

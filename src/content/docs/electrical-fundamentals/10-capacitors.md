@@ -1,5 +1,6 @@
 ---
 title: Capacitors
+slug: electrical-fundamentals/capacitors
 ---
 
 Made of two conductive plates separated by an insulating (dielectric) layer.

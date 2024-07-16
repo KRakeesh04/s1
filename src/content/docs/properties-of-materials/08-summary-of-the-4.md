@@ -1,5 +1,6 @@
 ---
 title: Summary of the 4
+slug: properties-of-materials/summary-of-the-4
 ---
 
 |                     | sc                  | bcc                       | fcc                                   | hcp                                      |
