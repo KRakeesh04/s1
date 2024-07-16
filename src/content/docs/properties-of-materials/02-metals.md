@@ -1,6 +1,8 @@
 ---
 title: Metals
 slug: properties-of-materials/metals
+sidebar:
+  order: 2
 ---
 
 Metals can be categorized into 2 types.

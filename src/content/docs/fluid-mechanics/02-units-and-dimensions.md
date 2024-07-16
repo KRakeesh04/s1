@@ -1,6 +1,8 @@
 ---
 title: Units | Fluid Mechanics
 slug: fluid-mechanics/units-and-dimensions
+sidebar:
+  order: 2
 ---
 
 | Property                             | Dimension         | Units                                                                        |

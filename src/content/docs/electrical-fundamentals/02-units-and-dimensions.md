@@ -1,6 +1,8 @@
 ---
 title: Units | Electrical Fundamentals
 slug: electrical-fundamentals/units-and-dimensions
+sidebar:
+  order: 2
 ---
 
 | Property    | Dimension                  | Units                |

@@ -1,6 +1,8 @@
 ---
 title: Double subscript notation
 slug: electrical-fundamentals/double-subscript-notation
+sidebar:
+  order: 4
 ---
 
 | -                | Current                                                | Voltage                                                       |

@@ -1,6 +1,8 @@
 ---
 title: Introduction to Fluid Mechanics
 slug: fluid-mechanics/introduction
+sidebar:
+  order: 1
 ---
 
 Study of Fluids Mechanics include

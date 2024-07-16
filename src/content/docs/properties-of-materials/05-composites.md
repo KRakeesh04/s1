@@ -1,6 +1,8 @@
 ---
 title: Composites
 slug: properties-of-materials/composites
+sidebar:
+  order: 5
 ---
 
 Advantages of two materials combined together.

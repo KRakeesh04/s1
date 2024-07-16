@@ -1,6 +1,8 @@
 ---
 title: Hydrostatic Thrust
 slug: fluid-mechanics/hydrostatic-thrust
+sidebar:
+  order: 7
 ---
 
 ## On a Plane Surface

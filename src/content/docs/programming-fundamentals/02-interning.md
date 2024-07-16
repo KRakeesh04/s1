@@ -1,6 +1,8 @@
 ---
 title: Interning
 slug: programming-fundamentals/interning
+sidebar:
+  order: 2
 ---
 
 Interning is re-using objects of equal value on-demand instead of creating new

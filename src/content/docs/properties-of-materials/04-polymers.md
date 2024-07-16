@@ -1,6 +1,8 @@
 ---
 title: Polymers
 slug: properties-of-materials/polymers
+sidebar:
+  order: 4
 ---
 
 Inter-molecular bonds: Covalent and Van der Waals or Hydrogen.

@@ -1,6 +1,8 @@
 ---
 title: AC Theory
 slug: electrical-fundamentals/ac-theory
+sidebar:
+  order: 13
 ---
 
 ## Introduction

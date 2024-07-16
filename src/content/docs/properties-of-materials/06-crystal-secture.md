@@ -1,6 +1,8 @@
 ---
 title: Crystal Structure
 slug: properties-of-materials/crystal-secture
+sidebar:
+  order: 6
 ---
 
 Materials are categorized into 2, based on the arrangments of atoms or

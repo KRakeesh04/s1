@@ -1,6 +1,8 @@
 ---
 title: Pressure
 slug: fluid-mechanics/pressure
+sidebar:
+  order: 5
 ---
 
 ## Atmospheric Pressure

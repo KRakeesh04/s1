@@ -1,6 +1,8 @@
 ---
 title: Space Lattice
 slug: properties-of-materials/space-lattice
+sidebar:
+  order: 7
 ---
 
 An infinite set of equally-spaced **points** in a space.

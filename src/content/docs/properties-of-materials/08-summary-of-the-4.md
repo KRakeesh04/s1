@@ -1,6 +1,8 @@
 ---
 title: Summary of the 4
 slug: properties-of-materials/summary-of-the-4
+sidebar:
+  order: 8
 ---
 
 |                     | sc                  | bcc                       | fcc                                   | hcp                                      |
