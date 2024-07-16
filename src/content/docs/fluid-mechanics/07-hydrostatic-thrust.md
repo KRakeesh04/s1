@@ -4,13 +4,13 @@ title: Hydrostatic Thrust
 
 ## On a Plane Surface
 
-$ \text{Thrust} = \text{submerged area} \times P_G $
+Acts **normal to the surface** on the point on the surface known as **the Centre
+of Pressure** with a magnitude of:
 
-$G$ is the centroid of the submerged area. $P_G$ is the pressure at the
+$ \text{Thrust} = \text{submerged area} \times P_c $
+
+$C$ is the centroid of the submerged area. $P_c$ is the pressure at the
 centroid.
-
-Acts normal to the surface on the point on the surface known as **the Centre of
-Pressure**.
 
 ### Centre of Pressure
 
@@ -23,7 +23,7 @@ Here:
 - $A$ - Total submerged area
 - $y_p$ - Distance to centre of pressure measured along the submerged surface
   from the free surface
-- $y_c$ - Distance to $G$ measured along the submerged surface from the free
+- $y_c$ - Distance to $C$ measured along the submerged surface from the free
   surface
 - $I_{\text{cc}}$ - Second moment of submerged area about the centroidal surface
   parallel to the free surface
@@ -102,3 +102,10 @@ For the equilibrium of the fluid volume $ABEA$. $ $
 ```math
 F_x = F_{AE}
 ```
+
+:::note[Tensile stress in pipe]
+
+For a pipe with inner diameter $d$ and thickness $t$ containing a liquid under
+pressure $p$, experiences a tensile stress $f = \frac{pd}{2t}$.
+
+:::
