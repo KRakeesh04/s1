@@ -1,5 +1,8 @@
 ---
 title: Vector Equation of Planes
+slug: maths/algebra/vector-equation-of-planes
+sidebar:
+  order: 4
 ---
 
 ## Plane that contains a point $r_0$ and is parallel to both $\underline{a}$ and $\underline{b}$
@@ -35,6 +38,13 @@ of $r_0,r_1,r_2$ respectively.
 \Big] = 0
 ```
 
+## Normal to a plane
+
+Suppose $ax+by+cz=d$ is a plane. $ $
+
+$\underline{n}=a\underline{i}+b\underline{j}+c\underline{k}$ is a normal to the
+plane. $ $
+
 ## Angle between 2 planes
 
 Consider the two planes:
@@ -49,3 +59,22 @@ cos(\phi)=
 \frac{a_1b_1+a_2b_2+a_3b_3}{\sqrt{(a_1^2+a_2^2+a_3^2)(b_1^2+b_2^2+b_3^2)}}
 
 ```
+
+## Shortest distance to a point
+
+Considering a plane $ax+by+cz=d$.$ $
+
+```math
+\text{distance}=
+\frac{
+\lvert
+(\underline{r_1}-\underline{r_0})\cdot\underline{n}
+\rvert
+}{
+\lvert{\underline{n}}\rvert
+}
+```
+
+- $\underline{n}$ is a normal to the plane
+- $\underline{r_0}$ is the position vector of a point on the plane
+- $\underline{r_1}$ is the position vector to the arbitrary point
