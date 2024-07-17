@@ -71,7 +71,9 @@ Here
 n-th order linear differential equations have n linearly-independent solutions.
 
 **linearly-independent** means $ \sum\_{i=1}^{n}{c_iy_i} = 0 \rightarrow
-\forall{c_i}=0$. $ $ :::
+\forall{c_i}=0$. $ $
+
+:::
 
 ## Linear differential operators with constant coefficients
 
