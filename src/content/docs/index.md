@@ -1,6 +1,7 @@
 ---
 title: What's this?
 description: Short notes of my 1st semester.
+slug: index
 ---
 
 It's a website of [my](https://sahithyan.dev) short notes.
@@ -12,16 +13,16 @@ than imaginable.
 
 ## Included topics
 
-- [Electrical Fundamentals](/electrical-fundamentals/01-introduction/)
-- [Fluid Mechanics](/fluid-mechanics/01-introduction/)
+- [Electrical Fundamentals](/electrical-fundamentals/introduction/)
+- [Fluid Mechanics](/fluid-mechanics/introduction/)
 - Mathematics
-  - [Algebra](/maths/algebra/01-introduction)
-  - [Real analysis](/maths/real-analysis/01-introduction)
-  - [Ordinary Differential Equations](/maths/ode/01-introduction)
+  - [Algebra](/maths/algebra/introduction)
+  - [Real analysis](/maths/real-analysis/introduction)
+  - [Ordinary Differential Equations](/maths/ode/introduction)
 - Mechanics
-  - [Statics](/mechanics/statics/01-introduction)
-- [Programming Fundamentals](/programming-fundamentals/01-introduction)
-- [Properties of Materials](/properties-of-materials/01-introduction)
+  - [Statics](/mechanics/statics/introduction)
+- [Programming Fundamentals](/programming-fundamentals/introduction)
+- [Properties of Materials](/properties-of-materials/introduction)
 
 All of the content in this website is **INTENDED FOR PERSONAL USE** and shared
 under [CC BY-NC-ND 4.0](/license).
