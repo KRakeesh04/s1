@@ -58,3 +58,17 @@ A member is in pure bending when shear force is 0 and bending moment is a
 constant in a part of a beam.
 
 :::
+
+## Distributed load, shear force & bending moment
+
+When a beam is under a distributed load of $w=f(x)$ per unit length. $ $
+
+```math
+\frac{\text{d}S}{\text{d}x}=-w
+```
+
+```math
+\frac{\text{d}M}{\text{d}x}=-S
+\;;
+\frac{\text{d}^2M}{\text{d}x^2}=w
+```

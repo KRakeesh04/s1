@@ -28,7 +28,7 @@ Same as $sin\theta$ vs $\theta$ (in rad). Also called sine waves, and sinusoid.
 
 $y=Asin(\omega{t}-\phi)$
 
-When $\phi$ is:
+When $\phi$ is: $ $
 
 - $\gt{0}$ - the wave is said to be **leading** by $\phi$
 - $=0$ - the wave is the **reference**
