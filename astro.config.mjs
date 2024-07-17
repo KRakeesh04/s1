@@ -49,7 +49,7 @@ export default defineConfig({
 			social: {
 				twitter: "https://x.com/sahithyandev",
 			},
-			tableOfContents: false,
+			tableOfContents: true,
 			lastUpdated: true,
 			expressiveCode: false,
 			components: {
