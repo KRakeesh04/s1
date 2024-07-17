@@ -1,8 +1,9 @@
 ---
 title: Order Axioms
+slug: maths/real-analysis/order-axioms
+sidebar:
+  order: 6
 ---
-
-## Order Axioms of $\mathbb{R}$
 
 - **Trichotomy**: $ \forall a,b \in \mathbb{R} $ exactly one of these holds:
   $a > b$, $a = b$, $a<b$
@@ -12,14 +13,14 @@ title: Order Axioms
 - **Operation with mutliplication**: $ \forall a,b,c \in \mathbb{R}; a<b \land
   0<c \implies ac<bc $
 
-### Definitions
+## Definitions
 
 - $ a < b \equiv b > a $
 - $ a \le b \equiv a<b\lor a=b$
 - $ a\not =b\equiv a<b\lor a>b$
 - $\lvert{x}\rvert=\begin{cases}x & \text{if } x \ge 0, \\-x & \text{if } x < 0\end{cases}$
 
-### Triangular inequalities
+## Triangular inequalities
 
 ```math
 \lvert{a}\rvert
@@ -44,9 +45,31 @@ title: Order Axioms
 \lvert{a+b}\rvert
 ```
 
-### Required proofs
+## Required proofs
 
 - $\forall a,b,c \in \mathbb{R}; a<b \land c<0 \implies ac>bc $
 - $1 > 0$
 - $-\lvert{a}\rvert\le a\le\lvert{a}\rvert$
 - Triangular inequalities
+
+## Theorems
+
+- $\exists{a}\;\forall{\epsilon>0},\,a<\epsilon\implies{a}\le{0}$
+- $\exists{a}\;\forall{\epsilon>0},\,0\le{a}<\epsilon\implies{a}={0}$
+
+:::danger[Caution]
+
+$\forall{\epsilon>0}\;\exists{a},\,a<\epsilon\implies{a}\le{0}$ is **not**
+valid.$ $
+
+:::
+
+Let $A$ be a non-empty subset of $\mathbb{R}$ which is bounded above and has an
+upper bound $u$.
+
+$u=\sup{A}\iff\forall{\epsilon>0}\,\exists{a\in{A}},\,a>u-\epsilon$
+
+Let $A$ be a non-empty subset of $\mathbb{R}$ which is bounded below and has an
+lower bound $m$.
+
+$m=\inf{A}\iff\forall{\epsilon>0}\,\exists{a\in{A}},\,a<m+\epsilon$
