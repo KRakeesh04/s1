@@ -1,5 +1,8 @@
 ---
 title: Introduction to Differential Equations
+slug: maths/ode/introduction
+sidebar:
+  order: 1
 ---
 
 Equations which are composed of an unknown function and its derivatives.

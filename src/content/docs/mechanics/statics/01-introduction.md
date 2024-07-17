@@ -1,5 +1,8 @@
 ---
 title: Introduction to Statics
+slug: mechanics/statics/introduction
+sidebar:
+  order: 1
 ---
 
 ## Centroid / Centre of area

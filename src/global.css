@@ -8,6 +8,8 @@
 	--sl-content-width: 68rem;
 	--sl-text-h1: var(--sl-text-4xl);
 	--sl-text-h2: var(--sl-text-3xl);
+	--sl-text-h3: var(--sl-text-2xl);
+	--sl-text-h4: var(--sl-text-xl);
 	--sl-sidebar-width: 22rem;
 	--sl-color-accent-low: #0e204f;
 	--sl-color-accent: #1b4cff;

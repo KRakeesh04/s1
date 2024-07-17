@@ -1,5 +1,8 @@
 ---
 title: Real Numbers
+slug: maths/real-analysis/real-numbers
+sidebar:
+  order: 2
 ---
 
 ## Sets of numbers

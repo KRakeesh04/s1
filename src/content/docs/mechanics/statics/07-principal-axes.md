@@ -1,5 +1,8 @@
 ---
 title: Principal Axes
+slug: mechanics/statics/principal-axes
+sidebar:
+  order: 7
 ---
 
 The product of moment of area is zero about principal axes.

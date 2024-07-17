@@ -1,5 +1,8 @@
 ---
 title: Vectors
+slug: maths/algebra/vectors
+sidebar:
+  order: 2
 ---
 
 Revise Vectors unit from G.C.E (A/L) Combined Mathematics.

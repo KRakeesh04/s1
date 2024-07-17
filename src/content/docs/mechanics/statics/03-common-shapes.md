@@ -1,5 +1,8 @@
 ---
 title: Derived Formulas for Common Shapes
+slug: mechanics/statics/common-shapes
+sidebar:
+  order: 3
 ---
 
 | Shape         | Description                                                   | $I_{xx}$               |

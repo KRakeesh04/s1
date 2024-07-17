@@ -1,5 +1,8 @@
 ---
 title: Field Axioms
+slug: maths/real-analysis/field-axioms
+sidebar:
+  order: 3
 ---
 
 ## Field Axioms of $\mathbb{R}$

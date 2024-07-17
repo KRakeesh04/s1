@@ -1,5 +1,8 @@
 ---
 title: Introduction to Real Analysis
+slug: maths/real-analysis/introduction
+sidebar:
+  order: 1
 ---
 
 Let's take $ a \to b $. $ $

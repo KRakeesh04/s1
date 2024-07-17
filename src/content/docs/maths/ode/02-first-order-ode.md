@@ -2,6 +2,8 @@
 title: Solving First Order Ordinary Differential Equations
 sidebar:
   label: Solving First Order ODE
+  order: 2
+slug: maths/ode/first-order-ode
 ---
 
 ## Separable equation

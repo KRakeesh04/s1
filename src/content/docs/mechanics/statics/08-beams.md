@@ -1,5 +1,8 @@
 ---
 title: Beams
+slug: mechanics/statics/beams
+sidebar:
+  order: 8
 ---
 
 ![Beam](/mechanics/beam.png)

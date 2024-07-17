@@ -1,5 +1,8 @@
 ---
 title: Parallel Axis Theorem
+slug: mechanics/statics/parallel-axis-theorem
+sidebar:
+  order: 4
 ---
 
 ```math

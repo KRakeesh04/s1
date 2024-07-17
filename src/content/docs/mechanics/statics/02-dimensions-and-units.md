@@ -1,5 +1,8 @@
 ---
 title: Units | Statics
+slug: mechanics/statics/dimensions-and-units
+sidebar:
+  order: 2
 ---
 
 | Property                  | Dimension | Unit    |

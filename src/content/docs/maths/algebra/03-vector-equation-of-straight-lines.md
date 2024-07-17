@@ -1,5 +1,8 @@
 ---
 title: Vector Equation of Straight Lines
+slug: maths/algebra/vector-equation-of-straight-lines
+sidebar:
+  order: 3
 ---
 
 ## Line that passes through the point $\underline{r_0}$ and parallel to $\underline{v}$
