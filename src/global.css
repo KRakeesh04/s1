@@ -6,6 +6,7 @@
 	@apply text-[13.25px] lg:text-[14.7px] xl:text-[15.8px] 2xl:text-[17px];
 
 	--sl-content-width: 68rem;
+	--sl-content-pad-x: 3rem;
 	--sl-text-h1: var(--sl-text-4xl);
 	--sl-text-h2: var(--sl-text-3xl);
 	--sl-text-h3: var(--sl-text-2xl);
@@ -36,6 +37,10 @@
 		--sl-color-gray-6: #eeedf0;
 		--sl-color-gray-7: #f6f6f8;
 		--sl-color-black: #ffffff;
+	}
+
+	@media (max-width: 500px) {
+		--sl-content-pad-x: 1.2rem;
 	}
 }
 * {

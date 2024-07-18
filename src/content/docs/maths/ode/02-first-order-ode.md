@@ -32,10 +32,14 @@ To solve:
 
 $ \frac{\text{d}y}{\text{d}x} = \frac{ax + by + c}{Ax + By + C} $
 
-When we have a equation of this type, we can reduce it to homogenous form.
+This type of equation can be reduced to homogenous form.
+
+If $a:b=A:B$, use the substitution: $u=ax+by$.
+
+In other cases:
 
 - Find $ h $ and $k$ such that $ ah + bk + c = 0 $ and $ Ah + Bk + C = 0 $.
-- Use substituions:
+- Use substitutions:
   - $ X = x + h $
   - $ Y = y + k $
 
@@ -69,3 +73,7 @@ The above equation is Bernoulli's equations when $ n \in \mathbb{R} $. $ $
 When $ n = 0 $ or $ n = 1 $, the equation would be linear.
 
 Otherwise we can use $ v = y^{1-n} $ to convert it to linear form. $ $
+
+## None of the above
+
+The equation must be converted to one of the above by using a substitution.
