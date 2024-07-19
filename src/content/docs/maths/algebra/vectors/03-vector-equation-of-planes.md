@@ -1,8 +1,8 @@
 ---
 title: Vector Equation of Planes
-slug: maths/algebra/vector-equation-of-planes
+slug: maths/algebra/vectors/vector-equation-of-planes
 sidebar:
-  order: 4
+  order: 3
 ---
 
 ## Plane that contains a point $r_0$ and is parallel to both $\underline{a}$ and $\underline{b}$

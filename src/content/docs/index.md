@@ -1,10 +1,12 @@
 ---
 title: What's this?
-description: Short notes of my 1st semester.
+description:
+  Short notes of my 1st semester of Engineering at University of Moratuwa.
 slug: index
 ---
 
-It's a website of [my](https://sahithyan.dev) short notes.
+It's a website of [my](https://sahithyan.dev) short notes of my 1st semester of
+Engineering at University of Moratuwa.
 
 ## Why?
 
@@ -16,7 +18,9 @@ than imaginable.
 - [Electrical Fundamentals](/electrical-fundamentals/introduction/)
 - [Fluid Mechanics](/fluid-mechanics/introduction/)
 - Mathematics
-  - [Algebra](/maths/algebra/introduction)
+  - Algebra
+    - [Vectors](/maths/algebra/vectors/introduction)
+    - [Matrices](/maths/algebra/matrices/introduction)
   - [Real analysis](/maths/real-analysis/introduction)
   - [Ordinary Differential Equations](/maths/ode/introduction)
 - Mechanics

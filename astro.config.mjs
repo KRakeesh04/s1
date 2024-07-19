@@ -86,9 +86,26 @@ export default defineConfig({
 					items: [
 						{
 							label: "Algebra",
-							autogenerate: {
-								directory: "maths/algebra",
-							},
+							items: [
+								{
+									label: "Vectors",
+									autogenerate: {
+										directory: "maths/algebra/vectors",
+									},
+								},
+								{
+									label: "Matrices",
+									autogenerate: {
+										directory: "maths/algebra/matrices",
+									},
+								},
+								{
+									label: "Complex Numbers",
+									autogenerate: {
+										directory: "maths/algebra/complex-numbers",
+									},
+								},
+							],
 						},
 						{
 							label: "Real Analysis",
@@ -111,6 +128,12 @@ export default defineConfig({
 							label: "Statics",
 							autogenerate: {
 								directory: "mechanics/statics",
+							},
+						},
+						{
+							label: "Dynamics",
+							autogenerate: {
+								directory: "mechanics/dynamics",
 							},
 						},
 					],
