@@ -10,8 +10,10 @@ Engineering at University of Moratuwa.
 
 ## Why?
 
-Exercise books are not indexable. Searching in exercise books takes more time
-than imaginable.
+- Indexable. Exercise books are not. Searching in exercise books takes more time
+  than imaginable.
+- Accessible from everywhere.
+- Helpful to everyone.
 
 ## Included topics
 
