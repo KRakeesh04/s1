@@ -20,10 +20,10 @@ $A\times{B}$.
 
 - Domain of $R$: $dom(R)=A$
 - Codomain of $R$: $codom(R)=B$
-- Range of $R$: $ran(R)=\set{x|(x,y)\in{R}}$
-- $ran(R)\subseteq{A}$
-- Pre-range of $R$: $preran(R)=\set{y|(x,y)\in{R}}$
-- $preran(R)\subseteq{B}$
+- Range of $R$: $ran(R)=\set{y|(x,y)\in{R}}$
+- $ran(R)\subseteq{B}$
+- Pre-range of $R$: $preran(R)=\set{x|(x,y)\in{R}}$
+- $preran(R)\subseteq{A}$
 - $R$ is everywhere defined
   $\iff{A=dom(R)=preran(R)}\iff{\forall{a\in{A}}\,\exists{b\in{B}}\,(a,b)\in{R}}$
 - $R$ is onto

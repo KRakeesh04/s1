@@ -5,12 +5,12 @@ sidebar:
   order: 2
 ---
 
-| Property    | Dimension                  | Units                |
-| ----------- | -------------------------- | -------------------- |
-| Charge      | $ IT $                     | $ C $                |
-| Current     | $ I $                      | $ A $                |
-| Voltage     | $ ML^{2}T^{-3}I^{-1} $     | $ V $                |
-| Resistivity | $ ML^{3}T^{-3}I^{-2} $     | $ \Omega m $         |
-| Resistance  | $ ML^{2}T^{-3}I^{-2} $     | $ \Omega $           |
-| Capacitance | $ M^{-1}L^{-2}T^{4}I^{2} $ | $ \text{Farad} (F) $ |
-| Inductance  | $ ML^{2}T^{-2}I^{-2} $     | $ \text{Henry} (H) $ |
+| Property    | Dimension                  | Units                                        |
+| ----------- | -------------------------- | -------------------------------------------- |
+| Charge      | $ IT $                     | $ C $                                        |
+| Current     | $ I $                      | $ A $                                        |
+| Voltage     | $ ML^{2}T^{-3}I^{-1} $     | $ V $                                        |
+| Resistivity | $ ML^{3}T^{-3}I^{-2} $     | $ \Omega m $                                 |
+| Resistance  | $ ML^{2}T^{-3}I^{-2} $     | $ \Omega $                                   |
+| Capacitance | $ M^{-1}L^{-2}T^{4}I^{2} $ | $ \text{Farad} (F) (=1kg^{-1}m^{-2}s^4A^2) $ |
+| Inductance  | $ ML^{2}T^{-2}I^{-2} $     | $ \text{Henry} (H) (=1kgm^2s^{-2}A^{-2}) $   |

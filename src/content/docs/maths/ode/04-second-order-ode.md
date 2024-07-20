@@ -12,7 +12,7 @@ slug: maths/ode/second-order-ode
 \frac{\text{d}^2y}{\text{d}x^2}+
 a\frac{\text{d}y}{\text{d}x}+
 +by
-=0\;\;;a,b\,\text{are constants}
+=0\,;\;a,b\,\text{are constants}
 ```
 
 Consider the function $y=e^{mx}$. Here $m$ is a constant to be found.
@@ -39,6 +39,13 @@ $y = (Ax+B)e^{mx}$
 $y = Ae^{(p+iq)x} + Be^{(p−iq)x} = e^{px}(C\cos{qx}+D\sin{qx})$
 
 ## Non-homogenous
+
+```math
+\frac{\text{d}^2y}{\text{d}x^2}+
+a\frac{\text{d}y}{\text{d}x}+
++by
+=q(x)\,;\;a,b\,\text{are constants}
+```
 
 ### Method of undetermined coefficients
 
