@@ -18,11 +18,11 @@ sidebar:
 Let $A,B\not=\emptyset$. A relation $R:A\rightarrow{B}$ is a non-empty subset of
 $A\times{B}$.
 
-- Domain of R: $dom(R)=A$
-- Codomain of R: $codom(R)=B$
-- Range of R: $ran(R)=\set{x|(x,y)\in{R}}$
+- Domain of $R$: $dom(R)=A$
+- Codomain of $R$: $codom(R)=B$
+- Range of $R$: $ran(R)=\set{x|(x,y)\in{R}}$
 - $ran(R)\subseteq{A}$
-- Pre-range of R: $preran(R)=\set{y|(x,y)\in{R}}$
+- Pre-range of $R$: $preran(R)=\set{y|(x,y)\in{R}}$
 - $preran(R)\subseteq{B}$
 - $R$ is everywhere defined
   $\iff{A=dom(R)=preran(R)}\iff{\forall{a\in{A}}\,\exists{b\in{B}}\,(a,b)\in{R}}$
