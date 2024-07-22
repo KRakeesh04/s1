@@ -68,3 +68,12 @@ $ \text{APF} = \frac{\text{True volume}}{\text{Bulk volume}} =
 
 Geometrically maximum APF in real life (assuming spherical atoms) is 74%. If a
 structure has 74% APF, the structure is called a **close-packed structure**.
+
+## Interstitial sites (aka holes, voids)
+
+Empty space that exists between the packing of atoms in a crystal structure.
+
+## Octahedral interstices
+
+Locations of void spaces available in an FCC. Located at the center of each edge
+and body-center of the unit cell.
