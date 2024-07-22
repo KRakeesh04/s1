@@ -68,7 +68,7 @@ export default defineConfig({
 					link: "/thinkpad",
 				},
 				{
-					label: "Units | Common",
+					label: "Dimensions & Units",
 					link: "/dimensions-and-units",
 				},
 				{

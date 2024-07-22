@@ -82,9 +82,27 @@ table {
 	img {
 		@apply m-auto;
 	}
-	
 	td .MathJax {
 		@apply m-auto;
+	}
+	thead:has(th:nth-child(2)):not(:has(th:nth-child(3))) {
+		th:nth-child(1){
+			@apply w-4/12;
+		}
+		th:nth-child(2){
+			@apply w-8/12;
+		}
+	}
+	thead:has(th:nth-child(3)):not(:has(th:nth-child(4))) {
+		th:nth-child(1){
+			@apply w-4/12;
+		}
+		th:nth-child(2){
+			@apply w-3/12;
+		}
+		th:nth-child(3){
+			@apply w-5/12;
+		}
 	}
 }
 li .MathJax {

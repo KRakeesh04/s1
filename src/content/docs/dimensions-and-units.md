@@ -1,6 +1,9 @@
 ---
-title: Units | Common
+title: Dimensions & Units
+slug: dimensions-and-units
 ---
+
+## Common
 
 | Property    | Dimension        | Units            |
 | ----------- | ---------------- | ---------------- |
@@ -8,3 +11,70 @@ title: Units | Common
 | Energy/Work | $ ML^{2}T^{-2} $ | $ J,\; Nm $      |
 | Power       | $ ML^{2}T^{-3} $ | $ Js^{-1} $      |
 | Frequency   | $ T^{-1} $       | $s^{-1}$         |
+
+## Electrical Fundamentals
+
+| Property    | Dimension                  | Units        |
+| ----------- | -------------------------- | ------------ |
+| Charge      | $ IT $                     | $ C $        |
+| Current     | $ I $                      | $ A $        |
+| Voltage     | $ ML^{2}T^{-3}I^{-1} $     | $ V $        |
+| Resistivity | $ ML^{3}T^{-3}I^{-2} $     | $ \Omega m $ |
+| Resistance  | $ ML^{2}T^{-3}I^{-2} $     | $ \Omega $   |
+| Capacitance | $ M^{-1}L^{-2}T^{4}I^{2} $ | $ F $        |
+| Inductance  | $ ML^{2}T^{-2}I^{-2} $     | $ H $        |
+
+### Conversions
+
+| Unit          | Equal to                 |
+| ------------- | ------------------------ |
+| Farad (**F**) | $1\,kg^{-1}m^{-2}s^4A^2$ |
+| Henry (**H**) | $1\,kgm^2s^{-2}A^{-2}$   |
+
+## Fluid Mechanics
+
+| Property                             | Dimension         | Units                          |
+| ------------------------------------ | ----------------- | ------------------------------ |
+| Mass Density                         | $ ML^{-3} $       | $ kgm^{-3} $                   |
+| Specific Weight or Unit Weight       | $ ML^{-2}T^{-2} $ | $ Nm^{-3} $                    |
+| Relative Densiry or Specific Density | -                 | -                              |
+| Bulk Modulus                         | $ ML^{-1}T^{-2} $ | $ Nm^{-2} $                    |
+| Vapour Pressure                      | $ ML^{-1}T^{-2} $ | $ Nm^{-2} $                    |
+| Surface Tension                      | $ MT^{-2} $       | $ kgm^{-2}, Nm^{-1} $          |
+| Coefficient of dynamic viscosity     | $ ML^{-1}T^{-1} $ | $ kgm^{-1}s^{-1}, Nm^{-2}s, P$ |
+| Coefficient of kinematic viscosity   | $ L^{2}T^{-1} $   | $ m^{2}s^{-1},st$              |
+| Pressure                             | $ ML^{-1}T^{-2} $ | $ Nm^{-2}, Pa,\text{Bar}$      |
+| Pressure head                        | $ L $             | $ m $                          |
+
+### Conversions
+
+| Unit            | Equal to                 |
+| --------------- | ------------------------ |
+| Poise (**P**)   | $ 0.1\,kgm^{-1}s^{-1} $  |
+| Stokes (**st**) | $ 10^{-4}\,m^{2}s^{-1} $ |
+| Pascal (**Pa**) | $1\,Nm^{-2}$             |
+| Bar (**bar**)   | $10^{-5}\,Pa$            |
+
+## Mechanics
+
+### Statics
+
+| Property                  | Dimension | Unit    |
+| ------------------------- | --------- | ------- |
+| First moment of area      | $ M^3 $   | $ m^3 $ |
+| Second moment of area     | $ M^4 $   | $ m^4 $ |
+| Product of moment of area | $ M^4 $   | $ m^4 $ |
+| Polar moment of area      | $ M^4 $   | $ m^4 $ |
+| Radius of gyration        | $ M $     | $ m $   |
+
+## Properties of Materials
+
+| Property        | Dimension         | Units  |
+| --------------- | ----------------- | ------ |
+| Stress          | $ ML^{-1}T^{-2} $ | $ Pa $ |
+| Strain          | -                 | -      |
+| Yield strength  | $ ML^{-1}T^{-2} $ | $ Pa $ |
+| Young's modulus | $ ML^{-1}T^{-2} $ | $ Pa $ |
+| Secant modulus  | $ ML^{-1}T^{-2} $ | $ Pa $ |
+| Tangent modulus | $ ML^{-1}T^{-2} $ | $ Pa $ |
+| Poisson's ratio | -                 | -      |
