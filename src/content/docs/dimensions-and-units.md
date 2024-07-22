@@ -69,12 +69,13 @@ slug: dimensions-and-units
 
 ## Properties of Materials
 
-| Property        | Dimension         | Units  |
-| --------------- | ----------------- | ------ |
-| Stress          | $ ML^{-1}T^{-2} $ | $ Pa $ |
-| Strain          | -                 | -      |
-| Yield strength  | $ ML^{-1}T^{-2} $ | $ Pa $ |
-| Young's modulus | $ ML^{-1}T^{-2} $ | $ Pa $ |
-| Secant modulus  | $ ML^{-1}T^{-2} $ | $ Pa $ |
-| Tangent modulus | $ ML^{-1}T^{-2} $ | $ Pa $ |
-| Poisson's ratio | -                 | -      |
+| Property        | Dimension         | Units    |
+| --------------- | ----------------- | -------- |
+| Planar density  | $L^{-2}$          | $m^{-2}$ |
+| Stress          | $ ML^{-1}T^{-2} $ | $ Pa $   |
+| Strain          | -                 | -        |
+| Yield strength  | $ ML^{-1}T^{-2} $ | $ Pa $   |
+| Young's modulus | $ ML^{-1}T^{-2} $ | $ Pa $   |
+| Secant modulus  | $ ML^{-1}T^{-2} $ | $ Pa $   |
+| Tangent modulus | $ ML^{-1}T^{-2} $ | $ Pa $   |
+| Poisson's ratio | -                 | -        |
