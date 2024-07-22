@@ -1,7 +1,7 @@
 ---
 title: Introduction to Properties of Materials
 prev: false
-slug: properties-of-materials/introduction
+slug: properties-of-materials/basics/introduction
 sidebar:
   order: 1
 ---

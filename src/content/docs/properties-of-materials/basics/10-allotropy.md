@@ -1,6 +1,6 @@
 ---
 title: Allotropy
-slug: properties-of-materials/allotropy
+slug: properties-of-materials/basics/allotropy
 sidebar:
   order: 10
 ---

@@ -49,7 +49,9 @@ export default defineConfig({
 			social: {
 				twitter: "https://x.com/sahithyandev",
 			},
-			tableOfContents: true,
+			tableOfContents: {
+				maxHeadingLevel: 4,
+			},
 			lastUpdated: true,
 			expressiveCode: false,
 			components: {
@@ -146,9 +148,20 @@ export default defineConfig({
 				},
 				{
 					label: "Properties of Materials",
-					autogenerate: {
-						directory: "properties-of-materials",
-					},
+					items: [
+						{
+							label: "Basics",
+							autogenerate: {
+								directory: "properties-of-materials/basics",
+							},
+						},
+						{
+							label: "Mechanical Properties",
+							autogenerate: {
+								directory: "properties-of-materials/mechanical-properties",
+							},
+						},
+					],
 				},
 				{
 					label: "License",

@@ -1,8 +1,8 @@
 ---
 title: Flexural Test
-slug: properties-of-materials/Mechanical Properties/flexural-test
+slug: properties-of-materials/mechanical-properties/flexural-test
 sidebar:
-  order: 3
+  order: 4
 ---
 
 ![Flexural Test](/props/flexural-test.png)

@@ -1,6 +1,6 @@
 ---
 title: Metals
-slug: properties-of-materials/metals
+slug: properties-of-materials/basics/metals
 sidebar:
   order: 2
 ---

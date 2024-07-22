@@ -1,6 +1,6 @@
 ---
 title: Space Lattice
-slug: properties-of-materials/space-lattice
+slug: properties-of-materials/basics/space-lattice
 sidebar:
   order: 7
 ---
