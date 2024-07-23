@@ -28,7 +28,7 @@ Engineering at University of Moratuwa.
 - Mechanics
   - [Statics](/mechanics/statics/introduction)
 - [Programming Fundamentals](/programming-fundamentals/introduction)
-- [Properties of Materials](/properties-of-materials/introduction)
+- [Properties of Materials](/properties-of-materials/basics/introduction)
 
 All of the content in this website is **INTENDED FOR PERSONAL USE** and shared
 under [CC BY-NC-ND 4.0](/license).
