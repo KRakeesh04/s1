@@ -20,7 +20,7 @@ used, bars will have only axial forces.
 
 ## Bars
 
-![Axes in a bar](/mechanics/bar-axes.png)
+![Axes in a bar](/mechanics/bar-axes.jpg)
 
 Here
 

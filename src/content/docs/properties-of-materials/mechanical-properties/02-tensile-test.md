@@ -8,7 +8,7 @@ sidebar:
 Follows ASTM Standards E 8 and E 8M. (American Society for Testing and
 Materials)
 
-The specimen: ![Tensile Test Specimen](/props/tensile-test-specimen.png)
+The specimen: ![Tensile Test Specimen](/props/tensile-test-specimen.jpg)
 
 Here
 
@@ -16,7 +16,7 @@ Here
 - Initial diameter $d_0$
 - Initial area $A_0=\frac{\pi{d_0}^2}{4}$
 
-The setup: ![Tensile Test Setup](/props/tensile-test-setup.png)
+The setup: ![Tensile Test Setup](/props/tensile-test-setup.jpg)
 
 Test will be done until the specimen fractures. Results are converted to
 engineering stress and strain, and plotted.

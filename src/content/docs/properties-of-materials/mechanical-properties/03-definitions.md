@@ -34,7 +34,7 @@ and the origin.
 
 Equal to the instantaneous tangent on a point in the stress-strain diagram.
 
-![Types of modulus](/props/types-of-modulus.png)
+![Types of modulus](/props/types-of-modulus.jpg)
 
 ## Poisson's ratio
 

@@ -5,7 +5,7 @@ sidebar:
   order: 9
 ---
 
-![Miller Indices in Simple Cubic](/props/miller-indices.png)
+![Miller Indices in Simple Cubic](/props/miller-indices.jpg)
 
 Any vertex can be chosen as the origin.
 

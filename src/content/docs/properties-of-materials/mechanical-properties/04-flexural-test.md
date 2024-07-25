@@ -5,7 +5,7 @@ sidebar:
   order: 4
 ---
 
-![Flexural Test](/props/flexural-test.png)
+![Flexural Test](/props/flexural-test.jpg)
 
 Support the material at 2 ends. Apply pressure perpendicular to the material
 until the material fractures.

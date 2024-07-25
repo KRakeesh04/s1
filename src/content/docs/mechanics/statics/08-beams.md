@@ -5,7 +5,7 @@ sidebar:
   order: 8
 ---
 
-![Beam](/mechanics/beam.png)
+![Beam](/mechanics/beam.jpg)
 
 - long ($L >> B,D$)
 - axis of the beam is straight
@@ -17,16 +17,16 @@ First 3 are the mandatory ones.
 
 | Type                      | Image                                                                  |
 | ------------------------- | ---------------------------------------------------------------------- |
-| Simply supported beam     | ![Simply supported beam](/mechanics/simply-supported-beam.png)         |
-| Cantilevered beam         | ![Cantilevered beam](/mechanics/cantilevered-beam.png)                 |
-| Overhanging beam          | ![Overhanging beam](/mechanics/overhanging-beam.png)                   |
-| Propped cantilevered beam | ![Propped cantilevered beam](/mechanics/propped-cantilevered-beam.png) |
-| Continuous beam           | ![Continuous beam](/mechanics/continuous-beam.png)                     |
-| Fixed beam                | ![Fixed beam](/mechanics/fixed-beam.png)                               |
+| Simply supported beam     | ![Simply supported beam](/mechanics/simply-supported-beam.jpg)         |
+| Cantilevered beam         | ![Cantilevered beam](/mechanics/cantilevered-beam.jpg)                 |
+| Overhanging beam          | ![Overhanging beam](/mechanics/overhanging-beam.jpg)                   |
+| Propped cantilevered beam | ![Propped cantilevered beam](/mechanics/propped-cantilevered-beam.jpg) |
+| Continuous beam           | ![Continuous beam](/mechanics/continuous-beam.jpg)                     |
+| Fixed beam                | ![Fixed beam](/mechanics/fixed-beam.jpg)                               |
 
 ## At a section
 
-![At a section](/mechanics/at-a-section.png)
+![At a section](/mechanics/at-a-section.jpg)
 
 - $ P $ - Normal force / Axial force
 - $ S_y, S_y $ - Shear forces along $y$ and $z$ axis

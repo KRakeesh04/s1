@@ -36,7 +36,7 @@ Predominant force is axial force.
 - Start with a triangle (3 bars and 3 joints)
 - Add 2 more bars and a joint repeatedly to create a truss
 
-This type of truss is a **simple truss**
+This type of truss is a **simple truss**.
 
 ## Simple (Closed) Truss
 
