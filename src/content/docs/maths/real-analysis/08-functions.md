@@ -5,21 +5,22 @@ sidebar:
   order: 8
 ---
 
-## Definitions
-
 A function $f:\,A\rightarrow{B}$ is a relation $f:\,A\rightarrow{B}$ which is
-**everywhere defined** and **not one-many**.
+[everywhere defined](/maths/real-analyis/relations/#everywhere-defined) and
+[not one-many](/maths/real-analysis/relations/#not-one-many).
 
-### Inverse
+- $dom(f)=A=preran(f)$
+
+## Inverse
 
 For a function $f:\,A\rightarrow{B}$ to have its inverse relation
 $f^{-1}:\,B\rightarrow{A}$ be also a function, we need:
 
-- $f$ is onto
-- $f$ is **not** many-one (in other words, $f$ must be one-one)
+- $f$ is [onto](/maths/real-analysis/relations/#onto)
+- $f$ is [not many-one](/maths/real-analysis/relations/#not-many-one) (in other
+  words, $f$ must be [one-one](/maths/real-analysis/relations/#one-one))
 
-:::note
+The above statement is true for all unrestricted function $f$ that has an
+inverse $f^{-1}$:
 
-onto and one-one relation is called a **bijection**.
-
-:::
+$f(f^{-1}(x))=x=f^{-1}(f(x))=x$
