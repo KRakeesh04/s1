@@ -56,7 +56,7 @@ Highest order derivative.
 
 Power of highest order derivative.
 
-#### Picard's Existence and Uniqueness Theorem
+## Picard's Existence and Uniqueness Theorem
 
 Consider the below IVP.
 
