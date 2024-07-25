@@ -30,4 +30,4 @@ than once except for the same start/finish node.
 
 A mesh is a loop without having other loops inside it.
 
-![Common Terms Explanation](/electrical/common-terms-explanation.png)
+![Common Terms Explanation](/electrical/common-terms-explanation.jpg)
