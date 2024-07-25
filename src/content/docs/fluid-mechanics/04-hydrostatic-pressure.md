@@ -43,7 +43,7 @@ dp =
 
 By considering equilibrium of this fluid element containing $A$. $ $
 
-![Fluid element containing point A](/fluids/fluid-element-containing-a.png)
+![Fluid element containing point A](/fluids/fluid-element-containing-a.jpg)
 
 In the $x$ direction,$ $
 

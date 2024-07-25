@@ -9,7 +9,7 @@ sidebar:
 
 Pressure exerted by atmospheric air.
 
-## Guage Pressure
+## Gauge Pressure
 
 Measured in respect to atmospheric pressure.
 
@@ -88,7 +88,7 @@ small displacement of manometer liquid).
 ##### Disadvantages
 
 - Not very accurate
-- Needs to be calibrated regulary
+- Needs to be calibrated regularly
 
 ## Uses in real life
 

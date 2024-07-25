@@ -189,7 +189,7 @@ body are not vertical.
 
 ## Types of tilting
 
-![Types of tilting](/fluids/types-of-tilting.png)
+![Types of tilting](/fluids/types-of-tilting.jpg)
 
 - Pitching - tilting about transverse axis
 - Rolling - tilting about longitudinal axis
