@@ -65,10 +65,12 @@ If $q(x)$ is:$ $
 
 - Solve for $y_c$
 - Based on the form of $q(x)$ , make an initial guess for $y_p$.
-- Check whether any term in the guess for $y_p$ is a solution to the
-  complementary equation.
+- Check if any term in the guess for $y_p$ is a solution to the complementary
+  equation.
 - If so, multiply the guess by $x$. Repeat this step until there are no terms in
   $y_p$ that solve the complementary equation.
 - Substitute $y_p$ into the differential equation and equate like terms to find
   values for the unknown coefficients in $y_p$.
+- If coefficients were unable to be found (they cancelled out or something like
+  that), multiply the guess by $x$ and start again.
 - $y=y_p+y_c$
