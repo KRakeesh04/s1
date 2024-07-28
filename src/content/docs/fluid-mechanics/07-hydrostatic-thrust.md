@@ -40,7 +40,14 @@ pressure diagram} $
 
 ### Proof
 
-![Hydrostatic thrust on a plane surface](/fluids/hydrostatic-thrust-on-a-plane.jpeg)
+![Hydrostatic thrust on a plane surface](/fluids/hydrostatic-thrust-on-a-plane.jpg)
+
+:::note
+
+$OO'$ is the free surface (waterline plane). **It is not a surface inside the
+fluid**. It's drawn like that for ease of reference. $ $
+
+:::
 
 #### Direction
 
