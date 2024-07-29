@@ -36,14 +36,19 @@ Tensile forces are positive. Compressive forces are negative.
   for the joint.
 - Go to all other joints in turn and find forces in all the members.
 
-## Method of Sections
+### Special cases
 
 TODO
+
+## Method of Sections
 
 ### Principle
 
-TODO
+If a structure is in stable equilibrium, a section of the structure must also be
+in stable equilibrium.
 
 ### Method
 
-TODO
+- Decide on which member's internal force must be calculated.
+- Break **3 or less** members including the target member.
+- Use equilibrium of RHS or LHS section to find the internal forces.
