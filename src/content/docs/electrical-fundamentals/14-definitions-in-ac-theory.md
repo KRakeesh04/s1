@@ -1,81 +1,24 @@
 ---
-title: AC Theory
-slug: electrical-fundamentals/ac-theory
+title: Definitions in AC Theory
+slug: electrical-fundamentals/definitions-in-ac-theory
 sidebar:
-  order: 13
+  order: 14
 ---
 
-## Introduction
+Say $v$ is alternating as in $v=v_{m}sin(\omega{t}+\phi)$.
 
-### Waveform
-
-Obtained by plotting instantaneous values of a time-varying quantity against
-time.
-
-### Periodic Waveform
-
-A pattern repeats after $T$ time. Periodic time is $T$ and frequency $f$ is
-$\frac{1}{T}$.
-
-### Alternating Waveform
-
-A waveform that changes in magnitude and direction with time. Is also a periodic
-waveform.
-
-### Sinusoidal Waves
-
-Same as $sin\theta$ vs $\theta$ (in rad). Also called sine waves, and sinusoid.
-
-$y=Asin(\omega{t}-\phi)$
-
-When $\phi$ is: $ $
-
-- $\gt{0}$ - the wave is said to be **leading** by $\phi$
-- $=0$ - the wave is the **reference**
-- $\lt{0}$ - the wave is said to be **lagging** by $\phi$
-
-Sinusoidal voltages are be easily generated using rotating machines.
-
-### Complex Waveforms
-
-Periodic non-sinusoidal waveforms can be split into its fundamental and
-harmonics.
-
-#### Fundamental Waveform
-
-$f_0=f_{\text{complex}}$
-
-#### Harmonics
-
-Sine waves with higher frequencies which is a multiple of $f_0$.$ $
-
-```math
-f_{\text{harmonic}} =
-n\cdot
-f_0\;;\,n\in\mathbb{Z}
-```
-
-Harmonics are grouped into
-
-- **odd harmonic** when $n$ is odd.
-- **even harmonic** when $n$ is even.
-
-## Magnitude of alternating $v$ and $i$
-
-$v$ is alternating as in $v=v_{m}sin(\omega{t}+\phi)$.
-
-### Peak value
+## Peak value
 
 Maximum instantaneous value. $v_m$ in the example. $ $
 
-### Peak-to-peak value
+## Peak-to-peak value
 
 Maximum variation between maximum positive and negative instantaneous values.
 $2v_m$ in the example. $ $
 
 For a sinusoidal waveform, this is twice the peak value.
 
-### Mean value
+## Mean value
 
 ```math
 v_{\text{mean}}=
@@ -90,7 +33,7 @@ Here:
 
 For any symmetric waveform, mean value is zero.
 
-### Average value
+## Average value
 
 Mean value of the rectified version of a waveform.
 
@@ -115,7 +58,7 @@ v_{\text{average}}
 0.637v_m
 ```
 
-### Effective value or rms (root mean square) value
+## Effective value or rms (root mean square) value
 
 ```math
 v_{\text{rms}}=
@@ -151,11 +94,11 @@ rms value is always used to express the magnitude of a time varying quantity.
 
 :::
 
-### Instantaneous power
+## Instantaneous power
 
 $P=vi=iRi=i^2R$
 
-### Form factor
+## Form factor
 
 ```math
 \text{Form factor}
@@ -166,7 +109,7 @@ $P=vi=iRi=i^2R$
 =1.111
 ```
 
-### Peak factor
+## Peak factor
 
 ```math
 \text{Peak factor}

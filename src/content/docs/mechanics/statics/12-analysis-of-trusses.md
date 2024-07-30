@@ -38,17 +38,25 @@ Tensile forces are positive. Compressive forces are negative.
 
 ### Special cases
 
-TODO
+| Case                                                | Description                                                    |
+| --------------------------------------------------- | -------------------------------------------------------------- |
+| ![a](/mechanics/joints-under-special-loading/a.jpg) | $F_{\text{AX}}=F_{\text{XB}}\land F_{\text{DX}}=F_{\text{XC}}$ |
+| ![b](/mechanics/joints-under-special-loading/b.jpg) | $F_{\text{AX}}=F_{\text{XB}}\land F_{\text{DX}}=F_{\text{XC}}$ |
+| ![c](/mechanics/joints-under-special-loading/c.jpg) | $F_{\text{XB}}=0\land F_{\text{DX}}=F_{XC}$                    |
+| ![d](/mechanics/joints-under-special-loading/d.jpg) | $F_{\text{DX}}=F_{\text{XC}}$                                  |
+| ![e](/mechanics/joints-under-special-loading/e.jpg) | $F_{\text{DX}}=F_{\text{XC}}=0$                                |
 
 ## Method of Sections
 
 ### Principle
 
-If a structure is in stable equilibrium, a section of the structure must also be
-in stable equilibrium.
+Since the truss is in equilibrium, each part of it must be in equilibrium in
+stable equilibrium.
 
 ### Method
 
 - Decide on which member's internal force must be calculated.
-- Break **3 or less** members including the target member.
-- Use equilibrium of RHS or LHS section to find the internal forces.
+- Cut the truss **3 or less** members including the target member.
+- Internal forces in cut members become external forces. Can be represented as
+  tensile forces.
+- Use equilibrium equations for RHS or LHS section to find the internal forces.
