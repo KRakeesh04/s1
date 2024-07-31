@@ -14,15 +14,18 @@ slug: dimensions-and-units
 
 ## Electrical Fundamentals
 
-| Property    | Dimension                  | Units        |
-| ----------- | -------------------------- | ------------ |
-| Charge      | $ IT $                     | $ C $        |
-| Current     | $ I $                      | $ A $        |
-| Voltage     | $ ML^{2}T^{-3}I^{-1} $     | $ V $        |
-| Resistivity | $ ML^{3}T^{-3}I^{-2} $     | $ \Omega m $ |
-| Resistance  | $ ML^{2}T^{-3}I^{-2} $     | $ \Omega $   |
-| Capacitance | $ M^{-1}L^{-2}T^{4}I^{2} $ | $ F $        |
-| Inductance  | $ ML^{2}T^{-2}I^{-2} $     | $ H $        |
+| Property        | Dimension                  | Units                         |
+| --------------- | -------------------------- | ----------------------------- |
+| Charge          | $ IT $                     | $ C $                         |
+| Current         | $ I $                      | $ A $                         |
+| Voltage         | $ ML^{2}T^{-3}I^{-1} $     | $ V $                         |
+| Resistivity     | $ ML^{3}T^{-3}I^{-2} $     | $ \Omega m $                  |
+| Resistance      | $ ML^{2}T^{-3}I^{-2} $     | $ \Omega $                    |
+| Conductivity    | $ M^{-1}L^{-3}T^3I^2 $     | $ Sm^{-1}, \Omega^{-1}m^{-1}$ |
+| Capacitance     | $ M^{-1}L^{-2}T^{4}I^{2} $ | $ F $                         |
+| Inductance      | $ ML^{2}T^{-2}I^{-2} $     | $ H $                         |
+| Current Density | $ IL^{-1} $                | $Cm^{-1}s^{-1}$               |
+| Electric Field  | $ MLT^{-3}I^{-1} $         | $NC^{-1}$                     |
 
 ### Conversions
 
@@ -69,13 +72,14 @@ slug: dimensions-and-units
 
 ## Properties of Materials
 
-| Property        | Dimension         | Units    |
-| --------------- | ----------------- | -------- |
-| Planar density  | $L^{-2}$          | $m^{-2}$ |
-| Stress          | $ ML^{-1}T^{-2} $ | $ Pa $   |
-| Strain          | -                 | -        |
-| Yield strength  | $ ML^{-1}T^{-2} $ | $ Pa $   |
-| Young's modulus | $ ML^{-1}T^{-2} $ | $ Pa $   |
-| Secant modulus  | $ ML^{-1}T^{-2} $ | $ Pa $   |
-| Tangent modulus | $ ML^{-1}T^{-2} $ | $ Pa $   |
-| Poisson's ratio | -                 | -        |
+| Property         | Dimension         | Units               |
+| ---------------- | ----------------- | ------------------- |
+| Planar density   | $L^{-2}$          | $m^{-2}$            |
+| Stress           | $ ML^{-1}T^{-2} $ | $ Pa $              |
+| Strain           | -                 | -                   |
+| Yield strength   | $ ML^{-1}T^{-2} $ | $ Pa $              |
+| Young's modulus  | $ ML^{-1}T^{-2} $ | $ Pa $              |
+| Secant modulus   | $ ML^{-1}T^{-2} $ | $ Pa $              |
+| Tangent modulus  | $ ML^{-1}T^{-2} $ | $ Pa $              |
+| Poisson's ratio  | -                 | -                   |
+| Carrier Mobility | $ M^{-1}T^{2}I^1$ | $m^{2}V^{-1}s^{-1}$ |

@@ -161,6 +161,12 @@ export default defineConfig({
 								directory: "properties-of-materials/mechanical-properties",
 							},
 						},
+						{
+							label: "Electrical Properties",
+							autogenerate: {
+								directory: "properties-of-materials/electrical-properties",
+							},
+						},
 					],
 				},
 				{
