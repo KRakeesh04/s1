@@ -71,7 +71,7 @@ trusses are safer)
 
 ### Unstable truss
 
-When the shape cannot be altered, the structure is .
+When the shape cannot be altered, the truss is called a mechanism.
 
 ### Necessary condition for a 2D simple (closed) truss
 
