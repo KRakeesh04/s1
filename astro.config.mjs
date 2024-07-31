@@ -121,6 +121,12 @@ export default defineConfig({
 								directory: "maths/ode",
 							},
 						},
+						{
+							label: "Riemann Integration",
+							autogenerate: {
+								directory: "maths/riemann-integration",
+							},
+						},
 					],
 				},
 				{
