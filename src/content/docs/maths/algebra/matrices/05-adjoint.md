@@ -8,7 +8,7 @@ sidebar:
 Suppose $A=(a_{ij})_{n\times{n}}$. $ $
 
 ```math
-Adj A = (A_{ij})_{n\times{n}}^T
+\text{adj}A = (A_{ij})_{n\times{n}}^T
 ```
 
 Where $A_{ij}$ is the

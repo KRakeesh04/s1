@@ -18,7 +18,16 @@ The general solution of the equation is:
 y_g=c_1y_1 + c_2y_2
 ```
 
-Now replace $c_1,c_2$ with $u(x),v(x)$ which must be found.
+Now replace $c_1,c_2$ with $u(x),v(x)$ and we get $y_p=uy_1 + vy_2$ which can be
+found using the method of variation of parameters.
+
+```math
+u=-\int{\frac{y_2f}{W(x)}\,\text{d}x}
+\;\land\;
+v=\int{\frac{y_1f}{W(x)}\,\text{d}x}
+```
+
+## Proof
 
 ```math
 y_p=uy_1 + vy_2
