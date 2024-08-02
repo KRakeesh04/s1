@@ -56,4 +56,4 @@ deformation is confined to this neck.
 
 ## Fracture
 
-Fracture occurs at the neck. Fracture surface gives cup & cone appearance.
+Fracture occurs at the neck.
