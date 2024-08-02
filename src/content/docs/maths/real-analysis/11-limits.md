@@ -16,13 +16,6 @@ $\lim_\limits{x\to{a}}{f(x)}=L$ **iff**: $ $
 
 Defining $\delta$ in terms of a given $\epsilon$ is enough to prove a limit.
 
-:::caution
-
-Below section might be wrong. This warning will be removed once confirmed to be
-true.
-
-:::
-
 ## One sided limits
 
 $\lim_\limits{x\to{a^{+}}}{f(x)}=L$ **iff**: $ $
@@ -49,7 +42,7 @@ $\lim_\limits{x\to{a}}{f(x)}=L^{+}$ **iff**: $ $
 \forall{\epsilon>0}\;
 \exists{\delta>0}\;
 \forall{x}\;
-(0<\lvert{x-a}\rvert<\delta\implies{0<f(x)-L<\epsilon})
+(0<\lvert{x-a}\rvert<\delta\implies{0\le f(x)-L<\epsilon})
 ```
 
 $\lim_\limits{x\to{a}}{f(x)}=L^{-}$ **iff**: $ $
@@ -58,7 +51,7 @@ $\lim_\limits{x\to{a}}{f(x)}=L^{-}$ **iff**: $ $
 \forall{\epsilon>0}\;
 \exists{\delta>0}\;
 \forall{x}\;
-(0<\lvert{x-a}\rvert<\delta\implies{-\epsilon\lt f(x)-L\lt 0})
+(0<\lvert{x-a}\rvert<\delta\implies{-\epsilon\lt f(x)-L\le 0})
 ```
 
 ## Limits including infinite
