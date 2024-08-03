@@ -22,7 +22,7 @@
 	--sl-color-gray-4: #58575e;
 	--sl-color-gray-5: #38373e;
 	--sl-color-gray-6: #27262c;
-	--sl-color-black: #18181b;
+	--sl-color-black: #181818;
 
 	&[data-theme='light'] {
 		--sl-color-accent-low: #c4d7ff;
@@ -113,4 +113,7 @@ li .MathJax {
 }
 .starlight-aside .MathJax {
 	@apply text-xl;
+}
+strong {
+	color: #ff2f87;
 }

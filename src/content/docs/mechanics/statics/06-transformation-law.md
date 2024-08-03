@@ -7,7 +7,11 @@ sidebar:
 
 The 2 sets of axes must share the origin.
 
+:::note
+
 Don't have to memorize this. Will be given on exams, if required.
+
+:::
 
 ![Transformation law](/mechanics/transformation-law.svg)
 
