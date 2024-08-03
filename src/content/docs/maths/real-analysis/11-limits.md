@@ -78,16 +78,16 @@ $\lim_\limits{x\to a}{f(x)}=\infty$ **iff**: $ $
 
 ```math
 \forall{M\gt 0}\;
-\exists{N>0}\;
+\exists{\delta>0}\;
 \forall{x}\;
-(x\gt N\implies{f(x)\gt M})
+(0<\lvert{x-a}\rvert<\delta\implies{f(x)\gt M})
 ```
 
 $\lim_\limits{x\to a}{f(x)}=-\infty$ **iff**: $ $
 
 ```math
 \forall{M\gt 0}\;
-\exists{N>0}\;
+\exists{\delta>0}\;
 \forall{x}\;
-(x\lt-N\implies{f(x)\lt-M})
+(0<\lvert{x-a}\rvert<\delta\implies{f(x)\lt-M})
 ```

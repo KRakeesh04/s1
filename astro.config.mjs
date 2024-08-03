@@ -64,10 +64,6 @@ export default defineConfig({
 					link: "/",
 				},
 				{
-					label: "Thinkpad",
-					link: "/thinkpad",
-				},
-				{
 					label: "Dimensions & Units",
 					link: "/dimensions-and-units",
 				},
