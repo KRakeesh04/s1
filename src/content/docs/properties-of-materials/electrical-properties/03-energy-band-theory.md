@@ -44,4 +44,17 @@ small. In semiconductors and insulators, this energy is high.
 
 ## Fermi-Dirac Distribution
 
-TODO
+In a system which is in thermodynamic equilibrium, the probability of finding an
+electron in a single energy state $E_i$ at temperature $T$ is given by the
+Fermi–Dirac (F– D) distribution.
+
+```math
+f(E_i)=\frac{1}{e^{\frac{E_i-E_f}{K_BT}}+1}
+```
+
+Here:
+
+- $E_f$ - Fermi level
+- $E_i$ - Energy of the $i$th energy state
+- $K_B$ - Boltzmann constant
+- $T$ - Absolute temperature

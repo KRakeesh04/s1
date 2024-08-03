@@ -71,6 +71,8 @@ Denoted by $\mu$. $ $
 
 ```math
 \mu=\frac{\overline{\nu}}{E}
+\;\;
+\text{and}
+\;\;
+\sigma=nq\mu
 ```
-
-$\sigma=nq\mu$
