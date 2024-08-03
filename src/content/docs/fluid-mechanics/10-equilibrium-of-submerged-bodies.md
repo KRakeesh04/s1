@@ -2,7 +2,7 @@
 title: Equilibrium of Submerged Bodies
 slug: fluid-mechanics/equilibrium-of-submerged-bodies
 sidebar:
-  order: 9
+  order: 10
 ---
 
 Two types.

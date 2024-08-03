@@ -22,7 +22,30 @@ only for hydrostatic pressure.
 
 #### Proof
 
-![Proof of Pascal's law](/fluids/pascal-law-proof.png)
+Consider the fluid element shown, containing the point $A$. $ $
+
+![Proof of Pascal's law](/fluids/pascal-law-proof.jpg)
+
+From the image:
+$\sin{\theta}=\frac{\Delta{z}}{\Delta{s}}\;\land\;\cos{\theta}=\frac{\Delta{x}}{\Delta{s}}$
+$ $
+
+For equilibrium:
+
+```math
+P_x(\Delta{y}\Delta{z})-P_s(\Delta{y}\Delta{s})\sin{\theta}=0
+\implies
+P_x=P_s
+```
+
+```math
+P_z(\Delta{x}\Delta{y})-P_s(\Delta{y}\Delta{s})\cos{\theta}-\frac{1}{2}\Delta{x}\Delta{y}\Delta{z}\rho g=0
+\implies
+P_z=P_s+\frac{1}{2}\Delta{z}\rho g
+```
+
+As all $\Delta{x},\Delta{y},\Delta{z}$ approaches $0$: $P_z=P_s$. Therefore
+$P_x=P_z=P_s$
 
 ### Variation along directions
 
