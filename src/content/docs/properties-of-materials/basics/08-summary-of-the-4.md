@@ -5,21 +5,27 @@ sidebar:
   order: 8
 ---
 
-|                     | sc                  | bcc                       | fcc                                   | hcp                                      |
-| ------------------- | ------------------- | ------------------------- | ------------------------------------- | ---------------------------------------- |
-| Unit cell           | TODO                | TODO                      | TODO                                  | ![hcp](/props/hcp.svg)                   |
-| Constants           | $ a $               | $ a $                     | $ a $                                 | $ a, c $ (where $ c > a $)               |
-| With atom radius    | $ a=2r $            | $ a=\frac{4}{\sqrt{3}}r $ | $ a=\frac{4}{\sqrt{2}}r $             | $ a = 2r ; c=\sqrt{\frac{8}{3}}a $       |
-| Volume              | $ a^3 $             | $ a^3 $                   | $ a^3 $                               | $ \frac{3}{2} \sqrt{3} a^2c $            |
-| Atoms per unit cell | 1                   | 2                         | 4                                     | 6                                        |
-| Composition         | $8\cdot\frac{1}{8}$ | $8\cdot\frac{1}{8}+1$     | $8\cdot\frac{1}{8}+6\cdot\frac{1}{2}$ | $3+12\cdot\frac{1}{6}+2\cdot\frac{1}{2}$ |
-| Coordination number | 6                   | 8                         | 12                                    | 12                                       |
-| APF                 | 52.36%              | 68%                       | 74%                                   | 74%                                      |
-| Examples            | Po                  | Fe, Cr, W                 | Al, Cu, Ni                            | Mg, Zn                                   |
+|                     | sc                   | bcc                       | fcc                                   | hcp                                      |
+| ------------------- | -------------------- | ------------------------- | ------------------------------------- | ---------------------------------------- |
+| Unit cell           | ![sc](/props/sc.svg) | ![bcc](/props/bcc.svg)    | ![fcc](/props/fcc.svg)                | ![hcp](/props/hcp.svg)                   |
+| Constants           | $ a $                | $ a $                     | $ a $                                 | $ a, c $ (where $ c > a $)               |
+| With atom radius    | $ a=2r $             | $ a=\frac{4}{\sqrt{3}}r $ | $ a=\frac{4}{\sqrt{2}}r $             | $ a = 2r ; c=\sqrt{\frac{8}{3}}a $       |
+| Volume              | $ a^3 $              | $ a^3 $                   | $ a^3 $                               | $ \frac{3}{2} \sqrt{3} a^2c $            |
+| Atoms per unit cell | 1                    | 2                         | 4                                     | 6                                        |
+| Composition         | $8\cdot\frac{1}{8}$  | $8\cdot\frac{1}{8}+1$     | $8\cdot\frac{1}{8}+6\cdot\frac{1}{2}$ | $3+12\cdot\frac{1}{6}+2\cdot\frac{1}{2}$ |
+| Coordination number | 6                    | 8                         | 12                                    | 12                                       |
+| APF                 | 52.36%               | 68%                       | 74%                                   | 74%                                      |
+| Examples            | Po                   | Fe, Cr, W                 | Al, Cu, Ni                            | Mg, Zn                                   |
 
 The unit cell images are taken from Wikipedia.
 
-- By
+- Simple cubic:
+  [Original file @ Wikipedia](https://en.m.wikipedia.org/wiki/File:Lattic_simple_cubic.svg)
+- Body-centered cubic:
+  [Original file](https://en.m.wikipedia.org/wiki/File:Lattice_body_centered_cubic.svg)
+- Face-centered cubic:
+  [Original file](https://en.m.wikipedia.org/wiki/File:Lattice_face_centered_cubic.svg)
+- Hexagonal close-packed: By
   <a href="//commons.wikimedia.org/wiki/File:Hexagonal_close_packed.png" title="File:Hexagonal close packed.png">Original:
   </a>
   <a href="//commons.wikimedia.org/wiki/User_talk:Dornelf~commonswiki" title="User talk:Dornelf~commonswiki">Dornelf</a> Vector:
