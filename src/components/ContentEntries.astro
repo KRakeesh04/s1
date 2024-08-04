@@ -1,0 +1,40 @@
+---
+import type {Props as StarlightProps} from "@astrojs/starlight/props"
+
+interface Props {
+	entries: StarlightProps["sidebar"]
+	depth?: number;
+}
+const {entries, depth = 0} = Astro.props;
+---
+
+{entries.length === 0 ? null : entries.map(item => {
+	if (item.type === "link") {
+		if (depth !== 0) {
+			return <a>
+				<strong class="text-[var(--sl-color-white)] !font-normal">
+				{item.label}
+				</strong>
+				</a>
+		}
+	}
+	else if (item.type === "group") {
+		return <section>
+			{() => {
+		if (depth === 0) {
+			return <h3>{item.label}</h3>
+		} else if (depth === 1) {
+			return <h4>{item.label}</h4>
+		} else if (depth === 2) {
+			return <h5>{item.label}</h5>
+		} else if (depth === 3) {
+			return <h6>{item.label}</h6>
+		}
+			}
+			}
+			<div class="flex gap-2 flex-wrap">
+			<Astro.self entries={item.entries} depth={depth + 1} />
+			</div>
+			</section>
+	}
+})}

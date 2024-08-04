@@ -1,0 +1,37 @@
+---
+import Default from "@astrojs/starlight/components/MarkdownContent.astro";
+import ContentEntries from "./ContentEntries.astro";
+
+const isHomepage = Astro.props.slug === "";
+---
+
+{isHomepage ?
+	<div class="sl-markdown-content">
+		<p>
+		It's a website of <a href="https://sahithyan.dev" class="text-[var(--sl-color-accent)]">my</a> short notes of my 1st semester of
+		Engineering at University of Moratuwa.
+		</p>
+		<h2 id="why">
+			Why?
+		</h2>
+		<ul>
+			<li>Indexable. Exercise books are not. Searching in exercise books takes more time
+			than imaginable.</li>
+			<li>Accessible from everywhere.</li>
+			<li>Helpful to everyone.</li>
+		</ul>
+		<p>
+			All of the content in this website is <strong>INTENDED FOR PERSONAL USE</strong> and shared
+			under <a href="/license" class="text-[var(--sl-color-accent)]">CC BY-NC-ND 4.0</a>.
+		</p>
+<div>
+	<h2 class="mb-2">Content Included</h2>
+	<div id="content-included">
+		<ContentEntries entries={Astro.props.sidebar} />
+	</div>
+</div>
+		</div>
+		:
+<Default {...Astro.props}>
+	<slot />
+</Default>}

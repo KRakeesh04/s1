@@ -117,3 +117,8 @@ li .MathJax {
 strong {
 	color: #ff2f87;
 }
+#content-included {
+	a {
+		@apply border no-underline px-3.5 py-1 text-[var(--sl-color-white)] hover:bg-[var(--sl-color-accent-low)] hover:text-[] cursor-pointer rounded-lg transition-colors;
+	}
+}
