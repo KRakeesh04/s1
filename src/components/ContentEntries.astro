@@ -11,7 +11,8 @@ const { entries, depth = 0 } = Astro.props;
 {
 	entries.length === 0
 		? null
-		: entries.map((item) => {
+		: <>
+		{entries.map((item) => {
 				if (item.type === "link") {
 					if (depth !== 0) {
 						return (
@@ -27,7 +28,6 @@ const { entries, depth = 0 } = Astro.props;
 							{() => {
 								if (depth === 0) {
 									return <h3>{item.label}</h3>;
-									<h3>{item.label}</h3>;
 								} else if (depth === 1) {
 									return <h4>{item.label}</h4>;
 								} else if (depth === 2) {
@@ -37,10 +37,18 @@ const { entries, depth = 0 } = Astro.props;
 								}
 							}}
 							<div class="links-group">
-								<Astro.self entries={item.entries} depth={depth + 1} />{" "}
-							</div>{" "}
+								<Astro.self entries={item.entries} depth={depth + 1} />
+							</div>
 						</section>
 					);
 				}
-			})
+			})}
+		{
+			depth ===0 ?
+				<aside
+					class="starlight-aside starlight-aside--note"
+					id="total-links-count"></aside>
+				: null
+		}
+	</>
 }
