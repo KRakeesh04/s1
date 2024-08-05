@@ -70,12 +70,14 @@ export default defineConfig({
 				},
 				{
 					label: "Electrical Fundamentals",
+					collapsed: true,
 					autogenerate: {
 						directory: "electrical-fundamentals",
 					},
 				},
 				{
 					label: "Fluid Mechanics",
+					collapsed: true,
 					autogenerate: {
 						directory: "fluid-mechanics",
 					},
@@ -88,18 +90,21 @@ export default defineConfig({
 							items: [
 								{
 									label: "Vectors",
+									collapsed: true,
 									autogenerate: {
 										directory: "maths/algebra/vectors",
 									},
 								},
 								{
 									label: "Matrices",
+									collapsed: true,
 									autogenerate: {
 										directory: "maths/algebra/matrices",
 									},
 								},
 								{
 									label: "Complex Numbers",
+									collapsed: true,
 									autogenerate: {
 										directory: "maths/algebra/complex-numbers",
 									},
@@ -108,17 +113,20 @@ export default defineConfig({
 						},
 						{
 							label: "Real Analysis",
+							collapsed: true,
 							autogenerate: {
 								directory: "maths/real-analysis",
 							},
 						},
 						{
+							collapsed: true,
 							label: "ODE",
 							autogenerate: {
 								directory: "maths/ode",
 							},
 						},
 						{
+							collapsed: true,
 							label: "Riemann Integration",
 							autogenerate: {
 								directory: "maths/riemann-integration",
@@ -131,12 +139,14 @@ export default defineConfig({
 					items: [
 						{
 							label: "Statics",
+							collapsed: true,
 							autogenerate: {
 								directory: "mechanics/statics",
 							},
 						},
 						{
 							label: "Dynamics",
+							collapsed: true,
 							autogenerate: {
 								directory: "mechanics/dynamics",
 							},
@@ -145,6 +155,7 @@ export default defineConfig({
 				},
 				{
 					label: "Programming Fundamentals",
+					collapsed: true,
 					autogenerate: {
 						directory: "programming-fundamentals",
 					},
@@ -154,18 +165,21 @@ export default defineConfig({
 					items: [
 						{
 							label: "Basics",
+							collapsed: true,
 							autogenerate: {
 								directory: "properties-of-materials/basics",
 							},
 						},
 						{
 							label: "Mechanical Properties",
+							collapsed: true,
 							autogenerate: {
 								directory: "properties-of-materials/mechanical-properties",
 							},
 						},
 						{
 							label: "Electrical Properties",
+							collapsed: true,
 							autogenerate: {
 								directory: "properties-of-materials/electrical-properties",
 							},
