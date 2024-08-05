@@ -1,11 +1,11 @@
 ---
-import type {Props as StarlightProps} from "@astrojs/starlight/props"
+import type { Props as StarlightProps } from "@astrojs/starlight/props";
 
 interface Props {
-	entries: StarlightProps["sidebar"]
+	entries: StarlightProps["sidebar"];
 	depth?: number;
 }
-const {entries, depth = 0} = Astro.props;
+const { entries, depth = 0 } = Astro.props;
 ---
 
 {entries.length === 0 ? null : entries.map(item => { if (item.type === "link") {
