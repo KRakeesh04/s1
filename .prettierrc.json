@@ -1,6 +1,5 @@
 {
 	"useTabs": true,
 	"printWidth": 80,
-	"proseWrap": "always",
-	"parser": "markdown"
+	"proseWrap": "always"
 }

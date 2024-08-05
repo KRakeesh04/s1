@@ -119,6 +119,23 @@ strong {
 }
 #content-included {
 	a {
-		@apply border no-underline px-3.5 py-1 text-[var(--sl-color-white)] hover:bg-[var(--sl-color-accent-low)] hover:text-[] cursor-pointer rounded-lg transition-colors;
+		@apply border border-gray-200 no-underline px-3.5 py-1 text-[var(--sl-color-white)] hover:bg-[var(--sl-color-accent-low)] dark:hover:bg-[var(--sl-color-accent-high)] hover:text-black cursor-pointer rounded-lg transition-colors inline-flex items-center gap-1;
+	}
+	section {
+		@apply max-w-[100ch];
+		counter-reset: link;
+	}
+	.links-group {
+		@apply flex gap-3 flex-wrap;
+		a {
+			counter-increment: link;
+			&::before {
+				@apply text-xs;
+				content: "[" counter(link, decimal-leading-zero) "]";
+			}
+			strong {
+				@apply text-inherit font-medium;
+			}
+		}
 	}
 }
