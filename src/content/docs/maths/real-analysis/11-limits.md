@@ -91,3 +91,13 @@ $\lim_\limits{x\to a}{f(x)}=-\infty$ **iff**: $ $
 \forall{x}\;
 (0<\lvert{x-a}\rvert<\delta\implies{f(x)\lt-M})
 ```
+
+## Indeterminate forms
+
+- $\frac{0}{0}$
+- $\frac{\infty}{\infty}$
+- $\infty\cdot0$
+- $\infty-\infty$
+- $\infty^{0}$
+- $0^0$
+- $1^\infty$
