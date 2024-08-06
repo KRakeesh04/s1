@@ -1,0 +1,145 @@
+---
+title: Relative Equilibrium
+slug: fluid-mechanics/relative-equilibrium
+sidebar:
+  order: 11
+---
+
+When a fluid-contained vessel moves with a constant acceleration it will be
+transmitted to the fluid. The fluid particles will move to a new position and
+remain in such position in equilibrium, relative to the vessel. Such equilibrium
+is known as the Relative Equilibrium of a fluid.
+
+## Relative Equilibrium under linear acceleration
+
+No flow of the fluid (relative to the fluid particles). No shear forces, and all
+forces are normal to the surface they act on. Hence, fluid statics equations can
+be used in relative equilibrium.
+
+### Variation of pressure
+
+Let $P=f(x,y,z)$. $ $
+
+```math
+\text{d}p
+=
+\frac{\partial{p}}{\partial{x}}\text{d}x
++
+\frac{\partial{p}}{\partial{y}}\text{d}y
++
+\frac{\partial{p}}{\partial{z}}\text{d}z
+```
+
+Consider the fluid element containing point $A$ which is under an acceleration
+of $a_x,a_y,a_z$ in the $x,y,z$ directions.
+
+![Variation of pressure proof](/fluids/rel-eq-variation-of-pressure.jpg)
+
+By applying Newton's second law of motion in all 3 directions:
+
+$\frac{\partial{p}}{\partial{x}}=-\rho a_x$
+
+$\frac{\partial{p}}{\partial{y}}=-\rho a_y$
+
+$\frac{\partial{p}}{\partial{z}}=-\rho(a_z+g)$
+
+Substituting all the terms:
+
+```math
+\text{d}p
+=
+-\rho a_x\text{d}x
+-\rho a_y\text{d}y
+-\rho (a_z+g)\text{d}z
+```
+
+Integrating both sides:
+
+```math
+P=
+-\rho a_x x
+-\rho a_y y
+-\rho (a_z+g) z
++c_1
+```
+
+### Shape of free surface
+
+On the free surface $P=0$ because gauge pressure is considered. $ $
+
+```math
+\rho a_x x
++\rho a_y y
++\rho (a_z+g) z
+=c_1
+```
+
+Free surface is a plane surface in 3D surface.
+
+### Inclination with horizontal plane
+
+Let a vessel be in acceleration in $a_x,a_z$ in $x,z$ directions. $a_y=0$.
+
+If $\theta_x,\theta_y$ are the angles in $x,y$ directions.
+
+```math
+\tan{(\theta_x)}=
+\frac{\text{d}z}{\text{d}x}
+\;\land\;
+\tan{(\theta_y)}=
+\frac{\text{d}z}{\text{d}y}
+```
+
+Differentiating the equation of the free surface with respect to $x$. $ $
+
+```math
+\rho a_x
++\rho (a_z+g) \frac{\text{d}z}{\text{d}x}
+=0
+\implies
+\tan{(\theta_x)}=\frac{-a_x}{a_z+g}
+```
+
+```math
+\rho a_y
++\rho (a_z+g) \frac{\text{d}z}{\text{d}y}
+=0
+\implies
+\tan{(\theta_y)}=\frac{-a_y}{a_z+g}
+```
+
+## Relative Equilibrium Types
+
+### Under Horizontal Acceleration
+
+$a_x\neq 0\;\land\;a_y=a_z=0$
+
+#### Equation of the free surface
+
+```math
+\rho a_x x
++\rho g z
+=c_1
+```
+
+Is a straight line in $x, z$ axes. The straight line is inclined by $\theta_x$:
+
+```math
+\tan{(\theta_x)}=\frac{-a_x}{g}
+```
+
+#### Vertical Pressure Distribution
+
+TODO
+
+### Under Vertical Acceleration
+
+TODO
+
+#### Equation of the free surface
+
+TODO
+
+#### Vertical Pressure Distribution
+
+TODO
