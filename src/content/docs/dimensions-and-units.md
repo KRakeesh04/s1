@@ -26,6 +26,9 @@ slug: dimensions-and-units
 | Inductance      | $ ML^{2}T^{-2}I^{-2} $     | $ H $                         |
 | Current Density | $ IL^{-1} $                | $Cm^{-1}s^{-1}$               |
 | Electric Field  | $ MLT^{-3}I^{-1} $         | $NC^{-1}$                     |
+| Impedance       | $ ML^{2}T^{-3}I^{-2} $     | $ \Omega $                    |
+| Admittance      | $ M^{-1}L^{-2}T^3I^2 $     | $ S, \Omega^{-1}$             |
+| Reactance       | $ ML^{2}T^{-3}I^{-2} $     | $ \Omega $                    |
 
 ### Conversions
 
