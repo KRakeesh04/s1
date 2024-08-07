@@ -37,9 +37,7 @@ of $a_x,a_y,a_z$ in the $x,y,z$ directions.
 
 By applying Newton's second law of motion in all 3 directions:
 
-$\frac{\partial{p}}{\partial{x}}=-\rho a_x$
-
-$\frac{\partial{p}}{\partial{y}}=-\rho a_y$
+$\frac{\partial{p}}{\partial{x}}=-\rho a_x\;\land\;\frac{\partial{p}}{\partial{y}}=-\rho a_y$
 
 $\frac{\partial{p}}{\partial{z}}=-\rho(a_z+g)$
 
@@ -130,16 +128,34 @@ Is a straight line in $x, z$ axes. The straight line is inclined by $\theta_x$:
 
 #### Vertical Pressure Distribution
 
-TODO
+Same as fluid in absolute equilibrium. Varies only in $z$ direction. Increases
+with height.
 
 ### Under Vertical Acceleration
 
-TODO
+$a_z\neq 0\;\land\;a_x=a_y=0$
 
 #### Equation of the free surface
 
-TODO
+```math
+\rho (a_z+g) z=c_1
+```
+
+Horizontal straight line.
 
 #### Vertical Pressure Distribution
 
-TODO
+![vertical-acceleration-vertical-pressure-variation](/fluids/vertical-acceleration-vertical-pressure-variation.jpg)
+
+$P_1=-\rho(a_z+g)z_1+c_1$
+
+$P_2=-\rho(a_z+g)z_2+c_1$
+
+$P_2-P_1=-\rho(a_z+g)(z_2-z_1)$
+
+$P_2=h\rho(a_z+g)$
+
+Here:
+
+- $h\rho g$ - hydrostatic pressure
+- $h\rho a_z$ - due to $a_z$
