@@ -95,7 +95,7 @@ Take $\overline{I}$ as the reference. We get: $ $
 \overline{I}(R+j\omega L)
 ```
 
-From here $overline{Z}$ can be written (in cartesian or polar form):
+From here $\overline{Z}$ can be written (in cartesian or polar form): $ $
 
 ```math
 \overline{Z}=R+j\omega L=\lvert \overline{Z}\rvert\angle\phi

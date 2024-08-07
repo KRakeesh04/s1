@@ -22,7 +22,7 @@
 	--sl-color-gray-4: #58575e;
 	--sl-color-gray-5: #38373e;
 	--sl-color-gray-6: #27262c;
-	--sl-color-black: #181818;
+	--sl-color-black: #2c2c32;
 
 	&[data-theme='light'] {
 		--sl-color-accent-low: #c4d7ff;
