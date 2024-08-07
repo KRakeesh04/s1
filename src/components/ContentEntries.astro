@@ -12,6 +12,16 @@ const { entries, depth = 0 } = Astro.props;
 	entries.length === 0
 		? null
 		: <>
+		{depth===0?
+			<section class="links-group">
+
+		<a href={"/dimensions-and-units"}>
+			<strong>Dimensions & Units</strong>
+		</a>
+			</section>
+
+				: null
+		}
 		{entries.map((item) => {
 				if (item.type === "link") {
 					if (depth !== 0) {
@@ -45,9 +55,9 @@ const { entries, depth = 0 } = Astro.props;
 			})}
 		{
 			depth ===0 ?
-				<aside
-					class="starlight-aside starlight-aside--note"
-					id="total-links-count"></aside>
+				<p
+					class="absolute top-0"
+					id="total-links-count"></p>
 				: null
 		}
 	</>
