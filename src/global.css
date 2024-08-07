@@ -23,6 +23,7 @@
 	--sl-color-gray-5: #38373e;
 	--sl-color-gray-6: #27262c;
 	--sl-color-black: #2c2c32;
+	--sl-color-blue-low: hsl(var(--sl-hue-blue), 54%, 30%);
 
 	&[data-theme='light'] {
 		--sl-color-accent-low: #c4d7ff;
@@ -144,6 +145,6 @@ strong {
 		content: "Note: ";
 	}
 	#total-links-count::after {
-		content: "There are a total of " counter(total-links) " pages";
+		content: "There are a total of " counter(total-links) " pages.";
 	}
 }
