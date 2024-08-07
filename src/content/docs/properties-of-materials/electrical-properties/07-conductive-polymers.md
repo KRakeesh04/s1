@@ -5,7 +5,7 @@ sidebar:
   order: 7
 ---
 
-A class of polymers that conduct electricity aka. intrinsically conducting
+A class of polymers that conduct electricity. aka. intrinsically conducting
 polymers.
 
 Unlike traditional polymers, conductive polymers have a conjugated system of

@@ -7,9 +7,9 @@ sidebar:
 
 ## Piezoelectric Materials
 
-When a piece of piezoelectric material is mechanically deformed, e.g.
-compressed, a current will flow and charge its faces. and vice versa, it will be
-deformed when exerted to an electrical field.
+When a piece of piezoelectric material is mechanically deformed, a current will
+flow and charge its faces. and vice versa, it will be deformed when exerted to
+an electrical field.
 
 ```math
 Q=d\times F
