@@ -58,3 +58,13 @@ Here:
 - $E_i$ - Energy of the $i$th energy state
 - $K_B$ - Boltzmann constant
 - $T$ - Absolute temperature
+
+### At T=0
+
+- $E>E_f \implies f(E)=0$: No electrons above fermi level
+- $E<E_f \implies f(E)=1$: All electrons are below fermi level
+
+### At T>0
+
+There is more chance that the electrons can be available in conduction band. The
+chance increases with increasing temperature.
