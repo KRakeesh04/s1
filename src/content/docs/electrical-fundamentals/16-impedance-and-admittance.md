@@ -1,6 +1,6 @@
 ---
 title: Impedance & Admittance
-slug: electrical-fundamentals/impedance
+slug: electrical-fundamentals/impedance-and-admittance
 sidebar:
   order: 16
 ---
@@ -76,13 +76,25 @@ v=\frac{I_m}{c\omega}
 \sin{(\omega t + (\phi_0 - \frac{\pi}{2}))}
 ```
 
-Reactance of the capacitor is $X_c=-\frac{1}{c\omega}$. $ $
+Reactance of the capacitor (capacitive reactance) is $X_c=\frac{1}{c\omega}$. $
+$
 
 :::note
 
 $v$ lags $i$ by $\frac{\pi}{2}$. No changes in frequency.
 
 :::
+
+:::note
+
+If $v$:
+
+- lags $i$ - circuit is capacitive
+- leads $i$ - circuit is inductive
+
+:::
+
+## For complex circuit elements
 
 ### Real Inductor
 
@@ -99,4 +111,15 @@ From here $\overline{Z}$ can be written (in cartesian or polar form): $ $
 
 ```math
 \overline{Z}=R+j\omega L=\lvert \overline{Z}\rvert\angle\phi
+```
+
+### RLC series circuit
+
+![RLC series circuit](/electrical/rlc-series-circuit.jpg)
+
+Complex impedances are added up to find the total impedance of a series circuit.
+
+```math
+\overline{Z}=
+R+j(\omega L - \frac{1}{\omega C})
 ```
