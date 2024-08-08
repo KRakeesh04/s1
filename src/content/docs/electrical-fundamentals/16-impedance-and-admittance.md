@@ -76,7 +76,8 @@ v=\frac{I_m}{c\omega}
 \sin{(\omega t + (\phi_0 - \frac{\pi}{2}))}
 ```
 
-Reactance of the capacitor (capacitive reactance) is $X_c=\frac{1}{c\omega}$. $
+Reactance of the capacitor (capacitive reactance) is $X_c=-\frac{1}{c\omega}$.
+$
 $
 
 :::note

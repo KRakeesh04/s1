@@ -15,7 +15,10 @@ made to) exhibit an electric dipole structure.
 Electric Dipole Structure is the separation of positive and negative
 electrically charged entities on a molecular or atomic level.
 
-:::note One of the common use cases of dielectric materials is in capacitors.
+:::note
+
+One of the common use cases of dielectric materials is in capacitors.
+
 :::
 
 ## Electric Polarization

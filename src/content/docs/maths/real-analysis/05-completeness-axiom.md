@@ -34,7 +34,7 @@ Let $A$ be a non empty subset of $\mathbb{R}$.
 
 :::note
 
-$\mathbb{Q}$$ doesn't have the completeness property.
+$\mathbb{Q}$ doesn't have the completeness property. $ $
 
 :::
 
@@ -43,6 +43,14 @@ $\mathbb{Q}$$ doesn't have the completeness property.
 - Every non empty subset of $\mathbb{Z}$ which is bounded above has a maximum
 - Every non empty subset of $\mathbb{Z}$ which is bounded below has a minimum
 
-There exists a for all epsilon greater than 0, a < epsilon => a <= 0
+:::note[Important theorems]
 
-For all epsilon There exists a, a < epsilon => a <= 0 (wrong)
+```math
+\exists a\;\forall\epsilon>0,a<\epsilon\implies a\le 0
+```
+
+```math
+\forall\epsilon>0\;\exists a,a<\epsilon\centernot\implies a\le 0
+```
+
+:::
