@@ -119,9 +119,9 @@ strong {
 	color: #ff2f87;
 }
 #content-included {
-	@apply relative pt-14 mt-0;
+	@apply relative pt-14;
 	counter-reset: total-links;
-	a {
+	a:not(#license) {
 		@apply border border-gray-200 no-underline px-3.5 py-1 text-[var(--sl-color-white)] hover:bg-[var(--sl-color-accent-low)] dark:hover:bg-[var(--sl-color-accent-high)] hover:text-black cursor-pointer rounded-lg transition-colors inline-flex items-center gap-1;
 		strong {
 			@apply text-inherit font-medium;
@@ -141,8 +141,8 @@ strong {
 			}
 		}
 	}
-	#total-links-count::after {
-		@apply font-medium;
-		content: "There are a total of " counter(total-links) " pages.";
+	#total-links-count::before {
+		@apply font-bold leading-none;
+		content: counter(total-links) " pages";
 	}
 }
