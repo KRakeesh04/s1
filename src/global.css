@@ -119,7 +119,7 @@ strong {
 	color: #ff2f87;
 }
 #content-included {
-	@apply relative pt-14;
+	@apply relative pt-20 sm:pt-16;
 	counter-reset: total-links;
 	a:not(#license) {
 		@apply border border-gray-200 no-underline px-3.5 py-1 text-[var(--sl-color-white)] hover:bg-[var(--sl-color-accent-low)] dark:hover:bg-[var(--sl-color-accent-high)] hover:text-black cursor-pointer rounded-lg transition-colors inline-flex items-center gap-1;
@@ -141,8 +141,11 @@ strong {
 			}
 		}
 	}
+	p:has(#total-links-count) {
+		@apply leading-snug;
+	}
 	#total-links-count::before {
-		@apply font-bold leading-none;
+		@apply font-bold;
 		content: counter(total-links) " pages";
 	}
 }
