@@ -129,7 +129,7 @@ Is a straight line in $x, z$ axes. The straight line is inclined by $\theta_x$:
 #### Vertical Pressure Distribution
 
 Same as fluid in absolute equilibrium. Varies only in $z$ direction. Increases
-with height.
+with height. $ $
 
 ### Under Vertical Acceleration
 

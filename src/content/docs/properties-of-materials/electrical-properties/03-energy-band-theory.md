@@ -40,7 +40,7 @@ be for electrons in the valence band to transition into the conduction band.
 
 For an electron to become free, it must be excited or promoted into one of the
 empty and available energy states above $E_f$. In metals, this energy is very
-small. In semiconductors and insulators, this energy is high.
+small. In semiconductors and insulators, this energy is high. $ $
 
 ## Fermi-Dirac Distribution
 
