@@ -73,8 +73,9 @@ crank.
 
 ## Non-Grashof's condition
 
-A four bar mechanism has at least one revolving link **if**
-$l_0+l_3 \gt l_1+l_2$. $ $
+A four bar mechanism with the property **if** $l_0+l_3 \gt l_1+l_2$. $ $
 
 Here: $l_0,l_1,l_2,l_3$ are the length of four bars from shortest to longest. $
 $
+
+Three links are in oscillation.
