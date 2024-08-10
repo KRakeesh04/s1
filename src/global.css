@@ -47,8 +47,11 @@
 * {
 	font-variant-ligatures: none;
 }
-p {
+p{
 	@apply text-lg;
+}
+li {
+	@apply text-md;
 }
 p:not(:has(.MathJax:only-of-type)):not(:has(img:only-of-type)) {
 	@apply max-w-prose
