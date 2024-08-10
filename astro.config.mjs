@@ -19,15 +19,7 @@ export default defineConfig({
 			favicon: "/favicon.ico",
 			description:
 				"Short notes of my 1st semester notes. INTENDED FOR PERSONAL USE.",
-			head: [
-				{
-					tag: "meta",
-					attrs: {
-						property: "og:title",
-						content: DEFAULT_TITLE,
-					},
-				},
-			].concat(
+			head:
 				process.env.NODE_ENV === "production"
 					? [
 							{
@@ -44,13 +36,15 @@ export default defineConfig({
 							},
 						]
 					: [],
-			),
 			customCss: ["./src/global.css"],
 			social: {
 				twitter: "https://x.com/sahithyandev",
 			},
 			tableOfContents: {
 				maxHeadingLevel: 4,
+			},
+			editLink: {
+				baseUrl: "https://github.com/sahithyandev/s1/edit/main/",
 			},
 			lastUpdated: true,
 			expressiveCode: false,

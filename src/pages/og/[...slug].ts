@@ -26,11 +26,12 @@ export const { getStaticPaths, GET } = OGImageRoute({
 				title: {
 					color: [0, 0, 0],
 					weight: "ExtraBlack",
-					size: 90,
+					size: 80,
+					lineHeight: 1.2,
 				},
 				description: {
 					color: [0, 0, 0],
-					size: 30,
+					size: 35,
 				},
 			},
 			padding: 90,

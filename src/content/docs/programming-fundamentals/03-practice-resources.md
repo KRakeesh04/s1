@@ -1,9 +1,12 @@
 ---
-title: Programs to Practice
-slug: programming-fundamentals/practice-programs
+title: Practice Resources
+slug: programming-fundamentals/practice-resources
 sidebar:
   order: 3
+description: Small programs and other platforms to practice programming
 ---
+
+## Programs
 
 The programs are listed in no specific order.
 
@@ -44,7 +47,7 @@ The programs are listed in no specific order.
     left-to-right order. Increment the large integer by one and return the
     resulting array of digits. Don't construct a `int` object.
 
-## Platforms to practice
+## Platforms
 
 - Codewars - https://codewars.com (my most preferred one)
 - HackerRank - https://hackerrank.com
