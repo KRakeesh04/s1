@@ -9,13 +9,16 @@ Four bar-shaped members connected to each other in one plane.
 
 Usually:
 
-- 1 fixed link
-- 3 moving links
+- 1 fixed link + 3 moving links
 - 4 pin joints
-- 2 moving pivots
-- 2 fixed pivots
+- 2 moving pivots + 2 fixed pivots
 
 ![Four bar linkage](/mechanics/dynamics/four-bar-linkage.jpg)
+
+- **input link** - usually denoted in the left.
+- **output link** - usually denoted in the right.
+- **coupler** - intermediate link
+- **frame** - fixed link
 
 ## Grashof's law
 
@@ -33,18 +36,21 @@ $
 | Double crank  | Shortest link is the fixed link   |
 | Double rocker | Shortest link is the coupler link |
 
+**crank** means a link that makes a full revolution. **rocker** means a link
+that doesn't make a full revolution.
+
 ### Crank rocker mechanism
 
-Shortest link rotates a full circle. Other link oscillates.
+Shortest link rotates a full revolution. Output link oscillates.
 
 ### Double crank mechanism
 
-Shortest link is fixed. Both links pivoted to the fixed link rotates a full
-circle.
+Shortest link is fixed. Both input and output links rotates a full revolution.
 
 ### Double rocker mechanism
 
-Shortest link make full resolution.
+Shortest link make full resolution. Input and output links makes a full
+revolution.
 
 ## Special cases
 
