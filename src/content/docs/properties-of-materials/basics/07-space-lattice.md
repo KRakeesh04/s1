@@ -47,8 +47,6 @@ Don't have to memorize.
 Bravais showed that only **14** of 28 (7 shapes x 4 variants) are possible in
 real life.
 
-TODO: List the 14 here.
-
 We are only going to study about 4 of them.
 
 - Simple cubic (**sc**)

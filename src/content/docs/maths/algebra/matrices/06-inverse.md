@@ -25,7 +25,3 @@ invertible matrices. $ $
 - $(AB)^{-1}=B^{-1}A^{-1}$
 - $(A^T)^{-1}=(A^{-1})^{T}$
 - $A\,\text{adj}A = \text{adj}A\,A = \lvert{A}\rvert I$
-
-## Elementary transformations
-
-TODO

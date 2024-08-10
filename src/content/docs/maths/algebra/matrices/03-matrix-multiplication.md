@@ -27,5 +27,5 @@ defined. $ $
 
 1. Associative: $A(BC) = (AB)C$
 2. Right distributive over addition: $(A+B)C=AC+BC$
-3. Left distributive over addition: $C(A+B)=CA+CA$
+3. Left distributive over addition: $C(A+B)=CA+CB$
 4. $AI=IA=A$; $I$ is an identity matrix.

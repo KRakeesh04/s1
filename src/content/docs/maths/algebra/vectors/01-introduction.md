@@ -28,7 +28,9 @@ the right hand rule.
 $ a \times b = 0 \implies \lvert a \rvert = 0 \lor \lvert b \rvert = 0 \lor a
 \parallel b $
 
-Cross products between $i$, $j$, $k$ are circular. TODO: include image.
+Cross products between $i$, $j$, $k$ are circular.
+
+![Cross products of i,j,k](/maths/ijk-cross-product.jpg)
 
 :::note
 
