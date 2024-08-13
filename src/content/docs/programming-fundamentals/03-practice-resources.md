@@ -39,9 +39,11 @@ The programs are listed in no specific order.
 11. **word length analysis**: Take a string input from user. Print length of
     each word separated by a space. Try to include the summary using a
     `dictionary`.
-12. **binary addition**: Take in 2 numbers in binary (as strings) and output the
+12. **letter expanding**: A program that converts _b3j8k2_ to _bbbjjjjjjjjkk_.
+    The number can be 1 to 99.
+13. **binary addition**: Take in 2 numbers in binary (as strings) and output the
     sum of both numbers. Try not to use `bin` function.
-13. **big integer addition**: Given _a very large integer_ represented as a
+14. **big integer addition**: Given _a very large integer_ represented as a
     list, where each `digits[i]` is the $i^{\text{th}}$ digit of the integer.
     The digits are ordered from most significant to least significant in
     left-to-right order. Increment the large integer by one and return the
