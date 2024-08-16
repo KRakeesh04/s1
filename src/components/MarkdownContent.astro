@@ -41,9 +41,11 @@ const isHomepage = Astro.props.slug === "";
 				</div>{" "}
 		</div>
 	) : (
-		// @ts-ignore
+		<div  style={`--path: '${"https://s1.sahithyan.dev/".concat(Astro.props.slug)}'`}>
 		<Default {...Astro.props}>
-			<slot />
+
+		<slot />
 		</Default>
+	</div>
 	)
 }
