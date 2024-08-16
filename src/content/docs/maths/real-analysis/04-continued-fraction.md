@@ -13,7 +13,7 @@ sidebar:
 
 ## Finite expansion
 
-Take $ \frac{420}{69} $ for example. IYKYK. $ $
+Take $ \frac{420}{69} $ for example. $ $
 
 $ \frac{420}{69} = 6 + \frac{6}{69} $
 

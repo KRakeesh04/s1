@@ -2,7 +2,7 @@
 title: Completeness Axiom
 slug: maths/real-analysis/completeness-axiom
 sidebar:
-  order: 5
+  order: 6
 ---
 
 Let $A$ be a non empty subset of $\mathbb{R}$.
@@ -20,12 +20,21 @@ Let $A$ be a non empty subset of $\mathbb{R}$.
 - Infimum of $A$ $\inf{A}$, is the largest lower bound of $A$
 - Minimum is a infimum. Infimum is not necessarily a minimum.
 
+## Theorems
+
+Let $A$ be a non empty subset of $\mathbb{R}$.
+
+- Say $u$ is an upper bound of $A$. Then $u= \sup A$ **iff**:  
+  $\forall \epsilon \gt 0\;\exists a \in A;\;a + \epsilon \gt u$
+- Say $l$ is a lower bound of $A$. Then $l= \inf A$ **iff**:  
+  $\forall \epsilon \gt 0\;\exists a \in A;\;a - \epsilon \lt l$
+
 ## Required proofs
 
 - $sup(a,b)=b$
 - $inf(a,b)=a$
 
-## Completeness axioms of $\mathbb{R}$
+## Completeness axioms of real numbers
 
 - Every non empty subset of $\mathbb{R}$ which is bounded above has a supremum
   in $\mathbb{R}$
@@ -38,7 +47,7 @@ $\mathbb{Q}$ doesn't have the completeness property. $ $
 
 :::
 
-## Completeness axioms of $\mathbb{Z}$
+## Completeness axioms of integers
 
 - Every non empty subset of $\mathbb{Z}$ which is bounded above has a maximum
 - Every non empty subset of $\mathbb{Z}$ which is bounded below has a minimum

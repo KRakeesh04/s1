@@ -2,7 +2,7 @@
 title: Continuity
 slug: maths/real-analysis/continuity
 sidebar:
-  order: 12
+  order: 13
 ---
 
 A function $f$ is continuous at $a$ **iff**:

@@ -2,7 +2,7 @@
 title: Order Axioms
 slug: maths/real-analysis/order-axioms
 sidebar:
-  order: 6
+  order: 7
 ---
 
 - **Trichotomy**: $ \forall a,b \in \mathbb{R} $ exactly one of these holds:

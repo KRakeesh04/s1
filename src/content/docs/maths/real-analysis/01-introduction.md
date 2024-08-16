@@ -5,6 +5,26 @@ sidebar:
   order: 1
 ---
 
+## Mathematical logic
+
+### Proposition
+
+A statement in either true or false state.
+
+### Symbols
+
+| Symbol        | Read as        |
+| ------------- | -------------- |
+| $\land$       | and            |
+| $\lor$        | or             |
+| $\rightarrow$ | then           |
+| $\implies$    | implies        |
+| $\Leftarrow$  | implied by     |
+| $\iff$        | if and only if |
+| $\forall$     | for all        |
+| $\exists$     | there exists   |
+| $\sim$        | not            |
+
 Let's take $ a \to b $. $ $
 
 1. Contrapositive or transposition: $ \sim b \to\,\, \sim a $. This is
@@ -13,6 +33,14 @@ Let's take $ a \to b $. $ $
 3. Converse: $ b \to a $. Does not depend on the original.
 
 $ a \to b \,\equiv\,\,\sim a \lor b \,\equiv\,\, \sim b \to\,\,\sim a $
+
+### Examples
+
+- $\sim\forall x P(x) \equiv \exists x \sim{P(x)}$
+- $\sim\exists x P(x) \equiv \forall x \sim{P(x)}$
+- $\exists x \exists y P(x,y) \equiv \exists y \exists x {P(x,y)}$
+- $\forall x \forall y P(x,y) \equiv \forall y \forall x {P(x,y)}$
+- $\exists x \forall y P(x,y) \implies \forall y \exists x {P(x,y)}$
 
 ## Methods of proofs
 

@@ -2,7 +2,7 @@
 title: Functions
 slug: maths/real-analysis/functions
 sidebar:
-  order: 8
+  order: 9
 ---
 
 A function $f:\,A\rightarrow{B}$ is a relation $f:\,A\rightarrow{B}$ which is

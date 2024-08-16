@@ -2,7 +2,7 @@
 title: Field Axioms
 slug: maths/real-analysis/field-axioms
 sidebar:
-  order: 3
+  order: 5
 ---
 
 ## Field Axioms of $\mathbb{R}$
@@ -41,7 +41,8 @@ and $ \cdot $) is called a **field**. Written as $ (\mathbb{R}, +, \cdot)
 The below mentioned propositions can and should be proven using the
 above-mentioned axioms. $ a, b, c \in \mathbb{R} $. $ $
 
-- $ a\cdot0 = 0 $
+- $ a\cdot0 = 0 $  
+  Hint: Start with $a(1+0)$
 - $ 1\not = 0 $
 - Additive identity ($ 0 $) is unique
 - Multiplicative identity ($ 1 $) is unique

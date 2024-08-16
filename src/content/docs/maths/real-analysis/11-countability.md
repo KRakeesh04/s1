@@ -2,7 +2,7 @@
 title: Countability
 slug: maths/real-analysis/countability
 sidebar:
-  order: 10
+  order: 11
 ---
 
 A set $A$ is countable **iff** $\,\exists f:A\rightarrow Z^{+}$, where $f$ is a

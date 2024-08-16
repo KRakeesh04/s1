@@ -1,8 +1,8 @@
 ---
-title: Real Numbers
-slug: maths/real-analysis/real-numbers
+title: Set of Numbers
+slug: maths/real-analysis/set-of-numbers
 sidebar:
-  order: 2
+  order: 3
 ---
 
 ## Sets of numbers
@@ -19,3 +19,5 @@ sidebar:
 - Irrational numbers: limits of sequences of rational numbers (which are not
   rational numbers)
 - Real numbers: $ \mathbb{R} = \mathbb{Q}^{c} \cup \mathbb{Q} $. $ $
+
+Complex numbers are not part of the study here.

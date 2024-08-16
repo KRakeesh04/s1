@@ -2,7 +2,7 @@
 title: Composition
 slug: maths/real-analysis/composition
 sidebar:
-  order: 9
+  order: 10
 ---
 
 ## Composition of relations

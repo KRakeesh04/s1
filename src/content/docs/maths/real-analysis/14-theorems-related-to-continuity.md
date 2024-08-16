@@ -2,7 +2,7 @@
 title: Continuity Theorems
 slug: maths/real-analysis/theorems-related-to-continuity
 sidebar:
-  order: 13
+  order: 14
 ---
 
 ## Extreme Value Theorem
