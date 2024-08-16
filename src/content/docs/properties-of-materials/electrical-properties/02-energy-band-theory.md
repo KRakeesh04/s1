@@ -2,7 +2,7 @@
 title: Energy Band Theory
 slug: properties-of-materials/electrical-properties/energy-band-theory
 sidebar:
-  order: 3
+  order: 2
 ---
 
 In every atom, electrons occupy discrete energy levels in atomic orbitals,

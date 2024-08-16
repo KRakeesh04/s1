@@ -222,6 +222,6 @@ T=\frac{2\pi{k}}{\sqrt{g(\text{GM})}}
 
 - Liquid cargo in a vessel reduces its geocentric height.
 - When the cargo is contained in 1 compartment:  
-  $\Delta\text{GM}_1=\frac{\rho_1 l_1}{\rho v}$
+  $\Delta\text{GM}_1=\frac{\rho_1 I_1}{\rho v}$
 - When the liquid cargo is contained in $n$ compartments:  
   $\Delta\text{GM}=\frac{1}{n^2}{(\Delta\text{GM}_1)}$

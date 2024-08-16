@@ -2,7 +2,7 @@
 title: Semiconductivity
 slug: properties-of-materials/electrical-properties/semiconductivity
 sidebar:
-  order: 4
+  order: 3
 ---
 
 Materials with band gap of less than $2.5\,\text{eV}$. $ $
@@ -23,7 +23,7 @@ Both electrons and holes contribute to the current flow of a semiconductor.
 2 types based on the crystal structure.
 
 - Intrinsic: Made of a pure compound (no dopants)
-- Extrinsic: Made of a pure compound (no dopants)
+- Extrinsic: Made of a pure compound and a dopant
 
 ### Intrinsic Semiconductors
 
@@ -62,7 +62,7 @@ semiconductors.
 
 #### Doping
 
-Introduction to a foreign atom (impurities) into a intrinsic semiconductor. The
+Introduction of a foreign atom (impurities) into a intrinsic semiconductor. The
 foreign atoms are usually either pentavalent (i.e. Sb, P, As) or trivalent (i.e.
 B, Ga, In).
 

@@ -124,3 +124,11 @@ Complex impedances are added up to find the total impedance of a series circuit.
 \overline{Z}=
 R+j(\omega L - \frac{1}{\omega C})
 ```
+
+## For a series circuit
+
+Total impedance is the sum of each component's impedance.
+
+## For a parallel circuit
+
+Total admittance is the sum of each component's admittance.

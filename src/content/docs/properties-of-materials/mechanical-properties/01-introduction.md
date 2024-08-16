@@ -10,13 +10,13 @@ slug: properties-of-materials/mechanical-properties/introduction
 
 Pulls out of the cross-sectional area.
 
-In the dimension of force, length increases. Cross-sectional area decreases.
+In the direction of force, length increases. Cross-sectional area decreases.
 
 ## Compressive Force
 
 Pushes into the cross-sectional area.
 
-In the dimension of force, length decreases. Cross-sectional area increases.
+In the direction of force, length decreases. Cross-sectional area increases.
 
 ## Stress
 

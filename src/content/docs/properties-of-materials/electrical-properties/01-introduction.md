@@ -25,6 +25,14 @@ Reciprocal of the electrical resistivity.
 
 $\sigma=\frac{1}{\rho}$
 
+Depends on:
+
+- Number of available charge carriers
+- Material's composition
+- Material's structure
+- Temperature
+- Impurities
+
 ## Electron Mobility
 
 When an electrical field is applied, the free electron in a solid can be
@@ -51,6 +59,10 @@ different directions.
 
 :::
 
+## Carrier Concentration
+
+Number of charge carriers per unit volume. Usually denoted by $n$. $ $
+
 ## Current Density
 
 Amount of electric current flows through a unit area.
@@ -59,7 +71,7 @@ $J=nq\overline{\nu}=\sigma E$
 
 Here:
 
-- $n$ - number of charge carriers per unit volume
+- $n$ - carrier concentration
 - $q$ - charge on a single charge carrier
 - $\overline{\nu}$ - drift velocity
 - $\sigma$ - conductivity

@@ -2,7 +2,7 @@
 title: Dielectric behavior
 slug: properties-of-materials/electrical-properties/dielectric-behavior
 sidebar:
-  order: 5
+  order: 4
 ---
 
 ## Dielectric material

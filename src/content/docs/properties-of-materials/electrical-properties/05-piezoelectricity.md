@@ -2,7 +2,7 @@
 title: Piezoelectricity
 slug: properties-of-materials/electrical-properties/piezoelectricity
 sidebar:
-  order: 6
+  order: 5
 ---
 
 ## Piezoelectric Materials
