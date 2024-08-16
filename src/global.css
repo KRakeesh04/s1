@@ -152,3 +152,6 @@ strong {
 		content: counter(total-links) " pages";
 	}
 }
+br {
+	@apply !mb-0;
+}
