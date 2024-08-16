@@ -72,7 +72,7 @@ On the free surface $P=0$ because gauge pressure is considered. $ $
 =c_1
 ```
 
-Free surface is a plane surface in 3D surface.
+Free surface is a plane surface in 3D.
 
 ### Inclination with horizontal plane
 
@@ -120,7 +120,8 @@ $a_x\neq 0\;\land\;a_y=a_z=0$
 =c_1
 ```
 
-Is a straight line in $x, z$ axes. The straight line is inclined by $\theta_x$:
+Is a straight line in $x, z$ axes. The straight line is at an inclination of
+$\theta_x$:
 
 ```math
 \tan{(\theta_x)}=\frac{-a_x}{g}
@@ -128,8 +129,7 @@ Is a straight line in $x, z$ axes. The straight line is inclined by $\theta_x$:
 
 #### Vertical Pressure Distribution
 
-Same as fluid in absolute equilibrium. Varies only in $z$ direction. Increases
-with height. $ $
+Varies only in $z$ direction. Increases with height. Isobars are horizontal. $ $
 
 ### Under Vertical Acceleration
 
@@ -159,3 +159,5 @@ Here:
 
 - $h\rho g$ - hydrostatic pressure
 - $h\rho a_z$ - due to $a_z$
+
+Varies only in $z$ direction. Increases with height. Isobars are horizontal. $ $

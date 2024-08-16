@@ -18,11 +18,11 @@ For S1, forced vortex motion, only about vertical axis, is required.
 
 ![Forced Vortex Motion Axes](/fluids/forced-vortex-motion.jpg)
 
-$P = \frac{\rho r^2 \omega^2}{2} - \rho gz +c$
+$P = \frac{1}{2}\rho \omega^2 r^2 - \rho gz +c$
 
 :::caution[TODO]
 
-Explain how to get the above equation.
+Explain how to derive the above equation.
 
 :::
 
@@ -57,4 +57,9 @@ Total volume of the fluid is:
 V=
 \pi R^2 h_0
 +\frac{1}{2}\pi R^2(H-h_0)
+```
+
+```math
+V=
+\frac{1}{2}\pi R^2 (H + h_0)
 ```

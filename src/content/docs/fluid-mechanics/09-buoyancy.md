@@ -181,8 +181,8 @@ BB'=\frac{I\theta}{V}\approx (BM)\theta\implies BM=\frac{I}{V}
 
 :::note
 
-This result is restricted to small angular displacements-usually up to about 80
-and the restriction is particularly important when the sides of the floating
+This result is restricted to small angular displacements — usually up to about
+8°— and the restriction is particularly important when the sides of the floating
 body are not vertical.
 
 :::
@@ -199,11 +199,11 @@ body are not vertical.
 Below equation can be derived by using $T=I\ddot{\theta}$ (for small $\theta$):
 
 ```math
-T=-W(GM)\sin{\theta}=I_G\ddot{\theta}
+T=-W(\text{GM})\sin{\theta}=I_G\ddot{\theta}
 ```
 
 ```math
-\frac{\text{d}^2\theta}{\text{d}t^2}=-\frac{W(GM)}{I_G}\theta=-\frac{Mg(GM)}{Mk^2}\theta
+\frac{\text{d}^2\theta}{\text{d}t^2}=-\frac{W(\text{GM})}{I_G}\theta=-\frac{Mg(\text{GM})}{Mk^2}\theta
 ```
 
 Here
@@ -215,15 +215,13 @@ Here
 Period of time of oscillation is given by:
 
 ```math
-T=\frac{2\pi{k}}{\sqrt{g(GM)}}
+T=\frac{2\pi{k}}{\sqrt{g(\text{GM})}}
 ```
 
-:::note[Liquid Cargo in a Vessel]
+## Liquid cargo in a vessel
 
 - Liquid cargo in a vessel reduces its geocentric height.
 - When the cargo is contained in 1 compartment:  
   $\Delta\text{GM}_1=\frac{\rho_1 l_1}{\rho v}$
 - When the liquid cargo is contained in $n$ compartments:  
   $\Delta\text{GM}=\frac{1}{n^2}{(\Delta\text{GM}_1)}$
-
-:::
