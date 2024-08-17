@@ -23,45 +23,94 @@ const isHomepage = Astro.props.slug === "";
 				</li>{" "}
 				<li>Accessible from everywhere.</li> <li>Helpful to everyone.</li>{" "}
 			</ul>{" "}
-				<h2 class="mb-1">Content Included</h2>
-				<div id="content-included">
-					<p>
-						I am actively updating the content as my semester progresses. Let me know if you find anything missing or wrong.
-					</p>
-					<p>
-						<strong class="text-inherit">
-						All the content in this website is
-						shared under
-						<a href="/license" id="license" class="text-[var(--sl-color-accent)]">
+			<h2 class="mb-1">Content Included</h2>
+			<div id="content-included">
+				<p>
+					I am actively updating the content as my semester progresses. Let me
+					know if you find anything missing or wrong.
+				</p>
+				<p>
+					<strong class="text-inherit">
+						All the content in this website is shared under
+						<a
+							href="/license"
+							id="license"
+							class="text-[var(--sl-color-accent)]"
+						>
 							CC BY-NC-ND 4.0
 						</a>
-						</strong>
-					</p>
-					<ContentEntries entries={Astro.props.sidebar} />
-				</div>{" "}
+					</strong>
+				</p>
+				<ContentEntries entries={Astro.props.sidebar} />
+			</div>{" "}
 			<h2>Notes as PDFs</h2>
 			<p>Whenever the content change, the PDFs below will be updated.</p>
 			<ul class="notes-as-pdf-links">
-				<li><a href="/as-pdf/electrical-fundamentals.pdf">Electrical Fundamentals</a></li>
-				<li><a href="/as-pdf/fluid-mechanics.pdf">Fluid Mechanics</a></li>
-				<li><a href="/as-pdf/maths-algebra-matrices.pdf">Maths | Algebra | Matrices</a></li>
-				<li><a href="/as-pdf/maths-algebra-vectors.pdf">Maths | Algebra | Vectors</a></li>
-				<li><a href="/as-pdf/maths-ode.pdf">Maths | ODE</a></li>
-				<li><a href="/as-pdf/maths-real-analysis.pdf">Maths | Real Analysis</a></li>
-				<li><a href="/as-pdf/maths-riemann-integration.pdf">Maths | Riemann Integration</a></li>
-				<li><a href="/as-pdf/mechanics-statics.pdf">Mechanics | Statics</a></li>
-				<li><a href="/as-pdf/mechanics-dynamics.pdf">Mechanics | Dynamics</a></li>
-				<li><a href="/as-pdf/programming-fundamentals.pdf">Programming Fundamentals</a></li>
-				<li><a href="/as-pdf/properties-of-materials-basics.pdf">Properties of Materials | Basics</a></li>
-				<li><a href="/as-pdf/properties-of-materials-mechanical-properties.pdf">Properties of Materials | Mechanical Properties</a></li>
-				<li><a href="/as-pdf/properties-of-materials-electrical-properties.pdf">Properties of Materials | Electrical Properties</a></li>
+				<li>
+					<a href="/as-pdf/electrical-fundamentals.pdf">
+						Electrical Fundamentals
+					</a>
+				</li>
+				<li>
+					<a href="/as-pdf/fluid-mechanics.pdf">Fluid Mechanics</a>
+				</li>
+				<li>
+					<a href="/as-pdf/maths-algebra-matrices.pdf">
+						Maths | Algebra | Matrices
+					</a>
+				</li>
+				<li>
+					<a href="/as-pdf/maths-algebra-vectors.pdf">
+						Maths | Algebra | Vectors
+					</a>
+				</li>
+				<li>
+					<a href="/as-pdf/maths-ode.pdf">Maths | ODE</a>
+				</li>
+				<li>
+					<a href="/as-pdf/maths-real-analysis.pdf">Maths | Real Analysis</a>
+				</li>
+				<li>
+					<a href="/as-pdf/maths-riemann-integration.pdf">
+						Maths | Riemann Integration
+					</a>
+				</li>
+				<li>
+					<a href="/as-pdf/mechanics-statics.pdf">Mechanics | Statics</a>
+				</li>
+				<li>
+					<a href="/as-pdf/mechanics-dynamics.pdf">Mechanics | Dynamics</a>
+				</li>
+				<li>
+					<a href="/as-pdf/programming-fundamentals.pdf">
+						Programming Fundamentals
+					</a>
+				</li>
+				<li>
+					<a href="/as-pdf/properties-of-materials-basics.pdf">
+						Properties of Materials | Basics
+					</a>
+				</li>
+				<li>
+					<a href="/as-pdf/properties-of-materials-mechanical-properties.pdf">
+						Properties of Materials | Mechanical Properties
+					</a>
+				</li>
+				<li>
+					<a href="/as-pdf/properties-of-materials-electrical-properties.pdf">
+						Properties of Materials | Electrical Properties
+					</a>
+				</li>
 			</ul>
 		</div>
 	) : (
-		<div  style={`--path: '${"https://s1.sahithyan.dev/".concat(Astro.props.slug)}'`}>
-		<Default {...Astro.props}>
-		<slot />
-		</Default>
-	</div>
+		<div
+			style={`--path: '${"https://s1.sahithyan.dev/".concat(Astro.props.slug)}'`}
+		>
+			{/* @ts-ignore */}
+			<Default {...Astro.props}>
+				<slot />
+			</Default>
+		</div>
 	)
 }
