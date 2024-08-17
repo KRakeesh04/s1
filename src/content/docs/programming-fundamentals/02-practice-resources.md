@@ -2,7 +2,7 @@
 title: Practice Resources
 slug: programming-fundamentals/practice-resources
 sidebar:
-  order: 3
+  order: 2
 description: Small programs and other platforms to practice programming
 ---
 

@@ -19,6 +19,7 @@
 		"@astrojs/tailwind": "^5.1.0",
 		"astro": "^4.10.2",
 		"astro-og-canvas": "^0.5.1",
+		"puppeteer": "^23.1.0",
 		"rehype-katex": "^7.0.0",
 		"rehype-mathjax": "^6.0.0",
 		"remark-math": "^6.0.0",
@@ -40,5 +41,5 @@
 		"*.{md,mdx}": ["bun scripts/auto-slug.js", "prettier --write ."],
 		"*.astro": ["prettier --write ."]
 	},
-	"trustedDependencies": ["@biomejs/biome", "esbuild", "sharp"]
+	"trustedDependencies": ["@biomejs/biome", "esbuild", "puppeteer", "sharp"]
 }

@@ -88,7 +88,7 @@ $v$ lags $i$ by $\frac{\pi}{2}$. No changes in frequency.
 
 :::note
 
-If $v$:
+If $v$: $ $
 
 - lags $i$ - circuit is capacitive
 - leads $i$ - circuit is inductive

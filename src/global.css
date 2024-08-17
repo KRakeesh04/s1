@@ -163,11 +163,10 @@ br {
 	header.header, nav, footer, .starlight__sidebar, astro-dev-toolbar {
 		@apply !hidden;
 	}
-
-	div:has(> .sl-markdown-content)::after {
-		@apply block mt-8 text-sm;
-		content: "Saved from " var(--path);
-}
+/*	div:has(> .sl-markdown-content)::after {*/
+/*		@apply block mt-8 text-sm;*/
+/*		content: "Saved from " var(--path);*/
+/*}*/
 	.main-frame {
 		@apply pt-2 pl-2;
 	}
