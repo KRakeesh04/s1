@@ -15,7 +15,7 @@ A function $f$ is continuous at $a$ **iff**:
 \forall{\epsilon>0}\;
 \exists{\delta>0}\;
 \forall{x}\;
-(|x-a|<\delta\implies{|f(x)-L|<\epsilon})
+(|x-a|<\delta\implies{|f(x)-f(a)|<\epsilon})
 ```
 
 ## One-side continuous

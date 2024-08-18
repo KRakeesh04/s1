@@ -20,9 +20,4 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
-public/as-pdf/**/*.pdf
-!public/as-pdf/*.pdf
-public/as-pdf/maths.pdf
-public/as-pdf/maths-algebra.pdf
-public/as-pdf/mechanics.pdf
-public/as-pdf/properties-of-materials.pdf
+summary.md

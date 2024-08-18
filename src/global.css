@@ -159,18 +159,20 @@ br {
 	:root {
 		--path: "https://s1.sahithyan.dev"
 	}
-
 	header.header, nav, footer, .starlight__sidebar, astro-dev-toolbar {
 		@apply !hidden;
 	}
-/*	div:has(> .sl-markdown-content)::after {*/
-/*		@apply block mt-8 text-sm;*/
-/*		content: "Saved from " var(--path);*/
-/*}*/
+	div:has(> .sl-markdown-content)::after {
+		@apply block mt-8 text-sm;
+		content: "This PDF is saved from " var(--path);
+	}
 	.main-frame {
 		@apply pt-2 pl-2;
 	}
-	h1, h2{
-		@apply break-before-auto;
+	h1,h2,h3,h4,h5,h6 {
+		@apply break-before-auto break-after-avoid-page;
+	}
+	img {
+		@apply !break-inside-avoid;
 	}
 }

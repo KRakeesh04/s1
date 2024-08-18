@@ -34,16 +34,16 @@ When $\phi$ is: $ $
 
 Sinusoidal voltages are be easily generated using rotating machines.
 
-### Complex Waveforms
+## Complex Waveforms
 
 Periodic non-sinusoidal waveforms can be split into its fundamental and
 harmonics.
 
-#### Fundamental Waveform
+### Fundamental Waveform
 
 $f_0=f_{\text{complex}}$
 
-#### Harmonics
+### Harmonics
 
 Sine waves with higher frequencies which is a multiple of $f_0$.$ $
 

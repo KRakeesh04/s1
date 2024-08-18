@@ -10,7 +10,8 @@
 		"preview": "astro preview",
 		"astro": "astro",
 		"lint": "prettier --check .; biome check; biome format",
-		"lint-fix": "prettier --write . && biome check --write && biome format --write"
+		"lint-fix": "prettier --write . && biome check --write && biome format --write",
+		"generate-summaries": "bun ./scripts/generate-summary.ts; bun ./scripts/convert-to-pdf.js"
 	},
 	"dependencies": {
 		"@astrojs/check": "^0.7.0",
@@ -38,7 +39,11 @@
 		"*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [
 			"biome check --write --no-errors-on-unmatched"
 		],
-		"*.{md,mdx}": ["bun scripts/auto-slug.js", "prettier --write ."],
+		"*.{md,mdx}": [
+			"bun scripts/auto-slug.js",
+			"bun scripts/generate-summary.ts",
+			"prettier --write ."
+		],
 		"*.astro": ["prettier --write ."]
 	},
 	"trustedDependencies": ["@biomejs/biome", "esbuild", "puppeteer", "sharp"]
