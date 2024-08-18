@@ -2,7 +2,7 @@
 title: Properties of Fluids
 slug: fluid-mechanics/properties-of-fluids
 sidebar:
-  order: 3
+  order: 2
 ---
 
 ## Mass Density

@@ -2,7 +2,7 @@
 title: Pressure Measurements
 slug: fluid-mechanics/pressure-measurements
 sidebar:
-  order: 6
+  order: 5
 ---
 
 ## Barometer

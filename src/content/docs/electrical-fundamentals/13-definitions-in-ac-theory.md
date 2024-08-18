@@ -2,7 +2,7 @@
 title: Definitions in AC Theory
 slug: electrical-fundamentals/definitions-in-ac-theory
 sidebar:
-  order: 14
+  order: 13
 ---
 
 Say $v$ is alternating as in $v=v_{m}sin(\omega{t}+\phi)$.

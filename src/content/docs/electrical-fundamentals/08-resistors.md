@@ -2,7 +2,7 @@
 title: Resistors
 slug: electrical-fundamentals/resistors
 sidebar:
-  order: 9
+  order: 8
 ---
 
 Resistance, in terms of physical dimensions:

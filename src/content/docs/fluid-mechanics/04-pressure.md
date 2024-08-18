@@ -2,7 +2,7 @@
 title: Pressure
 slug: fluid-mechanics/pressure
 sidebar:
-  order: 5
+  order: 4
 ---
 
 ## Atmospheric Pressure

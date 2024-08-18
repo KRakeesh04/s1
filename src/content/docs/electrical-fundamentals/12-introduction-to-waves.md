@@ -2,7 +2,7 @@
 title: Introduction to Waves
 slug: electrical-fundamentals/introduction-to-waves
 sidebar:
-  order: 13
+  order: 12
 ---
 
 ## Waveform

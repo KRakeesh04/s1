@@ -3,7 +3,7 @@ title: Buoyancy
 description: Thrust exerted on a submerged object in a liquid
 slug: fluid-mechanics/buoyancy
 sidebar:
-  order: 9
+  order: 8
 ---
 
 Thrust exerted on a submerged object in a liquid. Direction is vertically

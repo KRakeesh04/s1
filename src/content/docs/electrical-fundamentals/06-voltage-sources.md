@@ -2,7 +2,7 @@
 title: Voltage sources
 slug: electrical-fundamentals/voltage-sources
 sidebar:
-  order: 7
+  order: 6
 ---
 
 - Batteries - electrochemical

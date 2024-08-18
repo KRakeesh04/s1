@@ -2,7 +2,7 @@
 title: Basics
 slug: electrical-fundamentals/basics
 sidebar:
-  order: 3
+  order: 2
 ---
 
 Be sure to revise the Electricity unit of G.C.E. (A/L) Physics.

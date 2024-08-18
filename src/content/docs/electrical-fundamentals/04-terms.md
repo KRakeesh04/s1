@@ -2,7 +2,7 @@
 title: Common Terms
 slug: electrical-fundamentals/terms
 sidebar:
-  order: 5
+  order: 4
 ---
 
 ## Two terminal element

@@ -2,7 +2,7 @@
 title: Impedance & Admittance
 slug: electrical-fundamentals/impedance-and-admittance
 sidebar:
-  order: 16
+  order: 15
 ---
 
 ```math

@@ -2,7 +2,7 @@
 title: Circuit elements
 slug: electrical-fundamentals/circuit-elements
 sidebar:
-  order: 6
+  order: 5
 ---
 
 Two types of circuit elements.

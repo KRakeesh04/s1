@@ -2,7 +2,7 @@
 title: Relative Equilibrium
 slug: fluid-mechanics/relative-equilibrium
 sidebar:
-  order: 11
+  order: 10
 ---
 
 When a fluid-contained vessel moves with a constant acceleration it will be

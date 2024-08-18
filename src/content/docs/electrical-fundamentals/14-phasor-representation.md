@@ -2,7 +2,7 @@
 title: Phasor Representation
 slug: electrical-fundamentals/phasor-representation
 sidebar:
-  order: 15
+  order: 14
 ---
 
 Phasor (phase vector) is a vector representing a sinusoidal function.
