@@ -81,9 +81,9 @@ temperature.
 In straight & parallel flow, the shear stress between adjacent layers is
 proportional to the velocity gradient perpendicular to the layers.
 
-$ \text{velocity gradient} = \frac{\delta v}{\delta y} $
-
-$ \tau \propto \frac{\delta v}{\delta y} $
+```math
+\tau \propto \frac{\delta v}{\delta y} (= \text{velocity gradient})
+```
 
 Here, $ \tau $ is stress. Force per unit area (as in $ \frac{F}{A} $).
 
@@ -98,9 +98,12 @@ $ \tau = \mu \frac{\partial v}{\partial y} $
 Above, $ \mu $ is **coefficient of dynamic viscosity** or **coefficient of
 absolute viscosity** or **coefficient of viscosity**.$ $
 
-If $ \mu $ is a constant, the fluid is called **Newtonian fluid**. If $ \mu $ is
-not a constant, the fluid is called **Non-newtonian fluid**. We are only going
-to study about the Newtonian fluids.
+Fluids can be divided into 2 parts:
+
+- $ \mu $ is a constant: Newtonian fluid
+- $ \mu $ is not a constant: Non-newtonian fluid
+
+Only Newtonian fluids are focused on for s1.
 
 ### Coefficient of kinematic viscosity
 

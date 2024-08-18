@@ -13,7 +13,7 @@ being used here.
 - $x \in A^\text{c} \iff x \not\in A$
 - $x \in A\cup B \iff x \in A \lor x \in B$
 - $x \in A\cap B \iff x \in A \land x \in B$
-- $A \subset B = \forall x (x \in B \implies x \in A)$
+- $A \subset B = \forall x (x \in A \implies x \in B)$
 - $A - B = A \cap B^\text{c}$
 - $A = B \iff ((\forall z \in A \implies z \in B) \land (\forall z \in B \implies z \in A))$
 
