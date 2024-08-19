@@ -46,9 +46,6 @@ import puppeteer from "puppeteer";
 		await page.pdf({
 			path,
 			format: "A4",
-			margin: {
-				top: 10,
-			},
 		});
 		console.log(`Saved: ${baseLink} (to ${path})`);
 	}

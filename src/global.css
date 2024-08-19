@@ -155,9 +155,13 @@ strong {
 br {
 	@apply !mb-0;
 }
+@page {
+	margin-top: 1in;
+	margin-bottom: 1in;
+}
 @media print {
 	:root {
-		--path: "https://s1.sahithyan.dev"
+		--path: "https://s1.sahithyan.dev";
 	}
 	header.header, nav, footer, .starlight__sidebar, astro-dev-toolbar {
 		@apply !hidden;
@@ -170,9 +174,9 @@ br {
 		@apply pt-2 pl-2;
 	}
 	h1,h2,h3,h4,h5,h6 {
-		@apply break-before-auto break-after-avoid-page;
+		@apply !break-before-auto !break-after-avoid-page;
 	}
-	img {
+	img, ul, p {
 		@apply !break-inside-avoid;
 	}
 }

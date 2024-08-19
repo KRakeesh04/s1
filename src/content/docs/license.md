@@ -1,5 +1,6 @@
 ---
 title: License
+slug: license
 ---
 
 Your use of the content is licensed by
@@ -19,7 +20,7 @@ Under the following terms:
 - **NoDerivatives** — If you remix, transform, or build upon the material, you
   may not distribute the modified material.
 
-**In no event shall the owner of this website be liable for any damages,
+<b>In no event shall the owner of this website be liable for any damages,
 including but not limited to direct, indirect, incidental, special,
 consequential, or punitive damages, arising out of your use of the content on
-this website.**
+this website.</b>
