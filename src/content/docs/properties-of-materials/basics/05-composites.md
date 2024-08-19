@@ -5,7 +5,8 @@ sidebar:
   order: 5
 ---
 
-Advantages of two materials combined together.
+Materials that are a mixture of 2 materials. Materials are combined together to
+get the advantages of two materials.
 
 ## Examples
 

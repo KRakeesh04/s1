@@ -12,7 +12,7 @@ advantages in materials most of the time.
 2. Line defects / Dislocations
 3. Planar defects
 4. Bulk defects - Related to volumetric defects. Common for any materials.
-   Example: crack, holes. Not covered.
+   Example: crack, holes. Not covered in s1.
 
 ## Point defects
 
@@ -60,7 +60,7 @@ The process of conversion liquid to solid. Occurs in 3 steps:
 - Growth of crystals
 - Formation of grain structure
 
-Tiny solid particles forms. called as Nuclei (nothing related to atom's
+Tiny solid particles forms. Called as Nuclei (nothing related to atom's
 nucleus). Each nucleus grows bigger and forms a crystal. And then forms grains.
 
 ### Grain

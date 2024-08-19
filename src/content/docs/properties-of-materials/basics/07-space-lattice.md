@@ -18,7 +18,7 @@ directions, the lattice can be generated.
 ### Density
 
 $ \rho = \frac{\text{Mass/unit cell}}{\text{Volume/unit cell}} =
-\frac{\frac{M}{L} \times n}{v} $
+\frac{1}{v}(\frac{M}{L} \times n)$
 
 ## Crystalline systems
 
@@ -47,7 +47,7 @@ Don't have to memorize.
 Bravais showed that only **14** of 28 (7 shapes x 4 variants) are possible in
 real life.
 
-We are only going to study about 4 of them.
+Only 4 of them are studied in s1.
 
 - Simple cubic (**sc**)
 - Body-centered cubic (**bcc**)

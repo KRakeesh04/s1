@@ -9,23 +9,26 @@ Inter-molecular bonds: covalent and/or ionic.
 
 ## Properties
 
-- Non metalics
+- Non metallic
 - Inorganic
 - Produced by: shaping => firing.
 - High melting temperatures (some can survive upto 8K deg C)
 - Low density
 - High strength, stiffness, hardness
-- Corrosion-resistent
+- Corrosion-resistant
 - Generally good insulators (electrical and thermal)
 - Brittle as glass. Behaves glass-like mostly.
 
-**Glass is not an element of ceremics**. Hugely differs in structure.
+:::note
+
+**Glass is not an element of ceramics**. Hugely differs in structure.
+
+:::
 
 Some ceramic materials are:
 
 - magnetic
-- piezoelectric - converts mechanic energy (sound) <> electrical energy
-  (electric current)
+- [piezoelectric](/properties-of-materials/electrical-properties/piezoelectricity/)
 - superconductors (only few, and only at very low temperatures)
 
 ## Examples

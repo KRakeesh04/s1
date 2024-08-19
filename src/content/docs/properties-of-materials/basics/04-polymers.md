@@ -11,14 +11,14 @@ Inter-molecular bonds: Covalent and Van der Waals or Hydrogen.
 
 - Has a repeating structure.
 - lightweight
-- corrosion-resistent
+- corrosion-resistant
 - easy to process at low temperatures
 - generally inexpensive
-- generally low in strength
-- generally high in toughness
-- poor conductors of electricity & heat (= good insulators)
-
-We also have conducting polymers.
+- generally low strength
+- generally high toughness
+- poor conductors of electricity & heat (= good insulators) (but
+  [conductive polymers](/properties-of-materials/electrical-properties/conductive-polymers/)
+  exists as well)
 
 ## Examples
 
@@ -32,11 +32,15 @@ We also have conducting polymers.
 - Polymethylmethacrylite (PMMA) Perspex
 - Polytetrafluoroethylene (PTFE) Teflon
 
+:::note
+
 PMMA Perspex is
 
 - transparent (like glass)
 - lightweight
 - used in aircrafts' windows & contact lenses.
+
+:::
 
 ### Rubber
 

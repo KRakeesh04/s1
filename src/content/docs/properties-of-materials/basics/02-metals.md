@@ -10,11 +10,9 @@ Metals can be categorized into 2 types.
 - Pure metals
 - Alloys
 
-At extremely low temperatures, some metals tend to be superconductors.
-
 ## Pure Metals
 
-Inter-molecular bonds: Metalic bonds. Commonly not used in the pure form.
+Inter-molecular bonds: Metallic bonds. Commonly not used in the pure form.
 
 Pure metals might be:
 
@@ -38,10 +36,18 @@ Examples:
 Alloys have a parent metal (mostly used metal, percentage-wise) and one or more
 alloying elements (all elements other than parent metal).
 
-**Super Alloys** contain too many alloying elements (maybe even 20).
+:::note[Super Alloys]
+
+Alloys containing too many alloying elements (maybe even 20).
+
+:::
+
+:::note
 
 Steel (Fe + C) has maximum of 2% C. Won't break easily (ductile).  
-Cast Iron (Fe + C) has 2% 4% C. Will break easily (brittle).
+Cast Iron (Fe + C) has 2%-4% C. Will break easily (brittle).
+
+:::
 
 ## Properties
 
@@ -49,8 +55,13 @@ Cast Iron (Fe + C) has 2% 4% C. Will break easily (brittle).
 - Good electrical conductivity
 - Good thermal conductivity
 - High strength
-- High stiffness (= high young's modulus)
+- High stiffness (= high
+  [young's modulus](/properties-of-materials/mechanical-properties/definitions/#youngs-modulus-aka-elastic-modulus))
 - Good ductility
 
-Ductile easily change shape by applying force.  
-Brittle easily break when applying force.
+:::note
+
+Ductile - easily changes shape by applying force.  
+Brittle - easily breaks when applying force.
+
+:::
