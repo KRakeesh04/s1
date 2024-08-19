@@ -5,7 +5,7 @@ sidebar:
   order: 3
 ---
 
-![Pressure Definition](/fluids/pressure-definition.png)
+![Pressure Definition](/fluids/pressure-definition.jpg)
 
 At a point,
 
@@ -13,14 +13,12 @@ At a point,
 P = \lim_{\delta A \to 0} \frac{\delta F}{\delta A}
 ```
 
-## Characteristics
-
-### Pascal's law
+## Pascal's law
 
 The hydrostatic pressure at a point is the same from all directions. Applies
 only for hydrostatic pressure.
 
-#### Proof
+### Proof
 
 Consider the fluid element shown, containing the point $A$. $ $
 
@@ -47,9 +45,9 @@ P_z=P_s+\frac{1}{2}\Delta{z}\rho g
 As all $\Delta{x},\Delta{y},\Delta{z}$ approaches $0$: $P_z=P_s$. Therefore
 $P_x=P_z=P_s$
 
-### Variation along directions
+## Variation along directions
 
-#### Proof
+### Proof
 
 Let $p$ be the pressure at the point $A\equiv (x,y,z)$.
 
@@ -149,7 +147,7 @@ P + \rho gz = c = P^{*}
 
 ## Pressure difference between 2 points
 
-![Pressure difference](/fluids/pressure-difference.png)
+![Pressure difference](/fluids/pressure-difference.jpg)
 
 $ P_1 = -\rho gz_1 + c $
 

@@ -15,7 +15,7 @@ At a point:
 \rho = \lim_{\delta v \to 0} \frac{\delta m}{\delta v}
 ```
 
-#### For liquids
+### For liquids
 
 Varies very slightly with temperature (negligible in calculations).
 
@@ -24,7 +24,7 @@ Example: Water
 - $ 100kgm^{-3} $ - at $ 4\degree C $
 - $ 995.7kgm^{-3} $ - at $ 30\degree C $
 
-#### For gases
+### For gases
 
 Highly dependent on pressure & temperature.
 

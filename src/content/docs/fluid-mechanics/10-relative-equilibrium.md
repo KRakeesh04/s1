@@ -106,13 +106,11 @@ Differentiating the equation of the free surface with respect to $x$. $ $
 \tan{(\theta_y)}=\frac{-a_y}{a_z+g}
 ```
 
-## Relative Equilibrium Types
-
-### Under Horizontal Acceleration
+## Relative Equilibrium under Horizontal Acceleration
 
 $a_x\neq 0\;\land\;a_y=a_z=0$
 
-#### Equation of the free surface
+### Equation of the free surface
 
 ```math
 \rho a_x x
@@ -127,15 +125,15 @@ $\theta_x$:
 \tan{(\theta_x)}=\frac{-a_x}{g}
 ```
 
-#### Vertical Pressure Distribution
+### Vertical Pressure Distribution
 
 Varies only in $z$ direction. Increases with height. Isobars are horizontal. $ $
 
-### Under Vertical Acceleration
+## Relative Equilibrium under Vertical Acceleration
 
 $a_z\neq 0\;\land\;a_x=a_y=0$
 
-#### Equation of the free surface
+### Equation of the free surface
 
 ```math
 \rho (a_z+g) z=c_1
@@ -143,7 +141,7 @@ $a_z\neq 0\;\land\;a_x=a_y=0$
 
 Horizontal straight line.
 
-#### Vertical Pressure Distribution
+### Vertical Pressure Distribution
 
 ![vertical-acceleration-vertical-pressure-variation](/fluids/vertical-acceleration-vertical-pressure-variation.jpg)
 
