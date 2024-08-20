@@ -41,6 +41,7 @@ $ a \to b \,\equiv\,\,\sim a \lor b \,\equiv\,\, \sim b \to\,\,\sim a $
 - $\exists x \exists y P(x,y) \equiv \exists y \exists x {P(x,y)}$
 - $\forall x \forall y P(x,y) \equiv \forall y \forall x {P(x,y)}$
 - $\exists x \forall y P(x,y) \implies \forall y \exists x {P(x,y)}$
+- $(A \rightarrow C)\land(B \rightarrow C) \equiv (A\lor B)\rightarrow C$
 
 ## Methods of proofs
 
