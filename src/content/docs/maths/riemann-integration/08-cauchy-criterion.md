@@ -2,7 +2,7 @@
 title: Cauchy Criterion
 slug: maths/riemann-integration/cauchy-criterion
 sidebar:
-  order: 7
+  order: 8
 ---
 
 ## Theorem
