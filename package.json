@@ -11,7 +11,7 @@
 		"astro": "astro",
 		"lint": "prettier --check .; biome check; biome format",
 		"lint-fix": "prettier --write . && biome check --write && biome format --write",
-		"generate-summaries": "bun ./scripts/generate-summary.ts; bun ./scripts/convert-to-pdf.js"
+		"generate-summaries": "bun ./scripts/generate-summary.ts; bun ./scripts/convert-to-pdf.js; bash ./scripts/remove-metadata-from-summary-files.sh"
 	},
 	"dependencies": {
 		"@astrojs/check": "^0.7.0",
