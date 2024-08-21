@@ -44,3 +44,22 @@ A function $f$ is continuous in $[a,b]$ **iff** $f$ is:
 - continuous on every $c\in(a,b)$
 - right-continuous at $a$
 - left-continuous at $b$
+
+## Uniformly continuous
+
+Suppose a function $f$ is continuous on $(a,b)$. $f$ is uniformly continuous on
+$(a,b)$ **iff**:
+
+```math
+\forall \epsilon >0\;\exists \delta >0\;\text{s.t.}\;
+|x-y|<\delta \implies |f(x)-f(y)|<\epsilon
+```
+
+If a function $f$ is continuous on $[a,b]$, $f$ is uniformly continuous on
+$[a,b]$.
+
+:::caution[Todo]
+
+Is this section correct? I am not 100% sure.
+
+:::
