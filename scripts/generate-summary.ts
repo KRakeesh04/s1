@@ -33,9 +33,9 @@ for (const fileString of inputFiles) {
 			"---\n\n",
 			"## Introduction",
 			parts[parts.length - 1]
-				.replaceAll("#### ", "##### ")
-				.replaceAll("### ", "#### ")
-				.replaceAll("## ", "### "),
+				.replaceAll(/^#### /gm, "##### ")
+				.replaceAll(/^### /gm, "#### ")
+				.replaceAll(/^## /gm, "### "),
 		);
 	} else {
 		const title = content
@@ -49,9 +49,9 @@ for (const fileString of inputFiles) {
 				.split("---")
 				.slice(2)
 				.join("---")
-				.replaceAll("#### ", "##### ")
-				.replaceAll("### ", "#### ")
-				.replaceAll("## ", "### "),
+				.replaceAll(/^#### /gm, "##### ")
+				.replaceAll(/^### /gm, "#### ")
+				.replaceAll(/^## /gm, "### "),
 		);
 	}
 }
