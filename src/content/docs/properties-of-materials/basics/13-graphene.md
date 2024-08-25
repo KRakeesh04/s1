@@ -30,6 +30,6 @@ discovery won a Nobel prize in 2010.
 
 :::note
 
-Graphene has a band gap of $0$.
+Graphene has a band gap of $0$. $ $
 
 :::
