@@ -59,6 +59,11 @@ td .MathJax svg {
 p:not(:has(.MathJax:only-of-type)):not(:has(img:only-of-type)) {
 	@apply max-w-prose
 }
+p:has(svg.block-image:only-child) {
+	&, svg {
+		@apply mx-auto;
+	}
+}
 p img {
 	@apply mx-auto;
 }

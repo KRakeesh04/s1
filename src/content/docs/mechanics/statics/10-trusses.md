@@ -2,7 +2,7 @@
 title: Trusses
 slug: mechanics/statics/trusses
 sidebar:
-  order: 11
+  order: 10
 ---
 
 Also known as Ties-Struts model.
@@ -40,7 +40,7 @@ This type of truss is a **simple truss**.
 
 ## Simple (Closed) Truss
 
-When a truss is pinned only made of bars and joints
+When a truss is only made of bars and joints.
 
 ## Open Truss
 

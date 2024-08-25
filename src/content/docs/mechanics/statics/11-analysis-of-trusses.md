@@ -2,10 +2,10 @@
 title: Analysis of Trusses
 slug: mechanics/statics/analysis-of-trusses
 sidebar:
-  order: 12
+  order: 11
 ---
 
-Deviations from the ideal in real trusses
+Deviations from the ideal in real trusses.
 
 - Loads are not applied only at joints; hence there is bending in members
 - Joints are not perfectly pinned, so moments can be developed at joints
@@ -24,7 +24,8 @@ Since the truss is in equilibrium, each pin joint must be in equilibrium.
 
 ### Sign convention
 
-Tensile forces are positive. Compressive forces are negative.
+Forces acting on each joint is marked. Tensile forces are positive. Compressive
+forces are negative.
 
 ### Method
 
@@ -56,7 +57,7 @@ stable equilibrium.
 ### Method
 
 - Decide on which member's internal force must be calculated.
-- Cut the truss **3 or less** members including the target member.
+- Cut the truss through **3 or less** members including the target member.
 - Internal forces in cut members become external forces. Can be represented as
   tensile forces.
 - Use equilibrium equations for RHS or LHS section to find the internal forces.

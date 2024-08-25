@@ -2,7 +2,7 @@
 title: Parallel Axis Theorem
 slug: mechanics/statics/parallel-axis-theorem
 sidebar:
-  order: 4
+  order: 3
 ---
 
 ```math
@@ -24,3 +24,9 @@ Here
   parallel to x, y.
 - $ \bar{x} $ is the distance between $ x $ and $ x_2 $ axes.
 - $ \bar{y} $ is the distance between $ y $ and $ y_1 $ axes.
+
+:::note
+
+$I_x$ is at a minimum when the axis is through the centroid. Same for $I_y$.
+
+:::

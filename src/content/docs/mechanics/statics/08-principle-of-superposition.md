@@ -2,7 +2,7 @@
 title: Principle of Superposition
 slug: mechanics/statics/principle-of-superposition
 sidebar:
-  order: 9
+  order: 8
 ---
 
 A beam with multiple loads can be split into multiple systems each with a single

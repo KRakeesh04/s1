@@ -2,7 +2,7 @@
 title: Perpendicular Axis Theorem
 slug: mechanics/statics/perpendicular-axis-theorem
 sidebar:
-  order: 5
+  order: 4
 ---
 
 ```math

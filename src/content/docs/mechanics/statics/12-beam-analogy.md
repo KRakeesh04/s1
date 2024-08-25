@@ -2,7 +2,7 @@
 title: Beam Analogy (Approximate) method
 slug: mechanics/statics/beam-analogy
 sidebar:
-  order: 13
+  order: 12
 ---
 
 We find the internal forces assuming the elongated truss is a beam.
@@ -30,7 +30,7 @@ In the truss,
 
 :::note[Pratt & Howe type trusses]
 
-Above-mentioned truss is **Pratt type**.
+Above-mentioned truss is **Pratt type**. (_is that correct?_)
 
 **Howe type truss** is a similar structure.
 
