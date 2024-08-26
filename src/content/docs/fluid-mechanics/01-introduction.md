@@ -22,7 +22,7 @@ forces act on it.
 
 ## Fluid
 
-A fluid is defined as a substance which flows continously under the action of
+A fluid is defined as a substance which flows continuously under the action of
 shear forces no matter how small the forces may be.
 
 Liquids and gasses are considered fluids. Unlike solids, fluids don't show
