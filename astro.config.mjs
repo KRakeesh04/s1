@@ -178,6 +178,13 @@ export default defineConfig({
 								directory: "properties-of-materials/electrical-properties",
 							},
 						},
+						{
+							label: "Nanotechnology",
+							collapsed: true,
+							autogenerate: {
+								directory: "properties-of-materials/nanotechnology",
+							},
+						},
 					],
 				},
 				{

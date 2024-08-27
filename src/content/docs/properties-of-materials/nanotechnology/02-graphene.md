@@ -1,8 +1,8 @@
 ---
 title: Graphene
-slug: properties-of-materials/basics/graphene
+slug: properties-of-materials/nanotechnology/graphene
 sidebar:
-  order: 13
+  order: 2
 ---
 
 Carbons arranged to a hexagonal network. 2D crystal based.

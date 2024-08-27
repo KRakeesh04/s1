@@ -1,8 +1,8 @@
 ---
-title: Nanomaterials
-slug: properties-of-materials/basics/nanomaterials
+title: Introduction of Nanomaterials
+slug: properties-of-materials/nanotechnology/introduction
 sidebar:
-  order: 12
+  order: 1
 ---
 
 A material with
