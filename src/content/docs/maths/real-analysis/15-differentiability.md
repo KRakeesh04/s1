@@ -40,3 +40,23 @@ $f \text{ is differentiable at } a \implies f \text{ is continuous at } a$
 Use $\delta=min(\delta_1, \frac{\epsilon}{1 + |f'(a)|})$. $ $
 
 :::
+
+:::note
+
+Suppose $f$ is differentiable at a. Define $g$:
+
+```math
+
+  g(x) =
+\begin{cases}
+  \;
+\cfrac{f(x)-f(a)}{x-a},  & x \neq a \\[2ex]
+\;
+f'(a), & x=a
+\end{cases}
+
+```
+
+$g$ is continuous at $a$.
+
+:::
