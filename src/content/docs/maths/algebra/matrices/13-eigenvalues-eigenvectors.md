@@ -25,11 +25,11 @@ The column vectors satisfying the equation $(A-\lambda_i I)X_i$. $ $
 
 #### Normalized eigenvectors
 
-An eigenvector with the magnitude (norm) of $1$. Normalizing factor of any
-eigenvector is: $ $
+An eigenvector with the magnitude (norm) of $1$. Normalizing factor $k$ of any
+eigenvector is:
 
 ```math
-\frac{1}{\sqrt{\sum_{i=1}^n X_i^2}}
+\frac{1}{k}=\sqrt{\sum_{i=1}^n X_i^2}
 ```
 
 ### Norm
