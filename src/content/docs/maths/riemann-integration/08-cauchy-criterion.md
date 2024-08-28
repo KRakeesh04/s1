@@ -22,3 +22,11 @@ U(f, Pϵ) − L(f, Pϵ) ≤ \epsilon
 - To prove $\impliedby$: consider $L(f;P)<L(f) \land U(f)<U(f;P)$
 
 :::
+
+:::note
+
+$f:[a,b]\rightarrow\mathbb{R}$ is integrable on $[a,b]$ when:
+
+- The set of points of discontinuity of a bounded function $f$ is finite.
+- The set of points of discontinuity of a bounded function $f$ is finite number
+  of limit points. (may have infinite number of discontinuities) :::
