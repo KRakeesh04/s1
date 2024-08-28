@@ -1,0 +1,72 @@
+---
+title: Eigenvalues & Eigenvectors
+slug: maths/algebra/matrices/eigenvalues-eigenvectors
+sidebar:
+  order: 13
+---
+
+## Definitions
+
+### Characteristic Polynomial
+
+Let $A$ be a $n\times n$ matrix.
+
+```math
+p(\lambda)=|A-\lambda I|
+```
+
+### Eigenvalues
+
+Roots of the equation $p(\lambda) = 0$ are the eigenvalues of $A$.
+
+### Eigenvectors
+
+The column vectors satisfying the equation $(A-\lambda_i I)X_i$. $ $
+
+#### Normalized eigenvectors
+
+An eigenvector with the magnitude (norm) of $1$. Normalizing factor of any
+eigenvector is: $ $
+
+```math
+\frac{1}{\sqrt{\sum_{i=1}^n X_i^2}}
+```
+
+### Norm
+
+Norm of a column or row matrix $W_{n\times n}$ is denoted by $||W||$ and defined
+as:
+
+```math
+||W|| = \sqrt{\sum_{i=1}^n w_i^2}
+```
+
+### Algebraic Multiplicity
+
+If the characteristic polynomial consists of a factor of the form
+$(\lambda − \lambda_i)^r$ and $(\lambda − \lambda_i)^{r+1}$ is not a factor of
+the characteristic polynomial then $r$ is the algebraic multiplicity of the
+eigenvalue $\lambda$.
+
+### Spectrum
+
+Set of all eigenvalues.
+
+### Spectral Radius
+
+```math
+R=\max\Big\{|\lambda_i|\; where \;\lambda_i \in \text{Spectrum}\Big\}
+```
+
+## Linear Independence of Eigenvectors
+
+Suppose $X_1,X_2,X_3,\dots,X_n$ is a set of eigenvectors.
+$k_1,k_2,k_3,\dots,k_n$ is a set of scalars.
+
+All those eigenvectors are independent **iff**:
+
+```math
+k_1X_1+k_2X_2+k_3X_3+\dots+k_nX_n=0
+\implies
+k_1=k_2=k_3=\dots=k_n=0
+```

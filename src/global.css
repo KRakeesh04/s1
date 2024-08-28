@@ -188,6 +188,6 @@ br {
 		@apply !break-inside-avoid;
 	}
 }
-li ul {
-	@apply mt-1 mb-2.5 !important;
+.main-pane li ul {
+	@apply mt-1 mb-2.5 bg-gray-800 !important;
 }

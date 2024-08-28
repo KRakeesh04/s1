@@ -2,7 +2,7 @@
 title: Solution of non-homogenous systems
 slug: maths/algebra/matrices/non-homogenous-systems
 sidebar:
-  order: 11
+  order: 12
 ---
 
 ## Method 1: Direct approach
