@@ -64,7 +64,7 @@ Finish this section
 
 #### Polar form
 
-![curvilinear-motion-polar.jpg](/public/mechanics/dynamics/curvilinear-motion-polar.jpg)
+![curvilinear-motion-polar.jpg](/mechanics/dynamics/curvilinear-motion-polar.jpg)
 
 Velocities also have a transverse and radial components.
 
@@ -77,7 +77,7 @@ Right hand rule is used here to denote the direction of any rotary motions.
 
 :::
 
-![curvilinear-motion-polar-acceleration.jpg](/public/mechanics/dynamics/curvilinear-motion-polar-acceleration.jpg)
+![curvilinear-motion-polar-acceleration.jpg](/mechanics/dynamics/curvilinear-motion-polar-acceleration.jpg)
 
 Acceleration also have a transverse and radial components.
 
