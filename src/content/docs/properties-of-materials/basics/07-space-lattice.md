@@ -20,6 +20,13 @@ directions, the lattice can be generated.
 $ \rho = \frac{\text{Mass/unit cell}}{\text{Volume/unit cell}} =
 \frac{1}{v}(\frac{M}{L} \times n)$
 
+Here:
+
+- $v$ - volume of the unit cell
+- $M$ - molar mass
+- $n$ - atoms per unit cell
+- $L$ - avagadro's number
+
 ## Crystalline systems
 
 - All crystalline materials fall within one of the 7 possible shapes and 4
