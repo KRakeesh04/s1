@@ -133,7 +133,7 @@ strong {
 	@apply relative pt-20 sm:pt-16;
 	counter-reset: total-links;
 	a:not(#license) {
-		@apply border border-gray-200 no-underline px-3.5 py-1 text-[var(--sl-color-white)] hover:bg-[var(--sl-color-accent-low)] dark:hover:bg-[var(--sl-color-accent-high)] hover:text-black cursor-pointer rounded-lg transition-colors inline-flex items-center gap-1;
+		@apply no-underline px-1.5 text-[var(--sl-color-white)] w-fit hover:underline cursor-pointer rounded-lg transition-colors inline-flex items-center gap-1.5;
 		strong {
 			@apply text-inherit font-medium;
 		}
@@ -143,12 +143,13 @@ strong {
 		counter-reset: link;
 	}
 	.links-group {
-		@apply flex gap-3 flex-wrap;
+		@apply flex flex-col gap-2 flex-wrap;
 		a {
+			@apply text-md;
 			counter-increment: link 1 total-links 1;
 			&::before {
-				@apply text-xs;
-				content: "[" counter(link, decimal-leading-zero) "]";
+				@apply text-sm;
+				content: "--" counter(link, decimal-leading-zero) "--";
 			}
 		}
 	}
