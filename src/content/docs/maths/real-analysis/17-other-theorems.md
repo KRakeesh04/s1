@@ -71,7 +71,9 @@ L'Hopital's rule can be proven using Cauchy's Mean Value Theorem.
 
 ## L'Hopital's Rule
 
-:::note Be careful with the pronunciation.
+:::note
+
+Be careful with the pronunciation.
 
 - It's not "Hospital's Rule", there are no "s"
 - It's not "Hopital's Rule" either, there is a "L'".
