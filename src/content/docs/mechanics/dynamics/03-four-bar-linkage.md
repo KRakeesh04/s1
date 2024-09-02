@@ -2,7 +2,7 @@
 title: Four bar linkage
 slug: mechanics/dynamics/four-bar-linkage
 sidebar:
-  order: 2
+  order: 3
 ---
 
 Four bar-shaped members connected to each other in one plane.
