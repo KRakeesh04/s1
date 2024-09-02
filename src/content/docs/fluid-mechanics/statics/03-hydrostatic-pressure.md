@@ -1,6 +1,6 @@
 ---
 title: Hydrostatic Pressure
-slug: fluid-mechanics/hydrostatic-pressure
+slug: fluid-mechanics/statics/hydrostatic-pressure
 sidebar:
   order: 3
 ---

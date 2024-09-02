@@ -1,6 +1,6 @@
 ---
 title: Pressure Head
-slug: fluid-mechanics/pressure-head
+slug: fluid-mechanics/statics/pressure-head
 sidebar:
   order: 6
 ---

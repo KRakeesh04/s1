@@ -1,6 +1,6 @@
 ---
 title: Properties of Fluids
-slug: fluid-mechanics/properties-of-fluids
+slug: fluid-mechanics/statics/properties-of-fluids
 sidebar:
   order: 2
 ---

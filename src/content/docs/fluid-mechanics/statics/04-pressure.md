@@ -1,6 +1,6 @@
 ---
 title: Pressure
-slug: fluid-mechanics/pressure
+slug: fluid-mechanics/statics/pressure
 sidebar:
   order: 4
 ---

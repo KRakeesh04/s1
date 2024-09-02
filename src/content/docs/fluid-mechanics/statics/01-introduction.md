@@ -1,6 +1,6 @@
 ---
 title: Introduction to Fluid Mechanics
-slug: fluid-mechanics/introduction
+slug: fluid-mechanics/statics/introduction
 sidebar:
   order: 1
 ---

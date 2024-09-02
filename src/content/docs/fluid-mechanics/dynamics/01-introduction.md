@@ -1,8 +1,8 @@
 ---
-title: Fluids in Motion
-slug: fluid-mechanics/fluids-in-motion
+title: Introduction to Fluid Dynamics
+slug: fluid-mechanics/dynamics/introduction
 sidebar:
-  order: 12
+  order: 1
 ---
 
 ## Flow

@@ -71,10 +71,25 @@ export default defineConfig({
 				},
 				{
 					label: "Fluid Mechanics",
-					collapsed: true,
 					autogenerate: {
 						directory: "fluid-mechanics",
 					},
+					items: [
+						{
+							label: "Statics",
+							collapsed: true,
+							autogenerate: {
+								directory: "fluid-mechanics/statics",
+							},
+						},
+						{
+							label: "Dynamics",
+							collapsed: true,
+							autogenerate: {
+								directory: "fluid-mechanics/dynamics",
+							},
+						},
+					],
 				},
 				{
 					label: "Mathematics",

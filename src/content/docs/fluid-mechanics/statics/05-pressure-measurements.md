@@ -1,6 +1,6 @@
 ---
 title: Pressure Measurements
-slug: fluid-mechanics/pressure-measurements
+slug: fluid-mechanics/statics/pressure-measurements
 sidebar:
   order: 5
 ---
