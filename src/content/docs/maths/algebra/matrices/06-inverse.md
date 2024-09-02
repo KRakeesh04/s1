@@ -25,3 +25,15 @@ invertible matrices. $ $
 - $(AB)^{-1}=B^{-1}A^{-1}$
 - $(A^T)^{-1}=(A^{-1})^{T}$
 - $A\,\text{adj}A = \text{adj}A\,A = \lvert{A}\rvert I$
+
+:::note[Orthogonal Matrix]
+
+A square matrix is orthogonal if $A^T=A^{-1}$. $ $
+
+:::
+
+:::note[Orthogonal Matrix Pair]
+
+2 column vectors $v_1, v_2$ are said to be orthogonal if $v_1\cdot v_2=0$.
+
+:::

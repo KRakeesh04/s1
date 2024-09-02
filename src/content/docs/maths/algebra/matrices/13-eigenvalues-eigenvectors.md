@@ -19,6 +19,13 @@ p(\lambda)=|A-\lambda I|
 
 Roots of the equation $p(\lambda) = 0$ are the eigenvalues of $A$.
 
+:::note
+
+[Determinant of a matrix](/maths/algebra/matrices/determinant/#in-relation-with-eigenvalues)
+can be written in terms of all of its eigenvalues.
+
+:::
+
 ### Eigenvectors
 
 The column vectors satisfying the equation $(A-\lambda_i I)X_i$. $ $

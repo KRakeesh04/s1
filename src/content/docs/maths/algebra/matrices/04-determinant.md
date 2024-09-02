@@ -57,6 +57,7 @@ where $1\le j\le n$. $ $
 
 ### Properties of determinants
 
+- $\big|A^{T}\big|=|A|$
 - Every element of a row or column of a matrix is $0$ then the value of its
   determinant is $0$.
 - If 2 columns or 2 rows of a matrix are identical then its determinant is $0$.
@@ -69,3 +70,12 @@ where $1\le j\le n$. $ $
   $\lvert{B}\rvert=−\lvert{A}\rvert$.
 - If every entry in any row or column is multiplied by $k$, then the whole
   determinant is multiplied by $k$.
+
+### In relation with eigenvalues
+
+For a $n\times n$ matrix A with $n$ number of
+[eigenvalues](/maths/algebra/matrices/eigenvalues-eigenvectors/#eigenvalues):
+
+```math
+|A|=\prod_{i=1}^{n}{\lambda_i}
+```
