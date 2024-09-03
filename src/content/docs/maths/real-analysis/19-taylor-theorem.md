@@ -2,7 +2,7 @@
 title: Taylor's Theorem
 slug: maths/real-analysis/taylor-theorem
 sidebar:
-  order: 20
+  order: 19
 ---
 
 Let $f$ is $n+1$ differentiable on $(a,b)$. Let $c,x \in (a,b)$. Then
