@@ -48,7 +48,7 @@
 	font-variant-ligatures: none;
 }
 p{
-	@apply text-lg;
+	@apply text-[1.2rem];
 }
 li {
 	@apply text-md;

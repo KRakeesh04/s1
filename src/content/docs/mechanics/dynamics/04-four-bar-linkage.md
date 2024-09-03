@@ -1,8 +1,8 @@
 ---
-title: Four bar linkage
+title: Four-bar Linkage
 slug: mechanics/dynamics/four-bar-linkage
 sidebar:
-  order: 3
+  order: 4
 ---
 
 Four bar-shaped members connected to each other in one plane.
@@ -12,6 +12,7 @@ Usually:
 - 1 fixed link + 3 moving links
 - 4 pin joints
 - 2 moving pivots + 2 fixed pivots
+- 4 turning pairs
 
 ![Four bar linkage](/mechanics/dynamics/four-bar-linkage.jpg)
 
@@ -30,11 +31,13 @@ $
 
 ## Modes of motions
 
-| Mechanism     | Action                            |
-| ------------- | --------------------------------- |
-| Crank rocker  | Shortest link is the input link   |
-| Double crank  | Shortest link is the fixed link   |
-| Double rocker | Shortest link is the coupler link |
+| Mechanism     | Shortest link | Criteria  |
+| ------------- | ------------- | --------- |
+| Crank rocker  | Input link    | $s+l<p+q$ |
+| Double crank  | Fixed link    | $s+l<p+q$ |
+| Double rocker | Coupler link  | $s+l<p+q$ |
+| Change point  | Any           | $s+l=p+q$ |
+| Triple rocker | Any           | $s+l>p+q$ |
 
 **crank** means a link that makes a full revolution. **rocker** means a link
 that doesn't make a full revolution.
