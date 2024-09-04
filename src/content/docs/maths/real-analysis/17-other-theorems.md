@@ -37,9 +37,9 @@ Let $f$ be continuous on $[a,b]$ and differentiable on $(a,b)$. Then:
 
 :::note[Proof Hint]
 
-- Define $g(x)=f(x)-frac{f(a)-f(b)}{a-b}x$.
-- $g(a)$ will be equal to $g(b)$.
-- Use Rolle's Theorem for $g$.
+- Define $g(x)=f(x)-\Big(\frac{f(a)-f(b)}{a-b}\Big)x$
+- $g(a)$ will be equal to $g(b)$
+- Use Rolle's Theorem for $g$
 
 :::
 
@@ -54,9 +54,9 @@ $\forall x \in (a,b)\;g'(x) \neq 0$ Then:
 
 :::note[Proof Hint]
 
-- Define $h(x)=f(x)-\Big(\frac{f(a)-f(b)}{g(a)-g(b)}\Big)g(x)$.
-- $h(a)$ will be equal to $h(b)$.
-- Use Rolle's Theorem for $h$.
+- Define $h(x)=f(x)-\Big(\frac{f(a)-f(b)}{g(a)-g(b)}\Big)g(x)$
+- $h(a)$ will be equal to $h(b)$
+- Use Rolle's Theorem for $h$
 
 :::
 
