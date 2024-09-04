@@ -21,8 +21,10 @@ Roots of the equation $p(\lambda) = 0$ are the eigenvalues of $A$.
 
 :::note
 
-[Determinant of a matrix](/maths/algebra/matrices/determinant/#in-relation-with-eigenvalues)
-can be written in terms of all of its eigenvalues.
+- [Determinant of a matrix](/maths/algebra/matrices/determinant/#in-relation-with-eigenvalues)
+  can be written in terms of all of its eigenvalues.
+- If $\lambda$ is an eigenvalue of $A$, then $\lambda^2$ is an eigenvalue of
+  $A^2$
 
 :::
 
@@ -77,3 +79,18 @@ k_1X_1+k_2X_2+k_3X_3+\dots+k_nX_n=0
 \implies
 k_1=k_2=k_3=\dots=k_n=0
 ```
+
+## For special matrices
+
+### Real symmetric matrix
+
+Suppose $A$ is a symmetric matrix with all real entries. Then: $ $
+
+- The eigenvalues of $A$ are all real:
+  $\forall \lambda \in S_A, (\lambda_i \in \mathbb{R})$
+- The eigenvectors of $A$ (corresponding to distinct values of $\lambda$) are
+  mutually orthogonal
+
+### Upper triangular matrix
+
+The eigenvalues are the diagonal entries

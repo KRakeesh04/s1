@@ -192,3 +192,7 @@ br {
 .main-pane li ul {
 	@apply mt-1 mb-2.5 !important;
 }
+.sl-markdown-content li .MathJax {
+	@apply !mt-0;
+
+}
