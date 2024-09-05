@@ -4,7 +4,7 @@ import { defineConfig } from "astro/config";
 import rehypeMathjax from "rehype-mathjax";
 import remarkMath from "remark-math";
 
-const DEFAULT_TITLE = "S1";
+const DEFAULT_TITLE = "UoM E S1";
 
 // https://astro.build/config
 export default defineConfig({
