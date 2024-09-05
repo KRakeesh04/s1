@@ -76,7 +76,7 @@ The distance $BM$. Measured upwards from $B$.
 
 :::note
 
-Metacentric height and metacentric radius are related by: $GM=BM-BG$.$ $
+Metacentric height and metacentric radius are related by: $BM=BG+GM$.$ $
 
 :::
 

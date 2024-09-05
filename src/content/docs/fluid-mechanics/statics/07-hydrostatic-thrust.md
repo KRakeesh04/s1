@@ -28,7 +28,7 @@ Here:
   from the free surface
 - $y_c$ - Distance to $C$ measured along the submerged surface from the free
   surface
-- $I_{\text{cc}}$ - Second moment of submerged area about the centroidal surface
+- $I_{\text{cc}}$ - Second moment of submerged area about the centroidal axis
   parallel to the free surface
 
 :::note[For a plane surface]

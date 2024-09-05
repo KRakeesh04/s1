@@ -62,18 +62,18 @@ The parameters:
 
 The variation of the parameters with time.
 
-- Steady: no variation with time  
+- **Steady**: no variation with time  
   $V=f(x,y,z)$
-- Unsteady: variation of flow parameters with time  
+- **Unsteady**: variation of flow parameters with time  
   $V=f(t,x,y,z)$
 
 #### Spatial Variation
 
 The variation of the parameters with coordinates.
 
-- Uniform: no variation with spatial parameters  
+- **Uniform**: no variation with spatial parameters  
   $V=f(t)$
-- Non-uniform: spatial variation of flow parameters  
+- **Non-uniform**: spatial variation of flow parameters  
   $V=f(t,x,y,z)$
 
 ### Dimensional
@@ -83,14 +83,13 @@ can reduce the calculations.
 
 ### Nature of movement
 
-- Orderly (aka. Laminar)
-- Disorderly (aka. Turbulent)
+- **Laminar**: Fluid particles move in a orderly fashion
+- **Turbulent**: Fluid particles move disorderly
 
 ### Rotation of particles
 
-- Rotational  
-  Usually due to shear forces. Flow of real fluids.
-- Non-rotational Flow of frictionless forces.
+- **Rotational**: Usually due to shear forces. Flow of real fluids.
+- **Non-rotational**: Flow of frictionless forces.
 
 ## Flow patterns
 

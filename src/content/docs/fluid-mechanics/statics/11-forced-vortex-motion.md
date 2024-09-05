@@ -57,9 +57,19 @@ Total volume of the fluid is:
 V=
 \pi R^2 h_0
 +\frac{1}{2}\pi R^2(H-h_0)
+=
+\pi R^2 h
 ```
 
 ```math
+\implies
 V=
 \frac{1}{2}\pi R^2 (H + h_0)
+=
+\pi R^2 h
+```
+
+```math
+\implies
+H + h_0 = 2h
 ```

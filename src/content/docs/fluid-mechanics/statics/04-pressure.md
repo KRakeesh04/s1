@@ -23,7 +23,3 @@ $
 ## Pressure diagram
 
 A diagram showing the variation of pressure along a submerged surface.
-
-## Uses in real life
-
-- Hydraulic jack

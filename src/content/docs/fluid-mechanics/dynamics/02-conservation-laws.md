@@ -19,6 +19,9 @@ called as control volume.
 
 A volume, through which a fluid flows.
 
+- It's a fixed volume
+- Can either be real or imaginary
+
 ## Conservation of mass
 
 Mass cannot be created nor destroyed.
