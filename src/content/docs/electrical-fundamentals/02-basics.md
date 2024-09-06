@@ -78,3 +78,19 @@ w = \int_{t_0}^{t} {p\text{d}t} = \int_{t_0}^{t} {vi\text{d}t}
 ```math
 w = vi \int_{t_0}^{t} {\text{d}t} = vi(t - t_0)
 ```
+
+## Electrical Load
+
+Something that consumes electrical energy.
+
+### Linear loads
+
+Loads that can be expressed using a combination of resistors, capacitors and
+inductors only.
+
+:::note
+
+If a AC sinusoidal voltage is applied across a load, current through the load
+will also be sinusoidal **iff** the load is linear.
+
+:::

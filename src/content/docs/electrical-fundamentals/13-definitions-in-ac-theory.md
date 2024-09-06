@@ -5,6 +5,12 @@ sidebar:
   order: 13
 ---
 
+:::note
+
+Only sinusoidal AC supply are considered in s1.
+
+:::
+
 Say $v$ is alternating as in $v=v_{m}sin(\omega{t}+\phi)$.
 
 ## Peak value
