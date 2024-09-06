@@ -2,7 +2,7 @@
 title: Double subscript notation
 slug: electrical-fundamentals/double-subscript-notation
 sidebar:
-  order: 3
+  order: 2
 ---
 
 | -                | Current                                                | Voltage                                                       |

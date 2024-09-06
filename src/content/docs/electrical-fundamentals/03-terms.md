@@ -2,24 +2,27 @@
 title: Common Terms
 slug: electrical-fundamentals/terms
 sidebar:
-  order: 4
+  order: 3
 ---
-
-## Two terminal element
-
-An element connected to two nodes.
 
 ## Branch
 
-A branch represents a single element, such as a resistor or a battery. A branch
-is a two terminal element.
+A branch represents a single element, such as a resistor or a battery.
 
 ## Node
 
 A node is the point connecting more than 1 branches. Denoted by a dot.
 
+:::note
+
 All points in a circuit that are connected directly by ideal conductors can be
 considered to be a single node.
+
+:::
+
+## Two terminal element
+
+An element connected to two nodes. Branches are two terminal elements.
 
 ## Loop
 
@@ -28,6 +31,6 @@ than once except for the same start/finish node.
 
 ## Mesh
 
-A mesh is a loop without having other loops inside it.
+A mesh is a loop without having other loops inside it. Subset of loops.
 
 ![Common Terms Explanation](/electrical/common-terms-explanation.jpg)

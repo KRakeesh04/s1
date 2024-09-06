@@ -2,7 +2,7 @@
 title: 3-Phased System
 slug: electrical-fundamentals/3-phase-system
 sidebar:
-  order: 18
+  order: 16
 ---
 
 ## Why 3-phase?
@@ -80,3 +80,11 @@ I_N=E
 \frac{1\angle 120°}{z_B}
 \bigg]
 ```
+
+:::note
+
+A balanced 3-phase circuit can be represented by a single-phase equivalent
+circuit. The diagram showing the single-phase equivalent of the power system
+using standard symbols.
+
+:::

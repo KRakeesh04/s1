@@ -2,7 +2,7 @@
 title: Introduction to Waves
 slug: electrical-fundamentals/introduction-to-waves
 sidebar:
-  order: 12
+  order: 10
 ---
 
 ## Waveform
@@ -22,7 +22,7 @@ waveform.
 
 ### Sinusoidal Waves
 
-Same as $sin\theta$ vs $\theta$ (in rad). Also called sine waves, and sinusoid.
+Same as $\sin\theta$ vs $\theta$ (in rad). Also called sine waves or sinusoid.
 
 $y=Asin(\omega{t}+\phi)$
 
@@ -41,7 +41,9 @@ harmonics.
 
 ### Fundamental Waveform
 
-$f_0=f_{\text{complex}}$
+```math
+f_0=f_{\text{complex}}
+```
 
 ### Harmonics
 
@@ -53,7 +55,7 @@ n\cdot
 f_0\;;\,n\in\mathbb{Z}
 ```
 
-Harmonics are grouped into
+Harmonics are grouped into:
 
 - **odd harmonic** when $n$ is odd.
 - **even harmonic** when $n$ is even.

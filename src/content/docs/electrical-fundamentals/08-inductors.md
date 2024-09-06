@@ -2,7 +2,7 @@
 title: Inductors
 slug: electrical-fundamentals/inductors
 sidebar:
-  order: 10
+  order: 8
 ---
 
 When there is a current in the inductor, a magnetic field is created. Any change
@@ -11,11 +11,13 @@ across the inductor that opposes the original change in current.
 
 A length of wire turned into a coil works as a inductor.
 
-## Inductance ($ L $)
+## Inductance (L)
 
 For an ideal inductor:
 
-$ v = L \frac{\text{d}i}{\text{d}t} $
+```math
+v = L \frac{\text{d}i}{\text{d}t}
+```
 
 Here the $ v $ is the voltage difference between the inductor, and $ i $ is the
 current through the inductor.
@@ -28,7 +30,9 @@ Assume voltage across an inductor rises from $0$ to $ i $ during a time period
 of $t$ seconds.
 
 ```math
-e = \int_{0}^{t} p dt = \int_{0}^{t} vi dt = L \int_{0}^{i} i di
+e = \int_{0}^{t} p\,dt = \int_{0}^{t} vi\,dt = L \int_{0}^{i} i\,di
 ```
 
-$ E = \frac{1}{2}Li^2 $
+```math
+E = \frac{1}{2}Li^2
+```

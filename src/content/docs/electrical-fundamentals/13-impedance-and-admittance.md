@@ -2,8 +2,10 @@
 title: Impedance & Admittance
 slug: electrical-fundamentals/impedance-and-admittance
 sidebar:
-  order: 15
+  order: 13
 ---
+
+### Impedance (Z)
 
 ```math
 Z=\frac{V}{I}=R+jX
@@ -14,7 +16,7 @@ Here:
 - $R$: Resistance
 - $X$: Reactance
 
-## Admittance (Y)
+### Admittance (Y)
 
 Inverse of impedance.
 
@@ -42,21 +44,25 @@ B=-\frac{X}{R^2+X^2}
 Let $i=I_m\sin{(\omega t + \phi_0)}$ is applied across a resistor with
 resistance $R$. From Ohm's law:
 
-$v=RI_m\sin{(\omega t + \phi_0)}$
-
-:::note
+```math
+v=RI_m\sin{(\omega t + \phi_0)}
+\implies
+Z_R = R
+```
 
 No changes in frequency, phase angle. $v$ is in phase with $i$. $R$ doesn't have
 reactance.
-
-:::
 
 ### Inductor
 
 Let $i=I_m\sin{(\omega t + \phi_0)}$ is applied across an inductor with
 inductance $L$.
 
-$v=L\omega I_m\sin{(\omega t + (\phi_0+\frac{\pi}{2}))}$
+```math
+v=L\omega I_m\sin{(\omega t + (\phi_0+\frac{\pi}{2}))}
+\implies
+Z_L = j\omega L
+```
 
 Reactance of the inductor is $X_L=L\omega$. $ $
 
@@ -74,6 +80,8 @@ capacitance $c$.
 ```math
 v=\frac{I_m}{c\omega}
 \sin{(\omega t + (\phi_0 - \frac{\pi}{2}))}
+\implies
+Z_C = -j\frac{1}{c\omega}
 ```
 
 Reactance of the capacitor (capacitive reactance) is $X_c=-\frac{1}{c\omega}$.

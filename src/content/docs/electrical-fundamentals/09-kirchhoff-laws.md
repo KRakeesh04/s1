@@ -2,28 +2,26 @@
 title: Kirchhoff Laws
 slug: electrical-fundamentals/kirchhoff-laws
 sidebar:
-  order: 11
+  order: 9
 ---
 
 ## Kirchhoff Current Law
 
-The algebraic sum of all the currents entering and leaving a node is zero.
+The algebraic sum of all the currents entering and leaving a node is zero. Based
+on principle of conversation of charge.
 
 ```math
 \sum_{\text{node}} I = 0 \implies \sum_{\text{in}} I = \sum_{\text{out}} I
 ```
 
-Based on principle of conversation of charge.
-
 ## Kirchhoff Voltage Law
 
-The algebraic sum of voltages around a loop is zero.
+The algebraic sum of voltages around a loop is zero. Based on principle of
+conversation of energy.
 
 ```math
 \sum_{\text{node}} V = 0
 ```
-
-Based on principle of conversation of energy.
 
 ## Voltage division
 

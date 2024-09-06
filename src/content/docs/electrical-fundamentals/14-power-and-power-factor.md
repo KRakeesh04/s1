@@ -2,7 +2,7 @@
 title: Power and Power factor
 slug: electrical-fundamentals/power-and-power-factor
 sidebar:
-  order: 16
+  order: 14
 ---
 
 - In a purely resistive AC circuit, the energy delivered by the source will be
@@ -26,10 +26,11 @@ Instantaneous power dissipated by the load is given by:
 p(t) = \frac{V_m^2}{R}\cos^2{(\omega t)}
 ```
 
-Here
+Always: $p(t)\gt 0$. $ $
 
-- $p(t)$ is always positive
-- $\text{Average power} = \frac{1}{2}\text{Peak power}$
+```math
+\text{Average power} = \frac{1}{2}\text{Peak power}=\cfrac{V_m^2}{2R}
+```
 
 ### Purely inductive circuit
 
@@ -63,7 +64,7 @@ Suppose the circuit is supplied a voltage of $v(t) = V_m\cos{(\omega t)}$. And
 the current phasor shifts in $\theta$ phase angle.
 
 ```math
-i(t) = I_m\cos{(\omega t) - \theta}
+i(t) = I_m\cos{(\omega t - \theta)}
 ```
 
 This ends up with:
@@ -75,7 +76,7 @@ p(t) = \frac{1}{2}V_mI_m\bigg[\cos\theta+\cos\bigg(\omega t - \frac{\theta}{2}\b
 #### Average of over 1 cycle
 
 ```math
-P_\text{avg} =\frac{1}{T}\int_{t_0}^{t_0 + T} p(t) \text{d}t = V_{\text{rms}}I_{\text{rms}}\cos{\theta}
+P_\text{avg} =\frac{1}{T}\int_{t_0}^{t_0 + T} p(t)\,\text{d}t = V_{\text{rms}}I_{\text{rms}}\cos{\theta}
 ```
 
 ## Types of power
