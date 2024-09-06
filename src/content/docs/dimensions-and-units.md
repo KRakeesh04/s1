@@ -91,6 +91,6 @@ slug: dimensions-and-units
 | Secant modulus        | $ ML^{-1}T^{-2} $  | $ Pa $              |
 | Tangent modulus       | $ ML^{-1}T^{-2} $  | $ Pa $              |
 | Poisson's ratio       | -                  | -                   |
-| Carrier Concentration | $ L^{-2}IT $       | $ Cm^{-2} $         |
+| Carrier Concentration | $ L^{-2}TI $       | $ Cm^{-2} $         |
 | Carrier Mobility      | $ M^{-1}T^{2}I^1$  | $m^{2}V^{-1}s^{-1}$ |
-| Charge Sensitivity    | $ MLT^{-3}I^{-1} $ | $NC^{-1}$           |
+| Charge Sensitivity    | $M^{-1}L^{-1}T^3I$ | $N^{-1}C$           |

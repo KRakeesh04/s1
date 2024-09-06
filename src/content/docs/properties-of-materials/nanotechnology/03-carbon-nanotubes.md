@@ -7,11 +7,6 @@ sidebar:
 
 A rolled up sheet of graphene.
 
-Properties:
-
-- Extraordinary electrical and heat conductivity
-- High mechanical strength
-
 ## Classifications
 
 ### Based on structure
@@ -60,7 +55,7 @@ Equivalent atoms means the atoms having the same surrounding.
 
 In graphene, next-near neighbours are equivalent atoms.
 
-When a graphene sheet is rolled to create a CNT, equivalent atoms must be
+When a graphene sheet is rolled to create a CNT, only equivalent atoms can be
 connected.
 
 ### Primitive Vectors
@@ -93,17 +88,17 @@ primitive vectors, then the notation for the nanotube is $(n,m)$
 
 Angle between the chiral vector and nearest zigzag angle.
 
-For a $(n,m)$ tube: $ $
+For a $(n,m)$ tube where $n>0$ and $n\ge m\ge 0$:
 
 ```math
-\theta=\tan^{-1} \frac{\sqrt{3}m}{2n+m}
+\theta=\tan^{-1}\bigg( \frac{\sqrt{3}m}{2n+m}\bigg)
 ```
 
 - $\theta=30°$: armchair tube
 - $\theta=0°$: zigzag tube
 - $0°<\theta<30°$: chiral tube
 
-### Diameter of CNT
+### Chiral Vector Length
 
 For a $(n,m)$ tube, the chiral vector's length is given by: $ $
 
@@ -113,8 +108,34 @@ For a $(n,m)$ tube, the chiral vector's length is given by: $ $
 
 Here $a$ is the bond length of C-C. $ $
 
-And the diameter of the CNT can be expressed by:
+### Diameter of CNT
+
+The diameter can be expressed by:
 
 ```math
 D=\frac{|\text{CH}|}{\pi}=\frac{a}{\pi}\sqrt{n^2+m^2+nm}
 ```
+
+## Properties
+
+- Mechanical properties
+  - High young's modulus: depends on tube diameter, multi-walled or
+    single-walled but not tube chirality.
+  - Sustains higher strain
+- Electrical properties
+  - Depends on chirality and size
+  - Exhibits superconductivity at $20\text{K}$
+  - Band structure changes with chirality
+- Thermal properties
+  - Conducts thermal energy only in the axial direction; radial direction is
+    insulating
+
+### Chirality dependent electrical properties
+
+For a $(n,m)$ tube: $ $
+
+- If $n=m$, its armchair typed and is metallic (good conductors)
+- If $n-m$ is a integer multiple of $3$: small band gap semiconductors
+- Else: large band gap semiconductors
+
+Band gap decreases as the radius of the diameter increases.

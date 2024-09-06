@@ -8,7 +8,7 @@ sidebar:
 ## Dielectric material
 
 A material that is electrically insulating (non-metallic) and exhibits (or be
-made to) exhibit an electric dipole structure.
+made to) an electric dipole structure.
 
 ## Electric Dipole Structure
 

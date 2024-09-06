@@ -2,6 +2,7 @@
 title: Introduction of Nanomaterials
 slug: properties-of-materials/nanotechnology/introduction
 sidebar:
+  label: Introduction
   order: 1
 ---
 

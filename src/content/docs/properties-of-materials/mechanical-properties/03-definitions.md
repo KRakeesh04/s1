@@ -58,14 +58,17 @@ Homogenous materials. $\epsilon_x=\epsilon_y$. $ $
 When stress is not proportional to strain. Deformation is permanent or
 non-recoverable or **plastic**.
 
+## Yield stress point
+
+The point where plastic deformation starts in stress-strain diagram.
+
 ## Yield strength
 
-Stress at point P. Point P is where plastic deformation starts (in stress-strain
-diagram). Denoted by $\sigma_y$. Used when the strength of a metal is cited for
-design purposes. $ $
+Stress at yield stress point. Denoted by $\sigma_y$. Used when the strength of a
+metal is cited for design purposes. $ $
 
-Point P is very difficult to find practically. Therefore **strain offset
-method** is used to find the yield strength.
+True yield stress point is very difficult to find practically. Therefore
+**strain offset method** is used to find an approximate yield strength.
 
 ### Strain offset method
 
