@@ -22,8 +22,15 @@ can be derived from taylor's theorem when $n=0$. $ $
 
 :::note[Proof Hint]
 
-- Define $ F(t)= f(t)+\sum\_{k=1}^{n}{\frac{f^{(k)}(t)}{k!}(x-t)^k}$
-- Define $G(t)=(x-t)^{n+1}$
+```math
+F(t)= f(t)+\sum_{k=1}^{n}{\frac{f^{(k)}(t)}{k!}(x-t)^k}
+```
+
+```math
+G(t)=(x-t)^{n+1}
+```
+
+- Define $F,G$ as mentioned above
 - Consider the interval $[c,x]$
 - Use
   [Cauchy's mean value theorem](/maths/real-analysis/other-theorems/#cauchys-mean-value-theorem)
