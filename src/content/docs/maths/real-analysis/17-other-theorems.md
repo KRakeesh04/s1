@@ -103,15 +103,14 @@ Be careful with the pronunciation.
 L'Hopital's Rule can be used when all of these conditions are met. (here
 $\delta$ is some positive number). $ $
 
-1. $f$ and $g$ are 2 functions defined at $a$
-2. $f(a)=g(a)=0$  
-   Also valid when either of these conditions is satisfied
+1. Either of these conditions must be satisfied
+   - $f(a)=g(a)=0$
    - $\lim{f(x)}=\lim{g(x)}=0$
    - $\lim{f(x)}=\lim{g(x)}=\infty$
-3. $f,g$ are continuous on $x\in[a,a+\delta]$
-4. $f,g$ are differentiable on $x\in(a,a+\delta)$
-5. $g'(x) \neq 0$ on $x\in(a,a+\delta)$
-6. $\lim\limits_{x\to a^{\text{+}}}{\frac{f'(x)}{g'(x)}}=L\in\mathbb{R}$
+2. $f,g$ are continuous on $x\in[a,a+\delta]$
+3. $f,g$ are differentiable on $x\in(a,a+\delta)$
+4. $g'(x) \neq 0$ on $x\in(a,a+\delta)$
+5. $\lim\limits_{x\to a^{\text{+}}}{\frac{f'(x)}{g'(x)}}=L\in\mathbb{R}$
 
 Then: $\lim\limits_{x\to a^{\text{+}}}{\frac{f(x)}{g(x)}}=L$ $ $
 
