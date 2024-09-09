@@ -31,6 +31,16 @@ Mass cannot be created nor destroyed.
 Energy cannot be created nor destroyed, but can be converted from one form to
 another.
 
+## Conservation of momentum
+
+Unless a resultant force is exerted on a mass, it cannot gain or lose momentum.
+
+### Momentum
+
+```math
+M = \text{mass}\times\text{velocity}= mv
+```
+
 ## Derivations
 
 ### Continuity equation
@@ -71,3 +81,15 @@ Here:
   piezometric pressure.
 
 :::
+
+### Steady flow momentum equation
+
+```math
+F_S = \dot{M_o}-\dot{M_i}
+```
+
+Here:
+
+- $F_S$ - Force exerted on the fluid within the control volume
+- $\dot{M_o}$ - Rate of change of momentum of the inflow fluid
+- $\dot{M_i}$ - Rate of change of momentum of the outflow fluid

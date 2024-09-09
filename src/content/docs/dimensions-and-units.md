@@ -11,6 +11,7 @@ slug: dimensions-and-units
 | Energy/Work | $ ML^{2}T^{-2} $ | $ J,\; Nm $      |
 | Power       | $ ML^{2}T^{-3} $ | $ Js^{-1} $      |
 | Frequency   | $ T^{-1} $       | $s^{-1}$         |
+| Momentum    | $MLT^{-1}$       | $kgms^{-1}$      |
 
 ## Electrical Fundamentals
 
