@@ -16,15 +16,17 @@ p_1(x)\frac{\text{d}^{n-1}y}{\text{d}x^{n-1}}+
 =q(x)
 ```
 
-Based on $q(x)$, the above equation is categorized into 2 types$ $
+Based on $q(x)$, the above equation is categorized into $2$ types:
 
 - **Homogenous** if $q(x)=0$
 - **Non-homogenous** if $q(x)\not=0$
 
-:::note
+:::caution[For 1st semester]
 
-For 1st semester, only higher order, linear, ordinary differential equations
-with constant coefficients are focused on. They can be written as:
+Only linear, ordinary differential equations with constant coefficients are
+required.
+
+They can be written as:
 
 ```math
 \frac{\text{d}^ny}{\text{d}x^n}+
@@ -52,10 +54,10 @@ Doesn't exist for homogenous equations. For non-homogenous equations check
 
 ### Complementary solution
 
-Solutions assuming $LHS=0$ (as in a homogenous equations). $ $
+Solutions assuming $LHS=0$ (as in a homogenous equation). $ $
 
 ```math
-y_c = \sum_{i=1}^{n}{c_iy_i}
+y_c = \sum_{i=1}^{n}{c_i\,y_i}
 ```
 
 Here
@@ -65,7 +67,8 @@ Here
 
 ## Linearly dependent & independent
 
-n-th order linear differential equations have n linearly independent solutions.
+$n$-th order linear differential equations have n linearly independent
+solutions. $ $
 
 Two solutions of a differential equation $u,v$ are said to be **linearly
 dependent**, if there exists constants $c_1,c_2\;(\not=0)$ such that
@@ -74,10 +77,14 @@ $c_1u(x)+c_2v(x)=0$.
 Otherwise, the solutions are said to be **linearly independent**, which means:
 
 ```math
-\sum_{i=1}^{n}{c_iy_i}=0\rightarrow \forall{c_i}=0
+\sum_{i=1}^{n}{c_iy_i}=0\implies \forall{c_i}=0
 ```
 
 ## Linear differential operators with constant coefficients
+
+:::danger[WTF?]
+
+I don't understand anything in this section. :::
 
 ### Differential operator
 
@@ -113,4 +120,5 @@ q(x)
 
 where $P(D)=(\text{D}^n+a_1\text{D}^{n-1}+\;...\;+a_n)$. $ $
 
-We call $P(D)$ a polynomial differential operator with constant coefficients.$ $
+$P(D)$ is called a polynomial differential operator with constant coefficients.$
+$

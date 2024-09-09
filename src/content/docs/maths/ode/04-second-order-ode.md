@@ -28,15 +28,21 @@ equation**.
 
 ### Case 1: Distinct real roots
 
-$y = Ae^{m_1x}+Be^{m_2x}$
+```math
+y = Ae^{m_1x}+Be^{m_2x}
+```
 
 ### Case 2: Equal real roots
 
-$y = (Ax+B)e^{mx}$
+```math
+y = (Ax+B)e^{mx}
+```
 
 ### Case 3: Complex conjugate roots
 
-$y = Ae^{(p+iq)x} + Be^{(p−iq)x} = e^{px}(C\cos{qx}+D\sin{qx})$
+```math
+y = Ae^{(p+iq)x} + Be^{(p−iq)x} = e^{px}\big(C\cos{(qx)}+D\sin{(qx)}\big)
+```
 
 ## Non-homogenous
 

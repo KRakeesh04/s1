@@ -5,7 +5,7 @@ sidebar:
   order: 5
 ---
 
-Consider the equation, where $P,Q$ are functions of $x$ alone, and which has 2
+Consider the equation, where $P,Q$ are functions of $x$ alone, and which has $2$
 fundamental solutions $u(x),v(x)$:
 
 ```math
@@ -45,7 +45,7 @@ Consider the equation, where $P,Q$ are functions of $x$ alone.
 y''+Py'+Qy=0
 ```
 
-Let $u(x),v(x)$ be 2 fundamental solutions of the equation: $ $
+Let $u(x),v(x)$ be $2$ fundamental solutions of the equation:
 
 ```math
 u''+Pu'+Qu=0
@@ -72,7 +72,7 @@ w'=uv''-vu''=-P[uv'-vu']=-Pw
 By solving the above relation:
 
 ```math
-w=ce^{-\int{P}\,\text{d}x}
+w=c\cdot\exp{\bigg(-\int{P}\,\text{d}x\bigg)}
 ```
 
 Suppose there exists $x_0$ such that $w(x_0)=0$. That implies $c=0$. That
@@ -80,5 +80,5 @@ implies $w$ is always $0$.
 
 ## Theorem 2
 
-The solutions of the above differential equation are linearly dependent **iff**
-their Wronskian vanish identically.
+The solutions of the above differential equation are _linearly dependent_
+**iff** their Wronskian vanish identically.
