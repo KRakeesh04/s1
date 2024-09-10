@@ -195,6 +195,7 @@ br {
 	}
 	.starlight-aside__title {
 		background: var(--sl-color-bg-nav);
+		outline: 1px color-mix(in lch, var(--sl-color-text), #00f1) solid !important;
 		&, svg {
 			color: unset !important;
 		}
