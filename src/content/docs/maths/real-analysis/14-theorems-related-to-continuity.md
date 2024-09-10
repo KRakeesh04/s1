@@ -53,7 +53,7 @@ $\implies \exists \delta >0; \forall x\,(|x-a|\lt\delta \implies f(x)>0) $ $ $
 
 :::note[Proof Hint]
 
-To proof this, take $\epsilon=\frac{f(a)}{2}$. $ $
+Take $\epsilon=\frac{f(a)}{2}$ $ $
 
 :::
 
@@ -65,6 +65,6 @@ $\implies \exists \delta >0; \forall x\,(|x-a|\lt\delta \implies f(x)<0) $ $ $
 
 :::note[Proof Hint]
 
-To proof this, take $\epsilon=-\frac{f(a)}{2}$. $ $
+Take $\epsilon=-\frac{f(a)}{2}$ $ $
 
 :::

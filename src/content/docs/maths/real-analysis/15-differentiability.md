@@ -43,7 +43,7 @@ Use $\delta=min(\delta_1, \frac{\epsilon}{1 + |f'(a)|})$. $ $
 
 :::note
 
-Suppose $f$ is differentiable at a. Define $g$:
+Suppose $f$ is differentiable at $a$. Define $g$:
 
 ```math
 

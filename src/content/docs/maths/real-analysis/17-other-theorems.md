@@ -20,7 +20,7 @@ By
 [Extreme Value Theorem](/maths/real-analysis/theorems-related-to-continuity/#extreme-value-theorem),
 maximum and minimum exists for $f$. $ $
 
-Consider 2 cases:
+Consider $2$ cases: $ $
 
 1. Both minimum and maximum exist at $a$ and $b$.
 2. One of minimum or maximum occurs in $(a,b)$.
@@ -60,14 +60,7 @@ $\forall x \in (a,b)\;g'(x) \neq 0$ Then:
 
 :::
 
-This is a more generalized version of the mean value theorem. Mean value theorem
-is the case when $g(x)=x$. $ $
-
-:::note
-
-L'Hopital's rule can be proven using Cauchy's Mean Value Theorem.
-
-:::
+Mean value theorem can be obtained from this when $g(x)=x$. $ $
 
 ## Generalized MVT for Riemann Integrals
 
@@ -96,12 +89,12 @@ f(\zeta)\int_a^b{g(x)\text{d}x}
 Be careful with the pronunciation.
 
 - It's not "Hospital's Rule", there are no "s"
-- It's not "Hopital's Rule" either, there is a "L'".
+- It's not "Hopital's Rule" either, there is a "L'"
 
 :::
 
 L'Hopital's Rule can be used when all of these conditions are met. (here
-$\delta$ is some positive number). $ $
+$\delta$ is some positive number). Select the appropriate $x$ ranges. $ $
 
 1. Either of these conditions must be satisfied
    - $f(a)=g(a)=0$
@@ -116,6 +109,8 @@ Then: $\lim\limits_{x\to a^{\text{+}}}{\frac{f(x)}{g(x)}}=L$ $ $
 
 :::note
 
-L'Hopital's Rule is valid for all types of "x limits".
+L'Hopital's rule can be proven using Cauchy's Mean Value Theorem.
+
+It is valid for all types of "x limits".
 
 :::

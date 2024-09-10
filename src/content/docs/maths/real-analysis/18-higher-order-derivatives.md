@@ -1,5 +1,5 @@
 ---
-title: Higher order derivatives
+title: Higher Order Derivatives
 slug: maths/real-analysis/higher-order-derivatives
 sidebar:
   order: 18
