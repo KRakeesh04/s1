@@ -19,6 +19,6 @@ $f^{(n)}(a)$ is the $n$-th derivative of $f$ at $a$.
 
 :::note
 
-$f^{(n)} \text{ is differentiable at } a \implies f^{(n-1)} \text{ is continuous at } a$
+$f \text{ is } n \text{-th differentiable at } a \implies f^{(n-1)} \text{ is continuous at } a$
 
 :::

@@ -27,7 +27,7 @@ l_2:
 \frac{z-z_1}{c_1}
 ```
 
-The normal to both lines $\underline{n}$ is:$ $
+The unit normal to both lines $\underline{n}$ is:$ $
 
 ```math
 \underline{n}=\frac{

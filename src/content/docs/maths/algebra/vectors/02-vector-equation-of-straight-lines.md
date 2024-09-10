@@ -5,16 +5,18 @@ sidebar:
   order: 2
 ---
 
-## Line that passes through the point $\underline{r_0}$ and parallel to $\underline{v}$
+### Passes through a point & parallel to a vector
 
-Here $r_0=(x_0, y_0, z_0)$ and
-$\underline{v}=a\underline{i}+b\underline{j}+c\underline{k}$
+Equation for a line that:
 
-### Parametric equation
+- passes through $\underline{r_0}=\langle x_0, y_0, z_0 \rangle$
+- is parallel to $\underline{v}=a\underline{i}+b\underline{j}+c\underline{k}$
+
+#### Parametric equation
 
 $\underline{r}=\underline{r_0}+t\underline{v};\;t\in\mathbb{R}$
 
-### Symmetric equation
+#### Symmetric equation
 
 ```math
 \frac{x-x_0}{a}
@@ -24,16 +26,16 @@ $\underline{r}=\underline{r_0}+t\underline{v};\;t\in\mathbb{R}$
 \frac{z-z_0}{c}
 ```
 
-## Line that passes through the point $A$ and $B$
+### Passes through 2 points
 
-Here $A=(x_1,y_1,z_1)$, $B=(x_2,y_2,z_2)$. $r_A$ and $r_B$ are the position
-vectors of $A$ and $B$.
+Equation of a line passes through $A=(x_1,y_1,z_1)$, $B=(x_2,y_2,z_2)$.
+$\underline{r_A}$ and $\underline{r_B}$ are the position vectors of $A$ and $B$.
 
-### Parametric equation
+#### Parametric equation
 
 $\underline{r}=(1-t)\underline{r_A}+t\underline{r_B};\;t\in\mathbb{R}$
 
-### Symmetric equation
+#### Symmetric equation
 
 ```math
 \frac{x-x_1}{x_2-x_1}
@@ -48,23 +50,60 @@ $\underline{r}=(1-t)\underline{r_A}+t\underline{r_B};\;t\in\mathbb{R}$
 To show that two straight lines intersect in 3D space, it is **not** enough to
 show that the cross product of their parallel vectors is non-zero.
 
-**Existence of a point which satisfies both lines must be proven.**
+**Also**: Existence of a point which satisfies both lines must be proven.
 
 :::
 
-## Angle between two straight lines
+## Normal to 2 lines
 
-Let $\alpha:\frac{x-x_1}{a_1}=\frac{y-y_1}{b_1}=\frac{z-z_1}{c_1}$,
-$\beta:\frac{x-x_2}{a_2}=\frac{y-y_2}{b_2}=\frac{z-z_2}{c_2}$ be two lines.
+Let $\alpha,\beta$ be two lines. $ $
 
 ```math
-cos{\theta}=
+\alpha:\frac{x-x_1}{a_1}=\frac{y-y_1}{b_1}=\frac{z-z_1}{c_1};\;\;
+\beta:\frac{x-x_2}{a_2}=\frac{y-y_2}{b_2}=\frac{z-z_2}{c_2}
+```
+
+Here $v_1=\langle a_1, b_1, c_1\rangle$, $v_2=\langle a_2, b_2, c_2\rangle$ are
+$2$ vectors parallel to $\alpha, \beta$ respectively.
+
+Normal to both lines: $v_1 \times v_2$. Unit normal to both lines can be found
+by: $ $
+
+```math
+\frac{v_1 \times v_2}{|v_1 \times v_2|}
+```
+
+## Angle between 2 straight lines
+
+Using the $\alpha,\beta$ lines mentioned above: $ $
+
+```math
+\cos{\theta}
+=
+\frac{v_1\cdot v_1}{|v_1|\cdot|v_2|}
+=
 \frac{
 	(a_1\underline{i}+b_1\underline{j}+c_1\underline{k})
 	\cdot
 	(a_2\underline{i}+b_2\underline{j}+c_2\underline{k})
 }{
 	\lvert{a_1\underline{i}+b_1\underline{j}+c_1\underline{k}}\rvert
+	\cdot
 	\lvert{a_2\underline{i}+b_2\underline{j}+c_2\underline{k}}\rvert
+}
+```
+
+Here $v_1, v_2$ are $2$ vectors parallel to $\alpha, \beta$ respectively.
+
+## Shortest distance to a point
+
+Suppose $x_1$ and $x_2$ lie on a line. Shortest distance to the point $P$ is:
+
+```math
+d^2 =
+\frac{
+\bigg|(\underline{x_2} - \overrightarrow{OP}) \times (\underline{x_1}-\overrightarrow{OP})\bigg|^2
+}{
+\big|\underline{x_2} - \underline{x_1}\big|^2
 }
 ```

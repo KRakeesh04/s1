@@ -26,7 +26,7 @@ If $A$ and $B$ are similar, then $A^2$ and $B^2$ are similar.
 
 ## Definition
 
-A matrix $A$ is diagonalizable if it is similar to a
+A matrix $A$ is **diagonalizable** if it is similar to a
 [diagonal matrix](/maths/algebra/matrices/introduction/#diagonal-matrix). $ $
 
 ```math
@@ -37,3 +37,13 @@ Here:
 
 - $D$ is a diagonal matrix
 - $P$ is an invertible matrix
+
+## Steps
+
+- Find eigenvalues of $A_{n\times n}$
+- Find corresponding eigenvectors (say $X_1,X_2,\dots,X_n$)
+- Construct $P$ by joining the eigenvectors as columns
+
+```math
+P=(X_1 X_2 X_3 \dots X_4)_{n\times n}
+```

@@ -51,6 +51,14 @@ orthogonal. That is: $ $
 \forall i,j \in \set{1,\dots,n} \land i \neq j, (v_i\cdot v_j = 0)
 ```
 
+:::note
+
+$v_1, v_2$ are orthogonal $\implies v_1, v_2$ are linearly independent.
+
+Converse is **not** true.
+
+:::
+
 ## Orthonormal
 
 For a set of $n$ column vectors, they are orthonormal **iff**: $ $

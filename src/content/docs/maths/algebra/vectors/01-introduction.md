@@ -34,7 +34,7 @@ Cross products between $i$, $j$, $k$ are circular.
 
 :::note
 
-Area of a parallelogram ABCD = $ \lvert \vec{AB} \times \vec{AD} \rvert $. $ $
+Area of a parallelogram $ABCD = \lvert \vec{AB} \times \vec{AD} \rvert $ $ $
 
 :::
 
@@ -55,9 +55,10 @@ Area of a parallelogram ABCD = $ \lvert \vec{AB} \times \vec{AD} \rvert $. $ $
 
 $ [a,b,c] = a \cdot (b \times c) = (a \times b) \cdot c $
 
-$ [a,b,c] = [b,c,a] = [c,b,a] $
+$ [a,b,c] = [b,c,a] = [c,a,b] = -[a,c,b] $
 
-$ [a,b,c] = 0 $ **iff** $a$, $b$, $c$ are coplanar.
+$ [a,b,c] = 0 $ **iff** $a$, $b$, $c$ are coplanar. Swapping any 2 vectors will
+negate the product.
 
 :::note
 
@@ -71,3 +72,5 @@ Volume of a tetrahedron with $a$, $b$, $c$ as adjacent edges = $
 ## Vector Triple Product
 
 $ a \times (b \times c) = (a \cdot c)b - (a \cdot b)c $
+
+Resulting vector lies in the plane that contains $b$ and $c$

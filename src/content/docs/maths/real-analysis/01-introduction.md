@@ -46,15 +46,17 @@ $ a \to b \,\equiv\,\,\sim a \lor b \,\equiv\,\, \sim b \to\,\,\sim a $
 ## Methods of proofs
 
 1. Just proof what should be proven
-2. Prove the contrapositive.
+2. Prove the contrapositive
 3. Proof by contradiction
+4. Proof by induction
 
 ### Proof by contradiction
 
-Let's say we have to prove: $ a \implies b $. We will prove $ a\,\land \sim b $
-to be false. Then by proof by contradiction, we can prove $ a \implies b $.
+Suppose $ a \implies b $ has to be proven. If $ a\,\land \sim b $ is proven to
+be false, then, by proof by contradiction, $ a \implies b $ can be trivially
+proven.
 
-#### Proof of proof by contradiction
+#### Logic behind proof by contradiction
 
 $ a\,\land \sim b = F $
 
