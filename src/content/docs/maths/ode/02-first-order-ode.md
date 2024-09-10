@@ -88,7 +88,8 @@ n\in\mathbb{R}
 
 When $ n = 0 $ or $ n = 1 $, the equation would be linear.
 
-Otherwise, it can be converted to linear using $ v = y^{1-n} $ as substituion. $
+Otherwise, it can be converted to linear using $ v = y^{1-n} $ as substituion.
+$
 $
 
 ## None of the above

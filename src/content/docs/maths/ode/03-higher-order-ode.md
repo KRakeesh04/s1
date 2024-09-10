@@ -120,5 +120,6 @@ q(x)
 
 where $P(D)=(\text{D}^n+a_1\text{D}^{n-1}+\;...\;+a_n)$. $ $
 
-$P(D)$ is called a polynomial differential operator with constant coefficients.$
+$P(D)$ is called a polynomial differential operator with constant
+coefficients.$
 $
