@@ -1,5 +1,5 @@
 ---
-title: Properties Of Integrals
+title: Properties of Integrals
 slug: maths/riemann-integration/properties-of-integrals
 sidebar:
   order: 10

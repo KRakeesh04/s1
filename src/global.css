@@ -4,7 +4,7 @@
 
 :root {
 	@apply text-[13.25px] lg:text-[14.7px] xl:text-[15.8px] 2xl:text-[17px];
-
+	--note-border-radius: 5px;
 	--sl-content-width: 68rem;
 	--sl-content-pad-x: 3rem;
 	--sl-text-h1: var(--sl-text-4xl);
@@ -188,10 +188,35 @@ br {
 	img, ul, p {
 		@apply !break-inside-avoid;
 	}
+	.starlight-aside {
+		box-shadow: none !important;
+		outline: 1px color-mix(in lch, var(--sl-color-text), #00f1) solid !important;
+		page-break-inside: avoid;
+	}
+	.starlight-aside__title {
+		background: var(--sl-color-bg-nav);
+		&, svg {
+			color: unset !important;
+		}
+	}
 }
 .main-pane li ul {
 	@apply mt-1 mb-2.5 !important;
 }
 .sl-markdown-content li .MathJax {
 	@apply !mt-0;
+}
+.starlight-aside {
+	border-radius: var(--note-border-radius);
+	box-shadow: var(--sl-shadow-sm);
+	border: none;
+}
+.starlight-aside__title {
+	border-top-left-radius: var(--note-border-radius);
+	border-top-right-radius: var(--note-border-radius);
+	margin: -1rem -1rem .8rem;
+	padding: .6rem .7rem;
+	background: var(--sl-color-asides-text-accent);
+	max-width: unset !important;
+	color: var(--sl-color-bg-nav);
 }
