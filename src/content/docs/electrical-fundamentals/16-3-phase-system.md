@@ -7,17 +7,25 @@ sidebar:
 
 ## Why 3-phase?
 
-So that the current can be distributed into 3 wires instead of just 1. There is
-a maximum limit of how much current a wire can carry.
-
-## Balanced 3-phase
+- The current can be distributed into 3 wires instead of just 1.  
+  There is a maximum limit of how much current a wire can carry.
+- Economical as less amount of wires.  
+  3-phase system requires $4$ wires ($3$ if balanced) while single phase system
+  requires $6$.
 
 The phases are denoted by $\text{R},\text{Y},\text{B}$ in that order. $ $
 
+## Balanced 3-phase
+
+A 3-phase system is said to be balanced **iff**:
+
+- Supply is balanced
+- Loads are the same in each phase
+
 ### Power source
 
-A 3-phase power source produce 3 phase voltages of equal rms value, but with
-$120°$ phase difference. $ $
+A 3-phase power source which produces 3 phase voltages of equal rms value, but
+with $120°$ phase difference. $ $
 
 ### Phasor diagram
 
@@ -60,12 +68,6 @@ In a 3-phase system, line-to-line voltage is mentioned.
 
 :::
 
-:::note
-
-Devices that have a 3-phase power input, doesn't require a neutral line.
-
-:::
-
 ## Analysis
 
 ![Analysis of 3-phase circuit](/electrical/3-phase-circuit-analysis.jpg)
@@ -81,10 +83,57 @@ I_N=E
 \bigg]
 ```
 
-:::note
+When the loads are balanced: $z_R=z_Y=z_B=z$, $I_N = 0$  
+In this case, neutral wire can be eliminated (it's optional). We need to
+maintain $I_N=0$ so that the voltage is equal to ground voltage in neutral wire.
+This makes sure there are no power losses in neutral wire.
 
-A balanced 3-phase circuit can be represented by a single-phase equivalent
-circuit. The diagram showing the single-phase equivalent of the power system
-using standard symbols.
+## Real-life Usage
 
-:::
+Most domestic loads are single-phase. In case of 3-phase domestic wiring, the
+single-phase loads are distributed among the 3 phases at the main distribution
+board.
+
+Devices that have a 3-phase power input, doesn't require a neutral line.
+
+## Per-phase Equivalent Circuit
+
+Power, voltage, current, power factor are same for all $3$ phases. $ $
+
+When a 3-phase system is balanced, it is sufficient to consider only a single
+phase. The diagram showing the single-phase equivalent of the power system using
+standard symbols.
+
+![Per-phase equivalent circuit](/electrical/per-phase-circuit.jpg)
+
+Here:
+
+- $E$ - voltage across the source
+- $V$ - voltage across the load
+
+```math
+\text{Per-phase power} = |V_p||I_l|\cos\theta = \frac{1}{3}\times\text{3-phase power}
+\;\;
+\land
+\;\;
+|V_l|= \sqrt 3 |V_p|
+```
+
+```math
+\implies
+\text{3-phase power}=
+\sqrt{3}|V_l||I_l|\cos\theta
+```
+
+Here:
+
+- $V_p$ - phase voltage
+- $V_l$ - line voltage
+- $I_l$ - line current
+- $\cos\theta$ - power factor
+- The power can either be source power, load power, transmission power losses.
+
+## Unbalanced 3-phase system
+
+A 3-phase system becomes unbalanced, when load distribution among the phases is
+equal. $I_N\neq 0$. $ $
