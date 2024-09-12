@@ -84,7 +84,9 @@ Otherwise, the solutions are said to be **linearly independent**, which means:
 
 :::danger[WTF?]
 
-I don't understand anything in this section. :::
+I don't understand anything in this section.
+
+:::
 
 ### Differential operator
 

@@ -65,5 +65,5 @@ Suppose $A,B$ are of order $m\times n$
 1. $||A||\ge 0$
 2. $||A|| = 0 \iff A=0$
 3. $||kA||=|k|\times ||A||$
-4. $||A + B|| \le |||A|| + ||B||$ (triangle inequality)
+4. $||A + B|| \le ||A|| + ||B||$ (triangle inequality)
 5. $||AB|| \le ||A|| ||B||$

@@ -69,6 +69,27 @@ When a beam is under a distributed load of $w=f(x)$ per unit length. $ $
 
 ```math
 \frac{\text{d}M}{\text{d}x}=-S
-\;;
+\;\;
+\land
+\;\;
 \frac{\text{d}^2M}{\text{d}x^2}=w
 ```
+
+## Deflection of a beam
+
+```math
+S_{\text{max}} = \frac{WL}{4I}
+\;\;
+\land
+\;\;
+D_{\text{max}} = \frac{WL^3}{48EI}
+```
+
+Here:
+
+- $S_\text{max}$ - Maximum stress
+- $D_\text{max}$ - Maximum bending moment
+- $W$ - Load
+- $L$ - Span length
+- $E$ - Young's modulus
+- $I$ - Second moment of cross-sectional area
