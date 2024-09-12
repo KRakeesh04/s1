@@ -40,10 +40,47 @@ Here:
 
 ## Steps
 
-- Find eigenvalues of $A_{n\times n}$
-- Find corresponding eigenvectors (say $X_1,X_2,\dots,X_n$)
+- Find eigenvalues of $A_{n\times n}$: $\lambda_1,\lambda_2,\dots,\lambda_n$
+- Find corresponding eigenvectors: $X_1,X_2,\dots,X_n$
 - Construct $P$ by joining the eigenvectors as columns
 
 ```math
-P=(X_1 X_2 X_3 \dots X_4)_{n\times n}
+P=(X_1 X_2 \dots X_n)_{n\times n}
+\;\;
+\land
+\;\;
+D=
+\begin{pmatrix}
+\lambda_1 \\
+& \ddots \\
+& & \lambda_n \\
+\end{pmatrix}
+```
+
+:::note
+
+Order of those eigenvectors is **not** a problem. Here the matrix $P$ differs
+based on the order, and hence is not unique. $ $
+
+:::
+
+:::note
+
+If $A_{n\times n}$ is a real symmetric matrix with **distinct** eigenvalues then
+it has $n$ **mutually orthogonal linearly independent** eigenvectors. Hence the
+diagonalizing matrix $P$ (formed by using the normalized eigenvectors) is an
+**orthogonal matrix**.
+
+:::
+
+## Uses
+
+### Finding integer powers
+
+Suppose $A_{n\times n}$ is diagonalizable, and $k\in\mathbb{R}$.
+
+```math
+A = P^{-1}DP
+\implies
+A^k = P^{-1}D^kP
 ```
