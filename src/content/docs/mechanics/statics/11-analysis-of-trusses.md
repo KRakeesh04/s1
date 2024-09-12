@@ -14,7 +14,7 @@ Deviations from the ideal in real trusses.
 
 ### Principle
 
-Since the truss is in equilibrium, each pin joint must be in equilibrium.
+Since the truss is in equilibrium, each pin joint must also be in equilibrium.
 
 :::note
 
@@ -29,8 +29,7 @@ forces are negative.
 
 ### Method
 
-- Find external reactions using equilibrium using equilibrium equations for the
-  entire truss.
+- Find external reactions using equilibrium equations for the entire truss.
 - Start with a joint with only 2 unknown joint forces.
 - Mark the tensile forces (consider all forces are tensile) acting on the join.
 - Find the unknown forces at the selected joint, using 2 equilibrium equations
@@ -39,20 +38,20 @@ forces are negative.
 
 ### Special cases
 
-| Case                                                | Description                                                    |
-| --------------------------------------------------- | -------------------------------------------------------------- |
-| ![a](/mechanics/joints-under-special-loading/a.jpg) | $F_{\text{AX}}=F_{\text{XB}}\land F_{\text{DX}}=F_{\text{XC}}$ |
-| ![b](/mechanics/joints-under-special-loading/b.jpg) | $F_{\text{AX}}=F_{\text{XB}}\land F_{\text{DX}}=F_{\text{XC}}$ |
-| ![c](/mechanics/joints-under-special-loading/c.jpg) | $F_{\text{XB}}=0\land F_{\text{DX}}=F_{XC}$                    |
-| ![d](/mechanics/joints-under-special-loading/d.jpg) | $F_{\text{DX}}=F_{\text{XC}}$                                  |
-| ![e](/mechanics/joints-under-special-loading/e.jpg) | $F_{\text{DX}}=F_{\text{XC}}=0$                                |
+| Case                                                | Description                                                |
+| --------------------------------------------------- | ---------------------------------------------------------- |
+| ![a](/mechanics/joints-under-special-loading/a.jpg) | $F_{\text{AX}}=F_{\text{XB}}, F_{\text{DX}}=F_{\text{XC}}$ |
+| ![b](/mechanics/joints-under-special-loading/b.jpg) | $F_{\text{P}}=F_{\text{XB}}, F_{\text{DX}}=F_{\text{XC}}$  |
+| ![c](/mechanics/joints-under-special-loading/c.jpg) | $F_{\text{XB}}=0, F_{\text{DX}}=F_{XC}$                    |
+| ![d](/mechanics/joints-under-special-loading/d.jpg) | $F_{\text{DX}}=F_{\text{XC}}$                              |
+| ![e](/mechanics/joints-under-special-loading/e.jpg) | $F_{\text{DX}}=F_{\text{XC}}=0$                            |
 
 ## Method of Sections
 
 ### Principle
 
-Since the truss is in equilibrium, each part of it must be in equilibrium in
-stable equilibrium.
+Since the truss is in equilibrium, each part of it must be in stable
+equilibrium.
 
 ### Method
 

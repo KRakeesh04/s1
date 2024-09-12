@@ -5,7 +5,7 @@ sidebar:
   order: 18
 ---
 
-Let $A_{n\times n}. A norm of $A$ is denoted by $||A||$.
+Let $A_{n\times n}$. A norm of $A$ is denoted by $||A||$.
 
 ## Definitions
 
@@ -36,8 +36,6 @@ For a matrix $A=(a_{ij})_{m\times n}$: $ $
     \sum_{j=1}^{n}
     {(a_{ij})^2}
 ```
-
-Square root of the sum of all elements squared.
 
 ### Infinity norm
 
