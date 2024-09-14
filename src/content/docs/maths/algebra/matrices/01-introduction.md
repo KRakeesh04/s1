@@ -65,9 +65,13 @@ corresponding elements.
 
 Matrix obtained by multiplying all elements by the scalar.
 
+### Matrix multiplication
+
+Explained on a separate page:
+[Matrix multiplication](/maths/algebra/matrices/matrix-multiplication)
+
 :::note
 
-[Matrix multiplication](/maths/algebra/matrices/matrix-multiplication) is also
-defined.
+Other operations are also defined in separate pages.
 
 :::

@@ -9,9 +9,11 @@ Let $A_{n\times n}$. A norm of $A$ is denoted by $||A||$.
 
 ## Definitions
 
+Suppose $A=(a_{ij})_{m\times n}$ for all the definitions below.$ $
+
 ### 1-norm
 
-Maximum of the absolute column sums. For a matrix $A=(a_{ij})_{m\times n}$: $ $
+Maximum of the absolute column sums.
 
 ```math
 ||A||_1 =
@@ -27,7 +29,6 @@ Maximum of the absolute column sums. For a matrix $A=(a_{ij})_{m\times n}$: $ $
 ### 2-norm
 
 Square root of the sum of all elements squared. Also called as Euclidean norm.
-For a matrix $A=(a_{ij})_{m\times n}$: $ $
 
 ```math
 \Big(||A||_2\Big)^2=
@@ -39,7 +40,7 @@ For a matrix $A=(a_{ij})_{m\times n}$: $ $
 
 ### Infinity norm
 
-Maximum of the row sums. For a matrix $A=(a_{ij})_{m\times n}$: $ $
+Maximum of the row sums.
 
 ```math
 ||A||_\infty =
@@ -60,10 +61,10 @@ Norm defined for column vectors.
 
 Works for all types of norms.
 
-Suppose $A,B$ are of order $m\times n$
+Suppose $A,B$ are $m\times n$ ordered.
 
 1. $||A||\ge 0$
 2. $||A|| = 0 \iff A=0$
 3. $||kA||=|k|\times ||A||$
 4. $||A + B|| \le ||A|| + ||B||$ (triangle inequality)
-5. $||AB|| \le ||A|| ||B||$
+5. $||AB|| \le ||A||\times ||B||$

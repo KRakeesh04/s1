@@ -2,7 +2,7 @@
 title: Transpose
 slug: maths/algebra/matrices/transpose
 sidebar:
-  order: 2
+  order: 3
 ---
 
 Matrix obtained from a given matrix by interchanging its rows and columns.

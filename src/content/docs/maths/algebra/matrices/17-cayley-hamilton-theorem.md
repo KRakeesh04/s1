@@ -10,5 +10,5 @@ then $p(A)=O$
 
 ## Uses
 
-- Can express higher powers of a matrix $A$ in terms of its lower powers.
-- Easily compute the inverse matrix
+- Easily compute the inverse of a matrix
+- Easily express higher powers of a matrix in terms of its lower powers

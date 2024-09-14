@@ -1,5 +1,5 @@
 ---
-title: Solution of non-homogenous systems
+title: Solution of Non-homogenous Systems
 slug: maths/algebra/matrices/non-homogenous-systems
 sidebar:
   order: 12

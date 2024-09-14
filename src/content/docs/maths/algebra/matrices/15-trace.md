@@ -5,15 +5,15 @@ sidebar:
   order: 15
 ---
 
-Suppose $A=(a_{ij})_{n\times n}$ is an square matrix. Trace of A is the sum of
-the diagonal entries of $A$.
+Suppose $A=(a_{ij})_{n\times n}$ is an square matrix. Trace of $A$ is the sum of
+the diagonal entries.
 
 ```math
 \text{trace}(A)=\text{Tr}(A)=\sum_{i=1}^n{a_{ii}}
 ```
 
-Trace can also be written in terms of the eigenvalues.
+Trace is also equal to the sum of eigenvalues.
 
 ```math
-\text{trace}(A)=\sum_{i=1}^n{\lambda_i}\text{ where } \lambda_i \in \text{spectrum of } A
+\text{trace}(A)=\sum{\lambda_i}\text{ where } \lambda_i \in \text{spectrum of } A
 ```

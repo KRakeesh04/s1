@@ -1,5 +1,5 @@
 ---
-title: Solutions of homogenous systems
+title: Solutions of Homogenous Systems
 slug: maths/algebra/matrices/homogenous-systems
 sidebar:
   order: 11
