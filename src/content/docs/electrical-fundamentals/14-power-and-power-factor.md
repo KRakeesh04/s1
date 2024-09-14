@@ -115,6 +115,17 @@ S = V_\text{rms}I_\text{rms} = \sqrt{P^2 + Q^2}
 
 The apparent power is essentially the effective power that the source “sees”
 
+:::note[The Beer Analogy]
+
+- Beer - Active power  
+  Liquid beer is useful power. The power that does the work.
+- Foam - Reactive power  
+  Wasted or lost power. The power that does the work.
+- Mug - Apparent power  
+  Demand power, that is being delivered by the utility.
+
+:::
+
 ## Power factor
 
 In the above equation of $P_\text{avg}$, the $\cos\theta$ is called the power
