@@ -5,7 +5,7 @@ sidebar:
   order: 6
 ---
 
-Materials are categorized into 2, based on the arrangments of atoms or
+Materials are categorized into 2, based on the arrangement of atoms or
 molecules.
 
 - Crystalline
@@ -13,7 +13,9 @@ molecules.
 
 ## Crystalline
 
-- Ordered arrangement of atoms or molecules.
+When atoms or molecules are arranged in a ordered structure. Long-order is
+present.
+
 - Situated in a repeating array over large atomic distances (long-range order).
 - Example: Metals and Ceramics.
 
@@ -22,7 +24,7 @@ Atomic arrangement is usually described by
 
 ## Amorphous (or Non Crystalline)
 
-- Random arrangement of atoms or molecules.
-- Long-range order is absent.
+When atoms or molecules are randomly arranged. Long-range order is absent.
+
 - Example: Glass.
 - Polymers are semi-crystalline.

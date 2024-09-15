@@ -15,24 +15,24 @@ A material with
 At nanoscale, materials exhibit very unusual and very interesting properties.
 Examples: Graphene has very high young's modulus and very high carrier mobility.
 
-## Nano object
+## Nano-object
 
 An object with any external dimension is in the nanoscale.
 
 Examples: carbon nanotube, bucky ball.
 
-## Nano structured material
+## Nano-structured material
 
-A material where its internal or surface structure is in the nano scale.
+A material where its internal or surface structure is in the nanoscale.
 
 Examples: $\text{TiO}_2$ nanotube films. $ $
 
 ## Nano in nature
 
-- Lotus leaves being superhydrophobic
+- Lotus leaves being super-hydrophobic
 - Gecko adhesive system
 
-## Nanoscience
+## Nano-science
 
 Study of structures and materials on the nanoscale.
 
@@ -49,7 +49,7 @@ particles on the nanoscale.
 - Magnetic data storage
   - High data density and data capacity
   - Ultra compact
-- Nanomedicine and drug delivery
+- Nano-medicine and drug delivery
 - Energy storage
 
 ## Preparation of nanomaterials
@@ -67,10 +67,10 @@ Can be used to create nanoscale patterns in thin films or bulk substrates.
 
 The steps:
 
-1. Coat Si wafer with a photosensitive material.  
+1. Coat $\text{Si}$ wafer with a photosensitive material.  
    A material which changes its properties when exposed to electromagnetic
    radiation
-2. Allow the radiation to pass through the mask on to photosensitive material.
+2. Add a mask and use an EM radiation.
 3. Developer solution removes either reacted or unreacted material.
 4. The silicon wafer is etched to transfer the pattern onto silicon wafer.
 5. Photosensitive material is removed.

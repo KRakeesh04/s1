@@ -22,6 +22,12 @@ $
 
 Doping can be used to further enhance electrical conductivity of these polymers.
 
+## Uses
+
+- Organic solar cells
+- Microwave-absorbent coatings
+- Electroluminescence
+
 ## Examples
 
 - Polyaniline (PANI)

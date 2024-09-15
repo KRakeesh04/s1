@@ -62,8 +62,8 @@ connected.
 
 Vectors used to describe a unit cell.
 
-For graphene, any 2 adjacent sides of the unit cell (rhombus) can be used as the
-primitive vectors.
+For graphene, any 2 adjacent sides of the unit cell can be used as the primitive
+vectors.
 
 ### Lattice Vectors
 
@@ -139,3 +139,11 @@ For a $(n,m)$ tube: $ $
 - Else: large band gap semiconductors
 
 Band gap decreases as the radius of the diameter increases.
+
+## Applications
+
+- Conductive or reinforced plastic
+- CNT based transistors
+- Molecular electronics
+- Energy storage devices
+- Biomedical applications

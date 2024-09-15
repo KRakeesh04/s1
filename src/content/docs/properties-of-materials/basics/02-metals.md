@@ -7,10 +7,7 @@ sidebar:
 
 Metals can be categorized into 2 types.
 
-- Pure metals
-- Alloys
-
-## Pure Metals
+### Pure Metals
 
 Inter-molecular bonds: Metallic bonds. Commonly not used in the pure form.
 
@@ -19,7 +16,7 @@ Pure metals might be:
 - not strong enough
 - too weak to corrosion
 
-## Alloys
+### Alloys
 
 Which contain more than one metallic element.
 

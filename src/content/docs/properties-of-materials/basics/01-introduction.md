@@ -17,7 +17,8 @@ Materials can be divided into 4 sub-classifications.
 - [Polymers](/properties-of-materials/basics/polymers)
 - [Composites](/properties-of-materials/basics/composites)
 
-Materials can also be categorized based on their usage.
+Materials can also be categorized based on their usage or their
+[functionalities](/properties-of-materials/basics/functional-materials/).
 
 ## Property
 

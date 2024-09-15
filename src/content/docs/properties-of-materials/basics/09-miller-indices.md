@@ -11,11 +11,11 @@ Any vertex can be chosen as the origin.
 
 ## Notation
 
-- Minus noted as a bar
+- Minus noted with a bar
 - Addition and subtraction is carried out like vectors
 - $ (1,1,0) $ - Atom/Vertex
 - $ [110] $ - Direction, **no commas**
-- **<110>** - Family of directions
+- $\text{<}110\text{>}$ - Family of directions
 - $ (100) $ - Plane, **no commas**
 - $\set{100}$ - Family of planes
 - Always will be whole numbers. Fractions must be multiplied by LCM.
@@ -45,9 +45,8 @@ Equivalent directions are grouped into a **family**.
 
 To show the direction $ [132] $, for example: $ $
 
-Take the point $ (1,3,2)
-$. It **must be** inside the unit cell. Divide by the highest number ($3$, in
-this case) to bring the point inside the unit cell. The resulting point will be
+Take the point $ (1,3,2) $. Divide by the highest number ($3$, in this case) to
+bring the point inside the unit cell. The resulting point will be
 $(\frac{1}{3},1,\frac{2}{3})$. The direction is given by vector from $(0,0,0)$
 to the resulting point.
 

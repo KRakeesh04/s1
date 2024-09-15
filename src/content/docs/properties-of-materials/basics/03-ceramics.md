@@ -12,7 +12,7 @@ Inter-molecular bonds: covalent and/or ionic.
 - Non metallic
 - Inorganic
 - Produced by: shaping => firing.
-- High melting temperatures (some can survive upto 8K deg C)
+- High melting temperatures (some can survive upto $8000°\;\text{C}$)
 - Low density
 - High strength, stiffness, hardness
 - Corrosion-resistant
@@ -21,7 +21,7 @@ Inter-molecular bonds: covalent and/or ionic.
 
 :::note
 
-**Glass is not an element of ceramics**. Hugely differs in structure.
+Glass is **not** an element of ceramics. Hugely differs in structure.
 
 :::
 
@@ -32,14 +32,16 @@ Some ceramic materials are:
 - [superconductors](/properties-of-materials/electrical-properties/semiconductivity/)
   (only few, and only at very low temperatures)
 
+## Types
+
+2 types:
+
+- Traditional - clay-based items like pottery, porcelain, and tiles
+- Advanced - like silicon carbide, boron nitride, zirconia
+
 ## Examples
 
 - Sand
 - Tiles
 - Cement
 - Concrete
-
-2 types:
-
-- Traditional - clay-based items (like pottery, porcelain, tiles)
-- Advanced - (like silicon carbide, boron nitride, zirconia)
