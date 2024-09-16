@@ -5,13 +5,13 @@ sidebar:
   order: 9
 ---
 
-3 types
+3 types:
 
 - Bars (1D)
 - Plates and Shells (2D)
 - Blocks (3D)
 
-Bar elements are only focused for 1st semester.
+Bar elements are only focused for s1.
 
 ## Pin Joint
 

@@ -13,7 +13,9 @@ sidebar:
 
 ## Classified by supporting conditions
 
-First 3 are the mandatory ones.
+First 3 are the mandatory ones in s1.
+
+u.d.l means uniformly distributed load.
 
 | Type                      | Image                                                                  |
 | ------------------------- | ---------------------------------------------------------------------- |
@@ -35,33 +37,33 @@ First 3 are the mandatory ones.
 
 ## Degress of freedom
 
-A plane member have 3 degress of freedom. Any of the 3 can be restrained.
+A plane member have 3 degrees of freedom. Any of the 3 can be restrained.
 
-- Displacement in x-direction
-- Displacement in y-direction
-- Rotation about z-direction
+- Displacement in $x$-direction
+- Displacement in $y$-direction
+- Rotation about $z$-direction
 
 ## SFD & BMD
 
 ### Sign convention
 
 - Bending moment
-  - Hogging (curves upwards) is **(+)ve**
-  - Sagging (curves downwards) is **(-)ve**
+  - Hogging (curves upwards in the middle) is **(+) ve**
+  - Sagging (curves downwards in the middle) is **(-) ve**
 - Shear force
-  - Clockwise shear is **(+)ve**.
-  - Counterclockwise shear is **(-)ve**.
+  - Clockwise shear is **(+) ve**.
+  - Counterclockwise shear is **(-) ve**.
 
 :::note
 
-A member is in pure bending when shear force is 0 and bending moment is a
-constant in a part of a beam.
+A member is in pure bending when shear force is $0$ and bending moment is a
+constant. $ $
 
 :::
 
 ## Distributed load, shear force & bending moment
 
-When a beam is under a distributed load of $w=f(x)$ per unit length. $ $
+Suppose a beam is under a distributed load of $w=f(x)$ per unit length. $ $
 
 ```math
 \frac{\text{d}S}{\text{d}x}=-w
@@ -77,6 +79,8 @@ When a beam is under a distributed load of $w=f(x)$ per unit length. $ $
 
 ## Deflection of a beam
 
+Suppose a simply supported beam is applied a load of $W$ at the mid-span.
+
 ```math
 S_{\text{max}} = \frac{WL}{4I}
 \;\;
@@ -88,7 +92,7 @@ D_{\text{max}} = \frac{WL^3}{48EI}
 Here:
 
 - $S_\text{max}$ - Maximum stress
-- $D_\text{max}$ - Maximum bending moment
+- $D_\text{max}$ - Deflection
 - $W$ - Load
 - $L$ - Span length
 - $E$ - Young's modulus

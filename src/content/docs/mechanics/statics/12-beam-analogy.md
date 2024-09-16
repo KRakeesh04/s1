@@ -5,7 +5,8 @@ sidebar:
   order: 12
 ---
 
-We find the internal forces assuming the elongated truss is a beam.
+In this method, the internal forces are found assuming the elongated truss is a
+beam.
 
 :::note[For a simply supported beam]
 
@@ -30,15 +31,19 @@ In the truss,
 
 :::note[Pratt & Howe type trusses]
 
-Above-mentioned truss is **Pratt type**. (_is that correct?_)
+**Pratt type truss** is shown below.
 
-**Howe type truss** is a similar structure.
+![Pratt type truss](/mechanics/pratt-type-truss.jpg)
+
+Internal force in web members are tensile.
+
+**Howe type truss** is a shown below.
 
 ![Howe type truss](/mechanics/howe-type-truss.jpg)
 
-In pratt type truss, internal force in web members are tensile. In howe type
-trusses, internal force in web members are compressive. Usually **Pratt type**
-is cost-efficient. To make sure a howe type truss is strong enough like pratt
-type, web members must be shorter and thicker.
+Internal force in web members are compressive.
+
+Usually **Pratt type** is cost-efficient. To make sure a howe type truss is
+strong enough like pratt type, web members must be shorter and thicker.
 
 :::

@@ -17,7 +17,7 @@ An assembly of members used to span long distances. Idealized as
 
 ## Types
 
-2 types
+2 types:
 
 - Plane truss (2D)
 - Space truss (3D)
@@ -28,13 +28,15 @@ Predominant force is axial force.
 
 ## Advantages of truss
 
-- High/length span
+- High span
 - Material efficiency
 
 ## Triangulation
 
-- Start with a triangle (3 bars and 3 joints)
-- Add 2 more bars and a joint repeatedly to create a truss
+To create a truss:
+
+- Start with a triangle ($3$ bars and $3$ joints)
+- Add $2$ more bars and $1$ joint repeatedly
 
 This type of truss is a **simple truss**.
 
@@ -67,32 +69,41 @@ alone.
 
 **Indeterminate** means laws of statics alone are not sufficient to determine
 forces; relative stiffness of members will influence the solution (Indeterminate
-trusses are safer)
+trusses are safer).
 
 ### Unstable truss
 
 When the shape can be altered, the truss is called a mechanism.
 
-### Necessary condition for a 2D simple (closed) truss
+## Necessary condition for being simply stiff
 
-$m=2j-3$ is a necessary but not sufficient condition being simply stiff.$ $
+:::note
+
+These are necessary (but not sufficient) conditions.
+
+:::
+
+Here:
+
+- $m$ - Number of members (bars)
+- $j$ - Number of joints
+
+### For a 2D simple (closed) truss
 
 - $m<2j-3$ - truss is unstable
 - $m=2j-3$ - truss is determinate if stable
 - $m>2j-3$ - truss is indeterminate if stable
 
-### Necessary condition for a 2D open truss
-
-$m=2j$ is a necessary but not sufficient condition being simply stiff.$ $
+### For a 2D open truss
 
 - $m<2j$ - truss is unstable
 - $m=2j$ - truss is determinate if stable
 - $m>2j$ - truss is indeterminate if stable
 
-### Necessary condition for a 3D simple (closed) truss
+### For a 3D simple (closed) truss
 
-$m=3j-6$ is a necessary but not sufficient condition for being simply stiff.$ $
+$m=3j-6$
 
-### Necessary condition for a 3D open truss
+### For a 3D open truss
 
-$m=3j$ is a necessary but not sufficient condition for being simply stiff.$ $
+$m=3j$

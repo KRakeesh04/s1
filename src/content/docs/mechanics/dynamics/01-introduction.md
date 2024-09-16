@@ -5,9 +5,10 @@ sidebar:
   order: 1
 ---
 
-:::caution[Todo]
+:::caution[Caution]
 
-This page is not very well organized yet. Let me know how it can be improved.
+The whole Dynamics section is not in a great state right now. Let me know how it
+can be improved.
 
 :::
 
@@ -66,7 +67,7 @@ Finish this section
 
 ![curvilinear-motion-polar.jpg](/mechanics/dynamics/curvilinear-motion-polar.jpg)
 
-Velocities also have a transverse and radial components.
+Velocity have a transverse and radial components.
 
 - Transverse component $v_\theta=\dot{\theta}\times r$
 - Radial component $v_r=\dot{r}$
@@ -91,8 +92,8 @@ Acceleration also have a transverse and radial components.
 
 In the acceleration:
 
-- **Coriolis' component of acceleration**: $2\dot{\theta}\dot{r}$
-- **Centripetal component of acceleration**:
+- Coriolis' component of acceleration: $2\dot{\theta}\dot{r}$
+- Centripetal component of acceleration:
   $-r\dot{\theta}^2 = \underline{\dot{\theta}}\times(\underline{\dot{\theta}}\times\underline{r})$
 
 ### Effects of Coriolis' component

@@ -18,7 +18,7 @@ Since the truss is in equilibrium, each pin joint must also be in equilibrium.
 
 :::note
 
-2 equilibrium equations can be written at each joint – vertical & horizontal
+2 equilibrium equations can be written at each joint – vertical & horizontal.
 
 :::
 
@@ -31,7 +31,7 @@ forces are negative.
 
 - Find external reactions using equilibrium equations for the entire truss.
 - Start with a joint with only 2 unknown joint forces.
-- Mark the tensile forces (consider all forces are tensile) acting on the join.
+- Mark the forces (consider all forces are tensile) acting on the joint.
 - Find the unknown forces at the selected joint, using 2 equilibrium equations
   for the joint.
 - Go to all other joints in turn and find forces in all the members.
@@ -50,7 +50,7 @@ forces are negative.
 
 ### Principle
 
-Since the truss is in equilibrium, each part of it must be in stable
+Since the truss is in equilibrium, each of its section must be in stable
 equilibrium.
 
 ### Method
