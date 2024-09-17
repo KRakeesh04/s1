@@ -10,7 +10,7 @@ transmitted to the fluid. The fluid particles will move to a new position and
 remain in such position in equilibrium, relative to the vessel. Such equilibrium
 is known as the Relative Equilibrium of a fluid.
 
-## Relative Equilibrium under linear acceleration
+## Under linear acceleration
 
 No flow of the fluid (relative to the fluid particles). No shear forces, and all
 forces are normal to the surface they act on. Hence, fluid statics equations can
@@ -63,7 +63,7 @@ P=
 
 ### Shape of free surface
 
-On the free surface $P=0$ because gauge pressure is considered. $ $
+On the free surface $P=0$ as gauge pressure is considered. $ $
 
 ```math
 \rho a_x x
@@ -76,7 +76,14 @@ Free surface is a plane surface in 3D.
 
 ### Inclination with horizontal plane
 
-Let a vessel be in acceleration in $a_x,a_z$ in $x,z$ directions. $a_y=0$.
+:::caution
+
+I am unsure whether this section is 100% correct.
+
+:::
+
+Suppose a vessel is in acceleration in $a_x,a_z$ in $x,z$ directions and
+$a_y=0$.
 
 If $\theta_x,\theta_y$ are the angles in $x,y$ directions.
 
@@ -98,6 +105,8 @@ Differentiating the equation of the free surface with respect to $x$. $ $
 \tan{(\theta_x)}=\frac{-a_x}{a_z+g}
 ```
 
+And similarly for $y$: $ $
+
 ```math
 \rho a_y
 +\rho (a_z+g) \frac{\text{d}z}{\text{d}y}
@@ -106,7 +115,7 @@ Differentiating the equation of the free surface with respect to $x$. $ $
 \tan{(\theta_y)}=\frac{-a_y}{a_z+g}
 ```
 
-## Relative Equilibrium under Horizontal Acceleration
+## Under Horizontal Acceleration
 
 $a_x\neq 0\;\land\;a_y=a_z=0$
 
@@ -127,9 +136,9 @@ $\theta_x$:
 
 ### Vertical Pressure Distribution
 
-Varies only in $z$ direction. Increases with height. Isobars are horizontal. $ $
+![horizontal-acceleration-vertical-pressure-variation.jpg](/fluids/horizontal-acceleration-vertical-pressure-variation.jpg)
 
-## Relative Equilibrium under Vertical Acceleration
+## Under Vertical Acceleration
 
 $a_z\neq 0\;\land\;a_x=a_y=0$
 

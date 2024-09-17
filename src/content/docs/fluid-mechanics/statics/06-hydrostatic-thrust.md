@@ -2,7 +2,7 @@
 title: Hydrostatic Thrust
 slug: fluid-mechanics/statics/hydrostatic-thrust
 sidebar:
-  order: 7
+  order: 6
 ---
 
 ## On a Plane Surface
@@ -33,8 +33,10 @@ Here:
 
 :::note[For a plane surface]
 
-$ \frac{\text{Hydrostatic thrust}}{\text{Unit length}} = \text{Area of the
-pressure diagram} $
+```math
+\frac{\text{Hydrostatic thrust}}{\text{Unit length}} = \text{Area of the
+pressure diagram}
+```
 
 :::
 

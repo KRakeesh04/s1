@@ -19,8 +19,8 @@ Here:
 
 ## Center of buoyancy
 
-Center of gravity of the displaced fluid volume. _NOT_ the center of gravity of
-the submerged object.
+Center of gravity of the displaced fluid volume. **NOT** the center of gravity
+of the submerged object.
 
 ## Proof
 
@@ -50,13 +50,10 @@ of buoyancy $B$.
 
 ### Metacentre
 
-Intersection point of the line of action of $U$ through $B$ and the axis $BG$.
-
-:::note
+Intersection point between the line of action of $U$ through $B$ AND the axis
+$BG$. Denoted by $M$.
 
 For small displacements $M$ is fixed in position relative to the body.$ $
-
-:::
 
 ### Stability conditions
 
@@ -122,8 +119,8 @@ theoretically be determined.
 
 #### Rotation is about centroidal axis of waterline plane
 
-As the submerged volume remains unchanged during angular displacement, we can
-derive that the rotation occurs about the centroidal axis of the waterline
+As the submerged volume remains unchanged during angular displacement, it can be
+derived that the rotation occurs about the centroidal axis of the waterline
 plane.
 
 ```math
@@ -182,8 +179,8 @@ BB'=\frac{I\theta}{V}\approx (BM)\theta\implies BM=\frac{I}{V}
 :::note
 
 This result is restricted to small angular displacements — usually up to about
-8°— and the restriction is particularly important when the sides of the floating
-body are not vertical.
+$8°$— and the restriction is particularly important when the sides of the
+floating body are not vertical. $ $
 
 :::
 

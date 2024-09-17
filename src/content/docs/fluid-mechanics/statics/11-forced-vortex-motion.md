@@ -18,7 +18,13 @@ For S1, forced vortex motion, only about vertical axis, is required.
 
 ![Forced Vortex Motion Axes](/fluids/forced-vortex-motion.jpg)
 
-$P = \frac{1}{2}\rho \omega^2 r^2 - \rho gz +c$
+```math
+P = \frac{1}{2}\rho \omega^2 r^2 - \rho gz +c
+```
+
+Here:
+
+- $\omega$ - angular velocity
 
 :::caution[TODO]
 
@@ -35,17 +41,13 @@ z = \frac{\omega^2}{2g}r^2  +c_0
 ```
 
 The free surface is **parabolic**. The constant part $c_0$ can be found by a
-known point of the free surface. For simplicity we can choose the axes so that
-the free surface passes through $(0,0)$.  
-In that case, equation of the free surface is:
-
-```math
-z=\frac{\omega^2}{2g}r^2
-```
+known point of the free surface. For ease of calculations, the axes can be
+chosen so that the free surface passes through $(0,0)$. In that case, $c_0 = 0$.
 
 ## Vertical Pressure Distribution
 
-Pressure increases with height. Isobars are parabolic.
+Pressure increases linearly with height. Increases exponentially with radial
+distance. Isobars are parabolic.
 
 ## Volume of the fluid
 

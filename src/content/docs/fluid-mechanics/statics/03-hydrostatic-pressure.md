@@ -145,6 +145,10 @@ $ P = -\rho gz + c $
 P + \rho gz = c = P^{*}
 ```
 
+## Isobar
+
+Surface of constant pressure.
+
 ## Pressure difference between 2 points
 
 ![Pressure difference](/fluids/pressure-difference.jpg)
@@ -157,8 +161,10 @@ $ P_2 - P_1 = -\rho g(z_2 - z_1) = -\rho g (-h) = h \rho g $
 
 $ P_2 = P_1 + h \rho g $
 
-In a homogenous, incompressible fluid in equilibrium:
+In a homogenous,
+[incompressible fluid](/fluid-mechanics/dynamics/introduction/#incompressible)
+in equilibrium:
 
 1. Piezometric pressure is constant throughout the fluid
 2. Pressure varies linearly with depth only
-3. Isobars (surface of constant pressure) are horizontal.
+3. Isobars are horizontal
