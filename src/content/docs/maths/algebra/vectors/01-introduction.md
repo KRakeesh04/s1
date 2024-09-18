@@ -7,6 +7,47 @@ sidebar:
 
 Revise Vectors unit from G.C.E (A/L) Combined Mathematics.
 
+## Section formula
+
+Suppose $\text{O}$ is the reference point, and $\text{P,Q}$ are 2 points.
+
+If $\text{R}$ divides the line segment $\text{PQ}$ in the ratio $m:n$ (both are
+positive and $m \ge n$), the division can either be internal or external.
+
+### Internally
+
+```math
+\overrightarrow{\text{OR}} = \frac{m\overrightarrow{\text{OQ}}+n\overrightarrow{\text{OP}}}{m+n}
+```
+
+### Externally
+
+```math
+\overrightarrow{\text{OR}} = \frac{m\overrightarrow{\text{OQ}}-n\overrightarrow{\text{OP}}}{m-n}
+```
+
+## Direction Cosines
+
+Suppose $\vec{p} = a\underline{i}+b\underline{j}+c\underline{k}$. Direction
+cosines of $p$ are $\cos{\alpha}, \cos{\beta},\cos{\gamma}$ where
+$\alpha,\beta,\gamma$ are the angles $p$ makes with $x,y,z$ axes.
+
+Unit vector in the direction of
+$\vec{p}=\underline{i}\cos{\alpha}+\underline{j}\cos{\beta}+\underline{k}\cos{\gamma}$.
+Because of this: $ $
+
+```math
+\cos^2{\alpha}+\cos^2{\beta}+\cos^2{\gamma}=1
+```
+
+## Direction Ratio
+
+Ratio of the direction cosines is called as direction ratio.
+
+```math
+\cos{\alpha}\,:\,\cos{\beta}\,:\,\cos{\gamma}
+```
+
 ## Cross Product
 
 ```math

@@ -34,13 +34,13 @@ Let's take $ a \to b $. $ $
 
 $ a \to b \,\equiv\,\,\sim a \lor b \,\equiv\,\, \sim b \to\,\,\sim a $
 
-### Examples
+### Required proofs
 
-- $\sim\forall x P(x) \equiv \exists x \sim{P(x)}$
-- $\sim\exists x P(x) \equiv \forall x \sim{P(x)}$
-- $\exists x \exists y P(x,y) \equiv \exists y \exists x {P(x,y)}$
-- $\forall x \forall y P(x,y) \equiv \forall y \forall x {P(x,y)}$
-- $\exists x \forall y P(x,y) \implies \forall y \exists x {P(x,y)}$
+- $\sim\forall x \, P(x) \equiv \exists x \sim{P(x)}$
+- $\sim\exists x \, P(x) \equiv \forall x \sim{P(x)}$
+- $\exists x\, \exists y P(x,y) \equiv \exists y\, \exists x {P(x,y)}$
+- $\forall x\, \forall y P(x,y) \equiv \forall y\, \forall x {P(x,y)}$
+- $\exists x\, \forall y P(x,y) \implies \forall y\, \exists x {P(x,y)}$
 - $(A \rightarrow C)\land(B \rightarrow C) \equiv (A\lor B)\rightarrow C$
 
 ## Methods of proofs

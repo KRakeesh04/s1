@@ -16,14 +16,18 @@ dependent variables.
 
 An example:
 
-$ \frac{\text{d}y}{\text{d}x} = \cos(x) $
+```math
+\frac{\text{d}y}{\text{d}x} = \cos(x)
+```
 
 ### Partial Differential Equations
 
 When a differential equation involves more than one independent variables, and
 more than one dependent variables.
 
-$ \frac{\partial y}{\partial x} = \cos(x) $
+```math
+\frac{\partial y}{\partial x} = y_x = \cos(x)
+```
 
 ### Linear
 

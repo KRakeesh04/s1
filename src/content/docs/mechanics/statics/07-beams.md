@@ -54,12 +54,14 @@ A plane member have 3 degrees of freedom. Any of the 3 can be restrained.
   - Clockwise shear is **(+) ve**.
   - Counterclockwise shear is **(-) ve**.
 
-:::note
+### Pure bending
 
 A member is in pure bending when shear force is $0$ and bending moment is a
 constant. $ $
 
-:::
+### Point of Contraflexure
+
+The point about which bending moment is $0$. $ $
 
 ## Distributed load, shear force & bending moment
 
@@ -79,7 +81,7 @@ Suppose a beam is under a distributed load of $w=f(x)$ per unit length. $ $
 
 ## Deflection of a beam
 
-Suppose a simply supported beam is applied a load of $W$ at the mid-span.
+Suppose a simply supported beam is applied a load of $W$ at mid-span. $ $
 
 ```math
 S_{\text{max}} = \frac{WL}{4I}
