@@ -6,20 +6,29 @@
 </div>
 
 <script>
-	const container = document.getElementById('live-users-count-container');
-	const countDisplay = container.querySelector("span")
-	const eventSource = new EventSource("https://rando.sahithyan.dev/live-users-count?d=s1.sahithyan.dev", {
-	});
-	eventSource.addEventListener("message", function (event) {
-		countDisplay.innerHTML = event.data;
-		console.log("event", event.data);
-	})
-	eventSource.addEventListener("open", function () {
-		container.classList.remove("hidden");
-		container.classList.add("flex");
-	})
-	eventSource.addEventListener("error",function () {
-		container.classList.remove("flex");
-		container.classList.add("hidden");
-	})
+	(() => {
+		const container = document.getElementById('live-users-count-container');
+		if (!container) {
+			return
+		}
+		const countDisplay = container.querySelector("span")
+		if (!countDisplay) {
+			return
+		}
+		const eventSource = new EventSource("https://rando.sahithyan.dev/live-users-count?d=s1.sahithyan.dev", {
+		});
+		eventSource.addEventListener("message", function (event) {
+			countDisplay.innerHTML = event.data;
+			console.log("event", event.data);
+		})
+		eventSource.addEventListener("open", function () {
+			container.classList.remove("hidden");
+			container.classList.add("flex");
+		})
+		eventSource.addEventListener("error",function () {
+			container.classList.remove("flex");
+			container.classList.add("hidden");
+		})
+
+	})()
 </script>

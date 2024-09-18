@@ -9,7 +9,7 @@ import puppeteer from "puppeteer";
 	/**
 	 * @type {string[]}
 	 */
-	const links = await page.evaluate((d) => {
+	const links = await page.evaluate(() => {
 		const items = document
 			.querySelector("#content-included")
 			.querySelectorAll("a");
