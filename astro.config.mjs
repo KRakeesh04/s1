@@ -37,9 +37,6 @@ export default defineConfig({
 						]
 					: [],
 			customCss: ["./src/global.css"],
-			social: {
-				twitter: "https://x.com/sahithyandev",
-			},
 			tableOfContents: {
 				maxHeadingLevel: 4,
 			},
@@ -52,6 +49,7 @@ export default defineConfig({
 				Head: "./src/components/Head.astro",
 				Sidebar: "./src/components/Sidebar.astro",
 				MarkdownContent: "./src/components/MarkdownContent.astro",
+				SocialIcons: "./src/components/SocialIcons.astro",
 			},
 			sidebar: [
 				{
