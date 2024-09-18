@@ -1,11 +1,11 @@
 ---
 import Default from "@astrojs/starlight/components/SiteTitle.astro";
 import LiveUsersCount from "./LiveUsersCount.astro";
+import type {Props} from "@astrojs/starlight/props";
 ---
 
 <div class="flex items-center gap-4 py-1 pr-1">
 
-<Default siteTitle="UoM E S1" />
-
+<Default {...Astro.props} />
 <LiveUsersCount />
 </div>
