@@ -73,6 +73,12 @@ Cross products between $i$, $j$, $k$ are circular.
 
 ![Cross products of i,j,k](/maths/ijk-cross-product.jpg)
 
+### Properties
+
+- $a \times a = 0$
+- $(a\times b) = -(b \times a)$
+- $a \times (b + c) = (a \times b) + (a \times c)$
+
 :::note
 
 Area of a parallelogram $ABCD = \lvert \vec{AB} \times \vec{AD} \rvert $ $ $

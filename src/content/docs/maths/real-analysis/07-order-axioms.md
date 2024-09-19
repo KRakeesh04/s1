@@ -35,15 +35,29 @@ sidebar:
 ```
 
 ```math
-\lvert{
+\Big\lvert{
 \lvert{a}\rvert
 -
 \lvert{b}\rvert
 }
-\rvert
+\Big\rvert
 \le
 \lvert{a+b}\rvert
 ```
+
+:::note[Proof Hint]
+
+For first:
+
+- Use $-|a| \le a \le |a|$
+
+For second:
+
+- Use the below substitutions in first conclusion
+  - $a=a-b \;\;\land\;\; b = b$
+  - $a=b-a \;\;\land\;\; b=a$
+
+:::
 
 ## Required proofs
 
