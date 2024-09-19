@@ -220,3 +220,6 @@ br {
 	max-width: unset !important;
 	color: var(--sl-color-bg-nav);
 }
+blockquote {
+	@apply text-lg font-medium py-2 bg-[var(--sl-color-green-low)] rounded-md;
+}
