@@ -24,23 +24,42 @@ direction. $ $
 ### Translation
 
 Movement that changes the position of an object. Translation can be done through
-a rectilinear or curvilinear path.
+a rectilinear or curvilinear path. Axes of the body always stays parallel.
 
 ### Rotation
 
-Circular movement of an object about a fixed axis.
+Circular movement of an object about a fixed axis that is perpendicular to the
+plane.
 
 ## General 2D motion
 
 ![General 2D motion](/mechanics/dynamics/general-2d-motion.jpg)
 
+Mixture of translation and rotation.
+
 ```math
-v_B=v_A+\dot{\theta}\times r_{B/A}
+v_\text{B}=
+v_\text{A}+v_{\text{B}/\text{A}}=
+v_\text{A}+\underline{\dot{\theta}}\times r_{\text{B}/\text{A}}
 ```
 
 ```math
-a_B=a_A+\ddot{\theta}\times r_{B/A}+\dot{\theta}\times (\dot{\theta}\times r_{B/A})
+a_\text{B}=
+a_\text{A}+a_{\text{B}/\text{A}}=
+a_\text{A}+\underline{\ddot{\theta}}\times r_{\text{B}/\text{A}}+\underline{\dot{\theta}}\times (\underline{\dot{\theta}}\times r_{\text{B}/\text{A}})
 ```
+
+Here:
+
+- $\underline{\dot{\theta}}$ - Angular velocity of $\text{B}$ relative to
+  $\text{A}$
+- $v_{\text{B}/\text{A}}$ - Velocity of $\text{B}$ relative to $\text{A}$
+- $a_{\text{B}/\text{A}}$ - Acceleration of $\text{B}$ relative to $\text{A}$
+- $r_{\text{B}/\text{A}}$ - Position vector of $\text{B}$ relative to
+  $\text{A}$. It's constant.
+
+In general motion, each particle of the body has a different velocity at every
+instance.
 
 ### Instantaneous centre of rotation
 

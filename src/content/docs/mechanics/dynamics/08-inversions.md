@@ -2,7 +2,7 @@
 title: Inversions of a mechanism
 slug: mechanics/dynamics/inversions
 sidebar:
-  order: 7
+  order: 8
 ---
 
 The inversions are obtained by making different kinematic element stationary

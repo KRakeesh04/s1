@@ -5,6 +5,10 @@ sidebar:
   order: 5
 ---
 
+In below equations:
+
+- $\omega_p$ - Absolute angular speed of planet wheel $P$
+
 ## External
 
 ![External epicyclic gears](/mechanics/dynamics/epicyclic-gears-external.jpg)

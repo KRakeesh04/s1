@@ -5,13 +5,6 @@ sidebar:
   order: 1
 ---
 
-:::caution[Caution]
-
-The whole Dynamics section is not in a great state right now. Let me know how it
-can be improved.
-
-:::
-
 A branch of mechanics, which deals with motion of bodies.
 
 2 parts:
@@ -44,39 +37,52 @@ path. $ $
 
 ### Curvilinear motion
 
-When the motion of a particle is along a curve (and not a straight line).
+When the motion of a particle is along a curve.
 
-Suppose $\overline{r}$ is the position vector of the particle from a fixed
-point. $ $
+Suppose $\overline{r}$ is the position vector of the particle. $ $
 
 - Instantaneous velocity $v=\frac{\text{d}r}{\text{d}t}$
 - Instantaneous speed $|v|=\frac{\text{d}s}{\text{d}t}$
 - Instantaneous acceleration $a=\frac{\text{d}v}{\text{d}t}$
-
-### 2D motion of a particle
-
-#### Rectangular form
-
-:::caution[TODO]
-
-Finish this section
-
-:::
-
-#### Polar form
-
-![curvilinear-motion-polar.jpg](/mechanics/dynamics/curvilinear-motion-polar.jpg)
-
-Velocity have a transverse and radial components.
-
-- Transverse component $v_\theta=\dot{\theta}\times r$
-- Radial component $v_r=\dot{r}$
 
 :::note
 
 Right hand rule is used here to denote the direction of any rotary motions.
 
 :::
+
+### 2D motion of a particle
+
+#### Rectangular form
+
+![motion-rectangular-form.jpg](/mechanics/dynamics/motion-rectangular-form.jpg)
+
+```math
+v_y = \frac{\text{d}y}{\text{d}t}=\dot{y}
+\;\;
+\land
+\;\;
+v_x = \frac{\text{d}x}{\text{d}t}=\dot{x}
+```
+
+```math
+a_y = \frac{\text{d}^2y}{\text{d}t^2}=\ddot{y}
+\;\;
+\land
+\;\;
+a_x = \frac{\text{d}^2x}{\text{d}t^2}=\ddot{x}
+```
+
+#### Polar form
+
+![motion-polar-form.jpg](/mechanics/dynamics/motion-polar-form.jpg)
+
+Velocity have a transverse and radial components.
+
+- Transverse component  
+  $v_\theta=\underline{\dot{\theta}}\times \underline{r}$
+- Radial component  
+  $v_r=\underline{\dot{r}}$
 
 ![curvilinear-motion-polar-acceleration.jpg](/mechanics/dynamics/curvilinear-motion-polar-acceleration.jpg)
 
@@ -85,10 +91,10 @@ Acceleration also have a transverse and radial components.
 - Transverse component
   - $a_\theta=r\ddot{\theta}+2\dot{\theta}\dot{r}$
   - In vector equation:
-    $\underline{a_\theta} = \underline{\ddot{\theta}}\times \underline{r}+2(\underline{\dot{\theta}}\times \underline{\dot{\underline{r}}})$
+    $\underline{a_\theta} = \underline{\ddot{\theta}}\times \underline{r}+2(\underline{\dot{\theta}}\times \underline{\dot{r}})$
 - Radial component
   - $a_r=\ddot{r}-r\dot{\theta}^2$
-  - $\underline{a_\theta} = \underline{\ddot{r}}+ \underline{\dot{\theta}}\times(\underline{\dot{\theta}}\times \underline{r})$
+  - $\underline{a_r} = \underline{\ddot{r}}+ \underline{\dot{\theta}}\times(\underline{\dot{\theta}}\times \underline{r})$
 
 In the acceleration:
 
@@ -104,8 +110,8 @@ In the acceleration:
 
 ### Unit vectors
 
-Unit vectors in both transverse and radial directions are denoted by $e_\theta$
-and $e_r$.
+Unit vectors in transverse and radial directions are denoted by $e_\theta$ and
+$e_r$ respectively.
 
 ```math
 \dot{e}_r=\dot{\theta}e_\theta\;\;\land\;\;

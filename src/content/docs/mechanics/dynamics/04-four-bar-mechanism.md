@@ -1,6 +1,6 @@
 ---
-title: Four-bar Linkage
-slug: mechanics/dynamics/four-bar-linkage
+title: Four-bar Mechanism
+slug: mechanics/dynamics/four-bar-mechanism
 sidebar:
   order: 4
 ---
