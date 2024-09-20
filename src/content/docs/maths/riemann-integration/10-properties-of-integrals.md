@@ -31,8 +31,8 @@ $f+g$ will be integrable on $[a,b]$.
 :::note[Proof Hint]
 
 - Prove $f+g$ is integrable using:
-  - $sup(f+g)\le \sup(f) + \sup(g)$)
-  - $inf(f+g)\ge \inf(f) + \inf(g)$)
+  - $sup(f+g)\le \sup(f) + \sup(g)$
+  - $inf(f+g)\ge \inf(f) + \inf(g)$
 - Start with $U(f+g)$ and show $U(f+g)\le U(f)+U(g)$
 - Start with $L(f+g)$ and show $L(f+g)\ge L(f)+L(g)$
 

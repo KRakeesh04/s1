@@ -40,3 +40,19 @@ Example usage of this is proving the convergence of
 $\sum_{k=1}^\infty \frac{1}{k!}$, by using $k! \ge 2^{k-1}$ for all $k\ge 0$.
 
 :::
+
+### Limit Comparison Test
+
+Let $0<u_k<v_k$ and $\lim_\limits{n\to \infty}{\frac{u_n}{v_n}} =R$.
+
+```math
+R \in (0,\infty)\;\land\; \sum_{n=1}^\infty u_n\;\text{is converging}\iff  \sum_{n=1}^\infty v_n\;\text{is converging}
+```
+
+```math
+R = 0 \;\land\; \sum_{n=1}^\infty v_n\;\text{is converging} \implies  \sum_{n=1}^\infty u_n\;\text{is converging}
+```
+
+```math
+R = \infty \;\land\; \sum_{n=1}^\infty v_n\;\text{is diverging} \implies  \sum_{n=1}^\infty u_n\;\text{is diverging}
+```

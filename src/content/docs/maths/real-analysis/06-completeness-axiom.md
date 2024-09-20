@@ -29,6 +29,13 @@ Let $A$ be a non empty subset of $\mathbb{R}$.
 - Say $l$ is a lower bound of $A$. Then $l= \inf A$ **iff**:  
   $\forall \epsilon \gt 0\;\exists a \in A;\;a - \epsilon \lt l$
 
+:::note[Proof Hint]
+
+Prove the contrapositive. Use $\epsilon=\frac{1}{2}(L-sup(A))$ for supremum
+proof. $ $
+
+:::
+
 ## Required proofs
 
 - $sup(a,b)=b$

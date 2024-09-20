@@ -84,9 +84,9 @@ I_N=E
 ```
 
 When the loads are balanced: $z_R=z_Y=z_B=z$, $I_N = 0$  
-In this case, neutral wire can be eliminated (it's optional). We need to
-maintain $I_N=0$ so that the voltage is equal to ground voltage in neutral wire.
-This makes sure there are no power losses in neutral wire.
+In this case, neutral wire is optional and can be eliminated. $I_N=0$ have to be
+maintained so that the voltage is equal to ground voltage in neutral wire. This
+makes sure there are no power losses in neutral wire.
 
 ## Real-life Usage
 

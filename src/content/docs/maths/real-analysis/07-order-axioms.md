@@ -77,13 +77,3 @@ $\forall{\epsilon>0}\;\exists{a},\,a<\epsilon\implies{a}\le{0}$ is **not**
 valid.$ $
 
 :::
-
-Let $A$ be a non-empty subset of $\mathbb{R}$ which is bounded above and has an
-upper bound $u$.
-
-$u=\sup{A}\iff\forall{\epsilon>0}\,\exists{a\in{A}},\,a>u-\epsilon$
-
-Let $A$ be a non-empty subset of $\mathbb{R}$ which is bounded below and has an
-lower bound $m$.
-
-$m=\inf{A}\iff\forall{\epsilon>0}\,\exists{a\in{A}},\,a<m+\epsilon$
