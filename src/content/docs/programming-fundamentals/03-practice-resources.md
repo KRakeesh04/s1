@@ -2,7 +2,7 @@
 title: Practice Resources
 slug: programming-fundamentals/practice-resources
 sidebar:
-  order: 2
+  order: 3
 description: Small programs and other platforms to practice programming
 ---
 
@@ -48,6 +48,8 @@ The programs are listed in no specific order.
     The digits are ordered from most significant to least significant in
     left-to-right order. Increment the large integer by one and return the
     resulting array of digits. Don't construct a `int` object.
+15. **stack implementation**
+16. **queue implementation**
 
 ## Platforms
 

@@ -2,7 +2,7 @@
 title: One's & Two's Complement
 slug: programming-fundamentals/ones-and-twos-complement
 sidebar:
-  order: 3
+  order: 5
 ---
 
 ## One's complement
