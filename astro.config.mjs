@@ -18,7 +18,7 @@ export default defineConfig({
 			title: DEFAULT_TITLE,
 			favicon: "/favicon.ico",
 			description:
-				"Short notes of my 1st semester notes. INTENDED FOR PERSONAL USE.",
+				"Short notes of 1st semester of Engineering at University of Moratuwa.",
 			head:
 				process.env.NODE_ENV === "production"
 					? [
@@ -44,7 +44,7 @@ export default defineConfig({
 				baseUrl: "https://github.com/sahithyandev/s1/edit/main/",
 			},
 			lastUpdated: true,
-			expressiveCode: false,
+			expressiveCode: true,
 			components: {
 				Head: "./src/components/Head.astro",
 				Sidebar: "./src/components/Sidebar.astro",
