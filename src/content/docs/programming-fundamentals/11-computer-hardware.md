@@ -4,3 +4,5 @@ slug: programming-fundamentals/computer-hardware
 sidebar:
   order: 11
 ---
+
+TODO

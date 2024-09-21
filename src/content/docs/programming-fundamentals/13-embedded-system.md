@@ -4,3 +4,5 @@ slug: programming-fundamentals/embedded-system
 sidebar:
   order: 13
 ---
+
+TODO
