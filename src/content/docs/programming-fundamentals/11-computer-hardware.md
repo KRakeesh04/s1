@@ -8,10 +8,8 @@ sidebar:
 ## Major components of a PC
 
 - Motherboard
-  - Central Processing Unit (CPU / Microprocessor)  
-    Communicates with all the other systems and subsystems. Responsible for
-    controlling and managing rest of the system.
-  - Memory
+  - [Central Processing Unit](/programming-fundamentals/cpu)
+  - [Memory](/programming-fundamentals/computer-memory)
   - Graphic / display controller
   - Network / Wi-Fi controllers
   - Audio Interface (Sound card)

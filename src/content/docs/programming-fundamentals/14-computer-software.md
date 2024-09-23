@@ -2,7 +2,7 @@
 title: Computer Software
 slug: programming-fundamentals/computer-software
 sidebar:
-  order: 13
+  order: 14
 ---
 
 A program is an ordered sequence of instructions that the hardware can execute.

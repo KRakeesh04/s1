@@ -123,3 +123,25 @@ as fast as the fastest memory type. The main idea is to use a limited capacity
 of fast but expensive memory types and a larger capacity of slow but cheap
 memory types. Special methods are used to store the frequently used items in the
 faster devices and others in slower devices.
+
+### Traditional
+
+![Traditional Memory Hierarchy](/programming/traditional-memory-hierarchy.jpg)
+
+### Modern
+
+Cache memory is added to this hierarchy to bridge the speed difference between
+processor and memory. It is used by the microprocessor to store frequently used
+instructions and data.
+
+![modern-memory-hierarchy](/programming/modern-memory-hierarchy.jpg)
+
+:::note[Swapping & Paging]
+
+When free space is needed in cache memory, infrequently used data and
+instructors are sent back to the main memory. This process is called swapping.
+
+When free space is needed in main memory, some of the data and instructions are
+sent to the secondary storage. This process is called paging.
+
+:::

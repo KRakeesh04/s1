@@ -2,7 +2,7 @@
 title: Trends in Computing
 slug: programming-fundamentals/trends-in-computing
 sidebar:
-  order: 15
+  order: 16
 ---
 
 TODO
