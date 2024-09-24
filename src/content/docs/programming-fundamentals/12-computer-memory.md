@@ -136,12 +136,12 @@ instructions and data.
 
 ![modern-memory-hierarchy](/programming/modern-memory-hierarchy.jpg)
 
-:::note[Swapping & Paging]
+## Swapping
 
 When free space is needed in cache memory, infrequently used data and
 instructors are sent back to the main memory. This process is called swapping.
 
+## Paging
+
 When free space is needed in main memory, some of the data and instructions are
 sent to the secondary storage. This process is called paging.
-
-:::
