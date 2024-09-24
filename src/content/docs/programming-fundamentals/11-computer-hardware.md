@@ -23,18 +23,7 @@ sidebar:
   - Printer
   - Microphone / Speakers
   - Joystick / Game controller
-- Secondary storage devices  
-   long-term storage of large volumes of data. Examples:
-  - Solid State Drive (SSD)  
-    stores data on solid-state flash memory made with silicon. fast. high
-    capacity.
-  - Hard Disk Drive (HDD)  
-    fast but slower than SSD. high capacity.
-  - CD-ROM / DVD drive
-  - Floppy disk drive
-  - Tape drives (DAT drives)  
-    stores data on magnetic tapes. high capacity. cost-effective. slow. mainly
-    used for data backups nowadays.
+- [Secondary storage devices](/programming-fundamentals/secondary-storage)
 - Chassis  
   the platform that holds all other components
   - Power supply unit
