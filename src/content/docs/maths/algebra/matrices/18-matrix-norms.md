@@ -16,11 +16,11 @@ Suppose $A=(a_{ij})_{m\times n}$ for all the definitions below.$ $
 Maximum of the absolute column sums.
 
 ```math
-||A||_1 =
+{\lVert A \rVert}_1 =
 \max
 \bigg\{
     \sum_{i=1}^{m}
-    {|a_ij|}
+    {\lvert a_{ij} \rvert}
     \;;\;
     j \in [1,n]
 \bigg\}
@@ -31,8 +31,8 @@ Maximum of the absolute column sums.
 Square root of the sum of all elements squared. Also called as Euclidean norm.
 
 ```math
-\Big(||A||_2\Big)^2=
-\Big(||A||_E\Big)^2=
+\Big({\lVert A \rVert}_2\Big)^2=
+\Big({\lVert A \rVert}_E\Big)^2=
     \sum_{i=1}^{m}
     \sum_{j=1}^{n}
     {(a_{ij})^2}
@@ -43,15 +43,29 @@ Square root of the sum of all elements squared. Also called as Euclidean norm.
 Maximum of the row sums.
 
 ```math
-||A||_\infty =
+{\lVert A \rVert}_\infty =
 \max
 \bigg\{
     \sum_{j=1}^{n}
-    {|a_ij|}
+    {\lvert a_{ij} \rvert}
     \;;\;
     i \in [1,m]
 \bigg\}
 ```
+
+:::note
+
+For any matrix $X \in \mathbb{R} ^n$: $ $
+
+```math
+{\lVert X \rVert}_\infty
+\le
+{\lVert X \rVert}_2
+\le
+{\lVert X \rVert}_1
+```
+
+:::
 
 ### Vector norm
 
@@ -63,8 +77,30 @@ Works for all types of norms.
 
 Suppose $A,B$ are $m\times n$ ordered.
 
-1. $||A||\ge 0$
-2. $||A|| = 0 \iff A=0$
-3. $||kA||=|k|\times ||A||$
-4. $||A + B|| \le ||A|| + ||B||$ (triangle inequality)
-5. $||AB|| \le ||A||\times ||B||$
+1. $\lVert A \rVert \ge 0$
+2. $\lVert A \rVert = 0 \iff A=0$
+3. $\lVert kA \rVert=\lvert k\rvert\times \lVert A \rVert$
+4. $\lVert A + B\rVert \le \lVert A \rVert + \lVert B \rVert$ (triangle
+   inequality)
+5. $\lVert AB \rVert \le \lVert A\rVert\times \lVert B\rVert$
+
+## Unit Ball
+
+A unit ball in $\mathbb{R}^n$ with respect to a norm $\lVert \rVert$.
+
+```math
+\big\{
+X
+\;
+|
+\;
+X \in \mathbb{R}^n
+,
+\;
+\lVert X \rVert \le 1
+\big\}
+```
+
+## Unit disc
+
+When $n=2$, unit ball is also called the unit disc. $ $

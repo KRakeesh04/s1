@@ -223,3 +223,6 @@ br {
 blockquote {
 	@apply text-lg font-medium py-2 bg-[var(--sl-color-green-low)] rounded-md;
 }
+#starlight__sidebar li span {
+	@apply !leading-snug;
+}
