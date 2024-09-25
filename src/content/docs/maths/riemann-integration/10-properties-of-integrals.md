@@ -105,3 +105,56 @@ Where $\max$ and $\min$ functions are defined as:
 $\max(f,g)=\frac{1}{2}(|f-g|+f+g)$
 
 $\min(f,g)=\frac{1}{2}(-|f-g|+f+g)$
+
+### Additivity
+
+$\iff f$ is Riemann integrable on $[a,c]\text{ and } [c,b]$ where $c \in (a,b)$.
+
+:::note[Proof Hint]
+
+- $\implies$: Use Cauchy criterion after defining these:
+  - $P'=\set{c} \cap P$
+  - $Q=P'\cap [a,c]$
+  - $R=P'\cap [c,b]$
+- $\impliedby$: Use cauchy criterion on $[a,c], [c,b]$ separately and then
+  combine using a union partition
+
+:::
+
+After the integrability is proven,
+
+```math
+\int_a^b f =
+\int_a^c f +
+\int_c^b f
+```
+
+:::note[Proof Hint]
+
+1. Let $Q$ be a partition on $[a,c]$ and $R$ be a partition on $[c,b]$. And
+   $P=Q \cap R$.
+
+2. Prove the below using Cauchy criteria:
+
+```math
+\int_a^b f \lt
+L(f;P) + \epsilon
+
+\;\;
+\implies
+\;\;
+
+\int_a^b f \le
+\int_a^c f +
+\int_c^b f
+```
+
+3. Prove the below using Cauchy criteria (by considering RHS):
+
+```math
+\int_a^c f +
+\int_c^b f \le
+\int_a^b f
+```
+
+:::
