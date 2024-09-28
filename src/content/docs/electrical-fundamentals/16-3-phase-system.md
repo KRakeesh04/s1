@@ -68,6 +68,18 @@ In a 3-phase system, line-to-line voltage is mentioned.
 
 :::
 
+## Connection types
+
+### Delta connection
+
+![Delta connection](/electrical/delta-connection.jpg)
+
+Doesn't have a neutral wire. Neutral point is imaginary.
+
+### Star connection
+
+![Star connection](/electrical/star-connection.jpg)
+
 ## Analysis
 
 ![Analysis of 3-phase circuit](/electrical/3-phase-circuit-analysis.jpg)
@@ -136,4 +148,14 @@ Here:
 ## Unbalanced 3-phase system
 
 A 3-phase system becomes unbalanced, when load distribution among the phases is
-equal. $I_N\neq 0$. $ $
+equal. $I_N\neq 0$. Highly undesirable. Neutral wire is the return path for the
+line currents. $ $
+
+Large currents in the neutral wire could cause:
+
+- If neutral wire have significant impedance, different points of the neutral
+  wire will have different voltage
+- Series voltage unbalances can happen if the neutral wire is broken
+
+Each phase will be different. Complete system has to be considered when
+analyzing the circuit.
