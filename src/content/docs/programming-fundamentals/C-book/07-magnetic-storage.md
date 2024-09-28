@@ -1,8 +1,8 @@
 ---
 title: Magnetic Storage
-slug: programming-fundamentals/magnetic-storage
+slug: programming-fundamentals/C-book/magnetic-storage
 sidebar:
-  order: 16
+  order: 7
 ---
 
 ## Tape drive

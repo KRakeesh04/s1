@@ -162,10 +162,29 @@ export default defineConfig({
 				},
 				{
 					label: "Programming Fundamentals",
-					collapsed: true,
-					autogenerate: {
-						directory: "programming-fundamentals",
-					},
+					items: [
+						{
+							label: "A book",
+							collapsed: true,
+							autogenerate: {
+								directory: "programming-fundamentals/A-book",
+							},
+						},
+						{
+							collapsed: true,
+							label: "B book",
+							autogenerate: {
+								directory: "programming-fundamentals/B-book",
+							},
+						},
+						{
+							collapsed: true,
+							label: "C book",
+							autogenerate: {
+								directory: "programming-fundamentals/C-book",
+							},
+						},
+					],
 				},
 				{
 					label: "Properties of Materials",

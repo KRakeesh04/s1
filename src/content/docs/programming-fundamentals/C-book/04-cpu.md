@@ -1,8 +1,8 @@
 ---
 title: CPU
-slug: programming-fundamentals/cpu
+slug: programming-fundamentals/C-book/cpu
 sidebar:
-  order: 13
+  order: 4
 ---
 
 CPU in today's computers are microprocessors. A CPU:

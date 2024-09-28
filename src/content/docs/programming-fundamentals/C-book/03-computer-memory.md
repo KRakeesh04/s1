@@ -1,8 +1,8 @@
 ---
 title: Computer Memory
-slug: programming-fundamentals/computer-memory
+slug: programming-fundamentals/C-book/computer-memory
 sidebar:
-  order: 12
+  order: 3
 ---
 
 2 types:

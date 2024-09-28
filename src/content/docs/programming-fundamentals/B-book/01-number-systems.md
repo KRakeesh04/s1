@@ -1,8 +1,8 @@
 ---
 title: Number Systems
-slug: programming-fundamentals/number-systems
+slug: programming-fundamentals/B-book/number-systems
 sidebar:
-  order: 4
+  order: 1
 ---
 
 A writing system for expressing numbers. Each number system defines a set of

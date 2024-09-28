@@ -1,8 +1,8 @@
 ---
 title: One's & Two's Complement
-slug: programming-fundamentals/ones-and-twos-complement
+slug: programming-fundamentals/B-book/ones-and-twos-complement
 sidebar:
-  order: 5
+  order: 2
 ---
 
 ## One's complement

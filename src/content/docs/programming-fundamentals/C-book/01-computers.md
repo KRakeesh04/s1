@@ -1,8 +1,8 @@
 ---
 title: Computers
-slug: programming-fundamentals/computers
+slug: programming-fundamentals/C-book/computers
 sidebar:
-  order: 10
+  order: 1
 ---
 
 An electronic device for analyzing and storing data, making calculations, etc.

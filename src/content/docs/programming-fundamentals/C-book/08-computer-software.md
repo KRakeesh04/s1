@@ -1,8 +1,8 @@
 ---
 title: Computer Software
-slug: programming-fundamentals/computer-software
+slug: programming-fundamentals/C-book/computer-software
 sidebar:
-  order: 17
+  order: 8
 ---
 
 ### Program

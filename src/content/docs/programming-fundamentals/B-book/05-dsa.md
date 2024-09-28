@@ -1,8 +1,8 @@
 ---
 title: Data Structures & Algorithms
-slug: programming-fundamentals/dsa
+slug: programming-fundamentals/B-book/dsa
 sidebar:
-  order: 8
+  order: 5
 ---
 
 ## Data structures

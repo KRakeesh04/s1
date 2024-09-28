@@ -1,8 +1,8 @@
 ---
 title: Von Neumann Architecture
-slug: programming-fundamentals/von-neumann-architecture
+slug: programming-fundamentals/C-book/von-neumann-architecture
 sidebar:
-  order: 14
+  order: 5
 ---
 
 An architecture on how a computer can be built. Simple and implementable

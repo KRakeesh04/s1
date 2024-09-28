@@ -3,7 +3,7 @@ title: Introduction to Programming Fundamentals
 sidebar:
   label: Introduction
   order: 1
-slug: programming-fundamentals/introduction
+slug: programming-fundamentals/A-book/introduction
 ---
 
 :::note
