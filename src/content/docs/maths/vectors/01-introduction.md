@@ -1,6 +1,6 @@
 ---
 title: Introduction to Vectors
-slug: maths/algebra/vectors/introduction
+slug: maths/vectors/introduction
 sidebar:
   order: 1
 ---

@@ -70,6 +70,7 @@ For second:
 
 - $\exists{a}\;\forall{\epsilon>0},\,a<\epsilon\implies{a}\le{0}$
 - $\exists{a}\;\forall{\epsilon>0},\,0\le{a}<\epsilon\implies{a}={0}$
+- $\forall\epsilon>0\;\exists a,a<\epsilon\centernot\implies a\le 0$
 
 :::danger[Caution]
 

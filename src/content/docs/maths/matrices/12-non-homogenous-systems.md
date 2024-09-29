@@ -1,6 +1,6 @@
 ---
 title: Solution of Non-homogenous Systems
-slug: maths/algebra/matrices/non-homogenous-systems
+slug: maths/matrices/non-homogenous-systems
 sidebar:
   order: 12
 ---

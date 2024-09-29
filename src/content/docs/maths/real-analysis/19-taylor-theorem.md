@@ -6,7 +6,7 @@ sidebar:
 ---
 
 Let $f$ is $n+1$ differentiable on $(a,b)$. Let $c,x \in (a,b)$. Then
-$\exists \zeta \text{ s.t. }$:
+$\exists \zeta \in (c,x) \text{ s.t. }$:
 
 ```math
 f(x)=
@@ -84,7 +84,7 @@ R_n(x,c)=
 
 :::
 
-:::note
+## Second derivative test
 
 When $n=1$: $ $
 
@@ -98,5 +98,3 @@ f(x)-\text{Tangent line}=\frac{f''(\zeta)}{2!}(x-c)^2
 
 From this: $f''(c)>0 \implies $ a local minimum is at $c$. Converse is **not**
 true.
-
-:::

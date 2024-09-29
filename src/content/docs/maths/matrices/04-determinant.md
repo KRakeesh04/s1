@@ -1,6 +1,6 @@
 ---
 title: Determinant
-slug: maths/algebra/matrices/determinant
+slug: maths/matrices/determinant
 sidebar:
   order: 4
 ---

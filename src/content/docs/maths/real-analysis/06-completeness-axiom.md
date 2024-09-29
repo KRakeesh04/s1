@@ -62,4 +62,3 @@ $\mathbb{Q}$ doesn't have the completeness property. $ $
 ## Two important theorems
 
 - $\exists a\;\forall\epsilon>0,a<\epsilon\implies a\le 0$
-- $\forall\epsilon>0\;\exists a,a<\epsilon\centernot\implies a\le 0$

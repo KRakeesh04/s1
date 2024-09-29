@@ -1,6 +1,6 @@
 ---
 title: Matrix Norms
-slug: maths/algebra/matrices/matrix-norms
+slug: maths/matrices/matrix-norms
 sidebar:
   order: 18
 ---

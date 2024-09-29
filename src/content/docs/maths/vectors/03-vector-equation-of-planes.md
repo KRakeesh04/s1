@@ -1,6 +1,6 @@
 ---
 title: Vector Equation of Planes
-slug: maths/algebra/vectors/vector-equation-of-planes
+slug: maths/vectors/vector-equation-of-planes
 sidebar:
   order: 3
 ---

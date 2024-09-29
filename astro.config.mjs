@@ -93,30 +93,25 @@ export default defineConfig({
 					label: "Mathematics",
 					items: [
 						{
-							label: "Algebra",
-							items: [
-								{
-									label: "Vectors",
-									collapsed: true,
-									autogenerate: {
-										directory: "maths/algebra/vectors",
-									},
-								},
-								{
-									label: "Matrices",
-									collapsed: true,
-									autogenerate: {
-										directory: "maths/algebra/matrices",
-									},
-								},
-								{
-									label: "Complex Numbers",
-									collapsed: true,
-									autogenerate: {
-										directory: "maths/algebra/complex-numbers",
-									},
-								},
-							],
+							label: "Vectors",
+							collapsed: true,
+							autogenerate: {
+								directory: "maths/vectors",
+							},
+						},
+						{
+							label: "Matrices",
+							collapsed: true,
+							autogenerate: {
+								directory: "maths/matrices",
+							},
+						},
+						{
+							label: "Complex Numbers",
+							collapsed: true,
+							autogenerate: {
+								directory: "maths/complex-numbers",
+							},
 						},
 						{
 							label: "Real Analysis",

@@ -1,6 +1,6 @@
 ---
 title: Limit of Complex Functions
-slug: maths/algebra/complex-numbers/limit-of-complex-functions
+slug: maths/complex-numbers/limit-of-complex-functions
 sidebar:
   order: 3
 ---

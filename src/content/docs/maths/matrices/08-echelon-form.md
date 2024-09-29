@@ -1,6 +1,6 @@
 ---
 title: Echelon Form
-slug: maths/algebra/matrices/echelon-form
+slug: maths/matrices/echelon-form
 sidebar:
   order: 8
 ---

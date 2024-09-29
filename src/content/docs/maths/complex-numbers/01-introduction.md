@@ -1,6 +1,6 @@
 ---
 title: Introduction to Complex Numbers
-slug: maths/algebra/complex-numbers/introduction
+slug: maths/complex-numbers/introduction
 sidebar:
   order: 1
 ---

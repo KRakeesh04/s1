@@ -1,6 +1,6 @@
 ---
 title: Adjoint
-slug: maths/algebra/matrices/adjoint
+slug: maths/matrices/adjoint
 sidebar:
   order: 5
 ---

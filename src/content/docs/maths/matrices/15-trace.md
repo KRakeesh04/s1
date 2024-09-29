@@ -1,6 +1,6 @@
 ---
 title: Trace
-slug: maths/algebra/matrices/trace
+slug: maths/matrices/trace
 sidebar:
   order: 15
 ---

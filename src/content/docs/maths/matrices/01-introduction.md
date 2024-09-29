@@ -1,6 +1,6 @@
 ---
 title: Introduction to Matrices
-slug: maths/algebra/matrices/introduction
+slug: maths/matrices/introduction
 sidebar:
   order: 1
 ---

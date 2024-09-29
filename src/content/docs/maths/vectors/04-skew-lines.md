@@ -1,6 +1,6 @@
 ---
 title: Skew Lines
-slug: maths/algebra/vectors/skew-lines
+slug: maths/vectors/skew-lines
 sidebar:
   order: 4
 ---

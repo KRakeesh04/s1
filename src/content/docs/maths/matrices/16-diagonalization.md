@@ -1,6 +1,6 @@
 ---
 title: Diagonalization
-slug: maths/algebra/matrices/diagonalization
+slug: maths/matrices/diagonalization
 sidebar:
   order: 16
 ---
@@ -64,12 +64,14 @@ based on the order, and hence is not unique. $ $
 
 :::
 
-:::note
+:::note[Real symmetric matrix]
 
-If $A_{n\times n}$ is a real symmetric matrix with **distinct** eigenvalues then
-it has $n$ **mutually orthogonal linearly independent** eigenvectors. Hence the
-diagonalizing matrix $P$ (formed by using the normalized eigenvectors) is an
-**orthogonal matrix**.
+Suppose $A_{n\times n}$ is a **real symmetric matrix** . If it has **distinct**
+eigenvalues then it has $n$ **mutually orthogonal linearly-independent**
+eigenvectors.
+
+Hence the diagonalizing matrix $P$ (formed by using the normalized eigenvectors)
+is an **orthogonal matrix**. $ $
 
 :::
 

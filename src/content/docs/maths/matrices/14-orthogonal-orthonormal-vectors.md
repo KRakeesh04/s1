@@ -1,6 +1,6 @@
 ---
 title: Orthogonal & Orthonormal Vectors
-slug: maths/algebra/matrices/orthogonal-orthonormal-vectors
+slug: maths/matrices/orthogonal-orthonormal-vectors
 sidebar:
   order: 14
 ---

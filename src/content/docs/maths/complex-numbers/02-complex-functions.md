@@ -1,6 +1,6 @@
 ---
 title: Complex Functions
-slug: maths/algebra/complex-numbers/complex-functions
+slug: maths/complex-numbers/complex-functions
 sidebar:
   order: 2
 ---

@@ -1,6 +1,6 @@
 ---
 title: Rank
-slug: maths/algebra/matrices/rank
+slug: maths/matrices/rank
 sidebar:
   order: 10
 ---

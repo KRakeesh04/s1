@@ -1,6 +1,6 @@
 ---
 title: System of Linear Equations
-slug: maths/algebra/matrices/system-of-linear-equations
+slug: maths/matrices/system-of-linear-equations
 sidebar:
   order: 9
 ---
