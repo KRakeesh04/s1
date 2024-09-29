@@ -199,6 +199,9 @@ br {
 			color: unset !important;
 		}
 	}
+	table, table th, table td {
+		@apply border-2;
+	}
 }
 .main-pane li ul {
 	@apply mt-1 mb-2.5 !important;
