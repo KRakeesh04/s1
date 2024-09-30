@@ -25,7 +25,7 @@
 	--sl-color-black: #2c2c32;
 	--sl-color-blue-low: hsl(var(--sl-hue-blue), 54%, 30%);
 
-	&[data-theme='light'] {
+	&[data-theme="light"] {
 		--sl-color-accent-low: #c4d7ff;
 		--sl-color-accent: #1e50ff;
 		--sl-color-accent-high: #0f2975;
@@ -44,20 +44,23 @@
 		--sl-content-pad-x: 1.2rem;
 	}
 }
+body {
+	font-family: "Latin Modern", Georgia, Cambria, "Times New Roman", Times, serif;
+}
 * {
 	font-variant-ligatures: none;
 }
-p{
+p {
 	@apply text-[1.2rem];
 }
 li {
-	@apply text-md;
+	@apply text-[1.15rem];
 }
 td .MathJax svg {
 	@apply inline;
 }
 p:not(:has(.MathJax:only-of-type)):not(:has(img:only-of-type)) {
-	@apply max-w-prose
+	@apply max-w-prose;
 }
 p:has(svg.block-image:only-child),
 svg.block-image {
@@ -84,7 +87,9 @@ p:has(.MathJax:only-of-type),
 }
 table {
 	@apply w-full !table;
-	thead, tbody, tr {
+	thead,
+	tbody,
+	tr {
 		@apply w-full;
 	}
 	.MathJax {
@@ -97,21 +102,21 @@ table {
 		@apply m-auto;
 	}
 	thead:has(th:nth-child(2)):not(:has(th:nth-child(3))) {
-		th:nth-child(1){
+		th:nth-child(1) {
 			@apply w-4/12;
 		}
-		th:nth-child(2){
+		th:nth-child(2) {
 			@apply w-8/12;
 		}
 	}
 	thead:has(th:nth-child(3)):not(:has(th:nth-child(4))) {
-		th:nth-child(1){
+		th:nth-child(1) {
 			@apply w-4/12;
 		}
-		th:nth-child(2){
+		th:nth-child(2) {
 			@apply w-3/12;
 		}
-		th:nth-child(3){
+		th:nth-child(3) {
 			@apply w-5/12;
 		}
 	}
@@ -171,7 +176,11 @@ br {
 	:root {
 		--path: "https://s1.sahithyan.dev";
 	}
-	header.header, nav, footer, .starlight__sidebar, astro-dev-toolbar {
+	header.header,
+	nav,
+	footer,
+	.starlight__sidebar,
+	astro-dev-toolbar {
 		@apply !hidden;
 	}
 	div:has(> .sl-markdown-content)::after {
@@ -181,10 +190,17 @@ br {
 	.main-frame {
 		@apply pt-2 pl-2;
 	}
-	h1,h2,h3,h4,h5,h6 {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
 		@apply !break-before-auto !break-after-avoid-page;
 	}
-	img, ul, p {
+	img,
+	ul,
+	p {
 		@apply !break-inside-avoid;
 	}
 	.starlight-aside {
@@ -195,11 +211,14 @@ br {
 	.starlight-aside__title {
 		background: var(--sl-color-bg-nav);
 		outline: 1px color-mix(in lch, var(--sl-color-text), #00f1) solid !important;
-		&, svg {
+		&,
+		svg {
 			color: unset !important;
 		}
 	}
-	table, table th, table td {
+	table,
+	table th,
+	table td {
 		@apply border-2;
 	}
 }
@@ -217,8 +236,8 @@ br {
 .starlight-aside__title {
 	border-top-left-radius: var(--note-border-radius);
 	border-top-right-radius: var(--note-border-radius);
-	margin: -1rem -1rem .8rem;
-	padding: .6rem .7rem;
+	margin: -1rem -1rem 0.8rem;
+	padding: 0.6rem 0.7rem;
 	background: var(--sl-color-asides-text-accent);
 	max-width: unset !important;
 	color: var(--sl-color-bg-nav);
@@ -227,5 +246,8 @@ blockquote {
 	@apply text-lg font-medium py-2 bg-[var(--sl-color-green-low)] rounded-md;
 }
 #starlight__sidebar li span {
-	@apply !leading-snug;
+	@apply !leading-snug text-[1rem];
+}
+#starlight__sidebar summary {
+	@apply !leading-tight;
 }

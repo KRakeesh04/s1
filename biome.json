@@ -13,5 +13,13 @@
 		"rules": {
 			"recommended": true
 		}
+	},
+	"css": {
+		"linter": {
+			"enabled": true
+		},
+		"formatter": {
+			"enabled": true
+		}
 	}
 }
