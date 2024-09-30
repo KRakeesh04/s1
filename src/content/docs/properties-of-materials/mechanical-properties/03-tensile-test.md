@@ -2,7 +2,7 @@
 title: Tensile Test
 slug: properties-of-materials/mechanical-properties/tensile-test
 sidebar:
-  order: 2
+  order: 3
 ---
 
 Follows ASTM Standards E 8 and E 8M. (American Society for Testing and

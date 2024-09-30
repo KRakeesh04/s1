@@ -212,6 +212,13 @@ export default defineConfig({
 								directory: "properties-of-materials/nanotechnology",
 							},
 						},
+						{
+							label: "Degradation",
+							collapsed: true,
+							autogenerate: {
+								directory: "properties-of-materials/degradation",
+							},
+						},
 					],
 				},
 				{

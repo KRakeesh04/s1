@@ -2,7 +2,7 @@
 title: Charpy Impact Test
 slug: properties-of-materials/mechanical-properties/impact-test
 sidebar:
-  order: 5
+  order: 10
 ---
 
 ## Tester
