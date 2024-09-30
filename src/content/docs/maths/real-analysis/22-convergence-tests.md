@@ -46,7 +46,9 @@ R = 0\implies \bigg(\sum_{n=1}^\infty v_n\;\text{is converging} \implies  \sum_{
 R = \infty\implies\bigg(\sum_{n=1}^\infty v_n\;\text{is diverging} \implies  \sum_{n=1}^\infty u_n\;\text{is diverging}\bigg)
 ```
 
-:::note[Proof Hint] Only possibilities are $R=0,R\gt 0, R=\infty$.
+:::note[Proof Hint]
+
+Only possibilities are $R=0,R\gt 0, R=\infty$. $ $
 
 For $R \gt 0$: $ $
 

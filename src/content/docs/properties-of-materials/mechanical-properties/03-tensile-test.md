@@ -53,7 +53,3 @@ All deformation up to the maximum point is uniform throughout the specimen.
 
 At this maximum stress, a neck begins to form – known as necking. All subsequent
 deformation is confined to this neck.
-
-## Fracture
-
-Fracture occurs at the neck.

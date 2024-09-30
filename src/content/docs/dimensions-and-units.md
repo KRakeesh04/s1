@@ -31,8 +31,8 @@ slug: dimensions-and-units
 | Admittance      | $ M^{-1}L^{-2}T^3I^2 $     | $ S, \Omega^{-1}$                    |
 | Reactance       | $ ML^{2}T^{-3}I^{-2} $     | $ \Omega $                           |
 | Active Power    | $ ML^{2}T^{-3} $           | $ Js^{-1} $                          |
-| Reactive Power  | TODO                       | $\text{VAR}$ (Volat Ampere Reactive) |
-| Apparent Power  | TODO                       | $\text{VA}$ (Volt Ampere)            |
+| Reactive Power  | $ ML^{2}T^{-3} $           | $\text{VAR}$ (Volat Ampere Reactive) |
+| Apparent Power  | $ ML^{2}T^{-3} $           | $\text{VA}$ (Volt Ampere)            |
 
 ### Conversions
 

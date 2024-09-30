@@ -58,7 +58,3 @@ $\mathbb{Q}$ doesn't have the completeness property. $ $
 
 - Every non empty subset of $\mathbb{Z}$ which is bounded above has a maximum
 - Every non empty subset of $\mathbb{Z}$ which is bounded below has a minimum
-
-## Two important theorems
-
-- $\exists a\;\forall\epsilon>0,a<\epsilon\implies a\le 0$

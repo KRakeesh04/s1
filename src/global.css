@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-	@apply text-[13.25px] lg:text-[14.7px] xl:text-[15.8px] 2xl:text-[17px];
+	@apply text-[13.26px] lg:text-[14.5px] xl:text-[15.6px] 2xl:text-[16.25px];
 	--note-border-radius: 5px;
 	--sl-content-width: 68rem;
 	--sl-content-pad-x: 3rem;
@@ -45,7 +45,7 @@
 	}
 }
 body {
-	font-family: "Latin Modern", Georgia, Cambria, "Times New Roman", Times, serif;
+	font-family: sans-serif;
 }
 * {
 	font-variant-ligatures: none;

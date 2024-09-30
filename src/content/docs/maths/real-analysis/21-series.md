@@ -35,7 +35,7 @@ The converse is more useful:
 ```math
 \lim_\limits{k\to\infty}{u_k} \neq 0
 \implies
-\sum_{k=1}^{n}{u_k}\text{ is divering}
+\sum_{k=1}^{n}{u_k}\text{ is diverging}
 ```
 
 ## Theorem 2

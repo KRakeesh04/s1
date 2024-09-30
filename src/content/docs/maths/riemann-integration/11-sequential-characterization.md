@@ -52,8 +52,49 @@ U(f;P_n) - L(f;L_n) \le
 
 :::
 
-:::caution[TODO]
+## Theorem
 
-Add theorem 0.3.6.
+Suppose $f$ is Riemann integrable on $[a,b]$ and $\epsilon>0$. Then
+$\exists \epsilon \gt 0 \forall P$:
+
+```math
+\lvert P \rvert \lt \delta
+\implies
+\Bigg\lvert
+\int_a^b f
+-
+\sum_{j=1}^n f(\zeta_j)I_j
+\Bigg\rvert
+\lt
+\epsilon
+```
+
+where $\zeta_j \in [x_{j-1},x_j], j=1,2,\cdots,n$. $ $
+
+:::note[Proof Hint]
+
+```math
+\underline{
+\int_a^b f
+} - \epsilon
+\;
+\lt
+\;
+L(f;P)
+\;
+\le
+\;
+\sum_{j=1}^n f(\zeta_j)I_j
+\;
+\le
+\;
+U(f;P)
+\;
+\lt
+\;
+\overline{
+\int_a^b f
+} + \epsilon
+```
 
 :::
