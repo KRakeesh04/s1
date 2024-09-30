@@ -39,7 +39,7 @@
 		"*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [
 			"biome check --write --no-errors-on-unmatched"
 		],
-		"*.css": ["biome format --write"],
+		"*.css": ["biome lint --write", "biome format --write"],
 		"*.{md,mdx}": [
 			"bun scripts/auto-slug.js",
 			"bun scripts/generate-summary.ts",
