@@ -2,7 +2,7 @@
 title: Series
 slug: maths/real-analysis/series
 sidebar:
-  order: 21
+  order: 22
 ---
 
 Let $(u_n)$ be a sequence, and a series (a new sequence) can be defined from it
@@ -22,23 +22,10 @@ If $(s_n)$ is converging: $ $
 \sum_{k=1}^\infty u_k = S\in\mathbb{R}
 ```
 
-## Theorem 1
+### Absolutely Converging
 
-```math
-\sum_{k=1}^{n}{u_k}\text{ is converging}
-\implies
-\lim_\limits{k\to\infty}{u_k} = 0
-```
-
-The converse is more useful:
-
-```math
-\lim_\limits{k\to\infty}{u_k} \neq 0
-\implies
-\sum_{k=1}^{n}{u_k}\text{ is diverging}
-```
-
-## Theorem 2
+$\sum_{k=1}^{n}{u_k}$ is absolutely converging **iff**
+$\sum_{k=1}^{n}{\lvert u_k \rvert}\text{ is converging}$.
 
 ```math
 \sum_{k=1}^{n}{\lvert u_k \rvert}\text{ is converging}
@@ -57,3 +44,27 @@ Use this inequality:
 ```
 
 :::
+
+### Conditionally Converging
+
+$\sum_{k=1}^{n}{u_k}$ is condtionally converging **iff**: $ $
+
+```math
+\sum_{k=1}^{n}{\lvert u_k \rvert}\text{ is diverging}\;\;\;\text{and}\;\sum_{k=1}^{n}{u_k}\text{ is converging}
+```
+
+## Theorem 1
+
+```math
+\sum_{k=1}^{n}{u_k}\text{ is converging}
+\implies
+\lim_\limits{k\to\infty}{u_k} = 0
+```
+
+The converse is more useful:
+
+```math
+\lim_\limits{k\to\infty}{u_k} \neq 0
+\implies
+\sum_{k=1}^{n}{u_k}\text{ is diverging}
+```

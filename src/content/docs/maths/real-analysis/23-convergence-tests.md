@@ -2,7 +2,7 @@
 title: Convergence Tests
 slug: maths/real-analysis/convergence-tests
 sidebar:
-  order: 22
+  order: 23
 ---
 
 ## Direct Comparison Test
@@ -79,6 +79,8 @@ Let $u(x) \gt 0$, decreasing and integrable on $[1,M]$ for all $M \gt 1$. Then:
 
 :::note[Proof Hint]
 
+As $u(x)$ is decreasing, it is apparent that it is integrable. $ $
+
 Make use of this inequality:
 
 ```math
@@ -103,6 +105,23 @@ For $\implies$: $ $
 
 :::
 
+:::note
+
+```math
+\sum_{n=1}^\infty u_n\text{ is converging}
+\implies
+\lim_\limits{k \to \infty} u_k = 0
+
+```
+
+```math
+\int_1^\infty {u(x)\,\text{d}x}\text{ is converging}
+\implies
+\lim_\limits{k \to \infty} u(k) = 0
+```
+
+:::
+
 ## Ratio Test
 
 Let $u(x) \gt 0$ and $\lim_\limits{n\to \infty}{\frac{u_{n+1}}{u_n}} =L$.
@@ -118,8 +137,7 @@ Let $u(x) \gt 0$ and $\lim_\limits{n\to \infty}{\frac{u_{n+1}}{u_n}} =L$.
 :::note[Proof Hint]
 
 - Consider the limit definition with $\epsilon=\frac{1}{2}(1-L)$
-- Show that:  
-  $\frac{1}{2}(3L-2) \lt \frac{u_{k+1}}{u_k} \lt \frac{1}{2}(1+L)$
+- Show that: $\frac{1}{2}(3L-2) \lt \frac{u_{k+1}}{u_k} \lt \frac{1}{2}(1+L)$
 - Use $\sum_{k=1}^\infty r^k$ is converging **iff** $r < 1$
 
 :::
