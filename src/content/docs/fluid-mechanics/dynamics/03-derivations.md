@@ -55,3 +55,17 @@ Here:
 - $F_S$ - Force exerted on the fluid within the control volume
 - $\dot{M_o}$ - Rate of change of momentum of the inflow fluid
 - $\dot{M_i}$ - Rate of change of momentum of the outflow fluid
+
+:::note
+
+Below equation can be useful in applications.
+
+```math
+\dot{M} = \rho Q v
+```
+
+Where:
+
+- $\rho$ - density
+- $Q$ - flow rate
+- $v$ - velocity :::

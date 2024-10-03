@@ -59,7 +59,7 @@ Suppose $k\in\mathbb{R}$. $kf$ will be integrable $[a,b]$.
 If $m\le f(x) \le M$ on $[a,b]$:
 
 ```math
-m\le \int_a^bf \le M
+m(b-a) \le \int_a^bf \le M(b-a)
 ```
 
 If $f(x)\le g(x)$ on $[a,b]$:
@@ -73,7 +73,7 @@ If $f(x)\le g(x)$ on $[a,b]$:
 $|f|$ will be integrable on $[a,b]$.
 
 ```math
-\Bigg|\int_a^bf\Bigg|=\int_a^b|f|
+\Bigg|\int_a^bf\Bigg| \le \int_a^b|f|
 ```
 
 :::note[Proof Hint]
