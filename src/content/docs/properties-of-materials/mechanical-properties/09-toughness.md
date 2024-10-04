@@ -7,6 +7,6 @@ sidebar:
 
 Maximum strain energy, a material can absorb upto fracture. Area under the
 $\sigma-\epsilon$ graph is a measure of toughness. Can be measured by
-[impact test](/properties-of-materials/mechanical-properties/impact-test).
+[impact test](/properties-of-materials/mechanical-properties/impact-test). $ $
 
-Usually ductile materials have a high toughness compared ot brittle materials.
+Generally ductile materials have a high toughness compared to brittle materials.

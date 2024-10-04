@@ -50,6 +50,9 @@ HV= \frac{1.854\,F}{d^2}
 
 ### Rockwell (HR)
 
+Not accurate enough to be used in academic level (or where accuracy is
+important). Industrially preferred because of ease of measurement.
+
 | Type | Load  | Indenter                                          |
 | ---- | ----- | ------------------------------------------------- |
 | HRA  | 60kg  | Cone-shaped indenter. Made of diamond.            |
@@ -59,3 +62,9 @@ HV= \frac{1.854\,F}{d^2}
 | HRB  | 100kg | 1/16” diameter (1.5mm approx.) ball made of steel |
 | HRG  | 150kg | 1/16” diameter (1.5mm approx.) ball made of steel |
 | HRE  | 100kg | 1/8” diameter (3mm approx.) ball                  |
+
+:::note
+
+Only 3 load options. No need to remember the above data.
+
+:::
