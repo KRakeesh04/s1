@@ -6,34 +6,19 @@ sidebar:
 slug: programming-fundamentals/A-book/introduction
 ---
 
-:::note
+## Definitions
 
-Programming Fundamentals is probably the less-organized section at the moment.
-Let me know how I can improve this.
+### Algorithm
 
-:::
+Finite sequence of well-defined instructions for solving a problem. Flowcharts
+or pseudocode can be used ot explain it.
 
-This module includes 3 sections:
+### Interpreter
 
-- Programming basics (with python v3.10.9)
-- Theories beyond coding
-- Hardware
+A software that reads a source code file, goes through each line and runs the
+code.
 
-## Important points
+### Compiler
 
-### Confusion about unit prefixes
-
-In computing, the prefix _kilo_ —just like other prefixes— has been used to
-refer either $2^{10}$ or $10^3$ depending on the context.
-
-- $10^3$ - Marketing of disk capacities (by disk manufacturers)
-- $2^{10}$ - Memory capacities, and file sizes, disk capacities by operating
-  systems
-
-To avoid this confusion, 2 unit prefixes are used while measuring amounts of
-data.
-
-- SI prefixes  
-  Defined by ISO. Based on powers of $10^3$. Examples: kilo, mega, giga.
-- Binary prefixes  
-  Defined by IEC. Based on powers of $2^{10}$. Examples: kibi, mebi, gibi.
+A software that reads a source code file, builds the software into a runnable
+version.

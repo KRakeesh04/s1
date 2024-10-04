@@ -29,3 +29,22 @@ These are required for s1:
 But I don't know how to include it in a easy-to-understand way. 🌝
 
 :::
+
+:::note[Confusion about unit prefixes]
+
+In computing, the prefix _kilo_ —just like other prefixes— has been used to
+refer either $2^{10}$ or $10^3$ depending on the context.
+
+- $10^3$ - Marketing of disk capacities (by disk manufacturers)
+- $2^{10}$ - Memory capacities, and file sizes, disk capacities by operating
+  systems
+
+To avoid this confusion, 2 unit prefixes are used while measuring amounts of
+data.
+
+- SI prefixes Defined by ISO. Based on powers of $10^3$. Examples: kilo, mega,
+  giga.
+- Binary prefixes Defined by IEC. Based on powers of $2^{10}$. Examples: kibi,
+  mebi, gibi.
+
+:::
