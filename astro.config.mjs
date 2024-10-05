@@ -62,9 +62,9 @@ export default defineConfig({
 				},
 				{
 					label: "Electrical Fundamentals",
+					collapsed: true,
 					autogenerate: {
 						directory: "electrical-fundamentals",
-						collapsed: true,
 					},
 				},
 				{
