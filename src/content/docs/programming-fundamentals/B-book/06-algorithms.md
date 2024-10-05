@@ -13,13 +13,6 @@ In s1, only searching and sorting algorithms are discussed.
 
 :::
 
-:::caution
-
-Even though an implementation is provided for each algorithm below, the code
-might have issues.
-
-:::
-
 ## Searching algorithms
 
 ### Iterative sequential search
@@ -36,17 +29,19 @@ def iterative_sequential_search(a_list, item):
 ### Recursive sequential search
 
 ```py
-def recursive_sequential_search(a_list, item, offset = 0):
-    if len(a_list) == 0:
+def recursive_sequential_search(a_list, item, offset=0):
+    if len(a_list) == offset - 1:
         return False
 
-    if a_list[0] == item:
+    if a_list[offset] == item:
         return True
 
-    return recursive_sequential_search(a_list[1:], item)
+    return recursive_sequential_search(a_list, item, offset+1)
 ```
 
 ### Binary search
+
+Works in a sorted array.
 
 ```py
 def binary_search(a_list, item):
@@ -67,7 +62,7 @@ def binary_search(a_list, item):
     if found:
         return mid
     else:
-        return -1
+        return None
 ```
 
 ### Time complexities
@@ -82,12 +77,19 @@ def binary_search(a_list, item):
 A sorting algorithm reorganizes a collection of items into some order as defined
 by values intrinsic to the items.
 
+### Properties
+
+1. Number of swaps required
+2. Number of comparisons - represented using "big-o" notation
+3. Stability - it's stable when relative order of the equal items are
+   maintained.
+4. Recursive or iterative
+5. Amount of extra space
+
 ### Bubble sort
 
 Makes multiple passes through a collection and compare adjacent items to reorder
-those that are out of order.
-
-Here is bubble sort algorithm that sorts a list of numbers in-place:
+those.
 
 ```py
 def bubble_sort(arr: list[int | float]):
@@ -101,11 +103,9 @@ def bubble_sort(arr: list[int | float]):
 
 ### Selection sort
 
-Keeps track of the position of the highest/smallest value encountered through a
-pass over the list and after completing the pass perform the swap operation to
-correctly place the item.
-
-Here is selection sort algorithm that sorts a list of numbers in-place:
+Iterates through the list to find the smallest (or highest) value. Swaps its
+position with the first element. Then redo this starting from index 1. And
+repeat.
 
 ```py
 def selection_sort(arr):
@@ -124,43 +124,43 @@ from the unsorted sublist is inserted into the sorted sublist.
 
 ```py
 def insertion_sort(a_list):
-    for index in range(1, len(a_list)):
-        current_value = a_list[index]
-        pos = index
-        while pos > 0 and a_list[pos - 1] > current_value:
-            a_list[pos] = a_list[pos - 1]
-            pos = pos - 1
-
-        a_list[pos] = current_value
+    start_index = 1
+    while start_index < len(a_list):
+        pointer = start_index
+        while pointer > 0 and a_list[pointer - 1] > a_list[pointer]:
+            # swap the position
+            a_list[pointer], a_list[pointer -1] = \
+                a_list[pointer-1], a_list[pointer]
+            pointer -= 1
+        start_index += 1
 ```
 
 ### Shell sort
 
-Breaks the original list into a number of smaller sublists, each of which is
-sorted using an insertion sort.
+A specific "gap" is chosen. Start from any index (which is smaller than gap),
+and use insertion sort to sort the elements that are gap number of indices away.
+Redo this after reducing the gap. Repeat until the gap eventually becomes 1.
+
+The performance depends on the sequence of gaps chosen.
 
 ```py
-def gap_insertion_sort(a_list, start, gap):
-    for i in range(start + gap, len(a_list), gap):
-        current_value = a_list[i]
-        pos = i
+# a modified version of insertion sort
+def gap_insertion_sort(a_list, start_index, gap):
+    while start_index < len(a_list):
+        pointer = start_index
+        while pointer >= gap and a_list[pointer - gap] > a_list[pointer]:
+            # swap the position
+            a_list[pointer], a_list[pointer - gap] = \
+                a_list[pointer-gap], a_list[pointer]
 
-        while pos >= gap and a_list[pos-gap] > current_value:
-            a_list[pos] = a_list[pos - gap]
-            pos = pos - gap
+            pointer -= gap
+        start_index += gap
 
-        a_list[pos] = current_value
 
 def shell_sort(a_list):
-    sublist_count = len(a_list) // 2
-
-    while sublist_count > 0:
-        for start_pos in range(sublist_count):
-            gap_insertion_sort(a_list,start_pos,sublist_count)
-
-        print("After increments of size", sublist_count,"The list is",a_list)
-
-    sublist_count = sublist_count // 2
+    for gap in range(4, 0, -1):
+        for starting_index in range(0, gap):
+            gap_insertion_sort(a_list, starting_index, gap)
 ```
 
 ### Merge sort
@@ -174,34 +174,37 @@ Recursive algorithm that continually splits a list in half.
 
 ```py
 def merge_sort(a_list):
-    if len(a_list) < 2:
-        return
+    if len(a_list) < 2:  # then it's sorted
+        return a_list
 
-    print("Splitting ", a_list)
-    mid = len(a_list) // 2
-    left_half = a_list[:mid]
-    right_half = a_list[mid:]
+    # break at the middle and sort
+    mid_index = len(a_list)//2
+    left_half = merge_sort(a_list[:mid_index])
+    right_half = merge_sort(a_list[mid_index:])
 
-    merge_sort(left_half)
-    merge_sort(right_half)
+    # merge the sides
+    cursor_left = 0
+    cursor_right = 0
+    sorted_list = []
 
-    i = 0; j = 0; k = 0
-    while i < len(left_half) and j < len(right_half):
-        if left_half[i] < right_half[j]:
-            a_list[k] = left_half[i]
-            i = i + 1
+    # merging step 1: loop through each side and add the smallest
+    while cursor_left < len(left_half) and cursor_right < len(right_half):
+        if left_half[cursor_left] > right_half[cursor_right]:
+            sorted_list.append(right_half[cursor_right])
+            cursor_right += 1
         else:
-            a_list[k] = right_half[j]
-            j = j + 1;
-        k = k + 1
+            sorted_list.append(left_half[cursor_left])
+            cursor_left += 1
 
-    while i < len(left_half):
-        a_list[k] = left_half[i]
-        i = i + 1; k = k + 1
-    while j < len(right_half):
-        a_list[k] = right_half[j]
-        j = j + 1; k = k + 1
-    print("Merging ", a_list)
+    # merging step 2: add left over items
+    while cursor_left < len(left_half):
+        sorted_list.append(left_half[cursor_left])
+        cursor_left += 1
+    while cursor_right < len(right_half):
+        sorted_list.append(right_half[cursor_right])
+        cursor_right += 1
+
+    return sorted_list
 ```
 
 ### Quick sort
