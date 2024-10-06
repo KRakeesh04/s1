@@ -3,10 +3,11 @@ title: Introduction to Properties of Materials
 prev: false
 slug: properties-of-materials/basics/introduction
 sidebar:
+  label: Introduction
   order: 1
 ---
 
-Be sure to revise the second unit of Chemistry in G.C.E (A/L).
+Revise the second unit of Chemistry in G.C.E (A/L).
 
 ## Materials
 

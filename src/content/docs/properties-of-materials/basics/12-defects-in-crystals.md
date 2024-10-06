@@ -2,7 +2,7 @@
 title: Defects in Crystals
 slug: properties-of-materials/basics/defects-in-crystals
 sidebar:
-  order: 11
+  order: 12
 ---
 
 There won't be a crystal with 100% of perfect arrangement. Defects are are

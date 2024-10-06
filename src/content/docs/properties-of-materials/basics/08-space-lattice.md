@@ -2,7 +2,7 @@
 title: Space Lattice
 slug: properties-of-materials/basics/space-lattice
 sidebar:
-  order: 7
+  order: 8
 ---
 
 An infinite set of equally-spaced **points** in a space.
@@ -17,15 +17,25 @@ directions, the lattice can be generated.
 
 ### Density
 
-$ \rho = \frac{\text{Mass/unit cell}}{\text{Volume/unit cell}} =
-\frac{1}{v}(\frac{M}{L} \times n)$
+```math
+\rho=
+\frac{\text{Mass/unit cell}}{\text{Volume/unit cell}} =
+\frac{M \times n}{v \times L}
+```
 
 Here:
 
-- $v$ - volume of the unit cell
 - $M$ - molar mass
 - $n$ - atoms per unit cell
+- $v$ - volume of the unit cell
 - $L$ - avagadro's number
+
+:::note
+
+When considering the density change from one structure transitioned to another,
+note that the total number of atoms stays the change.
+
+:::
 
 ## Crystalline systems
 

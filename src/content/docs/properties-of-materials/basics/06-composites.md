@@ -2,7 +2,7 @@
 title: Composites
 slug: properties-of-materials/basics/composites
 sidebar:
-  order: 5
+  order: 6
 ---
 
 Materials that are a mixture of 2 materials. Materials are combined together to
