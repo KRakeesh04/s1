@@ -219,7 +219,7 @@ br {
 	table,
 	table th,
 	table td {
-		@apply border-2;
+		@apply border;
 	}
 }
 .main-pane li ul {
@@ -250,4 +250,8 @@ blockquote {
 }
 #starlight__sidebar summary {
 	@apply !leading-tight;
+}
+
+svg text {
+	@apply fill-current;
 }
