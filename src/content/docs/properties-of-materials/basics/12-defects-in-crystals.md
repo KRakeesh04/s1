@@ -5,14 +5,22 @@ sidebar:
   order: 12
 ---
 
-There won't be a crystal with 100% of perfect arrangement. Defects are are
+There won't be a crystal with 100% of perfect arrangement. Defects are
 advantages in materials most of the time.
 
-1. Point defects
-2. Line defects / Dislocations
-3. Planar defects
-4. Bulk defects - Related to volumetric defects. Common for any materials.
-   Example: crack, holes. Not covered in s1.
+Types of defects:
+
+- Point defects
+- Line defects / Dislocations
+- Planar defects
+- Bulk defects - Related to volumetric defects. Common for any materials.
+  Example: crack, holes.
+
+:::note
+
+Bulk defects are not covered in s1.
+
+:::
 
 ## Point defects
 
@@ -38,7 +46,7 @@ Caused by removal of a half plane.
 
 #### Half plane
 
-TODO
+An extra plane of atoms that is inserted into part of a lattice.
 
 #### Slip plane
 
@@ -74,6 +82,5 @@ observed through a microscope after careful preparation of samples
 
 ### Grain boundaries
 
-Boundary between 2 adjacent grains is **grain boundary**.
-
-Planar defects found in crystalline materials.
+A grain boundary is the boundary between 2 adjacent grains. These are the planar
+defects found in crystalline materials.
