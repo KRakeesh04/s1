@@ -15,12 +15,12 @@ export const { getStaticPaths, GET } = OGImageRoute({
 	param: "slug",
 	getImageOptions: (_path, page: (typeof pages)[number]) => {
 		return {
-			title: page.data.title.concat(" | S1"),
+			title: page.data.title.concat(" | UoM E S1"),
 			description: page.data.description,
 			bgGradient: [[250, 254, 247]],
 			logo: {
 				path: "./public/me.png",
-				size: [100],
+				size: [120],
 			},
 			font: {
 				title: {
