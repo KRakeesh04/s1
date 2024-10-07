@@ -26,17 +26,13 @@ A set $A$ is complete **iff**: $ $
 \forall u:\mathbb{Z}^+ \rightarrow A;\; u\;\text{converges to}\; L \in A
 ```
 
-### Q is not complete
-
-$Q$ is **not** complete because: $ $
+<b>IMPORTANT</b>: $Q$ is **not** complete because: $ $
 
 ```math
 \sum_{k=1}^\infty \frac{1}{k!} = e - 1 \not\in \mathbb{Q}
 ```
 
-### R is complete
-
-$\mathbb{R}$ is complete. $ $
+IMPORTANT: $\mathbb{R}$ is complete. $ $
 
 :::note[Proof Hint]
 
