@@ -61,7 +61,8 @@ constant. $ $
 
 ### Point of Contraflexure
 
-The point about which bending moment is $0$. $ $
+The point about which bending moment is $0$, and changes its sign through the
+point. $ $
 
 ## Distributed load, shear force & bending moment
 

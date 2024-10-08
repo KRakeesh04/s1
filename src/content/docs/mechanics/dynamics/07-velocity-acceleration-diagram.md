@@ -5,15 +5,33 @@ sidebar:
   order: 7
 ---
 
+$\text{O}$ is a fixed point. $ $
+
 ## Velocity diagram
 
 ### Notation
 
-$\text{O}$ is a fixed point. $ $
-
-- $\text{oa}$ - Absolute velocity of point $\text{A}$
-- $\text{ab}$ - Velocity of point $\text{B}$ relative to point $\text{A}$
+- $oa$ - Absolute velocity of point $\text{A}$
+- $ab$ - Velocity of point $\text{B}$ relative to point $\text{A}$
 
 ![Velocity diagram](/mechanics/dynamics/velocity-diagram.jpg)
 
 The above illustration is from Ruththiragayan, one of my friends.
+
+## Acceleration diagram
+
+### Notation
+
+- $o_1a_1$ - Absolute acceleration of point $\text{A}$
+- $a_1b_1$ - Velocity of point $\text{B}$ relative to point $\text{A}$
+
+```math
+a_1b_1 = a_1x_1 + x_1b_1
+=(\text{AB})\,\omega_{AB}^2 + (\text{AB})\,\alpha_{AB}
+```
+
+Here:
+
+- $a_1x_1$ - the radial component of the relative acceleration between A and B
+- $x_1b_1$ - the transverse component of the relative acceleration between A and
+  B
