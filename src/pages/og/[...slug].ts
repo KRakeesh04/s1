@@ -9,7 +9,19 @@ const pages = Object.fromEntries(
 		return [_id, { data }];
 	}),
 );
+pages.index = {
+	data: {
+		title: "What's this?",
+		editUrl: true,
+		head: [],
+		template: "doc",
+		sidebar: entries[0].data.sidebar,
+		pagefind: true,
+		draft: false,
+	},
+};
 
+console.log(pages);
 export const { getStaticPaths, GET } = OGImageRoute({
 	pages,
 	param: "slug",

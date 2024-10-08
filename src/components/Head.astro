@@ -2,12 +2,13 @@
 import Default from "@astrojs/starlight/components/Head.astro";
 import type { Props } from "@astrojs/starlight/props";
 
-const basePath = Astro.props.id.replace(/\.\w+$/, "");
+const id = Astro.props.id === ".md" ? "index.md" : Astro.props.id;
+const basePath = id.replace(/\.\w+$/, "");
 
 // Get the URL of the generated image for the current page using its // ID and
 // replace the file extension with `.png`.
 const ogImageUrl = new URL(
-	`/og/${Astro.props.id.replace(/\.\w+$/, ".png")}`,
+	`/og/${id.replace(/\.\w+$/, ".png")}`,
 	Astro.site,
 );
 ---
