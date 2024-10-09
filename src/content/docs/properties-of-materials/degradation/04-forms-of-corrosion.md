@@ -28,7 +28,10 @@ environment, only one metal --the element with most negative potential--
 corrodes. Aka. two metal corrosion.
 
 Galvanic corrosion can happen even inside 1 metal. In such cases, one part of
-the metal becomes anodic to the rest.
+the metal becomes anodic to the rest. For example, consider a piece of iron,
+immersed in water. Initially iron goes under uniform corrosion. Once the oxygen
+in the water is depleted, iron just above the water surface starts to react as a
+cathode. Severe corrosion occurs just below the water level.
 
 Corrosion will be severe at the junction.
 
@@ -41,3 +44,23 @@ Smaller the anode, severe will be the corrosion.
 Designed to be an extension of electrochemical series that includes alloys and
 non-metals. Materials are ordered in ascending order of reactivity. Materials in
 the lower position becomes the anode. Specific for a particular environment.
+
+## Crevice corrosion
+
+If a crevice (a crack forming a narrow opening) is in contact with a liquid, the
+crevice undergoes corrosion with virtually no attack in the other region.
+
+Crevice becomes anodic becuase of low oxygen supply. Exposed area has high
+oxygen supply and works as a cathode.
+
+### Mechanism of CC
+
+Consider a riveted metal-plate section in contact with domestic water.
+
+Initially it will corrode uniformly. After some time, crevice becomes depleted
+with oxygen due to restricted convection. Now the crevice becomes the anode. As
+the anode area is much smaller compared to cathode, corrosion will be severe.
+
+If the water contained salt(s), metal chloride(s) will be formed. All metal
+chlorides other than NaCl, KCl hydrolize in water. And produces acid. Acids
+increase the rate of corrosion.

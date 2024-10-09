@@ -93,4 +93,4 @@ Suppose $A$ is a symmetric matrix with all real entries. Then: $ $
 
 ### Upper triangular matrix
 
-The eigenvalues are the diagonal entries
+The eigenvalues are the diagonal entries.
