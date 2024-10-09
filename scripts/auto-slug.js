@@ -19,6 +19,9 @@ function safeParseInt(value, defaultValue = undefined) {
 	const mdFilePaths = process.argv.slice(2);
 
 	for (const filePath of mdFilePaths) {
+		if (!filePath.endsWith(".md")) {
+			continue;
+		}
 		const file = matter.read(filePath);
 		const { data: currentFrontMatter } = file;
 
