@@ -61,3 +61,29 @@ separately and inserted into the device using a separate tool (a programmer).
 
 The line of definition continues to blur as devices get more famous and
 expanded.
+
+## Challenges
+
+Embedded system research field is rich with potential because it combines two
+factors.
+
+1. First, the system designer usually has control over both the hardware design
+   and the software design.
+2. Embedded systems are built upon a wide range of disciplines, including
+   computer architecture (processor architecture and micro architecture, memory
+   system design), compiler, scheduler/operating system, and real-time systems.
+
+Combining these two factors means that barriers between these fields can be
+broken down, enabling synergy between multiple fields, and resulting in
+optimizations which are greater than the sum of their parts.
+
+### Delivering good performance
+
+Many embedded systems (e.g., anti-lock brakes in a car) have real-time
+requirements. Unfortunately, many of the performance enhancing features which
+make personal computers so fast also make it difficult to predict their
+performance accurately. Such features include pipelined and out-of-order
+instruction execution in the processor, and caches in the memory system. Hence
+the challenge for real-time system researchers is to develop approaches to
+design fast systems with easily predicted performance, or to measure existing
+complex but fast systems more accurately.
