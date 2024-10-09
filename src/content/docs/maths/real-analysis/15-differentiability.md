@@ -60,3 +60,39 @@ f'(a), & x=a
 $g$ is continuous at $a$.
 
 :::
+
+## Properties of differentiation
+
+### Addition
+
+```math
+\frac{\text{d}}{\text{d}x} (f \pm g) =
+f' \pm
+g'
+```
+
+### Multiplication
+
+```math
+\frac{\text{d}}{\text{d}x} (fg) =
+fg' + fg'
+```
+
+### Division
+
+```math
+\frac{\text{d}}{\text{d}x} \bigg(\frac{f}{g}\bigg) =
+\frac{gf' - fg'}{g^2}
+```
+
+### Composition
+
+```math
+\frac{\text{d}}{\text{d}x} f(g(x)) = f'(g(x))\,g'(x)
+```
+
+### Power
+
+```math
+\frac{\text{d}}{\text{d}x} f^n = nf^{n-1}(x) f'(x)
+```
