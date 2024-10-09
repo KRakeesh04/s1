@@ -46,11 +46,11 @@ Caused by removal of a half plane.
 
 #### Half plane
 
-An extra plane of atoms that is inserted into part of a lattice.
+Remaining part of a plane of atoms after a set of planes are gone missing.
 
 #### Slip plane
 
-Plane that is perpendicular to the half plane.
+Plane that is perpendicular to the half plane and on a boundary.
 
 #### Dislocation line
 
