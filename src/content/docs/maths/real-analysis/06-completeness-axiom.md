@@ -24,9 +24,9 @@ Let $A$ be a non empty subset of $\mathbb{R}$.
 
 Let $A$ be a non empty subset of $\mathbb{R}$.
 
-- Say $u$ is an upper bound of $A$. Then $u= \sup A$ **iff**:  
+- Say $u$ is an upper bound of $A$. Then $u= \sup A$ **iff**:
   $\forall \epsilon \gt 0\;\exists a \in A;\;a + \epsilon \gt u$
-- Say $l$ is a lower bound of $A$. Then $l= \inf A$ **iff**:  
+- Say $l$ is a lower bound of $A$. Then $l= \inf A$ **iff**:
   $\forall \epsilon \gt 0\;\exists a \in A;\;a - \epsilon \lt l$
 
 :::note[Proof Hint]
@@ -41,20 +41,18 @@ proof. $ $
 - $sup(a,b)=b$
 - $inf(a,b)=a$
 
-## Completeness axioms of real numbers
+## Completeness property
 
-- Every non empty subset of $\mathbb{R}$ which is bounded above has a supremum
-  in $\mathbb{R}$
-- Every non empty subset of $\mathbb{R}$ which is bounded below has a infimum in
-  $\mathbb{R}$
+A set $A$ is said to have the completeness property **iff** every non-empty
+subset of $A$:
 
-:::note
+- Which is bounded below has a infimum in $A$
+- Which is bounded above has a supremum in $A$
 
-$\mathbb{Q}$ doesn't have the completeness property. $ $
+Both $\mathbb{R}, \mathbb{Z}$ have the completeness property. $\mathbb{Q}$
+doesn't.
 
-:::
-
-## Completeness axioms of integers
+In addition to that:
 
 - Every non empty subset of $\mathbb{Z}$ which is bounded above has a maximum
 - Every non empty subset of $\mathbb{Z}$ which is bounded below has a minimum

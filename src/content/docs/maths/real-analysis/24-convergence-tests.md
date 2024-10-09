@@ -2,7 +2,7 @@
 title: Convergence Tests
 slug: maths/real-analysis/convergence-tests
 sidebar:
-  order: 23
+  order: 24
 ---
 
 ## Direct Comparison Test

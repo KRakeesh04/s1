@@ -1,6 +1,6 @@
 ---
-title: Sequences
-slug: maths/real-analysis/sequences
+title: Sequence
+slug: maths/real-analysis/sequence
 sidebar:
   order: 20
 ---
@@ -31,12 +31,6 @@ A sequence $\big(u_n\big)$ is $ $
 - Monotone **iff** either increasing or decreasing
 - Strictly increasing **iff** $u_n\gt u_m$ for $n>m$
 - Strictly decreasing **iff** $u_n\lt u_m$ for $n>m$
-
-### Subsequence
-
-Suppose $u:\mathbb{Z}^+\rightarrow \mathbb{R}$ be a sequence and
-$v:\mathbb{Z}^+\rightarrow\mathbb{Z}^+$ be an increasing sequence. Then
-$u\circ v: \mathbb{Z}^+\rightarrow \mathbb{R}$ is a subsequence of $u$.
 
 ## Convergence
 
@@ -120,19 +114,3 @@ Suppose $f$ is a function. To find its roots: $ $
 ```math
 x_{n+1}=x_n - \frac{f(x_n)}{f'(x_n)}
 ```
-
-## Theorems
-
-### Existence of subsequence
-
-Every sequence has a monotone subsequence.
-
-### Bolzano-Weistrass
-
-Every bounded sequence has a converging sequence.
-
-:::note[Proof Hint]
-
-Using the above theorem and the fact that bounded monotone sequences converge.
-
-:::

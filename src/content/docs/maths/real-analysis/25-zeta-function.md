@@ -2,7 +2,7 @@
 title: Riemann Zeta Function
 slug: maths/real-analysis/zeta-function
 sidebar:
-  order: 24
+  order: 25
 ---
 
 ```math

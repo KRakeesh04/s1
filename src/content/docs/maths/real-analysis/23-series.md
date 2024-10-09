@@ -2,7 +2,7 @@
 title: Series
 slug: maths/real-analysis/series
 sidebar:
-  order: 22
+  order: 23
 ---
 
 Let $(u_n)$ be a sequence, and a series (a new sequence) can be defined from it

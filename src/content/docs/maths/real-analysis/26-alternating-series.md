@@ -2,7 +2,7 @@
 title: Alternating Series
 slug: maths/real-analysis/alternating-series
 sidebar:
-  order: 25
+  order: 26
 ---
 
 Suppose $u_k>0$. An alternating series is:$ $

@@ -2,7 +2,7 @@
 title: Power Series
 slug: maths/real-analysis/power-series
 sidebar:
-  order: 26
+  order: 27
 ---
 
 A series of the form:
