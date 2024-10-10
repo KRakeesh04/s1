@@ -103,3 +103,7 @@ to a maximum, and then decreases.
 ### Ultimate tensile strength (UTS)
 
 The maximum stress that can be sustained by a material in tension.
+
+```math
+\text{UTS} = \frac{\text{max load}}{\text{original cross-sectional area}}
+```
