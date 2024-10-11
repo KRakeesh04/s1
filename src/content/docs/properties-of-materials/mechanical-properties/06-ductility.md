@@ -2,12 +2,12 @@
 title: Ductility
 slug: properties-of-materials/mechanical-properties/ductility
 sidebar:
-  order: 5
+  order: 6
 ---
 
 A measure of the degree of plastic deformation at fracture.
 
-Most metals are ductile.
+Most metals are ductile. Ductile materials have high tensile strength.
 
 ### Percentage elongation
 
@@ -24,6 +24,8 @@ Most metals are ductile.
 ## Brittle
 
 A material that experiences very little or no plastic deformation.
+
+Brittleness order: Ionic bonds > Covalent bonds > Metallic bonds
 
 ## Malleability
 

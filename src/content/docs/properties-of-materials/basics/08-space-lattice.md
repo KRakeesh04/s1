@@ -81,8 +81,9 @@ particle contacts.
 $ \text{APF} = \frac{\text{True volume}}{\text{Bulk volume}} =
 \frac{\text{Volume of atoms/unit cell}}{\text{Volume/unit cell}} $
 
-Geometrically maximum APF in real life (assuming spherical atoms) is 74%. If a
-structure has 74% APF, the structure is called a **close-packed structure**.
+Geometrically maximum APF in real life (assuming spherical and identical atoms)
+is 74%. If a structure has 74% APF, the structure is called a **close-packed
+structure**. The APF can be increased to a maximum of 79% by adding impurities.
 
 ## Interstitial sites (aka holes, voids)
 

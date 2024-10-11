@@ -7,7 +7,14 @@ sidebar:
 
 Materials with band gap of less than $2.5\,\text{eV}$. $ $
 
-## Holes
+Both electrons and holes contribute to the current flow of a semiconductor.
+
+### Electrons
+
+If the number of electrons is increased, fermi level move towards the conduction
+band.
+
+### Holes
 
 When electrons jump into conduction band, it leaves a hole in the valence band.
 The hole can be treated as a positive charge, having an equal and opposite
@@ -16,7 +23,7 @@ charge value as an electron.
 Under the influence of an electric filed, an electron in valence band can jump
 into a hole, creating new hole in the electron’s original position.
 
-Both electrons and holes contribute to the current flow of a semiconductor.
+If the number of holes is increased, fermi level move towards the valence band.
 
 ## Types of Semiconductors
 
@@ -62,7 +69,7 @@ semiconductors.
 
 #### Doping
 
-Introduction of a foreign atom (impurities) into a intrinsic semiconductor. The
+Introduction of a foreign atom (impurities) into an intrinsic semiconductor. The
 foreign atoms are usually either pentavalent (i.e. Sb, P, As) or trivalent (i.e.
 B, Ga, In).
 
@@ -73,8 +80,8 @@ B, Ga, In).
 
 #### n-type
 
-Increased number of electrons. Fermi level is shifted upwards, due to extra
-electron energy states (**donor state**).
+Increased number of electrons. Extra electron energy states are called as
+**donor states** and they are formed closer to conduction band.
 
 At room temperature, thermal energy is sufficient to excite the electrons from
 donor states.
@@ -89,11 +96,11 @@ donor states.
 
 #### p-type
 
-Increased number of holes. Extra hole energy levels are introduced above valence
-band (**acceptor state**).
+Increased number of holes. Extra hole energy levels are called as **acceptor
+state**, and they are formed closer to valance band.
 
 At room temperature, electrons in valence band can jump into acceptor state,
-facilitating movement of holes
+facilitating movement of holes.
 
 ```math
 \sigma\approx n_h\lvert{e}\rvert\mu_h

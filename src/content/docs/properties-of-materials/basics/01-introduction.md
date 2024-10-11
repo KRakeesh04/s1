@@ -31,3 +31,13 @@ A property is the response given by a material to a specific stimulus
   – electric field
 - Magnetic properties – magnetic field
 - Optical properties – electromagnetic or light radiation
+
+## Definitions
+
+### Anisotropic
+
+Different properties in different directions.
+
+### Isotropic
+
+Same properties in all different directions.

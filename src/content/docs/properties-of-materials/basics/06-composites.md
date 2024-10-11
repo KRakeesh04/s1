@@ -5,8 +5,8 @@ sidebar:
   order: 6
 ---
 
-Materials that are a mixture of 2 materials. Materials are combined together to
-get the advantages of two materials.
+Materials that are a mixture of 2 different-typed materials. Materials are
+combined together to get the advantages of two materials.
 
 ## Examples
 
@@ -14,5 +14,5 @@ get the advantages of two materials.
 - Fiber glass (GFRP)
 
 Fiber glass is a combination of glass and plastic. Not brittle. The procedure to
-creating fiber glass:  
-glass => fiber (a shape not material) => add plastic == fiber glass
+creating fiber glass: glass => fiber (a shape not material) => add plastic ==
+fiber glass

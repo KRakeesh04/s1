@@ -7,11 +7,9 @@ sidebar:
 
 ## Definitions
 
-- Cartesian Product of sets $A,B$  
-  $A\times{B}=\set{(a,b)|a\in{A},b\in{B}}$
+- Cartesian Product of sets $A,B$ $A\times{B}=\set{(a,b)|a\in{A},b\in{B}}$
 
-- Ordered pair  
-  $(a,b)=\set{\set{a},\set{a,b}}$ $ $
+- Ordered pair $(a,b)=\Big\{\set{a},\set{a,b}\Big\}$ $ $
 
 ## Relation
 
@@ -29,21 +27,23 @@ $A\times{B}$.
 
 ### Everywhere defined
 
-$R$ is everywhere defined  
-$\iff{A=dom(R)=preran(R)}$  
+$R$ is everywhere defined $\iff{A=dom(R)=preran(R)}$
 $\iff{\forall{a\in{A}},\;\exists{b\in{B}};\,(a,b)\in{R}}$.
 
 ### Onto
 
-$R$ is onto  
-$\iff{B=codom(R)=ran(R)}$  
+$R$ is onto $\iff{B=codom(R)=ran(R)}$
 $\iff{\forall{b\in{B}}\,\exists{a\in{A}}\,(a,b)\in{R}}$
 
 Aka. **surjection**.
 
 ### Inverse
 
-Inverse of $R$: $R^{-1}=\set{(b,a)\,|\,(a,b)\in{R}}$
+Inverse of a relation $R$:
+
+```math
+R^{-1}=\set{(b,a)\,|\,(a,b)\in{R}}
+```
 
 ## Types of relation
 

@@ -5,7 +5,17 @@ sidebar:
   order: 3
 ---
 
-Metals can be categorized into 2 types.
+Metals can be categorized into 2 types. Metals are isotropic. Metals are
+generally crystalline.
+
+:::note
+
+Metals can be made amorphous by
+
+- Melting
+- Cooling it suddenly
+
+:::
 
 ### Pure Metals
 
@@ -41,8 +51,8 @@ Alloys containing too many alloying elements (maybe even 20).
 
 :::note
 
-Steel (Fe + C) has maximum of 2% C. Won't break easily (ductile).  
-Cast Iron (Fe + C) has 2%-4% C. Will break easily (brittle).
+Steel (Fe + C) has maximum of 2% C. Won't break easily (ductile). Cast Iron
+(Fe + C) has 2%-4% C. Will break easily (brittle).
 
 :::
 
@@ -58,7 +68,7 @@ Cast Iron (Fe + C) has 2%-4% C. Will break easily (brittle).
 
 :::note
 
-Ductile - easily changes shape by applying force.  
-Brittle - easily breaks when applying force.
+Ductile - easily changes shape by applying force. Brittle - easily breaks when
+applying force.
 
 :::

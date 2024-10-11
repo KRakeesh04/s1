@@ -2,7 +2,7 @@
 title: Definitions
 slug: properties-of-materials/mechanical-properties/definitions
 sidebar:
-  order: 4
+  order: 5
 ---
 
 :::caution[TODO]

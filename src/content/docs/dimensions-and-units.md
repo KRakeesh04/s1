@@ -82,16 +82,18 @@ slug: dimensions-and-units
 
 ## Properties of Materials
 
-| Property              | Dimension          | Units               |
-| --------------------- | ------------------ | ------------------- |
-| Planar density        | $L^{-2}$           | $m^{-2}$            |
-| Stress                | $ ML^{-1}T^{-2} $  | $ Pa $              |
-| Strain                | -                  | -                   |
-| Yield strength        | $ ML^{-1}T^{-2} $  | $ Pa $              |
-| Young's modulus       | $ ML^{-1}T^{-2} $  | $ Pa $              |
-| Secant modulus        | $ ML^{-1}T^{-2} $  | $ Pa $              |
-| Tangent modulus       | $ ML^{-1}T^{-2} $  | $ Pa $              |
-| Poisson's ratio       | -                  | -                   |
-| Carrier Concentration | $ L^{-2}TI $       | $ Cm^{-2} $         |
-| Carrier Mobility      | $ M^{-1}T^{2}I^1$  | $m^{2}V^{-1}s^{-1}$ |
-| Charge Sensitivity    | $M^{-1}L^{-1}T^3I$ | $N^{-1}C$           |
+| Property                               | Dimension          | Units               |
+| -------------------------------------- | ------------------ | ------------------- |
+| Planar density                         | $L^{-2}$           | $m^{-2}$            |
+| Stress                                 | $ ML^{-1}T^{-2} $  | $ Pa $              |
+| Strain                                 | -                  | -                   |
+| Yield strength                         | $ ML^{-1}T^{-2} $  | $ Pa $              |
+| Young's modulus                        | $ ML^{-1}T^{-2} $  | $ Pa $              |
+| Secant modulus                         | $ ML^{-1}T^{-2} $  | $ Pa $              |
+| Tangent modulus                        | $ ML^{-1}T^{-2} $  | $ Pa $              |
+| Poisson's ratio                        | -                  | -                   |
+| Toughness                              | $ ML^{2}T^{-2} $   | $ J $               |
+| Carrier Concentration                  | $ L^{-2}TI $       | $ Cm^{-2} $         |
+| Carrier Mobility                       | $ M^{-1}T^{2}I^1$  | $m^{2}V^{-1}s^{-1}$ |
+| Charge Sensitivity                     | $M^{-1}L^{-1}T^3I$ | $N^{-1}C$           |
+| Temperature Coefficient of Resistivity | $ \theta^{-1} $    | $ K^{-1}$           |

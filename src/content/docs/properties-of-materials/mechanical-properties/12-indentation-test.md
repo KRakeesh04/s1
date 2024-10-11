@@ -26,10 +26,16 @@ HB = \frac{2F}{\pi D (D-\sqrt{D^2 - d^2})}
 
 Here:
 
-- F - applied load
-- D - diameter of the indenter ($10\,\text{mm}$)
+- F - applied load (in kN)
+- D - diameter of the indenter
 - d - diameter of the indentation
 - h - depth of the indentation
+
+:::note
+
+Load is measured in kN and lengths are measured in mm.
+
+:::
 
 ### Vickers (HV)
 

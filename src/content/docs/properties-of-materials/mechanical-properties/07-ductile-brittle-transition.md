@@ -2,7 +2,7 @@
 title: Ductile-Brittle Transition
 slug: properties-of-materials/mechanical-properties/ductile-brittle-transition
 sidebar:
-  order: 6
+  order: 7
 ---
 
 Ductile materials show brittle behavior as the temperature is lowered. This is
@@ -13,8 +13,8 @@ test over a range of temperatures.
 
 The transition behavior is:
 
-- Sudden in BCC metals
-- Gradual in FCC metals
+- Sudden in BCC metals (eg: Steel)
+- Gradual in FCC metals (eg: Copper)
 
 ## Ductile-Brittle Transition Temperature
 

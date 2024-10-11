@@ -19,6 +19,18 @@ $R=\rho\frac{l}{A}$
 
 Not a property of a material.
 
+### Temperature coefficient of resistivity
+
+```math
+\rho=\rho_0\Big[1 + \alpha(T-T_0)\Big]
+```
+
+Here:
+
+- $\rho$ - resistivity at temperature $T$
+- $\rho_0$ - resistivity at temperature $T_0$
+- $\alpha$ - temperature coefficient of resistivity
+
 ## Conductivity
 
 Reciprocal of the electrical resistivity.

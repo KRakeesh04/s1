@@ -97,3 +97,13 @@ dipolarity caused inside molecules. Non-directional.
 
 Forms between polar covalently bonded molecules containing H. Polarity is due to
 the asymmetry of the molecule. Directional.
+
+:::note
+
+In these bonds, order of them based on some properties:
+
+Hardness, Melting point, crystalline percentage: Ceremics > Metals > Polymers
+
+Directionality: Covalent > Ionic > Metallic
+
+:::

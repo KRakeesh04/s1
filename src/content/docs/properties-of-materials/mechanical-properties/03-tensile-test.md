@@ -5,8 +5,23 @@ sidebar:
   order: 3
 ---
 
+### Observables
+
+- Elastic region
+- Yield point
+- Proof stress
+- Plastic portion
+- Steadily decreasing slope
+- Ultimate tensile strength
+- Localization of the deformation
+- Young's modulus
+- Upper and lower yield stresses
+- Fractural strength
+
+## Testing setup
+
 Follows ASTM Standards E 8 and E 8M. (American Society for Testing and
-Materials)
+Materials).
 
 The specimen: ![Tensile Test Specimen](/props/tensile-test-specimen.jpg)
 
@@ -21,11 +36,11 @@ The setup: ![Tensile Test Setup](/props/tensile-test-setup.jpg)
 Test will be done until the specimen fractures. Results are converted to
 engineering stress and strain, and plotted.
 
-## Load cell
+### Load cell
 
 Measures the force applied to the specimen.
 
-## Extensometer
+### Extensometer
 
 Used to measures the elongation (increase in length) in the specimen.
 
