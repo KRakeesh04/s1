@@ -134,7 +134,7 @@ strong {
 	color: #ff2f87;
 }
 #content-included {
-	@apply relative pt-20 sm:pt-16;
+	@apply relative;
 	counter-reset: total-links;
 	a:not(#license) {
 		@apply no-underline px-1.5 text-[var(--sl-color-white)] w-fit hover:underline cursor-pointer rounded-lg transition-colors inline-flex items-center gap-1.5;
@@ -160,9 +160,8 @@ strong {
 	p:has(#total-links-count) {
 		@apply leading-snug;
 	}
-	#total-links-count::before {
+	#total-links-count {
 		@apply font-bold;
-		content: counter(total-links) " pages";
 	}
 }
 br {

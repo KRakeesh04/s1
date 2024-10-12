@@ -9,23 +9,20 @@ const { entries, depth = 0 } = Astro.props;
 ---
 
 {
-	entries.length === 0
-		? null
-		: <>
-		{depth===0?
-			<section>
-				 <h3>Common</h3>
+	entries.length === 0 ? null : (
+		<>
+			{depth === 0 ? (
+				<section>
+					<h3>Common</h3>
 
-				<div class="links-group">
-
-		<a href={"/dimensions-and-units"}>
-			<strong>Dimensions & Units</strong>
-		</a>
-				</div>
-			</section>
-				: null
-		}
-		{entries.map((item) => {
+					<div class="links-group">
+						<a href={"/dimensions-and-units"}>
+							<strong>Dimensions & Units</strong>
+						</a>
+					</div>
+				</section>
+			) : null}
+			{entries.map((item) => {
 				if (item.type === "link") {
 					if (depth !== 0) {
 						return (
@@ -56,15 +53,6 @@ const { entries, depth = 0 } = Astro.props;
 					);
 				}
 			})}
-		{
-			depth ===0 ?
-				<p
-					class="absolute top-0"
-				>
-					First <b>13 weeks</b> of content is updated, totaling to
-					<span id="total-links-count"></span>.
-				</p>
-				: null
-		}
-	</>
+		</>
+	)
 }

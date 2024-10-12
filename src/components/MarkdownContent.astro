@@ -1,8 +1,58 @@
 ---
 import Default from "@astrojs/starlight/components/MarkdownContent.astro";
+import type { Props } from "@astrojs/starlight/props";
 import ContentEntries from "./ContentEntries.astro";
 
+function countTotalEntries(entries: Props["sidebar"]) {
+	let count = 0;
+
+	for (const entry of entries) {
+		if (entry.type === "link") {
+			count += 1;
+		} else if (entry.type === "group") {
+			count += countTotalEntries(entry.entries);
+		}
+	}
+
+	return count;
+}
+
+interface SectionSummaryLink {
+	label: string;
+	href: string;
+}
+
+function findSections(entries: Props["sidebar"], parentLabel = "") {
+	const sections: Array<SectionSummaryLink> = [];
+	for (const entry of entries) {
+		if (entry.type !== "group") {
+			continue;
+		}
+
+		if (entry.entries[0].type === "link") {
+			sections.push({
+				label: `${entry.label}${parentLabel}`,
+				href: "/as-pdf".concat(
+					entry.entries[0].href.split("/").slice(0, -2).join("/").toLowerCase(),
+					".pdf"
+				),
+			});
+		} else {
+			for (const subsection of findSections(
+				entry.entries,
+				` | ${entry.label}${parentLabel}`
+			)) {
+				sections.push(subsection);
+			}
+		}
+	}
+
+	return sections;
+}
+
+const total = countTotalEntries(Astro.props.sidebar);
 const isHomepage = Astro.props.slug === "";
+const sections = findSections(Astro.props.sidebar);
 ---
 
 {
@@ -10,13 +60,18 @@ const isHomepage = Astro.props.slug === "";
 		<div class="sl-markdown-content">
 			<p>
 				It's a website of{" "}
-				<a href="https://sahithyan.dev" class="text-[var(--sl-color-accent)]">my</a>{" "}
+				<a href="https://sahithyan.dev" class="text-[var(--sl-color-accent)]">
+					my
+				</a>{" "}
 				short notes of my 1st semester of Engineering at University of Moratuwa.{" "}
 			</p>
 			<p>
-				This wouldn't be possible without the help of my friends. Huge thanks for everyone involved.
-				Want to support this effort? Star the
-				<a href="https://github.com/sahithyandev/s1">sahithyandev/s1 repository</a> on GitHub.
+				This wouldn't be possible without the help of my friends. Huge thanks
+				for everyone involved. Want to support this effort? Star the
+				<a href="https://github.com/sahithyandev/s1">
+					sahithyandev/s1 repository
+				</a>{" "}
+				on GitHub.
 			</p>
 			<h2 id="why">Why?</h2>{" "}
 			<ul>
@@ -27,114 +82,52 @@ const isHomepage = Astro.props.slug === "";
 				<li>Accessible from everywhere.</li> <li>Helpful to everyone.</li>{" "}
 			</ul>{" "}
 			<h2>Notes as PDFs</h2>
-			<p>The PDFs automatically updates whenever the content changes. However the format of the PDF may not be perfect.</p>
+			<p>
+				The PDFs automatically updates whenever the content changes. However the
+				format of the PDF may not be perfect.
+			</p>
 			<ul class="notes-as-pdf-links">
-				<li>
-					<a href="/as-pdf/electrical-fundamentals.pdf">
-						Electrical Fundamentals
-					</a>
-				</li>
-				<li>
-					<a href="/as-pdf/fluid-mechanics/statics.pdf">Fluid Mechanics | Statics</a>
-				</li>
-				<li>
-					<a href="/as-pdf/fluid-mechanics/dynamics.pdf">
-						Fluid Mechanics | Dynamics
-					</a>
-				</li>
-				<li>
-					<a href="/as-pdf/maths/vectors.pdf">
-						Maths | Vectors
-					</a>
-				</li>
-				<li>
-					<a href="/as-pdf/maths/matrices.pdf">
-						Maths | Matrices
-					</a>
-				</li>
-				<li>
-					<a href="/as-pdf/maths/complex-numbers.pdf">
-						Maths | Complex Numbers
-					</a>
-				</li>
-				<li>
-					<a href="/as-pdf/maths/real-analysis.pdf">Maths | Real Analysis</a>
-				</li>
-				<li>
-					<a href="/as-pdf/maths/ode.pdf">Maths | ODE</a>
-				</li>
-				<li>
-					<a href="/as-pdf/maths/riemann-integration.pdf">
-						Maths | Riemann Integration
-					</a>
-				</li>
-				<li>
-					<a href="/as-pdf/mechanics/statics.pdf">Mechanics | Statics</a>
-				</li>
-				<li>
-					<a href="/as-pdf/mechanics/dynamics.pdf">Mechanics | Dynamics</a>
-				</li>
-				<li>
-					<a href="/as-pdf/programming-fundamentals/a-book.pdf">
-						Programming Fundamentals | A book
-					</a>
-				</li>
-				<li>
-					<a href="/as-pdf/programming-fundamentals/b-book.pdf">
-						Programming Fundamentals | B book
-					</a>
-				</li>
-				<li>
-					<a href="/as-pdf/programming-fundamentals/c-book.pdf">
-						Programming Fundamentals | C book
-					</a>
-				</li>
-				<li>
-					<a href="/as-pdf/properties-of-materials/basics.pdf">
-						Properties of Materials | Basics
-					</a>
-				</li>
-				<li>
-					<a href="/as-pdf/properties-of-materials/mechanical-properties.pdf">
-						Properties of Materials | Mechanical Properties
-					</a>
-				</li>
-				<li>
-					<a href="/as-pdf/properties-of-materials/electrical-properties.pdf">
-						Properties of Materials | Electrical Properties
-					</a>
-				</li>
-				<li>
-					<a href="/as-pdf/properties-of-materials/nanotechnology.pdf">
-						Properties of Materials | Nanotechnology
-					</a>
-				</li>
+				{sections.map((section) => {
+					return (
+						<li>
+							<a href={section.href}>{section.label}</a>
+						</li>
+					);
+				})}
 			</ul>
 			<h2 class="mb-1">Content Included</h2>
 			<div id="content-included">
+				<p>
+					First <b>13 weeks</b> of content is updated, totaling to{" "}
+					<span id="total-links-count">{total} pages</span>.
+				</p>
 				<p>
 					I am actively updating the content as my semester progresses. Let me
 					know if you find anything missing or wrong.
 				</p>
 				<p>
-					<strong class="text-inherit">
-						All the content except the images in this website is shared under
-						<a
-							href="/license"
-							id="license"
-							class="text-[var(--sl-color-accent)]"
-						>
-							CC BY-NC-ND 4.0
-						</a>.
-					</strong><br/>
-					Images are either mine, or one of my friend's or from the internet or from the lecture notes.
+					<Fragment>
+						<strong class="text-inherit">
+							All the content except the images in this website is shared under
+							<a
+								href="/license"
+								id="license"
+								class="text-[var(--sl-color-accent)]"
+							>
+								CC BY-NC-ND 4.0
+							</a>
+							.
+						</strong>
+						<br />
+					</Fragment>
+					Images are either mine, or one of my friend's or from the internet or
+					from the lecture notes.
 				</p>
 				<ContentEntries entries={Astro.props.sidebar} />
 			</div>{" "}
 		</div>
 	) : (
-		<div
-		>
+		<div>
 			{/* @ts-ignore */}
 			<Default {...Astro.props}>
 				<slot />
