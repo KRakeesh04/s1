@@ -39,7 +39,7 @@ Aka. **surjection**.
 
 ### Inverse
 
-Inverse of a relation $R$:
+Inverse of a relation $R$: $ $
 
 ```math
 R^{-1}=\set{(b,a)\,|\,(a,b)\in{R}}

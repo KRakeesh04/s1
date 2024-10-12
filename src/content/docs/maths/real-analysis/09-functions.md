@@ -6,7 +6,7 @@ sidebar:
 ---
 
 A function $f:\,A\rightarrow{B}$ is a relation $f:\,A\rightarrow{B}$ which is
-[everywhere defined](/maths/real-analyis/relations/#everywhere-defined) and
+[everywhere defined](/maths/real-analysis/relations/#everywhere-defined) and
 [not one-many](/maths/real-analysis/relations/#not-one-many).
 
 - $dom(f)=A=preran(f)$
