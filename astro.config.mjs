@@ -19,7 +19,30 @@ export default defineConfig({
 			favicon: "/favicon.ico",
 			description:
 				"Short notes of 1st semester of Engineering at University of Moratuwa.",
-			head:
+			head: [
+				{
+					tag: "link",
+					attrs: {
+						rel: "preconnect",
+						href: "https://fonts.googleapis.com",
+					},
+				},
+				{
+					tag: "link",
+					attrs: {
+						rel: "preconnect",
+						href: "https://fonts.gstatic.com",
+						crossOrigin: true,
+					},
+				},
+				{
+					tag: "link",
+					attrs: {
+						rel: "stylesheet",
+						href: "https://fonts.googleapis.com/css2?family=Product+Sans:wght@400;500;700&display=swap",
+					},
+				},
+			].concat(
 				process.env.NODE_ENV === "production"
 					? [
 							{
@@ -36,6 +59,7 @@ export default defineConfig({
 							},
 						]
 					: [],
+			),
 			customCss: ["./src/global.css"],
 			tableOfContents: {
 				maxHeadingLevel: 4,

@@ -23,6 +23,7 @@ import puppeteer from "puppeteer";
 		}
 		return links;
 	});
+	await page.close();
 
 	/**
 	 * @type {string[]}
@@ -47,6 +48,7 @@ import puppeteer from "puppeteer";
 			await summaryPage.pdf({
 				path,
 				format: "A4",
+				scale: 0.9,
 			});
 			console.log(`Saved: ${baseLink} (to ${path})`);
 			await summaryPage.close();
