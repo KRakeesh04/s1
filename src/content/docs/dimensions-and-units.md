@@ -54,10 +54,12 @@ slug: dimensions-and-units
 | Coefficient of dynamic viscosity     | $ ML^{-1}T^{-1} $ | $ kgm^{-1}s^{-1}, Nm^{-2}s, P$ |
 | Coefficient of kinematic viscosity   | $ L^{2}T^{-1} $   | $ m^{2}s^{-1},st$              |
 | Pressure                             | $ ML^{-1}T^{-2} $ | $ Nm^{-2}, Pa,\text{Bar}$      |
+| Flow rate                            | $L^3 T^{-1}$      | $m^3s^{-1}$                    |
 | Head                                 | $ L $             | $ m $                          |
 | Datum head                           | $ L $             | $ m $                          |
 | Pressure head                        | $ L $             | $ m $                          |
 | Velocity head                        | $ L $             | $ m $                          |
+| Loss coefficient                     | $L^{-5}T^2$       | $m^{-5}s$                      |
 
 ### Conversions
 

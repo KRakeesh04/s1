@@ -2,6 +2,7 @@
 title: Introduction to Fluid Dynamics
 slug: fluid-mechanics/dynamics/introduction
 sidebar:
+  label: Introduction
   order: 1
 ---
 
@@ -45,10 +46,9 @@ Fluid doesn't show any resistance to the flow.
 
 Fluid shows any resistance to the flow.
 
-- **Newtonian**: $\mu\text{ is constant}$  
-  Examples: Water
-- **Non-newtonian**: $\mu\text{ is not constant}$  
-  Examples: Paints, Clay, Plastics
+- **Newtonian**: $\mu\text{ is constant}$ Examples: Water
+- **Non-newtonian**: $\mu\text{ is not constant}$ Examples: Paints, Clay,
+  Plastics
 
 ### Variation of parameters
 
@@ -62,19 +62,15 @@ The parameters:
 
 The variation of the parameters with time.
 
-- **Steady**: no variation with time  
-  $V=f(x,y,z)$
-- **Unsteady**: variation of flow parameters with time  
-  $V=f(t,x,y,z)$
+- **Steady**: no variation with time $V=f(x,y,z)$
+- **Unsteady**: variation of flow parameters with time $V=f(t,x,y,z)$
 
 #### Spatial Variation
 
 The variation of the parameters with coordinates.
 
-- **Uniform**: no variation with spatial parameters  
-  $V=f(t)$
-- **Non-uniform**: spatial variation of flow parameters  
-  $V=f(t,x,y,z)$
+- **Uniform**: no variation with spatial parameters $V=f(t)$
+- **Non-uniform**: spatial variation of flow parameters $V=f(t,x,y,z)$
 
 ### Dimensional
 

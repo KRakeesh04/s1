@@ -108,6 +108,13 @@ export default defineConfig({
 								directory: "fluid-mechanics/dynamics",
 							},
 						},
+						{
+							label: "Machinery",
+							collapsed: true,
+							autogenerate: {
+								directory: "fluid-mechanics/machinery",
+							},
+						},
 					],
 				},
 				{

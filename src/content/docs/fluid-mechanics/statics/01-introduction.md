@@ -2,6 +2,7 @@
 title: Introduction to Fluid Mechanics
 slug: fluid-mechanics/statics/introduction
 sidebar:
+  label: Introduction
   order: 1
 ---
 

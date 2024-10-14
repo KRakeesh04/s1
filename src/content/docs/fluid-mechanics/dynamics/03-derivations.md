@@ -68,4 +68,18 @@ Where:
 
 - $\rho$ - density
 - $Q$ - flow rate
-- $v$ - velocity :::
+- $v$ - velocity
+
+:::
+
+## Power
+
+```math
+P=\gamma Q H
+```
+
+Here:
+
+- $\gamma$ - specific weight of the fluid
+- $Q$ - flow rate
+- $H$ - total head
