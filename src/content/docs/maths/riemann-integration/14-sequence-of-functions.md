@@ -11,29 +11,33 @@ sidebar:
 
 ```math
 \forall \epsilon \gt 0\;
-\exists N\;
+\exists N \in \mathbb{Z^+}\;
 \forall x\in [a,b]\;
-\;
-\text{s.t.}
-\;
+\forall n > N\;;\;
 \big|f_n(x)-f(x)\big| \lt \epsilon
 ```
 
 Here $N$ depends on $\epsilon$ only.
 
+Examples:
+
+- $\frac{x^2}{n}$ on $[0,1]$
+
 ### Pointwise convergence
 
 ```math
 \forall \epsilon \gt 0\;
-\exists N\;
 \forall x\in [a,b]\;
-\;
-\text{s.t.}
-\;
+\exists N \in \mathbb{Z^+}\;
+\forall n > N\;;\;
 \big|f_n(x)-f(x)\big| \lt \epsilon
 ```
 
 Here $N$ depends on $\epsilon, x$.
+
+Examples:
+
+- $x^n$ on $[0,1]$
 
 ## Uniform Convergence Theorem
 
@@ -104,10 +108,10 @@ Can be proven from the dominated convergence theorem.
 
 To test if a sequence of functions converges uniformly and absolutely.
 
-Let $f_n$ be a sequence functions on a set $A$. And $\exists M_n \ge 0$
-satisfying both these conditions:
+Let $f_n$ be a sequence functions on a set $A$. And both these conditions are
+met:
 
-- $\forall n \ge 1\;\forall x \in A,\; \lvert f_n(x) \rvert \le M_n$
+- $\forall n \ge 1\;\exists M_n \ge 0\; \forall x \in A\;; \lvert f_n(x) \rvert \le M_n$
 - $\sum_{n=1}^\infty M_n$ converges
 
 Then:
@@ -115,3 +119,45 @@ Then:
 ```math
 \sum_{n=1}^\infty f_n(x)\; \text{converges}
 ```
+
+## Uniform convergence and continuity
+
+If $u_n(x)$ is continuous and converging to $u(x)$, then $u(x)$ is also
+continuous.
+
+:::note[Proof Hint]
+
+Consider the limit definitions of:
+
+1. $u_n(x)$ converges to $u(x)$
+2. $u_n(x)$ is continuous at $a$
+
+Consider $\lvert u(x)-u(a)\rvert$. Introduce $u_n(x)$ and $u_n(a)$ in there.
+Split into 3 absolute values. Show that the sum is lesser than $3\epsilon$.
+
+:::
+
+## Uniform convergence and supremum
+
+A sequence of functions $u_n(x)$ converges to $u(x)$ uniformly **iff**:
+
+```math
+\lim_\limits{n\to\infty} \sup_x\, \lvert u_n(x) - u(x) \rvert = 0
+```
+
+:::note[Proof Hint]
+
+Let $l_n=\lvert u_n(x)-u(x) \rvert$. $ $
+
+To prove $\implies$: $ $
+
+- Consider the epsilon-delta definition of uniform convergence
+- $\frac{\epsilon}{2}$ is an upperbound of $l_n$
+- $\sup_x l_n \le \frac{\epsilon}{2} \lt \epsilon $
+
+To prove $\impliedby$: $ $
+
+- Consider the epsilon-delta definition of the above limit
+- $l_n \lt \sup_x l_n \lt \epsilon $
+
+:::

@@ -35,11 +35,6 @@ bounded. Bounded monotone sequences converge. $ $
 
 :::
 
-## Theorem
-
-If $u_n$ is Cauchy and $u_{n_k}$ is a subsequence converging to $L$, then $u_n$
-converges to $L$.
-
 :::note
 
 For a set $A$, all $3$ statements are equivalent:
@@ -50,3 +45,42 @@ For a set $A$, all $3$ statements are equivalent:
   on $A$
 
 :::
+
+## Theorem 1
+
+Suppose $u_n$ is a sequence converging to $L$, and $u_{n_k}$ is a subsequence of
+$u_n$. Then $u_{n_k}$ is converging to $L$.
+
+```math
+\lim_\limits{n \to \infty} u_k = L
+\implies
+\lim_\limits{n_k \to \infty} u_{n_k} = L
+```
+
+:::note[Proof Hint]
+
+Note that $n_k \ge k$. $ $
+
+:::
+
+## Theorem 2
+
+Suppose $u_n$ is a sequence diverging to $\infty$, and $u_{n_k}$ is a
+subsequence of $u_n$. Then $u_{n_k}$ is diverging to $\infty$.
+
+```math
+\lim_\limits{n \to \infty} u_k = \infty
+\implies
+\lim_\limits{n_k \to \infty} u_{n_k} = \infty
+```
+
+:::note[Proof Hint]
+
+Note that $n_k \ge k$. $ $
+
+:::
+
+## Subsequence of a cauchy sequence
+
+If $u_n$ is Cauchy and $u_{n_k}$ is a subsequence converging to $L$, then $u_n$
+converges to $L$.

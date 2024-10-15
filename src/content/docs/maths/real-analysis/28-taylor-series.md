@@ -16,5 +16,45 @@ then Taylor series of $f$ at $c$ is given by:
 (x-c)^n
 ```
 
-Taylor series can be used to define $e^x$, $\cos x$, $\sin x$, $ln(1+x)$ and
-more.
+## Examples
+
+### e^x
+
+Range of convergence is $\mathbb{R}$. $ $
+
+```math
+e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!} = 1 + \frac{x}{1!} + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots
+```
+
+### ln (1+x)
+
+Range of convergence is $(-1,1]$. $ $
+
+```math
+\ln(1+x) = \sum_{n=1}^\infty \frac{(-1)^{n-1}x^n}{n} = x - \frac{x^2}{2!} + \frac{x^3}{3!} - \frac{x^4}{4!} + \cdots
+```
+
+### sin x
+
+Range of convergence is $\mathbb{R}$. $ $
+
+```math
+\sin x = \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n+1}}{(2n+1)!} = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \cdots
+```
+
+### cos x
+
+Range of convergence is $\mathbb{R}$. $ $
+
+```math
+\cos x = \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n}}{(2n)!} = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!} + \cdots
+```
+
+:::note
+
+Next, sequence of functions and their convergence were discussed in class. This
+section is included under
+[Riemann Integration](/maths/riemann-integration/sequence-of-functions/),
+because it was discussed there first.
+
+:::
