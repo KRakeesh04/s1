@@ -139,7 +139,6 @@ strong {
 }
 #content-included {
 	@apply relative;
-	counter-reset: total-links;
 	a:not(#license) {
 		@apply no-underline px-1.5 text-[var(--sl-color-white)] w-fit hover:underline cursor-pointer rounded-lg transition-colors inline-flex items-center gap-1.5;
 		strong {
@@ -154,18 +153,12 @@ strong {
 		@apply flex flex-col gap-2 flex-wrap;
 		a {
 			@apply text-md;
-			counter-increment: link 1 total-links 1;
+			counter-increment: link 1;
 			&::before {
 				@apply text-sm;
 				content: "--" counter(link, decimal-leading-zero) "--";
 			}
 		}
-	}
-	p:has(#total-links-count) {
-		@apply leading-snug;
-	}
-	#total-links-count {
-		@apply font-bold;
 	}
 }
 br {
