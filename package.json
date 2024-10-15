@@ -14,11 +14,11 @@
 		"generate-summaries": "bun ./scripts/generate-summary.ts; bun ./scripts/convert-to-pdf.js; bash ./scripts/remove-metadata-from-summary-files.sh"
 	},
 	"dependencies": {
-		"@astrojs/check": "0.9.3",
-		"@astrojs/starlight": "0.28.2",
+		"@astrojs/check": "0.9.4",
+		"@astrojs/starlight": "0.28.3",
 		"@astrojs/starlight-tailwind": "^2.0.3",
-		"@astrojs/tailwind": "5.1.1",
-		"astro": "4.15.11",
+		"@astrojs/tailwind": "5.1.2",
+		"astro": "4.16.3",
 		"astro-og-canvas": "^0.5.3",
 		"puppeteer": "^23.3.0",
 		"rehype-katex": "^7.0.1",
