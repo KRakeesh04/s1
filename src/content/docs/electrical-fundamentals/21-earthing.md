@@ -51,13 +51,39 @@ earth.
 - IT - supply authority has effectively an isolated neutral and the installation
   has an independent earth
 
-TT system is shown below:
+Above the first letter means:
+
+- **T** - Short for terra. Refers to one or more points of the source to earth
+- **I** - Short for isolated. Indicates either:
+  - (i) all live parts are isolated from earth
+  - (ii) one point of live is connected to earth through high impedance
+
+Above the second letter means:
+
+- **T** - Denotes a direct connection from exposed parts of consumer
+  installation to earth, independently of any point of the supply authority side
+- **N** - Denotes a direct electrical connection of the exposed conductive parts
+  to the earthed point of the supply authority side (which is usually the
+  neutral point)
+
+### TT system
+
+Used in Sri Lanka. Supply is earthed at the source end. All exposed conductive
+parts of the installation are connected to earth (independent earth electrode)
+at consumer end.
 
 ![TT system](/electrical/tt-system.jpg)
 
 :::note
 
 In domestic systems, the earthing circuit is usually earthed by connecting to
-metallic water pipes buried in ground.
+metallic water pipes buried in ground. The resistance of this electrode to earth
+also depends on the condition of soil and may have values in excess of 100 .
+Thus in the TT system of earthing, it is now essential to use an RCCB for
+protection.
 
 :::
+
+The normal earthing practice is to provide a circuit protective conductor
+throughout every installation. A circuit protective conductor connects exposed
+conductive parts of equipment to the main earthing terminal.
