@@ -11,10 +11,10 @@ fluid.
 
 Examples:
 
-- Pumps
+- [Pumps](/fluid-mechanics/machinery/pumps)
 - Blowers
 - Compressors
-- Turbines - used to generate electricity
+- [Turbines](/fluid-mechanics/machinery/turbines)
 
 ## Classification
 
