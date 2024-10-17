@@ -25,9 +25,22 @@ Load vs time curve is called the **load curve**. Area under this curve is the
 Nation-wide, massive, geographically distributed system for electrical power
 supply network.
 
-## Sri Lankan Voltage Levels
+## Sri Lankan Scenario
+
+### Voltage Levels
 
 - High voltage $220\text{ kV}$
 - Medium voltage $11\text{ kV}$
 - Nominal voltage $230\text{ V}$
 - Nominal line-to-line $400\text{ V}$
+
+### Power sources
+
+Hydro-power is the most used source of energy for electricity.
+
+:::note
+
+Public Utilties Commission of Sri Lanka (PUCSL) is the economic, technical and
+safety regulator of the electricity industry in Sri Lanka.
+
+:::

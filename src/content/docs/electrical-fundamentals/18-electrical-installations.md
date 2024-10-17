@@ -2,7 +2,7 @@
 title: Electrical Installations
 slug: electrical-fundamentals/electrical-installations
 sidebar:
-  order: 17
+  order: 18
 ---
 
 An assembly (connected as a complete set) of associated electrical equipment to

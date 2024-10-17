@@ -2,7 +2,7 @@
 title: Circuit Breaker
 slug: electrical-fundamentals/mcb
 sidebar:
-  order: 19
+  order: 20
 ---
 
 A device for making and breaking a circuit. Operated by hand or automatically.

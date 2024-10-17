@@ -2,7 +2,7 @@
 title: Basic Domestic Installations
 slug: electrical-fundamentals/basic-domestic-installations
 sidebar:
-  order: 22
+  order: 23
 ---
 
 Most domestic installations in Sri Lanka use single phase and is supplied at

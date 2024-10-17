@@ -13,8 +13,9 @@ Rotating element is called as the runner.
 
 ### Reaction turbines
 
-Similar to pumps. Operating in reverse direction (direction of fluid flow and
-energy transfer). Guide vanes are placed to guide fluid flow onto the runner.
+Aka. pressure turbines. Similar to pumps. Operating in reverse direction
+(direction of fluid flow and energy transfer). Guide vanes are placed to guide
+fluid flow onto the runner.
 
 3 types of reaction turbines based on the direction of fluid flow.
 
@@ -32,8 +33,9 @@ A combination of radial flow and axial flow.
 
 ### Impulse turbines
 
-Used for high heads. Highly efficient. Includes a runner (a wheel with buckets
-attached) mounted on a shaft. High velocity jet is focused on the buckets.
+Aka. velocity turbines. Used for high heads. Highly efficient. Includes a runner
+(a wheel with buckets attached) mounted on a shaft. High velocity jet is focused
+on the buckets.
 
 Efficiency of an impulse turbine is given by:
 

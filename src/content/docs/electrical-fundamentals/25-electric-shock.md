@@ -2,7 +2,7 @@
 title: Electric Shock
 slug: electrical-fundamentals/electric-shock
 sidebar:
-  order: 24
+  order: 25
 ---
 
 Electric shock is when a current flows through the human body.

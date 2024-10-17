@@ -2,7 +2,7 @@
 title: Fuses
 slug: electrical-fundamentals/fuses
 sidebar:
-  order: 18
+  order: 19
 ---
 
 A device for opening a circuit by means of a conductor designed to melt when an
