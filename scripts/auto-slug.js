@@ -1,4 +1,4 @@
-import { writeFile } from "node:fs/promises";
+import { readdir, writeFile } from "node:fs/promises";
 import { relative } from "node:path";
 const matter = require("gray-matter");
 
@@ -14,10 +14,10 @@ function safeParseInt(value, defaultValue = undefined) {
 	return parsed;
 }
 
-// updates the frontmatter of mdx files
-(async () => {
-	const mdFilePaths = process.argv.slice(2);
-
+/**
+    @param {Array<string>} mdFilePaths
+*/
+export async function autoSlug(mdFilePaths) {
 	for (const filePath of mdFilePaths) {
 		if (!filePath.endsWith(".md")) {
 			continue;
@@ -53,7 +53,11 @@ function safeParseInt(value, defaultValue = undefined) {
 		const updatedFileContent = matter.stringify(file, {});
 		writeFile(filePath, updatedFileContent);
 	}
-})();
+}
 
+// updates the frontmatter of mdx files
+if (require.main === module) {
+	autoSlug(process.argv.slice(2));
+}
 // for testing
 // process.exit(27);
