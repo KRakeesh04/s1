@@ -18,7 +18,7 @@ U(f, Pϵ) − L(f, Pϵ) ≤ \epsilon
 :::note[Proof Hint]
 
 - To prove $\implies$: consider $L(f)-\frac{\epsilon}{2} \lt L(f;P)$ and
-  $\lt U(f)+\frac{\epsilon}{2}$
+  $U(f;P) \lt U(f)+\frac{\epsilon}{2}$
 - To prove $\impliedby$: consider $L(f;P)<L(f)$ and $U(f)<U(f;P)$
 
 :::
