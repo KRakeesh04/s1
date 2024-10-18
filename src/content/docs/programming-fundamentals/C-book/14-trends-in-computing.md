@@ -2,7 +2,7 @@
 title: Trends in Computing
 slug: programming-fundamentals/C-book/trends-in-computing
 sidebar:
-  order: 12
+  order: 14
 ---
 
 :::note

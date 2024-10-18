@@ -2,7 +2,7 @@
 title: Computer Memory
 slug: programming-fundamentals/C-book/computer-memory
 sidebar:
-  order: 3
+  order: 6
 ---
 
 2 types:
@@ -24,10 +24,11 @@ A set of electrical connections that connect memory locations with CPU.
 3 types:
 
 - Address bus - used to indicate address of a memory location. goes from CPU to
-  memory
+  memory. determines the memory space
 - Control bus - used to send control information (read request RD or write
   request WR) from CPU to memory.
-- Data bus - actual data transmission. bidirectional.
+- Data bus - actual data transmission. bidirectional. determines how much of
+  data can be transferred at a time
 
 Writing data:
 
@@ -40,6 +41,13 @@ Reading data:
 1. Address bus is set with the memory address
 2. CPU activates RD in control bus
 3. Data is fetched using data bus
+
+:::note
+
+Computer memory is called as bus-slave because it responds to the bus. CPU is
+called as bus-master because it controls the bus.
+
+:::
 
 ## Types of Memory
 

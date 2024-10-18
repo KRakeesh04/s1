@@ -2,7 +2,7 @@
 title: Embedded System
 slug: programming-fundamentals/C-book/embedded-system
 sidebar:
-  order: 10
+  order: 12
 ---
 
 A special-purpose computer which is completely encapsulated by the device it

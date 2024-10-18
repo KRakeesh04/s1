@@ -2,7 +2,7 @@
 title: Magnetic Storage
 slug: programming-fundamentals/C-book/magnetic-storage
 sidebar:
-  order: 7
+  order: 9
 ---
 
 ## Tape drive

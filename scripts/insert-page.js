@@ -71,13 +71,11 @@ function hyphenCaseToTitleCase(text) {
 		`${n.toString().padStart(2, "0")}-${title}.md`,
 	);
 	console.log("writing", newFileLocation);
-	const lines = ["---", `title: ${hyphenCaseToTitleCase(title)}`, "---"].join(
-		"\n",
-	);
+	const lines = ["---", `title: ${hyphenCaseToTitleCase(title)}`, "---"];
 	for (const line of lines) {
 		console.log(">>>", line);
 	}
-	await writeFile(newFileLocation, lines);
+	await writeFile(newFileLocation, lines.join("\n"));
 
 	if (shouldReorder) {
 		console.log("running auto-slug.js on", directory);

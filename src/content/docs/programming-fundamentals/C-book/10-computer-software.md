@@ -2,7 +2,7 @@
 title: Computer Software
 slug: programming-fundamentals/C-book/computer-software
 sidebar:
-  order: 8
+  order: 10
 ---
 
 ### Program

@@ -2,7 +2,7 @@
 title: Operating System
 slug: programming-fundamentals/C-book/operating-system
 sidebar:
-  order: 9
+  order: 11
 ---
 
 A layer of (systems) software that manages the hardware resources. Also provides
