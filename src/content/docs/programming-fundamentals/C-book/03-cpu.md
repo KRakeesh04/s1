@@ -59,16 +59,6 @@ of GPRs vary depending on the CPU. Usually denoted as "B", "C" and so on.
   instruction.
 - ALU accepts maximum 2 inputs. One input should come from accumulator.
 
-## Execution of a program
-
-### Fetch cycle
-
-Instruction is loaded into the CPU.
-
-### Execution cycle
-
-Instruction is executed by the CU. Aka. instruction cycle.
-
 ## Enhancing CPU Performance
 
 ### Instruction pre-fetching
