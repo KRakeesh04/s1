@@ -61,7 +61,7 @@ In piston pump (slider-crank mechanism), the movement of the piston is called as
 #### Rotodynamic
 
 Main component is a rotating element. It rotates inside a fluid. Rotating
-element's kinetic energy is transferred to fluid when the fluid flwos through
+element's kinetic energy is transferred to fluid when the fluid flows through
 it.
 
 | Machine      | Main rotating element |
