@@ -7,7 +7,8 @@ const args = process.argv.slice(2);
 
 console.log("======================");
 console.log("EXPECTED ARGUMENTS:");
-console.log(" directory title [order-number]");
+console.log("Arguments surrounded by square brackets are optional.");
+console.log(" directory title [order-number] [--dry-run]");
 console.log("======================");
 console.log();
 
@@ -36,19 +37,31 @@ function hyphenCaseToTitleCase(text) {
 	const title = args[1];
 	/** @type {number | undefined} */
 	let n = undefined;
+	let isDryRun = false;
 
-	if (args.length === 3) {
+	if (args.length >= 3) {
 		n = Number.parseInt(args[2]);
+	}
+	if (args.length === 4) {
+		isDryRun = true;
+		console.log(
+			"INFO: Dry run is enabled. There will be no changes made to filesystem.",
+		);
 	}
 
 	const files = await readdir(directory);
+	files.sort();
 	let shouldReorder = false;
 
 	if (n === undefined) {
 		n = files.length + 1;
 	} else {
 		for (const file of files) {
+			console.log("checking", file);
 			const parts = file.split("-");
+			if (file === "summary.md") {
+				continue;
+			}
 			const id = Number.parseInt(parts[0]);
 
 			if (id === n) {
@@ -61,7 +74,9 @@ function hyphenCaseToTitleCase(text) {
 				const oldPath = join(directory, file);
 				const newPath = join(directory, parts.join("-"));
 				console.log("renaming", oldPath, "-->", newPath);
-				await rename(oldPath, newPath);
+				if (!isDryRun) {
+					await rename(oldPath, newPath);
+				}
 			}
 		}
 	}
@@ -70,15 +85,17 @@ function hyphenCaseToTitleCase(text) {
 		directory,
 		`${n.toString().padStart(2, "0")}-${title}.md`,
 	);
-	console.log("writing", newFileLocation);
+	console.log("writing", newFileLocation, "with the content below");
 	const lines = ["---", `title: ${hyphenCaseToTitleCase(title)}`, "---"];
 	for (const line of lines) {
 		console.log(">>>", line);
 	}
-	await writeFile(newFileLocation, lines.join("\n"));
-
-	if (shouldReorder) {
-		console.log("running auto-slug.js on", directory);
-		await autoSlug(files.map((file) => join(directory, file)));
+	if (!isDryRun) {
+		await writeFile(newFileLocation, lines.join("\n"));
 	}
+
+	// if (shouldReorder) {
+	// 	console.log("running auto-slug.js on", directory);
+	// 	await autoSlug(files.map((file) => join(directory, file)));
+	// }
 })();
