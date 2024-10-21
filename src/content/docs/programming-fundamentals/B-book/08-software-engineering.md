@@ -2,7 +2,7 @@
 title: Software Engineering
 slug: programming-fundamentals/B-book/software-engineering
 sidebar:
-  order: 7
+  order: 8
 ---
 
 ## Software

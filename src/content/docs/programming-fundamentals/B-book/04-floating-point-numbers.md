@@ -1,8 +1,8 @@
 ---
-title: Floating-point Representation
-slug: programming-fundamentals/B-book/floating-point-representation
+title: Floating-point Numbers
+slug: programming-fundamentals/B-book/floating-point-numbers
 sidebar:
-  order: 3
+  order: 4
 ---
 
 IEEE 754 standard.

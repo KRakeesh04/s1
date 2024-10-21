@@ -1,8 +1,8 @@
 ---
-title: String Representation
-slug: programming-fundamentals/B-book/string-representation
+title: Strings
+slug: programming-fundamentals/B-book/strings
 sidebar:
-  order: 4
+  order: 5
 ---
 
 A way of representing non-numerical data.

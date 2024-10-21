@@ -2,7 +2,7 @@
 title: Data Types
 slug: programming-fundamentals/B-book/data-types
 sidebar:
-  order: 5
+  order: 6
 ---
 
 Data types can be grouped into 3 categories.
