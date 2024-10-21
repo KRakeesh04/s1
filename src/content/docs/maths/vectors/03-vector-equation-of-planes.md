@@ -88,5 +88,5 @@ Considering a plane $ax+by+cz=d$.$ $
 ```
 
 - $\underline{n}$ is a normal to the plane
-- $\underline{r_0}$ is the position vector of a point on the plane
+- $\underline{r_0}$ is the position vector of any known point on the plane
 - $\underline{r_1}$ is the position vector to the arbitrary point

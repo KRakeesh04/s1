@@ -66,6 +66,13 @@ If $q(x)$ is:$ $
 - $k\sin{x}$ or $k\cos{x}$, $y_p=a\sin{x}+b\cos{x}$
 - $e^{kx}$, $y_p=ce^{kx}$ (Only works if $k$ is **not** a root of auxiliary
   equation)
+- A product of $e^{kx}$ and some $f(x)$, guess $y_p$ for $f(x)$ individually,
+  and then multiply by $e^{kx}$ (without coefficients)
+- A product of polynomials and trig functions, guess $y_p$ for the polynomial,
+  and multiply that by the appropriate cosine. Then add on a new guess for the
+  polynomial with different coefficients and multiply that by the appropriate
+  sine.
+- A sum of functions, can be guessed individually and be summed up
 
 ### Steps
 
