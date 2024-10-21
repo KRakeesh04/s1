@@ -1,21 +1,6 @@
 import { parseArgs } from "bun:util";
 import { readdir, rename, writeFile } from "node:fs/promises";
 import { join, relative } from "node:path";
-import { autoSlug } from "./auto-slug";
-
-const args = process.argv.slice(2);
-
-console.log("======================");
-console.log("EXPECTED ARGUMENTS:");
-console.log("Arguments surrounded by square brackets are optional.");
-console.log(" directory title [order-number] [--dry-run]");
-console.log("======================");
-console.log();
-
-if (args.length < 2) {
-	console.log(`expected length of arguments 2 or 3, but got ${args.length}`);
-	process.exit(1);
-}
 
 /**
     @param {string} text
@@ -32,7 +17,22 @@ function hyphenCaseToTitleCase(text) {
 	return newText.join(" ");
 }
 
-(async () => {
+/**
+@param {Array<string>} args
+*/
+async function insertPage(args) {
+	console.log("======================");
+	console.log("EXPECTED ARGUMENTS:");
+	console.log("Arguments surrounded by square brackets are optional.");
+	console.log(" directory title [order-number] [--dry-run]");
+	console.log("======================");
+	console.log();
+
+	if (args.length < 2) {
+		console.log(`expected length of arguments 2 or 3, but got ${args.length}`);
+		process.exit(1);
+	}
+
 	const directory = relative("./", args[0]);
 	const title = args[1];
 	/** @type {number | undefined} */
@@ -93,9 +93,8 @@ function hyphenCaseToTitleCase(text) {
 	if (!isDryRun) {
 		await writeFile(newFileLocation, lines.join("\n"));
 	}
+}
 
-	// if (shouldReorder) {
-	// 	console.log("running auto-slug.js on", directory);
-	// 	await autoSlug(files.map((file) => join(directory, file)));
-	// }
-})();
+const args = process.argv.slice(2);
+
+insertPage(args);
