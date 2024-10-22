@@ -2,6 +2,7 @@
 title: Introduction to Differential Equations
 slug: maths/ode/introduction
 sidebar:
+  label: Introduction
   order: 1
 ---
 
@@ -64,6 +65,13 @@ Highest order derivative.
 ### Degree
 
 Power of highest order derivative.
+
+## Initial Value Problem (IVP)
+
+A differential equation along with appropriate number of initial conditions.
+
+Initial condition(s) is/are required to determine which solution (out of the
+infinite number of solutions) is the suitable one for the given problem.
 
 ## Picard's Existence and Uniqueness Theorem
 

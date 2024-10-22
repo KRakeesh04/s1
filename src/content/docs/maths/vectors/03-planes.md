@@ -1,15 +1,20 @@
 ---
-title: Vector Equation of Planes
-slug: maths/vectors/vector-equation-of-planes
+title: Planes
+slug: maths/vectors/planes
 sidebar:
   order: 3
 ---
+
+Equation of planes can expressed in either vector or cartesian form. Vector
+equation is the one containing only vectors. Cartesian equation is in the form:
+$Ax+By+Cz=D$. $ $
 
 ### Contains a point and parallel to 2 vectors
 
 Suppose a plane:
 
-- is parallel to both $\underline{a}$ and $\underline{b}$
+- is parallel to both $\underline{a}$ and $\underline{b}$ where
+  $a\times b \neq 0$
 - contains $\underline{r_0}=x_0\underline{i}+y_0\underline{j}+z_0\underline{k}$
 
 Equation for the plane is:

@@ -1,6 +1,6 @@
 ---
-title: Vector Equation of Straight Lines
-slug: maths/vectors/vector-equation-of-straight-lines
+title: Straight Lines
+slug: maths/vectors/straight-lines
 sidebar:
   order: 2
 ---
