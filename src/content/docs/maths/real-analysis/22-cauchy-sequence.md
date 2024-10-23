@@ -2,7 +2,7 @@
 title: Cauchy Sequence
 slug: maths/real-analysis/cauchy-sequence
 sidebar:
-  order: 21
+  order: 22
 ---
 
 A sequence $u:\mathbb{Z}^+ \rightarrow A$ is Cauchy **iff**: $ $
@@ -18,15 +18,33 @@ u_n - u_m
 \rvert \lt \epsilon
 ```
 
-## Convergence & Cauchy
+## Bounded
 
-All converging sequences are Cauchy.
+All Cauchy sequences are bounded. (has an upper bound).
 
 :::note[Proof Hint]
+
+- Consider the Cauchy definition
+- Take $n \gt m = N + 1 \gt N$
+
+:::
+
+## Convergence & Cauchy
+
+A sequence is converging **iff** it is Cauchy.
+
+:::note[Proof Hint]
+
+To prove $implies$: $ $
 
 - Consider the limit definition of converging sequences
 - Introduce the converging value (say $L$) into the inequality and split into 2
   parts
+
+To prove $impliedby$: $ $
+
+- Consider the definition of Cauchy sequences
+- Show that the sequence is bounded
 
 :::
 
@@ -49,16 +67,5 @@ IMPORTANT: $\mathbb{R}$ is complete. $ $
 :::note[Proof Hint]
 
 Proof is quite hard.
-
-:::
-
-## Bounded
-
-All Cauchy sequences are bounded. (has an upper bound).
-
-:::note[Proof Hint]
-
-- Consider the Cauchy definition
-- Take $n \gt m = N + 1 \gt N$
 
 :::

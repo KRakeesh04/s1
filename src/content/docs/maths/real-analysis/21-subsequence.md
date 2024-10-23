@@ -2,7 +2,7 @@
 title: Subsequence
 slug: maths/real-analysis/subsequence
 sidebar:
-  order: 22
+  order: 21
 ---
 
 Suppose $u:\mathbb{Z}^+\rightarrow \mathbb{R}$ be a sequence and
