@@ -18,6 +18,18 @@ u_n - u_m
 \rvert \lt \epsilon
 ```
 
+## Convergence & Cauchy
+
+All converging sequences are Cauchy.
+
+:::note[Proof Hint]
+
+- Consider the limit definition of converging sequences
+- Introduce the converging value (say $L$) into the inequality and split into 2
+  parts
+
+:::
+
 ## Complete
 
 A set $A$ is complete **iff**: $ $
