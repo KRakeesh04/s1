@@ -29,8 +29,8 @@ supply network.
 
 ### Voltage Levels
 
-- High voltage $220\text{ kV}$
-- Medium voltage $11\text{ kV}$
+- High voltage $132\text{ kV}$ or $220\text{ kV}$
+- Medium voltage $11\text{ kV}$ or $33\text{ kV}$
 - Nominal voltage $230\text{ V}$
 - Nominal line-to-line $400\text{ V}$
 
@@ -44,3 +44,28 @@ Public Utilties Commission of Sri Lanka (PUCSL) is the economic, technical and
 safety regulator of the electricity industry in Sri Lanka.
 
 :::
+
+## Why high voltage transmission?
+
+### Reduction of power losses
+
+```math
+P_{\text{loss}} = I^2R
+```
+
+Power losses in transmission lines are called "I^2R" losses. To reduce the power
+loss, current have to be reduced.
+
+Power generation in the generator is constant. So voltage is increased to reduce
+the current.
+
+### Reduce voltage drop
+
+Voltage drop in the transmission lines is proportional to the current flowing
+through it.
+
+### Reduction of power transmission cost
+
+To carry higher currents, the transmission lines must have higher cross
+sectional area. So reduced current means smaller transmission lines, and reduced
+cost.

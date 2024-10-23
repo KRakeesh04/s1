@@ -107,6 +107,12 @@ Q_\text{reactive} = V_\text{rms}I_\text{rms}\sin\theta
 P = V_{\text{rms}}I_{\text{rms}}\cos{\theta}
 ```
 
+:::note
+
+In a question, if "power" is asked to be calculated, that means "active power".
+
+:::
+
 ### Apparent power
 
 ```math
@@ -117,19 +123,18 @@ The apparent power is essentially the effective power that the source “sees”
 
 :::note[The Beer Analogy]
 
-- Beer - Active power  
-  Liquid beer is useful power. The power that does the work.
-- Foam - Reactive power  
-  Wasted or lost power. The power that does the work.
-- Mug - Apparent power  
-  Demand power, that is being delivered by the utility.
+- Beer - Active power Liquid beer is useful power. The power that does the work.
+- Foam - Reactive power Wasted or lost power. The power that does the work.
+- Mug - Apparent power Demand power, that is being delivered by the utility.
 
 :::
 
 ## Power factor
 
-In the above equation of $P_\text{avg}$, the $\cos\theta$ is called the power
-factor.
+If $\theta$ is the phase angle difference between $v$ and $i$, $cos(\theta)$ is
+called the power factor.
+
+Power factor appears in the equation of $P_\text{avg}$. $ $
 
 ```math
 \cos{\theta}=\frac{\text{Active power}}{\text{Apparent power}}
