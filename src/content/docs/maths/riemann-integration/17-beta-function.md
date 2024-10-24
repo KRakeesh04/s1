@@ -18,3 +18,19 @@ Aka. Eulerian integral of the first kind.
 For $m,n\le 0$, the gamma function is divergent.
 
 :::
+
+## Properties
+
+### Symmetrical
+
+From the definition:
+
+```math
+B(m,n) = B(n,m)
+```
+
+:::note[Proof Hint]
+
+Proof is trivial.
+
+:::
