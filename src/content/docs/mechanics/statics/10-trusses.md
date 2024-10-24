@@ -11,8 +11,8 @@ Also known as Ties-Struts model.
 
 An assembly of members used to span long distances. Idealized as
 
-- Connected by **frictionless** [pin joints](../structural-elements/#pin-joint)
-  at their ends
+- Connected by **frictionless**
+  [pin joints](/mechanics/statics/structural-elements/#pin-joint) at their ends
 - Developing axial forces
 
 ## Types

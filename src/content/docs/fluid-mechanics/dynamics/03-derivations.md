@@ -33,7 +33,8 @@ Can be derived from the conservation of energy law.
 Here:
 
 - $z$ - Datum head. Height to the point from a reference level.
-- $\frac{P}{\rho g}$ - [Pressure head](/fluid-mechanics/statics/pressure-head/).
+- $\frac{P}{\rho g}$ -
+  [Pressure head](/fluid-mechanics/statics/pressure/#pressure-head).
 - $\frac{v^2}{2g}$ - Velocity head. Kinetic energy per unit weight.
 
 :::note

@@ -21,7 +21,7 @@ Roots of the equation $p(\lambda) = 0$ are the eigenvalues of $A$.
 
 :::note
 
-- [Determinant of a matrix](/maths/algebra/matrices/determinant/#in-relation-with-eigenvalues)
+- [Determinant of a matrix](/maths/matrices/determinant/#in-relation-with-eigenvalues)
   can be written in terms of all of its eigenvalues.
 - If $\lambda$ is an eigenvalue of $A$, then $\lambda^2$ is an eigenvalue of
   $A^2$

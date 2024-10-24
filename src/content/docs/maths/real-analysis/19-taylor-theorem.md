@@ -77,7 +77,7 @@ R_n(x,c)=
 
 - Method 1: Use integration by parts and mathematical induction.
 - Method 2: Use
-  [Generalized MVT for Riemann Integrals](maths/real-analysis/generalized-mvt-for-riemann-integrals/)
+  [Generalized MVT for Riemann Integrals](/maths/real-analysis/other-theorems/#generalized-mvt-for-riemann-integrals)
   where:
   - $F=f^{(n+1)}$
   - $G=(x-t)^n$

@@ -34,7 +34,7 @@ hardware of a processor.
 ### Word size
 
 Size of a processor's
-[word](/programming-fundamentals/b-book/03-data-representation/#word).
+[word](/programming-fundamentals/B-book/data-representation/#word).
 
 ## Representation methods
 

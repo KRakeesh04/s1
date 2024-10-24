@@ -88,4 +88,4 @@ Split into 3 absolute values. Show that the sum is lesser than $3\epsilon$.
 ### Limit and integral can be switched
 
 Explained in
-[Converging Functions | Riemann Integration](/maths/riemann-integration/sequence-of-functions/).
+[Converging Functions | Riemann Integration](/maths/riemann-integration/converging-functions/).

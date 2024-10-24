@@ -6,7 +6,7 @@ sidebar:
 ---
 
 Convergence of functions is introduced in
-[Sequence of Functions | Real Analysis](/maths/real-analysis/squence-of-functions/).
+[Sequence of Functions | Real Analysis](/maths/real-analysis/sequence-of-functions/).
 
 ## Uniform Convergence Theorem
 

@@ -33,7 +33,7 @@ Any software that satisfies any one of the following conditions:
 - helps to create new software
 - may not be targeted for end-users
 
-Example: [operating system](/programming-fundamentals/operating-system)
+Example: [operating system](/programming-fundamentals/C-book/operating-system)
 
 :::note
 

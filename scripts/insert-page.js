@@ -1,4 +1,3 @@
-import { parseArgs } from "bun:util";
 import { readdir, rename, writeFile } from "node:fs/promises";
 import { join, relative } from "node:path";
 

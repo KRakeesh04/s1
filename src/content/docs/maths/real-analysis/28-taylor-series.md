@@ -49,12 +49,3 @@ Range of convergence is $\mathbb{R}$. $ $
 ```math
 \cos x = \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n}}{(2n)!} = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!} + \cdots
 ```
-
-:::note
-
-Next, sequence of functions and their convergence were discussed in class. This
-section is included under
-[Riemann Integration](/maths/riemann-integration/sequence-of-functions/),
-because it was discussed there first.
-
-:::

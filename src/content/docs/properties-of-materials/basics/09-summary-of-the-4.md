@@ -27,12 +27,12 @@ The unit cell images are taken from Wikipedia.
 - Face-centered cubic:
   [Original file](https://en.m.wikipedia.org/wiki/File:Lattice_face_centered_cubic.svg)
 - Hexagonal close-packed: By
-  <a href="//commons.wikimedia.org/wiki/File:Hexagonal_close_packed.png" title="File:Hexagonal close packed.png">Original:
+  <a href="https://commons.wikimedia.org/wiki/File:Hexagonal_close_packed.png" title="File:Hexagonal close packed.png">Original:
   </a>
-  <a href="//commons.wikimedia.org/wiki/User_talk:Dornelf~commonswiki" title="User talk:Dornelf~commonswiki">Dornelf</a> Vector:
-  <a href="//commons.wikimedia.org/wiki/User:DePiep" title="User:DePiep">DePiep</a> -
+  <a href="https://commons.wikimedia.org/wiki/User_talk:Dornelf~commonswiki" title="User talk:Dornelf~commonswiki">Dornelf</a> Vector:
+  <a href="https://commons.wikimedia.org/wiki/User:DePiep" title="User:DePiep">DePiep</a> -
   Own work based on:
-  <a href="//commons.wikimedia.org/wiki/File:Hexagonal_close_packed.png" title="File:Hexagonal close packed.png">Hexagonal
+  <a href="https://commons.wikimedia.org/wiki/File:Hexagonal_close_packed.png" title="File:Hexagonal close packed.png">Hexagonal
   close packed.png</a>,
   <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC
   BY-SA 3.0</a>,

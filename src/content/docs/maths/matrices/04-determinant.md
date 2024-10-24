@@ -66,15 +66,14 @@ where $1\le j\le n$. $ $
 - The value of the determinant of a matrix remains unchanged if a scalar
   multiple of a row or column is added to any other row or column.
 - If a matrix $B$ is obtained from a square matrix $A$ by an interchange of two
-  columns or rows:  
-  $\lvert{B}\rvert=−\lvert{A}\rvert$.
+  columns or rows: $\lvert{B}\rvert=−\lvert{A}\rvert$.
 - If every entry in any row or column is multiplied by $k$, then the whole
   determinant is multiplied by $k$.
 
 ### In relation with eigenvalues
 
 For a $n\times n$ matrix A with $n$ number of
-[eigenvalues](/maths/algebra/matrices/eigenvalues-eigenvectors/#eigenvalues):
+[eigenvalues](/maths/matrices/eigenvalues-eigenvectors/#eigenvalues):
 
 ```math
 |A|=\prod_{i=1}^{n}{\lambda_i}

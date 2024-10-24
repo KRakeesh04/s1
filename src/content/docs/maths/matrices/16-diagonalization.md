@@ -27,7 +27,7 @@ If $A$ and $B$ are similar, then $A^2$ and $B^2$ are similar.
 ## Definition
 
 A matrix $A$ is **diagonalizable** if it is similar to a
-[diagonal matrix](/maths/algebra/matrices/introduction/#diagonal-matrix). $ $
+[diagonal matrix](/maths/matrices/introduction/#diagonal-matrix). $ $
 
 ```math
 \exists\, D,P\;\text{ s.t. } D = P^{-1}AP

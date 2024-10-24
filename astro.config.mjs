@@ -3,6 +3,7 @@ import tailwind from "@astrojs/tailwind";
 import { defineConfig } from "astro/config";
 import rehypeMathjax from "rehype-mathjax";
 import remarkMath from "remark-math";
+import starlightLinksValidator from "starlight-links-validator";
 
 const DEFAULT_TITLE = "Sahithyan's S1";
 
@@ -15,6 +16,11 @@ export default defineConfig({
 	site: "https://s1.sahithyan.dev",
 	integrations: [
 		starlight({
+			plugins: [
+				starlightLinksValidator({
+					exclude: ["/summary/"],
+				}),
+			],
 			title: DEFAULT_TITLE,
 			favicon: "/favicon.ico",
 			description:

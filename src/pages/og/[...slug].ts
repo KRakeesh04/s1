@@ -21,7 +21,6 @@ pages.index = {
 	},
 };
 
-console.log(pages);
 export const { getStaticPaths, GET } = OGImageRoute({
 	pages,
 	param: "slug",

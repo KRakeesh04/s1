@@ -2,6 +2,7 @@
 title: Introduction to Matrices
 slug: maths/matrices/introduction
 sidebar:
+  label: Introduction
   order: 1
 ---
 
@@ -68,7 +69,7 @@ Matrix obtained by multiplying all elements by the scalar.
 ### Matrix multiplication
 
 Explained on a separate page:
-[Matrix multiplication](/maths/algebra/matrices/matrix-multiplication)
+[Matrix multiplication](/maths/matrices/matrix-multiplication)
 
 :::note
 
