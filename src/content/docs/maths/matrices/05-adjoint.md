@@ -12,5 +12,13 @@ Suppose $A=(a_{ij})_{n\times{n}}$. $ $
 ```
 
 Where $A_{ij}$ is the
-[co-factor of](/maths/algebra/matrices/determinant/#co-factor-of-an-element)
-$a_{ij}$.
+[co-factor of](/maths/matrices/determinant/#co-factor-of-an-element) $a_{ij}$.
+
+## Properties
+
+Suppose $A$ is a $n\times n$ matrix.
+
+- $\text{adj}(I)=I$
+- $\text{adj}(cA)=c^{n-1}\text{adj}(A)$
+- $\text{adj}(A^T)=(\text{adj}(A))^T$
+- $\text{adj}(A)\,A = A\,\text{adj}(A) = \lvert A \rvert I$

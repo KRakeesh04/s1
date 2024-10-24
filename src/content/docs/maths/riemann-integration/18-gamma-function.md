@@ -77,7 +77,7 @@ through induction, $\Gamma$ function cannot be defined for negative integers.
 
 ## Transformations
 
-Alternate forms of $\Gamma(n)$.
+Alternate forms of $\Gamma(n)$. $ $
 
 ### Form 1
 
