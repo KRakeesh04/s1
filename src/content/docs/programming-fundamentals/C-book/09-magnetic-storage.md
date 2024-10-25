@@ -45,27 +45,21 @@ are at the same distance from the center of the disk.
 
 ## Floppy disk drive
 
-Removable. Has a flexible magnetic medium that is enclosed in a (semi-)rigid
+Removable. Has a flexible, magnetic medium that is enclosed in a (semi-)rigid
 plastic case.
 
 ![Parts of Floppy Disk](/programming/parts-of-floppy-disk.jpg)
 
-![Functionality of Floppy Disk](/programming/floppy-disk-fundtionality.jpg)
+![Functionality of Floppy Disk](/programming/floppy-disk-functionality.jpg)
 
-The magnetic coated, semi rigid, plastic disk is kept in a plastic housing and
-its two surfaces are covered by two paper rings (for protection). The disk is
-mounted on a hub and a rectangular shaped cut-out is used by the disk driver to
-firmly grab the disk while rotating. The read/write head access the disk through
-a small opening called the flap. The spring-loaded shutter is used to cover up
-the flap so that prevents any damages to the disk by dust particles. The shutter
-will open up only when the disk is inside the disk driver and when it is ejected
-the spring will automatically close the shutter. A write protect tab is used to
-prevent the disk been overwritten and it either opens or closes the write
-protect hole. If the write protect hole is closed the disk cannot be overwritten
-(then light cannot penetrate through the hole) and if the hole is open (light
-can penetrate through the hole) it can be overwritten. The head actuator
-mechanism is slightly different to the mechanism in a hard disk. In a hard disk
-the head arm moves laterally from centre of the disk towards to the edge while
-in a floppy disk the movement is horizontal. The read/write head is mounted on a
-spindle and the spindle is controlled by a stepper motor. The high density hole
-is only available in High Density floppy disks.
+Paper rings are used for protection.
+
+Flap - a small opening for the read/write head to access the disk
+
+The head actuator mechanism is slightly different to the mechanism in a hard
+disk. In a hard disk the head arm moves laterally from centre of the disk
+towards to the edge while in a floppy disk the movement is horizontal.
+
+The read/write head is mounted on a spindle and the spindle is controlled by a
+stepper motor. The high density hole is only available in High Density floppy
+disks.
