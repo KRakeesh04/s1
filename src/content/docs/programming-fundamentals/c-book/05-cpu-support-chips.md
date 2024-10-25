@@ -1,6 +1,6 @@
 ---
 title: CPU Support Chips
-slug: programming-fundamentals/C-book/cpu-support-chips
+slug: programming-fundamentals/c-book/cpu-support-chips
 sidebar:
   order: 5
 ---

@@ -1,6 +1,6 @@
 ---
 title: Secondary Storage
-slug: programming-fundamentals/C-book/secondary-storage
+slug: programming-fundamentals/c-book/secondary-storage
 sidebar:
   order: 8
 ---

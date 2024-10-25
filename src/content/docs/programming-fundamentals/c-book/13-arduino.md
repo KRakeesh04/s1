@@ -1,6 +1,6 @@
 ---
 title: Arduino
-slug: programming-fundamentals/C-book/arduino
+slug: programming-fundamentals/c-book/arduino
 sidebar:
   order: 13
 ---

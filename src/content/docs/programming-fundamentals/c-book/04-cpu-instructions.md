@@ -1,6 +1,6 @@
 ---
 title: CPU Instructions
-slug: programming-fundamentals/C-book/cpu-instructions
+slug: programming-fundamentals/c-book/cpu-instructions
 sidebar:
   order: 4
 ---

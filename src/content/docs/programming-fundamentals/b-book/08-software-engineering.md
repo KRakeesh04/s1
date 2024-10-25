@@ -1,6 +1,6 @@
 ---
 title: Software Engineering
-slug: programming-fundamentals/B-book/software-engineering
+slug: programming-fundamentals/b-book/software-engineering
 sidebar:
   order: 8
 ---

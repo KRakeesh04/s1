@@ -4,8 +4,7 @@ import { defineConfig } from "astro/config";
 import rehypeMathjax from "rehype-mathjax";
 import remarkMath from "remark-math";
 import starlightLinksValidator from "starlight-links-validator";
-
-const DEFAULT_TITLE = "Sahithyan's S1";
+import { SITE_TITLE } from "./config.mjs";
 
 // https://astro.build/config
 export default defineConfig({
@@ -21,7 +20,7 @@ export default defineConfig({
 					exclude: ["/summary/"],
 				}),
 			],
-			title: DEFAULT_TITLE,
+			title: SITE_TITLE,
 			favicon: "/favicon.ico",
 			description:
 				"Short notes of 1st semester of Engineering at University of Moratuwa.",
@@ -196,21 +195,21 @@ export default defineConfig({
 							label: "A book",
 							collapsed: true,
 							autogenerate: {
-								directory: "programming-fundamentals/A-book",
+								directory: "programming-fundamentals/a-book",
 							},
 						},
 						{
 							collapsed: true,
 							label: "B book",
 							autogenerate: {
-								directory: "programming-fundamentals/B-book",
+								directory: "programming-fundamentals/b-book",
 							},
 						},
 						{
 							collapsed: true,
 							label: "C book",
 							autogenerate: {
-								directory: "programming-fundamentals/C-book",
+								directory: "programming-fundamentals/c-book",
 							},
 						},
 					],

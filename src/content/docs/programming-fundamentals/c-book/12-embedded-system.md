@@ -1,6 +1,6 @@
 ---
 title: Embedded System
-slug: programming-fundamentals/C-book/embedded-system
+slug: programming-fundamentals/c-book/embedded-system
 sidebar:
   order: 12
 ---

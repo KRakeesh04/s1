@@ -1,6 +1,6 @@
 ---
 title: Practice Resources
-slug: programming-fundamentals/A-book/practice-resources
+slug: programming-fundamentals/a-book/practice-resources
 sidebar:
   order: 3
 description: Small programs and other platforms to practice programming

@@ -1,6 +1,6 @@
 ---
 title: Strings
-slug: programming-fundamentals/B-book/strings
+slug: programming-fundamentals/b-book/strings
 sidebar:
   order: 5
 ---

@@ -1,6 +1,6 @@
 ---
 title: Computers
-slug: programming-fundamentals/C-book/computers
+slug: programming-fundamentals/c-book/computers
 sidebar:
   order: 1
 ---

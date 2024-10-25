@@ -1,6 +1,6 @@
 ---
 title: CPU
-slug: programming-fundamentals/C-book/cpu
+slug: programming-fundamentals/c-book/cpu
 sidebar:
   order: 3
 ---
