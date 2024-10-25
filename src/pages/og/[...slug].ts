@@ -4,7 +4,12 @@ import { SITE_TITLE } from "../../../config.mjs";
 
 const entries = await getCollection("docs");
 
-const pages: Record<string, unknown> = {};
+const pages: Record<
+	string,
+	{
+		data: (typeof entries)[number]["data"];
+	}
+> = {};
 
 for (const entry of entries) {
 	const { data, id } = entry;
