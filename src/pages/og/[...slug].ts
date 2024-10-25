@@ -9,7 +9,8 @@ const pages = Object.fromEntries(
 		return [_id, { data }];
 	}),
 );
-pages.index = {
+// biome-ignore lint: Astro check fails when used as "pages.index"
+pages["index"] = {
 	data: {
 		title: "What's this?",
 		editUrl: true,
