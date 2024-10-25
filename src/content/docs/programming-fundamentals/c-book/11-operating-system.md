@@ -95,7 +95,7 @@ Functionality of an OS slightly varies based on the type.
 Common tasks carried out by a typical OS:
 
 - **Memory management** - allocates memory for programs. handles
-  [swapping](/programming-fundamentals/C-book/computer-memory/#swapping) and
+  [swapping](/programming-fundamentals/c-book/computer-memory/#swapping) and
   reversing. The objective is to utilize limited memory in an efficient manner.
 - **Spooling print jobs**: All the print jobs will be collected onto the hard
   disk and later they are scheduled by the OS for printing.

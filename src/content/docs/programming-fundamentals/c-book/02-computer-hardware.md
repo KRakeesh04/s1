@@ -8,8 +8,8 @@ sidebar:
 ## Major components of a PC
 
 - Motherboard
-  - [Central Processing Unit](/programming-fundamentals/C-book/cpu)
-  - [Memory](/programming-fundamentals/C-book/computer-memory)
+  - [Central Processing Unit](/programming-fundamentals/c-book/cpu)
+  - [Memory](/programming-fundamentals/c-book/computer-memory)
   - Graphic / display controller
   - Network / Wi-Fi controllers
   - Audio Interface (Sound card)
@@ -22,7 +22,7 @@ sidebar:
   - Printer
   - Microphone / Speakers
   - Joystick / Game controller
-- [Secondary storage devices](/programming-fundamentals/C-book/secondary-storage)
+- [Secondary storage devices](/programming-fundamentals/c-book/secondary-storage)
 - Chassis the platform that holds all other components
   - Power supply unit
   - Fan / cooling system

@@ -254,7 +254,7 @@ def partition(a_list, first, last):
 
 ### Heap sort
 
-Uses a [binary heap](/programming-fundamentals/B-book/data-types/#binary-heap).
+Uses a [binary heap](/programming-fundamentals/b-book/data-types/#binary-heap).
 
 Similar to selection sort where a search is done to find the item with the
 minimum value and this item is placed at the beginning of the list. The same

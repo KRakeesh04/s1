@@ -10,7 +10,7 @@ Non-volatile or permanent. High capacity. Low cost-per-megabyte.
 Can be categorized into 3 types (Magnetic storages are included in a separate
 page):
 
-- [Magnetic](/programming-fundamentals/C-book/magnetic-storage)
+- [Magnetic](/programming-fundamentals/c-book/magnetic-storage)
 - [Optical](#optical)
 - Floptical - combination of optical and magnetic devices
 

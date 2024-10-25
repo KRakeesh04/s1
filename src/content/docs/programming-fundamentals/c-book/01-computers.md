@@ -65,9 +65,9 @@ with the environment in a more intelligent, adaptive, and efficient way.
 
 A computer is a system. A complete computer system consists of:
 
-- [Hardware](/programming-fundamentals/C-book/computer-hardware/): Tangible
+- [Hardware](/programming-fundamentals/c-book/computer-hardware/): Tangible
   elements that can be seen and touched
-- [Software](/programming-fundamentals/C-book/computer-software/): Programs that
+- [Software](/programming-fundamentals/c-book/computer-software/): Programs that
   allow users to use the computer system and control its activities. Not
   tangible.
 - Data: Individual facts or pieces of information that is input to the computer

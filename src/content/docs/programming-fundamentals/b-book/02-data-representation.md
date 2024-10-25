@@ -28,13 +28,13 @@ some information.
 ### Word
 
 In **computing**, a word is a fixed-size datum handled as a unit by the
-[instruction set](/programming-fundamentals/C-book/cpu-instructions/) or
+[instruction set](/programming-fundamentals/c-book/cpu-instructions/) or
 hardware of a processor.
 
 ### Word size
 
 Size of a processor's
-[word](/programming-fundamentals/B-book/data-representation/#word).
+[word](/programming-fundamentals/b-book/data-representation/#word).
 
 ## Representation methods
 
@@ -51,12 +51,12 @@ floating-point numbers.
 
 Integers are considered in 2 sections: signed and unsigned integers.
 
-- [Intgers](/programming-fundamentals/B-book/integers/)
-- [Floating-point numbers](/programming-fundamentals/B-book/floating-point-numbers/)
+- [Intgers](/programming-fundamentals/b-book/integers/)
+- [Floating-point numbers](/programming-fundamentals/b-book/floating-point-numbers/)
 
 ### Non-numerical
 
 Represents all other data other than numerical. For example: text, images,
 videos, phone numbers.
 
-- [Strings](/programming-fundamentals/B-book/strings/)
+- [Strings](/programming-fundamentals/b-book/strings/)
