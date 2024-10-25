@@ -13,7 +13,7 @@ const pages: Record<
 
 for (const entry of entries) {
 	const { data, id } = entry;
-	const _id = id.replace(".md", "");
+	const _id = id.replace(".md", "").replace(/\d+-/, "");
 	if (typeof _id !== "string" || _id.endsWith("summary")) {
 		continue;
 	}
