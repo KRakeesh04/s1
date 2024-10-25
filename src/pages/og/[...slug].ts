@@ -1,14 +1,20 @@
 import { getCollection } from "astro:content";
 import { OGImageRoute } from "astro-og-canvas";
+import { SITE_TITLE } from "../../../config.mjs";
 
 const entries = await getCollection("docs");
 
-const pages = Object.fromEntries(
-	entries.map(({ data, id }) => {
-		const _id = id.replace(".md", "");
-		return [_id, { data }];
-	}),
-);
+const pages: Record<string, unknown> = {};
+
+for (const entry of entries) {
+	const { data, id } = entry;
+	const _id = id.replace(".md", "");
+	if (typeof _id !== "string" || _id.endsWith("summary")) {
+		continue;
+	}
+	pages[_id] = { data };
+}
+
 // biome-ignore lint: Astro check fails when used as "pages.index"
 pages["index"] = {
 	data: {
@@ -27,7 +33,7 @@ export const { getStaticPaths, GET } = OGImageRoute({
 	param: "slug",
 	getImageOptions: (_path, page: (typeof pages)[number]) => {
 		return {
-			title: page.data.title.concat(" | UoM E S1"),
+			title: page.data.title.concat(" | ", SITE_TITLE),
 			description: page.data.description,
 			bgGradient: [[250, 254, 247]],
 			logo: {
