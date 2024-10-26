@@ -19,7 +19,8 @@ operations.
 
 ### Control Unit
 
-Controls the operation of the CPU and rest of the machine
+Controls the operation of the CPU and rest of the machine. Handles the decoding
+of instructions.
 
 ### Registers
 
