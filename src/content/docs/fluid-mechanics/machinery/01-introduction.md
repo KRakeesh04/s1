@@ -72,10 +72,10 @@ it.
 
 ### Summary
 
-|                        | Machine to Fluid         | Fluid to Machine | Fluid as a energy transfer medium    |
-| ---------------------- | ------------------------ | ---------------- | ------------------------------------ |
-| Positive Displacementd | Piston pump, Rotary pump | Motors           | Hydraulic Ram, Jack Press            |
-| Rotodynamic            | Pumps, Compressors       | Turbines         | Hydraulic coupling, Torque converter |
+|                       | Machine to Fluid         | Fluid to Machine | Fluid as a energy transfer medium    |
+| --------------------- | ------------------------ | ---------------- | ------------------------------------ |
+| Positive Displacement | Piston pump, Rotary pump | Motors           | Hydraulic Ram, Jack Press            |
+| Rotodynamic           | Pumps, Compressors       | Turbines         | Hydraulic coupling, Torque converter |
 
 :::note
 

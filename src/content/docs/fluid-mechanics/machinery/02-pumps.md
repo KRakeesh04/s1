@@ -5,6 +5,8 @@ sidebar:
   order: 2
 ---
 
+Energy flow direction is machine to fluid.
+
 ### Vane
 
 A curved blade used in a pump.
@@ -101,3 +103,13 @@ Working state of a pipeline system is given by the intersection of system
 characteristic and performance characteristic (of the pump) curves.
 
 :::
+
+## Resultant pumps
+
+### In serial
+
+When 2 pumps are operating in a series, their head inputs are added.
+
+### In parallel
+
+When 2 pumps are operating in a parallel, their flow rates are added.

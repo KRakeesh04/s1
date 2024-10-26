@@ -6,7 +6,7 @@ sidebar:
 ---
 
 Most used pumps in engineering because they support wide range of heights and
-flow rates.
+flow rates. Mixed flow, rotodynamic pump.
 
 ![Centrifugal pump](/fluids/centrifugal-pump.jpg)
 
