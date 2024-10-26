@@ -15,7 +15,7 @@ Aka. Eulerian integral of the first kind.
 
 :::note
 
-For $m,n\le 0$, the gamma function is divergent.
+For $m,n\le 0$, the beta function is divergent. $ $
 
 :::
 

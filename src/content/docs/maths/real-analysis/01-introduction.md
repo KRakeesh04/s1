@@ -2,6 +2,7 @@
 title: Introduction to Real Analysis
 slug: maths/real-analysis/introduction
 sidebar:
+  label: Introduction
   order: 1
 ---
 

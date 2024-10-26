@@ -24,3 +24,8 @@ The above statement is true for all unrestricted function $f$ that has an
 inverse $f^{-1}$:
 
 $f(f^{-1}(x))=x=f^{-1}(f(x))=x$
+
+## Real-valued functions
+
+When both domain and codomains of a function are subsets of $\mathbb{R}$, the
+function is said to be a real-valued function.

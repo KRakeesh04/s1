@@ -2,6 +2,7 @@
 title: Introduction to Complex Numbers
 slug: maths/complex-numbers/introduction
 sidebar:
+  label: Introduction
   order: 1
 ---
 

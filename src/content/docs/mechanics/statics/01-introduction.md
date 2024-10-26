@@ -2,6 +2,7 @@
 title: Introduction to Statics
 slug: mechanics/statics/introduction
 sidebar:
+  label: Introduction
   order: 1
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Continuity Theorems
-slug: maths/real-analysis/theorems-related-to-continuity
+slug: maths/real-analysis/continuity-theorems
 sidebar:
   order: 14
 ---
@@ -22,8 +22,14 @@ $f(a)<u<f(b)$: $\exists c \in (a,b)$ such that $f(c)=u$.
 
 :::note[Proof Hint]
 
-Proof the case when $u=0$. Otherwise define a new function $g(x)$ such that
-middle part of the above inequality has a $0$ in the place of $u$.
+- Define $g(x)=f(x)-u$
+- Define $A=\set\{ x \in [a,b) \,|\,g(x)\gt 0 \}$
+- Show that $\sup A$ ($=c$) exists. Assume and contradict these cases:
+  - $c=a$ (use $2\epsilon = g(a)$)
+  - $c=b$ (use $2\epsilon = -g(b)$)
+  - $c\in(a,b)$ then contradict:
+    - $g(c) \gt 0$ (similar to $c=a$ case)
+    - $g(c) \lt 0$ (similar to $c=b$ case)
 
 :::
 

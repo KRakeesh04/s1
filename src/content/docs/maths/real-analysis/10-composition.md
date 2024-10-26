@@ -17,6 +17,12 @@ written as: $ $
 S\circ{R}=\set{(a,c)\,|\,(a,b)\in{R},\,(b,c)\in{S},\,b\in{D}}
 ```
 
+### Identity relation
+
+From the properties of the inverse relation, $R\circ R^{-1}, R^{-1}\circ R$ are
+both defined always. This relation is called the identity relation and denoted
+by $I$.
+
 ## Composition of functions
 
 Let $f:A\rightarrow{B}$ and $g:B\rightarrow{C}$ be 2 functions where $f$ is
@@ -25,3 +31,5 @@ Let $f:A\rightarrow{B}$ and $g:B\rightarrow{C}$ be 2 functions where $f$ is
 ```math
 g\circ{f}=\set{(x,z)\,|\,(x,y)\in{f},\,(y,z)\in{g},\,y\in{B}}=g(f(x))
 ```
+
+The notation $g\circ f$ can be written as $g(f(x))$.

@@ -2,6 +2,7 @@
 title: Introduction to Dynamics
 slug: mechanics/dynamics/introduction
 sidebar:
+  label: Introduction
   order: 1
 ---
 
@@ -79,10 +80,8 @@ a_x = \frac{\text{d}^2x}{\text{d}t^2}=\ddot{x}
 
 Velocity have a transverse and radial components.
 
-- Transverse component  
-  $v_\theta=\underline{\dot{\theta}}\times \underline{r}$
-- Radial component  
-  $v_r=\underline{\dot{r}}$
+- Transverse component $v_\theta=\underline{\dot{\theta}}\times \underline{r}$
+- Radial component $v_r=\underline{\dot{r}}$
 
 ![curvilinear-motion-polar-acceleration.jpg](/mechanics/dynamics/curvilinear-motion-polar-acceleration.jpg)
 

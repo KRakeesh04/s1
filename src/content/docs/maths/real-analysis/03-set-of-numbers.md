@@ -20,4 +20,13 @@ sidebar:
   rational numbers)
 - Real numbers: $ \mathbb{R} = \mathbb{Q}^{c} \cup \mathbb{Q} $. $ $
 
-Complex numbers are not part of the study here.
+[Complex numbers](/maths/complex-numbers/introduction) are taught in a separate
+set of lectures, and not included under real analysis lectures.
+
+## Axiomatic definiton of real numbers
+
+Set of real numbers is a set satisfying all these axioms:
+
+- [Field axioms](/maths/real-analysis/field-axioms)
+- [Order axioms](/maths/real-analysis/order-axioms)
+- [Completeness axiom](/maths/real-analysis/completeness-axiom)

@@ -29,19 +29,12 @@ satisfying the following properties
 11. Multiplication is distributive over addition: $ a \cdot (b + c) = a \cdot
     b + a \cdot c $
 
-:::note[Field]
-
-Any set satisfying the above axioms with two binary operations (commonly $ + $
-and $ \cdot $) is called a **field**. Written as $ (\mathbb{R}, +, \cdot)
-\;\text{is a Field} $. But $ (\mathbb{R}, \cdot, +)\;\text{is not a field} $.
-:::
-
 ### Required proofs
 
 The below mentioned propositions can and should be proven using the
 above-mentioned axioms. $ a, b, c \in \mathbb{R} $. $ $
 
-- $ a\cdot0 = 0 $  
+- $ a\cdot0 = 0 $
   Hint: Start with $a(1+0)$
 - $ 1\not = 0 $
 - Additive identity ($ 0 $) is unique
@@ -59,7 +52,21 @@ above-mentioned axioms. $ a, b, c \in \mathbb{R} $. $ $
 - $ a \not = 0 \implies {(a^{-1})}^{-1} = a $
 - $ a, b \not = 0 \implies {ab}^{-1} = a^{-1}b^{-1} $
 
-## Field or Not?
+## Field
+
+Any set satisfying the above axioms with two binary operations (commonly $ + $
+and $ \cdot $) is called a **field**. Written as:
+
+```math
+(\mathbb{R}, +, \cdot)
+\;\text{is a Field}
+```
+
+```math
+(\mathbb{R}, \cdot, +)\;\text{is not a field}
+```
+
+### Field or Not?
 
 |                                                         | Is field? | Reason (if not)                            |
 | ------------------------------------------------------- | --------- | ------------------------------------------ |

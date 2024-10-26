@@ -2,6 +2,7 @@
 title: Introduction to Vectors
 slug: maths/vectors/introduction
 sidebar:
+  label: Introduction
   order: 1
 ---
 
