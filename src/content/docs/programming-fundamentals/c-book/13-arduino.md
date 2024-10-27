@@ -7,8 +7,7 @@ sidebar:
 
 An open-source physical computing platform based on a simple general purpose
 microcontroller board, and a development environment (Arduino IDE) for writing
-software for the board. Arduino is a platform that can be used to develop and
-implement embedded systems.
+software for the board. Can be used to develop and implement embedded systems.
 
 Ready to go platform that can be use to simply plug into the computer, upload a
 program and run it without any additional circuit development.
@@ -29,9 +28,6 @@ insufficient to host a usable program development environment such as an IDE and
 a compiler or an interpreter. Hence Arduino programs are usually written and
 compiled in a different computer (usually a PC) and later downloaded into the
 Arduino board via the USB cable.
-
-Compiling in a different computer and later using that on a program on a
-different computer, is commonly referred to as “cross-compiling”.
 
 ## Advantages
 
@@ -57,10 +53,6 @@ These components can be
 The most popular boards contain a USB connector that is used to provide power
 and connectivity for uploading your software onto the board. Figure 4.3 shows
 the basic components of an Arduino Uno.
-
-The “Microcontroller” is the most important part of this board. It stores and
-executes the programs. All the other components are used as supporting units for
-this microcontroller’s functions.
 
 The “Mini USB Socket” is used to connect the board to a computer using a
 standard USB mini cable. This can be used to power the board. The “External

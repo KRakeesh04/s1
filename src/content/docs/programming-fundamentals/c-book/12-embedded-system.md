@@ -16,6 +16,11 @@ advanced processing capabilities provided by the software, manufacturers of
 these equipment increasingly prefer to use embedded systems rather than their
 traditional hardwired controllers.
 
+### Cross compiling
+
+The process of compiling a software on a different computer and later using that
+on a program on a different computer.
+
 ## Differences with normal computers
 
 - Processing unit is typically a microcontroller

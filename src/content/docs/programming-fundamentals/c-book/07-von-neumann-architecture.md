@@ -7,10 +7,13 @@ sidebar:
 
 An architecture on how a computer can be built. Simple and implementable
 proposal but not the best mechanism for operations such as disk access or time
-critical operations. A computer structure resulting from this architecture is
-called "Von Neumann Machine".
+critical operations.
 
-Parts of a stored-program computer (under this architecture):
+## Von Neumann Machine
+
+A computer structure resulting from Von Neumann architecture.
+
+### Parts of a Von Neumann Machine
 
 - A memory - contains both data and instructions
 - A calculating unit - capable of performing both arithmetic and logical
@@ -19,7 +22,7 @@ Parts of a stored-program computer (under this architecture):
   memory and select alternative courses of action based on the results of
   previous operations
 
-It's a CPU centric system.
+### CPU centric system
 
 - Each operation is carried only by the CPU
 - Every movement of data is made via the CPU
