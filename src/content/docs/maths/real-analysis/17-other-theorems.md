@@ -91,26 +91,31 @@ Be careful with the pronunciation.
 - It's not "Hospital's Rule", there are no "s"
 - It's not "Hopital's Rule" either, there is a "L'"
 
+Learn the correct pronounciation from
+[this video on YouTube](https://www.youtube.com/watch?v=I-1rSB4LMVk).
+
 :::
 
 L'Hopital's Rule can be used when all of these conditions are met. (here
-$\delta$ is some positive number). Select the appropriate $x$ ranges. $ $
+$\delta$ is some positive number). Select the appropriate $x$ range (as in the
+limit definition), say $I$. $ $
 
 1. Either of these conditions must be satisfied
    - $f(a)=g(a)=0$
    - $\lim{f(x)}=\lim{g(x)}=0$
    - $\lim{f(x)}=\lim{g(x)}=\infty$
-2. $f,g$ are continuous on $x\in[a,a+\delta]$
-3. $f,g$ are differentiable on $x\in(a,a+\delta)$
-4. $g'(x) \neq 0$ on $x\in(a,a+\delta)$
-5. $\lim\limits_{x\to a^{\text{+}}}{\frac{f'(x)}{g'(x)}}=L\in\mathbb{R}$
+2. $f,g$ are continuous on $x\in I$ (closed interval)
+3. $f,g$ are differentiable on $x\in I$ (open interval)
+4. $g'(x) \neq 0$ on $x\in I$ (open interval)
+5. $\lim\limits_{x\to a^{\text{+}}}{\frac{f'(x)}{g'(x)}}=L$
 
 Then: $\lim\limits_{x\to a^{\text{+}}}{\frac{f(x)}{g(x)}}=L$ $ $
 
-:::note
+Here, $L$ can be either a real number or $\pm \infty$. And it is valid for all
+types of "x limits".
+
+:::note[Proof Hint]
 
 L'Hopital's rule can be proven using Cauchy's Mean Value Theorem.
-
-It is valid for all types of "x limits".
 
 :::

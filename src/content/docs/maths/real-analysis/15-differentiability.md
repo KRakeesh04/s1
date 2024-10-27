@@ -11,9 +11,24 @@ A function $f$ is differentiable at $a$ **iff**:
 \lim_\limits{x\to a}{\frac{f(x)-f(a)}{x-a}} = L \in \mathbb{R} = f'(a)
 ```
 
-$f'(a)$ is called the derivative of $f$ at $a$.
+When it is differentiable, $f'(a)$ is called the derivative of $f$ at $a$.
+
+### Critical point
+
+$c\in[a,b]$ is called a critical point **iff**: $ $
+
+```math
+f\text{ is not differentiable at } c
+\;\;
+\lor
+\;\;
+f'(c)=0
+```
 
 ## One-side differentiable
+
+$f$ is differentiable at $a$ **iff** $f$ is left differentiable at $a$ **and**
+$f$ is right differentiable at $a$.
 
 ### Left differentiable
 
@@ -31,9 +46,34 @@ A function $f$ is right-differentiable at $a$ **iff**:
 \lim_\limits{x\to a^{+}}{\frac{f(x)-f(a)}{x-a}} = L \in \mathbb{R} = f'_{+}(a)
 ```
 
+## On intervals
+
+### Open interval
+
+A function $f$ is differentiable in $(a,b)$ **iff** $f$ is differentiable on
+every $c\in(a,b)$.
+
+### Closed interval
+
+A function $f$ is differentiable in $[a,b]$ **iff** $f$ is:
+
+- differentiable on every $c\in(a,b)$
+- right-differentiable at $a$
+- left-differentiable at $b$
+
+## Continuously differentiable functions
+
+A function $f$ is said to be continously differentiable at $a$ **iff** :
+
+- $f$ is differentiable at $a$ **and**
+- $f'$ is continous at $a$
+
 ## Differentiability implies continuity
 
 $f \text{ is differentiable at } a \implies f \text{ is continuous at } a$
+
+Likewise, one-sided differentiability implies corresponding one-sided
+continuity.
 
 :::note[Proof Hint]
 
@@ -46,7 +86,6 @@ Use $\delta=min(\delta_1, \frac{\epsilon}{1 + |f'(a)|})$. $ $
 Suppose $f$ is differentiable at $a$. Define $g$:
 
 ```math
-
   g(x) =
 \begin{cases}
   \;
@@ -54,7 +93,6 @@ Suppose $f$ is differentiable at $a$. Define $g$:
 \;
 f'(a), & x=a
 \end{cases}
-
 ```
 
 $g$ is continuous at $a$.

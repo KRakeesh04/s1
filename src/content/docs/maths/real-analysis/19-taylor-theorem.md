@@ -83,18 +83,3 @@ R_n(x,c)=
   - $G=(x-t)^n$
 
 :::
-
-## Second derivative test
-
-When $n=1$: $ $
-
-```math
-f(x)=f(c)+f'(c)(x-c)+\frac{f''(\zeta)}{2!}(x-c)^2
-```
-
-```math
-f(x)-\text{Tangent line}=\frac{f''(\zeta)}{2!}(x-c)^2
-```
-
-From this: $f''(c)>0 \implies $ a local minimum is at $c$. Converse is **not**
-true.

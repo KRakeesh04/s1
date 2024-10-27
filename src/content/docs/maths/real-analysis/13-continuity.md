@@ -20,11 +20,7 @@ A function $f$ is continuous at $a$ **iff**:
 
 ## One-side continuous
 
-A function $f$ is continuous from right at $a$ **iff**:
-
-```math
-\lim_{x\to a^{+}}{f(x)}=f(a)
-```
+### Continuous from left
 
 A function $f$ is continuous from left at $a$ **iff**:
 
@@ -32,12 +28,22 @@ A function $f$ is continuous from left at $a$ **iff**:
 \lim_{x\to a^{-}}{f(x)}=f(a)
 ```
 
-## Continuous on an open interval
+### Continuous from right
+
+A function $f$ is continuous from right at $a$ **iff**:
+
+```math
+\lim_{x\to a^{+}}{f(x)}=f(a)
+```
+
+## On interval
+
+### Open interval
 
 A function $f$ is continuous in $(a,b)$ **iff** $f$ is continuous on every
 $c\in(a,b)$.
 
-## Continuous on a closed interval
+### Closed interval
 
 A function $f$ is continuous in $[a,b]$ **iff** $f$ is:
 
