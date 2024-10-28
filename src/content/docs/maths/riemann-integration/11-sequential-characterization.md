@@ -5,7 +5,7 @@ sidebar:
   order: 11
 ---
 
-A bounded function $f:[a,b]\to \mathbb{R}$ is Riemann integrable if and only if
+A bounded function $f:[a,b]\to \mathbb{R}$ is Riemann integrable **iff**
 $\exists \set{P_n}$ a sequence of partitions, such that:
 
 ```math

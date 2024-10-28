@@ -78,6 +78,14 @@ w=c\cdot\exp{\bigg(-\int{P}\,\text{d}x\bigg)}
 Suppose there exists $x_0$ such that $w(x_0)=0$. That implies $c=0$. That
 implies $w$ is always $0$.
 
+## Abel's forumla
+
+The conclusion in the above proof is known as the Abel's formula.
+
+```math
+W(x)=c\exp{\bigg(-\int{P}\,\text{d}x\bigg)}
+```
+
 ## Theorem 2
 
 The solutions of the above differential equation are _linearly dependent_

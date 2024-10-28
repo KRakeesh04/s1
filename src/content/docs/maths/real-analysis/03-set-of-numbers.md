@@ -30,3 +30,15 @@ Set of real numbers is a set satisfying all these axioms:
 - [Field axioms](/maths/real-analysis/field-axioms)
 - [Order axioms](/maths/real-analysis/order-axioms)
 - [Completeness axiom](/maths/real-analysis/completeness-axiom)
+
+## Archimedean property
+
+```math
+\forall y\in\mathbb{R^+}
+\;
+\exists k \in \mathbb{Z}^+
+\;
+\text{s.t.}
+\;
+\frac{1}{k} \lt y
+```

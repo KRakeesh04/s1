@@ -81,8 +81,10 @@ Alternate forms of $\Gamma(n)$. $ $
 
 ### Form 1
 
+$\forall n \gt 0$: $ $
+
 ```math
-\Gamma(n)=\int_0^\infty e^{-x}x^{n-1}\,\text{d}x
+\Gamma(n)=\frac{1}{n}\int_0^\infty e^{-x^{1/n}}\,\text{d}x
 ```
 
 :::note[Proof Hint]
@@ -119,7 +121,7 @@ Use $x=kt$. $ $
 
 ```math
 \Gamma(n)=
-\int_0^1 \ln(\frac{1}{x})^{n-1} \,\text{d}x
+\int_0^1 \ln\bigg(\frac{1}{x}\bigg)^{n-1} \,\text{d}x
 ```
 
 :::note[Proof Hint]

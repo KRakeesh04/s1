@@ -31,7 +31,7 @@ B(m,n) = B(n,m)
 
 :::note[Proof Hint]
 
-Proof is trivial.
+Use $t = 1 - x$. $ $
 
 :::
 
@@ -40,19 +40,21 @@ Proof is trivial.
 ### Form 1
 
 ```math
-B(m,n) = \int_0^{\infty} \frac{t^{n-1}}{(t+1)^{m+n}}\,\text{d}t
+B(m,n)=
+\int_0^{\infty} \frac{x^{n-1}}{(x+1)^{m+n}}\,\text{d}x=
+\int_0^{\infty} \frac{x^{m-1}}{(x+1)^{m+n}}\,\text{d}x
 ```
 
 :::note[Proof Hint]
 
-Use $x=\frac{1}{1+t}$. $ $
+Use $x=\frac{1}{1+t}$ in the definition. $ $
 
 :::
 
 ### Form 2
 
 ```math
-B(m,n) = \int_0^1 \frac{x^{m-1} + x^{n-1}}{(1+x)^{m+n}}\,\text{d}t
+B(m,n) = \int_0^1 \frac{x^{m-1} + x^{n-1}}{(1+x)^{m+n}}\,\text{d}x
 ```
 
 :::note[Proof Hint]
@@ -76,7 +78,7 @@ Use $x=\frac{a}{b}t$ in Form 1. $ $
 ### Form 4
 
 ```math
-\int_0^\frac{\pi}{2} \frac{\sin^{2m-1} \cos^{2n-1}\theta}{(a\sin^2 \theta + b\cos^2 \theta)^{m+n}}\,\text{d}x = \frac{B(m,n)}{2a^m b^n}
+\int_0^\frac{\pi}{2} \frac{\sin^{2m-1}(\theta) \cos^{2n-1}(\theta)}{(a\sin^2 \theta + b\cos^2 \theta)^{m+n}}\,\text{d}x = \frac{B(m,n)}{2a^m b^n}
 ```
 
 :::note[Proof Hint]
@@ -109,7 +111,7 @@ x = \frac{t(1+a)}{t+a}
 
 :::note[Proof Hint]
 
-Use $x=at + b(1-t)$. $ $
+Use $x=at + b(1-t)$ in the definition. $ $
 
 :::
 
@@ -122,7 +124,7 @@ Use $x=at + b(1-t)$. $ $
 ```
 
 ```math
-\int_0^1 \frac{x^{m-1}(1-x)^{n-1}}{(a + cx)^{m+n}}\,\text{d}x
+\int_0^1 \frac{x^{m-1}(1-x)^{n-1}}{(b + cx)^{m+n}}\,\text{d}x
 =
 \frac{B(m,n)}{(b+c)^nb^m}
 ```

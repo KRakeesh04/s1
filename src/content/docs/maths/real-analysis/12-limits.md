@@ -135,33 +135,3 @@ $\lim_\limits{x\to a}{f(x)}=-\infty$ **iff**: $ $
 \forall{x}\;
 (0<\lvert{x-a}\rvert<\delta\implies{f(x)\lt-M})
 ```
-
-## Indeterminate forms
-
-- $\frac{0}{0}$
-- $\frac{\infty}{\infty}$
-- $\infty\cdot0$
-- $\infty-\infty$
-- $\infty^{0}$
-- $0^0$
-- $1^\infty$
-
-## Well-known limits
-
-```math
-\lim_\limits{x\to 0} \frac{\sin x}{x} = 1
-```
-
-:::note[Proof hint]
-
-Squeeze theorem with $\sin \theta \cos \theta \lt \theta \lt \tan\theta$. $ $
-
-:::
-
-```math
-\lim_\limits{x\to a} \frac{x^n - a^n}{x - a} = na^{n-1}
-```
-
-```math
-\lim_\limits{x\to \infty} \big(1+\frac{a}{x}\big)^x = e^a
-```
