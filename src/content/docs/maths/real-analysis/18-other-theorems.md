@@ -17,7 +17,7 @@ Then:
 :::note[Proof Hint]
 
 By
-[Extreme Value Theorem](/maths/real-analysis/theorems-related-to-continuity/#extreme-value-theorem),
+[Extreme Value Theorem](/maths/real-analysis/continuity-theorems/#extreme-value-theorem),
 maximum and minimum exists for $f$. $ $
 
 Consider $2$ cases: $ $
@@ -75,7 +75,7 @@ f(\zeta)\int_a^b{g(x)\text{d}x}
 :::note[Proof Hint]
 
 - Use
-  [Extreme value theorem](/maths/real-analysis/theorems-related-to-continuity/#extreme-value-theorem)
+  [Extreme value theorem](/maths/real-analysis/continuity-theorems/#extreme-value-theorem)
   for $f$
 - Multiply by $g(x)$. Then integrate. Then divide by $\int_a^b{g(x)}$.
 - Use intermediate value theorem to find $f(\zeta)$

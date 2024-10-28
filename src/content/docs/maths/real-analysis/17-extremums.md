@@ -81,7 +81,7 @@ When $c=b$: $ $
 ### f is continuous
 
 Then by
-[Extreme Value Theorem](/maths/real-analysis/theorems-related-to-continuity/#extreme-value-theorem),
+[Extreme Value Theorem](/maths/real-analysis/continuity-theorems/#extreme-value-theorem),
 we know $f$ has a minimum and maximum in $[a,b]$.
 
 ### f is differentiable
