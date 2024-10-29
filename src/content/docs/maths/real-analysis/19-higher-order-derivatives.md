@@ -25,7 +25,13 @@ $f \text{ is } n \text{-th differentiable at } a \implies f^{(n-1)} \text{ is co
 
 ## Second derivative test
 
-When $n=1$ from [Taylor's theorem](/maths/real-analysis/taylor-theorem/): $ $
+Suppose $f'(x)=0$ and $f''(x)$ is continuous at $c$:
+
+- $f''(c) \gt 0 \implies $ a local minimum is at $c$. Converse is **not** true.
+- $f''(c) \lt 0 \implies $ a local maximum is at $c$. Converse is **not** true.
+
+The above conclusion is from
+[Taylor's theorem](/maths/real-analysis/taylor-theorem/) when $n=1$: $ $
 
 ```math
 f(x)=f(c)+f'(c)(x-c)+\frac{f''(\zeta)}{2!}(x-c)^2
@@ -34,8 +40,3 @@ f(x)=f(c)+f'(c)(x-c)+\frac{f''(\zeta)}{2!}(x-c)^2
 ```math
 f(x)-\text{Tangent line}=\frac{f''(\zeta)}{2!}(x-c)^2
 ```
-
-From this:
-
-- $f''(c) \gt 0 \implies $ a local minimum is at $c$. Converse is **not** true.
-- $f''(c) \lt 0 \implies $ a local maximum is at $c$. Converse is **not** true.

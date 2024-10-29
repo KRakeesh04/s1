@@ -31,7 +31,7 @@ e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!} = 1 + \frac{x}{1!} + \frac{x^2}{2!} + \
 Range of convergence is $(-1,1]$. $ $
 
 ```math
-\ln(1+x) = \sum_{n=1}^\infty \frac{(-1)^{n-1}x^n}{n} = x - \frac{x^2}{2!} + \frac{x^3}{3!} - \frac{x^4}{4!} + \cdots
+\ln(1+x) = \sum_{n=1}^\infty \frac{(-1)^{n-1}x^n}{n} = x - \frac{x^2}{2} + \frac{x^3}{3} - \frac{x^4}{4} + \cdots
 ```
 
 ### sin x
