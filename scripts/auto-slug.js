@@ -1,4 +1,4 @@
-import { readdir, writeFile } from "node:fs/promises";
+import { lstat, readdir, writeFile } from "node:fs/promises";
 import { relative } from "node:path";
 const matter = require("gray-matter");
 
@@ -13,6 +13,9 @@ function safeParseInt(value, defaultValue = undefined) {
 	}
 	return parsed;
 }
+
+const TIME_DELTA = 24 * 3600 * 1000;
+const TIME_NOW = new Date().valueOf();
 
 /**
     @param {Array<string>} mdFilePaths
@@ -38,13 +41,24 @@ export async function autoSlug(mdFilePaths) {
 			...currentFrontMatter,
 			slug: newSlug,
 		};
+		// const s = await lstat(filePath);
+		// const timeDelta = TIME_NOW - s.mtimeMs;
+		// let isInsideTimeDelta = false;
+		// if (timeDelta < TIME_DELTA) {
+		// 	isInsideTimeDelta = true;
+		// }
+		// if (!file.data.sidebar) {
+		// 	file.data.sidebar = {};
+		// }
+		// if (isInsideTimeDelta) {
+		// 	file.data.sidebar.badge = "new";
+		// } else {
+		// 	file.data.sidebar.badge = undefined;
+		// }
 		const orderMatched = slugSection.match(PATTERN_TITLE_PREFIX);
 		if (orderMatched) {
 			const orderNumber = safeParseInt(orderMatched[1]);
 			if (orderNumber !== undefined) {
-				if (!file.data.sidebar) {
-					file.data.sidebar = {};
-				}
 				file.data.sidebar.order = orderNumber;
 			}
 		} else {
@@ -59,5 +73,3 @@ export async function autoSlug(mdFilePaths) {
 if (require.main === module) {
 	autoSlug(process.argv.slice(2));
 }
-// for testing
-// process.exit(27);

@@ -45,6 +45,11 @@ Use this inequality:
 
 :::
 
+#### Theorem
+
+A series $s_n$ is absolutely converging to $s$ **iff** rearranged series of
+$s_n$ converges to $s$.
+
 ### Conditionally Converging
 
 $\sum_{k=1}^{n}{u_k}$ is condtionally converging **iff**: $ $
@@ -53,7 +58,19 @@ $\sum_{k=1}^{n}{u_k}$ is condtionally converging **iff**: $ $
 \sum_{k=1}^{n}{\lvert u_k \rvert}\text{ is diverging}\;\;\;\text{and}\;\sum_{k=1}^{n}{u_k}\text{ is converging}
 ```
 
-## Theorem 1
+#### Theorem
+
+Suppose $s_n$ is a conditionally converging series. Then: $ $
+
+1. Sum of all the positive terms limits to $\infty$
+2. Sum of all the negative terms limits to $-\infty$
+3. $s_n$ can be rearranged to have the sum:
+   - Any real number $x$
+   - $\infty$
+   - $-\infty$
+   - Does not exist
+
+## Divergence test
 
 ```math
 \sum_{k=1}^{n}{u_k}\text{ is converging}
@@ -79,3 +96,5 @@ For any $p\gt0$, as $n$ tends to $\infty$, the below inequality holds:
 n^p
 \lt n!
 ```
+
+The above inequality can be used to

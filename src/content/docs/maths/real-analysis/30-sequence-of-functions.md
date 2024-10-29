@@ -89,3 +89,30 @@ Split into 3 absolute values. Show that the sum is lesser than $3\epsilon$.
 
 Explained in
 [Converging Functions | Riemann Integration](/maths/riemann-integration/converging-functions/).
+
+### Differentiation is complicated
+
+Uniform convergence-differentiation pair doesn't go as smooth like integration
+was.
+
+Suppose $u_n(x)$ is a sequence of differentiable functions, and they uniformly
+converges to $u(x)$. Then we can't say, for sure, $u(x)$ is differentiable. An
+example is:
+
+```math
+u_n(x) = \sqrt{x^2 + \frac{1}{n}}
+```
+
+#### Theorem
+
+If (all conditions must be met):
+
+1. $u_n(x)$ is differentiable on $[a,b]$
+2. $u_n(x_0)$ converges (pointwise) for some $x_0 \in [a,b]$
+3. $u_n'(x)$ converges to $f(x)$ uniformly on $[a,b]$
+
+Then:
+
+1. $u_n(x)$ converges to $u(x)$ uniformly on $[a,b]$
+2. $u(x)$ is differentiable on $[a,b]$
+3. $u'(x)=f(x)$ **OR** in other words $u_n'(x)$ converges to $u'(x)$ uniformly

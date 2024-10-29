@@ -17,6 +17,9 @@ Here:
 - $x$ - a variable
 - $c$ - a constant
 
+Convergence of a power series can be checked using
+[root test](/maths/real-analysis/convergence-tests#root-test).
+
 ### Radius of convergence
 
 Maximum radius of $x$ in where the series converges. $ $
