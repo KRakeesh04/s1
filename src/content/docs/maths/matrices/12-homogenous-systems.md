@@ -2,7 +2,7 @@
 title: Solutions of Homogenous Systems
 slug: maths/matrices/homogenous-systems
 sidebar:
-  order: 11
+  order: 12
 ---
 
 Consider the system:

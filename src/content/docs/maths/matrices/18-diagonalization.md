@@ -2,7 +2,7 @@
 title: Diagonalization
 slug: maths/matrices/diagonalization
 sidebar:
-  order: 17
+  order: 18
 ---
 
 ### Similar matrices

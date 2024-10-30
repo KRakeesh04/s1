@@ -2,7 +2,7 @@
 title: Elementary Transformations
 slug: maths/matrices/elementary-transformations
 sidebar:
-  order: 7
+  order: 8
 ---
 
 - Interchange of any columns or rows

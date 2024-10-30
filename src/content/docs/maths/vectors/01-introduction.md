@@ -8,25 +8,6 @@ sidebar:
 
 Revise Vectors unit from G.C.E (A/L) Combined Mathematics.
 
-## Section formula
-
-Suppose $\text{O}$ is the reference point, and $\text{P,Q}$ are 2 points.
-
-If $\text{R}$ divides the line segment $\text{PQ}$ in the ratio $m:n$ (both are
-positive and $m \ge n$), the division can either be internal or external.
-
-### Internally
-
-```math
-\overrightarrow{\text{OR}} = \frac{m\overrightarrow{\text{OQ}}+n\overrightarrow{\text{OP}}}{m+n}
-```
-
-### Externally
-
-```math
-\overrightarrow{\text{OR}} = \frac{m\overrightarrow{\text{OQ}}-n\overrightarrow{\text{OP}}}{m-n}
-```
-
 ## Direction Cosines
 
 Suppose $\vec{p} = a\underline{i}+b\underline{j}+c\underline{k}$. Direction
@@ -54,14 +35,12 @@ Ratio of the direction cosines is called as direction ratio.
 ```math
 a \times b
 = \lvert a \rvert \lvert b \rvert sin{(\theta)} n
-= \det
-\Bigg(
-\begin{matrix}
-   i & j & k \\
+=
+\begin{vmatrix}
+   \underline{i} & \underline{j} & \underline{k} \\
 	 a_x & a_y & a_z \\
    b_x & b_y & b_z
-\end{matrix}
-\Bigg)
+\end{vmatrix}
 ```
 
 $ n $ is the **unit normal vector** to $ a $ and $ b $. Direction is based on

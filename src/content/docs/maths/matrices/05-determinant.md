@@ -2,7 +2,7 @@
 title: Determinant
 slug: maths/matrices/determinant
 sidebar:
-  order: 4
+  order: 5
 ---
 
 Defined only for square matrices. Denoted by $\lvert A\rvert$. $ $
@@ -45,8 +45,7 @@ A_{ij} = (−1)^{i+j}\,\lvert M_{ij}\rvert
 
 #### Definition
 
-If $A = (a_{ij})_{n\times n}$ then the **determinant** of $A$ is denoted by
-$\lvert A\rvert$ and is defined by:
+If $A = (a_{ij})_{n\times n}$ then the **determinant** of $A$ is defined by:
 
 ```math
 \lvert A\rvert=
@@ -55,7 +54,7 @@ $\lvert A\rvert$ and is defined by:
 
 where $1\le j\le n$. $ $
 
-### Properties of determinants
+## Properties of determinants
 
 - $\big|A^{T}\big|=|A|$
 - Every element of a row or column of a matrix is $0$ then the value of its
@@ -70,7 +69,29 @@ where $1\le j\le n$. $ $
 - If every entry in any row or column is multiplied by $k$, then the whole
   determinant is multiplied by $k$.
 
-### In relation with eigenvalues
+### Composition
+
+```math
+\begin{vmatrix}
+   a & b & c_1 + c_2 \\
+	 d & e & f_1 + f_2 \\
+   g & h & i_1 + i_2
+\end{vmatrix}
+=
+\begin{vmatrix}
+   a & b & c_1 \\
+	 d & e & f_1 \\
+   g & h & i_1
+\end{vmatrix}
++
+\begin{vmatrix}
+   a & b & c_2 \\
+	 d & e & f_2 \\
+   g & h & i_2
+\end{vmatrix}
+```
+
+## In relation with eigenvalues
 
 For a $n\times n$ matrix A with $n$ number of
 [eigenvalues](/maths/matrices/eigenvalues-eigenvectors/#eigenvalues):

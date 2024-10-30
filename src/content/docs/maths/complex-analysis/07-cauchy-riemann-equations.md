@@ -1,8 +1,8 @@
 ---
 title: Cauchy Riemann Equations
-slug: maths/complex-numbers/cauchy-riemann-equations
+slug: maths/complex-analysis/cauchy-riemann-equations
 sidebar:
-  order: 6
+  order: 7
 ---
 
 The set of equations mentioned below are the Cauchy Riemann Equations, where

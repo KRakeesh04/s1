@@ -2,7 +2,7 @@
 title: Inverse
 slug: maths/matrices/inverse
 sidebar:
-  order: 6
+  order: 7
 ---
 
 Suppose $A$ and $B$ are square matrices of the same order. If $AB = BA = I$ then

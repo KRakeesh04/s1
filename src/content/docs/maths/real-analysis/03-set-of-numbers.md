@@ -20,7 +20,7 @@ sidebar:
   rational numbers)
 - Real numbers: $ \mathbb{R} = \mathbb{Q}^{c} \cup \mathbb{Q} $. $ $
 
-[Complex numbers](/maths/complex-numbers/introduction) are taught in a separate
+[Complex numbers](/maths/complex-analysis/introduction) are taught in a separate
 set of lectures, and not included under real analysis lectures.
 
 ## Axiomatic definiton of real numbers

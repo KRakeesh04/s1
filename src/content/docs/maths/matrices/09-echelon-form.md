@@ -2,7 +2,7 @@
 title: Echelon Form
 slug: maths/matrices/echelon-form
 sidebar:
-  order: 8
+  order: 9
 ---
 
 A matrix is in row echelon form (or just "row echelon" form) **iff**:

@@ -1,8 +1,8 @@
 ---
 title: Differentiability
-slug: maths/complex-numbers/differentiability
+slug: maths/complex-analysis/differentiability
 sidebar:
-  order: 5
+  order: 6
 ---
 
 A complex function $f$ is differentiable at $z_0$ **iff**:

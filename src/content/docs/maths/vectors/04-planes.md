@@ -2,7 +2,7 @@
 title: Planes
 slug: maths/vectors/planes
 sidebar:
-  order: 3
+  order: 4
 ---
 
 Equation of planes can expressed in either vector or cartesian form. Vector

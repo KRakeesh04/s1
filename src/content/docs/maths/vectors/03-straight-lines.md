@@ -2,7 +2,7 @@
 title: Straight Lines
 slug: maths/vectors/straight-lines
 sidebar:
-  order: 2
+  order: 3
 ---
 
 ### Passes through a point & parallel to a vector

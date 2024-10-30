@@ -2,7 +2,7 @@
 title: Eigenvalues & Eigenvectors
 slug: maths/matrices/eigenvalues-eigenvectors
 sidebar:
-  order: 13
+  order: 14
 ---
 
 ## Definitions

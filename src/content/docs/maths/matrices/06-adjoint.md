@@ -2,7 +2,7 @@
 title: Adjoint
 slug: maths/matrices/adjoint
 sidebar:
-  order: 5
+  order: 6
 ---
 
 Suppose $A=(a_{ij})_{n\times{n}}$. $ $

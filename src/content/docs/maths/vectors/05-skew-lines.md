@@ -2,7 +2,7 @@
 title: Skew Lines
 slug: maths/vectors/skew-lines
 sidebar:
-  order: 4
+  order: 5
 ---
 
 Two non-parallel lines in a 3-space that do not intersect.

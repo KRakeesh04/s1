@@ -47,9 +47,6 @@ export async function autoSlug(mdFilePaths) {
 		// if (timeDelta < TIME_DELTA) {
 		// 	isInsideTimeDelta = true;
 		// }
-		// if (!file.data.sidebar) {
-		// 	file.data.sidebar = {};
-		// }
 		// if (isInsideTimeDelta) {
 		// 	file.data.sidebar.badge = "new";
 		// } else {
@@ -59,6 +56,9 @@ export async function autoSlug(mdFilePaths) {
 		if (orderMatched) {
 			const orderNumber = safeParseInt(orderMatched[1]);
 			if (orderNumber !== undefined) {
+				if (!file.data.sidebar) {
+					file.data.sidebar = {};
+				}
 				file.data.sidebar.order = orderNumber;
 			}
 		} else {

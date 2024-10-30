@@ -1,8 +1,8 @@
 ---
 title: Limit of Complex Functions
-slug: maths/complex-numbers/limit-of-complex-functions
+slug: maths/complex-analysis/limit-of-complex-functions
 sidebar:
-  order: 3
+  order: 4
 ---
 
 $\lim_\limits{z\to z_0} f(z) = L$ **iff**: $ $

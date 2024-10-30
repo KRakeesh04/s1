@@ -1,8 +1,8 @@
 ---
 title: Entire Functions
-slug: maths/complex-numbers/entire-functions
+slug: maths/complex-analysis/entire-functions
 sidebar:
-  order: 7
+  order: 8
 ---
 
 A complex function that is differentiable everywhere. Entire functions are

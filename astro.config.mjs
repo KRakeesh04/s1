@@ -140,10 +140,10 @@ export default defineConfig({
 							},
 						},
 						{
-							label: "Complex Numbers",
+							label: "Complex Analysis",
 							collapsed: true,
 							autogenerate: {
-								directory: "maths/complex-numbers",
+								directory: "maths/complex-analysis",
 							},
 						},
 						{

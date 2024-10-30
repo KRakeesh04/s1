@@ -1,8 +1,8 @@
 ---
 title: Continuity
-slug: maths/complex-numbers/continuity
+slug: maths/complex-analysis/continuity
 sidebar:
-  order: 4
+  order: 5
 ---
 
 $f(z)$ is continuous at $z_0$ **iff**:

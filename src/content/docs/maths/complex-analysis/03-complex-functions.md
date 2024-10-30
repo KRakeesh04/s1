@@ -1,8 +1,8 @@
 ---
 title: Complex Functions
-slug: maths/complex-numbers/complex-functions
+slug: maths/complex-analysis/complex-functions
 sidebar:
-  order: 2
+  order: 3
 ---
 
 Suppose $w=f(z)$ where $z,w \in \mathbb{C}$. Input and output points are denoted

@@ -2,7 +2,7 @@
 title: Matrix Norms
 slug: maths/matrices/matrix-norms
 sidebar:
-  order: 19
+  order: 20
 ---
 
 Let $A_{n\times n}$. A norm of $A$ is denoted by $||A||$.
@@ -28,7 +28,8 @@ Maximum of the absolute column sums.
 
 ### 2-norm
 
-Square root of the sum of all elements squared. Also called as Euclidean norm.
+Square root of the sum of all elements squared. Aka. Euclidean norm, or
+Frobenius norm. Defined for non-square matrices as well.
 
 ```math
 \Big({\lVert A \rVert}_2\Big)^2=
@@ -70,6 +71,18 @@ For any matrix $X \in \mathbb{R} ^n$: $ $
 ### Vector norm
 
 Norm defined for column vectors.
+
+### Induced norm
+
+Aka. operator norm, subordinate norm.
+
+Suppose $A=(a_{ij})_{m\times n}$. The induced norm is defined for $A$ with
+respect to a given norm, $\lVert \rVert$. $ $
+
+```math
+{\lVert A \rVert}_\text{ind} = \max_{\lVert X \rVert = 1}\; \lVert AX \rVert
+
+```
 
 ## Properties of Norms
 

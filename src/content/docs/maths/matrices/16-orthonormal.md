@@ -2,7 +2,7 @@
 title: Orthonormal
 slug: maths/matrices/orthonormal
 sidebar:
-  order: 15
+  order: 16
 ---
 
 For a set of $n$ column vectors, they are orthonormal **iff**: $ $

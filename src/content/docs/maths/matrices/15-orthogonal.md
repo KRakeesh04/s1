@@ -2,7 +2,7 @@
 title: Orthogonal
 slug: maths/matrices/orthogonal
 sidebar:
-  order: 14
+  order: 15
 ---
 
 Consider 2 column matrices $v_1$ and $v_2$:

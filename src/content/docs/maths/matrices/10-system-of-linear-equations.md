@@ -2,7 +2,7 @@
 title: System of Linear Equations
 slug: maths/matrices/system-of-linear-equations
 sidebar:
-  order: 9
+  order: 10
 ---
 
 Any system of linear equations can be represented in matrix notation as shown

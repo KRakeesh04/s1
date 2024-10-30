@@ -2,7 +2,7 @@
 title: Cayley-Hamilton Theorem
 slug: maths/matrices/cayley-hamilton-theorem
 sidebar:
-  order: 18
+  order: 19
 ---
 
 If $p(\lambda)$ is the characteristic polynomial of the matrix $A_{n\times n}$,
