@@ -50,7 +50,7 @@ function findSections(entries: Props["sidebar"], parentLabel = "") {
 	return sections;
 }
 
-const total = countTotalEntries(Astro.props.sidebar);
+const totalPages = countTotalEntries(Astro.props.sidebar);
 const isHomepage = Astro.props.slug === "";
 const sections = findSections(Astro.props.sidebar);
 ---
@@ -97,26 +97,16 @@ const sections = findSections(Astro.props.sidebar);
 			</ul>
 			<h2 class="mb-1">Content Included</h2>
 			<p>
-				First <b>15 weeks</b> of content is updated, totaling to{" "}
-				<span class="font-bold">{total} pages</span>. 16th week is also finished, however, I have not updated the notes yet. Currently 17th week is in progress, which is the last week of the semester.
+ All modules other than Mechanics, are fully updated, totaling to{" "}
+				<span class="font-bold">{totalPages} pages</span>.
+				 Mechanics module will soon be updated,before the final exam.
 			</p>
 			<p>
-				I am actively updating the content as my semester progresses. Let me
+			All 17 weeks of the semester are over.
+				Let me
 				know if something is missing or you find anything wrong.
 			</p>
 
-			<h3>Completed Modules/Sections</h3>
-
-			<ul>
-			    <li>Complex Numbers</li>
-			    <li>Electrical Fundamentals</li>
-			    <li>Fluid Mechanics</li>
-			    <li>Matrices</li>
-				<li>Mechanics</li>
-			    <li>Properties of Materials</li>
-			    <li>Riemann Integration</li>
-			    <li>Vectors</li>
-			</ul>
 			<div id="content-included">
 				<p>
 					<Fragment>
