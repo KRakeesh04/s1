@@ -5,6 +5,8 @@ sidebar:
   order: 25
 ---
 
+## Known series
+
 ## Direct Comparison Test
 
 Let $0<u_k<v_k$. $ $

@@ -18,6 +18,7 @@ Here:
 - $c$ - a constant
 
 Convergence of a power series can be checked using
+[ratio test](/maths/real-analysis/convergence-tests#ratio-test) or
 [root test](/maths/real-analysis/convergence-tests#root-test).
 
 ### Radius of convergence
@@ -25,7 +26,7 @@ Convergence of a power series can be checked using
 Maximum radius of $x$ in where the series converges. $ $
 
 ```math
-R = \sup{\big\{r\;|\; \text{series converges for}\; |x-c| < r\big\}}
+R = \sup{\big\{r\;|\; \text{series converges for}\; \lvert x-c \rvert < r\big\}}
 ```
 
 The below equation can be used to find $R$: $ $
@@ -34,9 +35,13 @@ The below equation can be used to find $R$: $ $
 \lim_\limits{k\to \infty} |a_k|^{\frac{1}{k}} = \frac{1}{R}
 ```
 
+The series may converge or diverge for $\lvert x - c \rvert = R$. $ $
+
 ### Range of convergence
 
-$(c-R,c+R)$ is the range of convergence. $ $
+$(c-R,c+R)$ is the range of convergence. Aka. interval of convergence. The
+series may converge or diverge at the endpoints. Endpoints must be checked
+separately to find out if they must be included in the range of convergence. $ $
 
 ## Theorem 1
 

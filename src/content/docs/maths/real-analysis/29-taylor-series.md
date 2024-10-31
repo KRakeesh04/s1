@@ -16,6 +16,13 @@ then Taylor series of $f$ at $c$ is given by:
 (x-c)^n
 ```
 
+:::note
+
+Usually Taylor series expansion is done with $c=0$. This is a special case of
+Taylor series, and called the **Maclaurin series**. $ $
+
+:::
+
 ## Examples
 
 ### e^x

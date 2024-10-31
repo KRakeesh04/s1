@@ -1,8 +1,8 @@
 ---
 title: Riemann Zeta Function
-slug: maths/real-analysis/zeta-function
+slug: maths/real-analysis/riemann-zeta-function
 sidebar:
-  order: 26
+  order: 33
 ---
 
 ```math
@@ -18,8 +18,6 @@ This function converges **iff** $s>1$. And it converges to: $ $
 ```math
 \frac{1}{s-1}
 ```
-
-Otherwise it diverges.
 
 ## Extension
 

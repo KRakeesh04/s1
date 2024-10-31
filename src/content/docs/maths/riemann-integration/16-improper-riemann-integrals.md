@@ -5,8 +5,8 @@ sidebar:
   order: 16
 ---
 
-Riemann integral is defined only for **bounded** functions defined on a set of
-**compact** intervals.
+Iniitally Riemann integrals are defined only for **bounded** functions defined
+on a set of **compact** intervals.
 
 ### Type 1
 

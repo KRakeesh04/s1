@@ -11,9 +11,10 @@ Suppose $u_k>0$. An alternating series is:$ $
 \sum_{k=1}^n (-1)^{k - 1} u_k = u_1 - u_2 + u_3 - u_4 + \cdots
 ```
 
-## Convergence
+## Convergence test
 
-If $\forall k\; u_k>0$, decreasing and $\lim_\limits{n\to \infty} u_n = 0$. Then
+**If** $\forall k\; u_k>0$, decreasing and $\lim_\limits{n\to \infty} u_n = 0$,
+**then**:
 
 ```math
 \sum_{k=1}^n (-1)^{k - 1} u_k \text{ is converging}
@@ -63,4 +64,6 @@ by $0$ and decreasing. So both converges.
 \lim_\limits{m\to \infty} s_{2m} = s
 ```
 
-Both converges to the same number. :::
+Both converges to the same number.
+
+:::
