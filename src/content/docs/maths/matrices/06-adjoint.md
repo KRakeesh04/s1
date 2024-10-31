@@ -22,3 +22,9 @@ Suppose $A$ is a $n\times n$ matrix.
 - $\text{adj}(cA)=c^{n-1}\text{adj}(A)$
 - $\text{adj}(A^T)=(\text{adj}(A))^T$
 - $\text{adj}(A)\,A = A\,\text{adj}(A) = \lvert A \rvert I$
+
+:::note
+
+For a $2\times 2$ matrix, $\text{adj}(\text{adj}(A))=A$.
+
+:::
