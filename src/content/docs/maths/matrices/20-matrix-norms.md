@@ -41,7 +41,7 @@ Frobenius norm. Defined for non-square matrices as well.
 
 ### Infinity norm
 
-Maximum of the row sums.
+Maximum of the absolute row sums.
 
 ```math
 {\lVert A \rVert}_\infty =

@@ -138,8 +138,11 @@ Let $u(x) \gt 0$ and $\lim_\limits{n\to \infty}{\frac{u_{n+1}}{u_n}} =L$.
 
 :::note[Proof Hint]
 
-- Consider the limit definition with $\epsilon=\frac{1}{2}(1-L)$
-- Show that: $\frac{1}{2}(3L-2) \lt \frac{u_{k+1}}{u_k} \lt \frac{1}{2}(1+L)$
+- Consider the limit definition with:
+  - For the $L \lt 1$ case: $\epsilon=\frac{1}{2}(1-L)$
+  - For the $L \gt 1$ case: $\epsilon=\frac{1}{2}(L-1)$
+- Show that: $\frac{1}{2}(3L-1) \lt \frac{u_{k+1}}{u_k} \lt \frac{1}{2}(1+L)$
+- Recursively simplify the inequality to reach $u_{N+1}$ which is a constant
 - Use $\sum_{k=1}^\infty r^k$ is converging **iff** $r < 1$
 
 :::
@@ -158,9 +161,10 @@ Let $u(x) \gt 0$ and $\lim_\limits{n\to \infty}{u_n^{1/n}} =L$.
 
 :::note[Proof Hint]
 
-For $L<1 \lor L > 1$: Consider the limit definition with
-$\epsilon=\frac{1}{2}(1-L)$
+Consider the limit definition with:
 
-For $L=\infty$: Consider the limit definition with $M>1$
+- For $L<1$: $\epsilon=\frac{1}{2}(1-L)$
+- For $L > 1$: $\epsilon=\frac{1}{2}(L-1)$
+- For $L=\infty$:$M>1$
 
 :::
