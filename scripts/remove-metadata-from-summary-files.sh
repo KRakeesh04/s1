@@ -2,4 +2,4 @@
 
 files=$(find ./public/as-pdf/ -name "*.pdf")
 
-mat2 -s --inplace $files
+exiftool -overwrite_original_in_place -all:all= $files
