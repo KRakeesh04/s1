@@ -1,5 +1,5 @@
 ---
-title: Computers
+title: Introduction to Computers
 slug: programming-fundamentals/c-book/computers
 sidebar:
   order: 1

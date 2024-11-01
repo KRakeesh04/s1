@@ -1,5 +1,5 @@
 ---
-title: Mechanical Properties
+title: Introduction to Mechanical Properties
 sidebar:
   label: Introduction
   order: 1

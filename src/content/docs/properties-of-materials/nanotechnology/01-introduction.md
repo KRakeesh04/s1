@@ -1,5 +1,5 @@
 ---
-title: Introduction of Nanomaterials
+title: Introduction to Nanomaterials
 slug: properties-of-materials/nanotechnology/introduction
 sidebar:
   label: Introduction
@@ -67,9 +67,8 @@ Can be used to create nanoscale patterns in thin films or bulk substrates.
 
 The steps:
 
-1. Coat $\text{Si}$ wafer with a photosensitive material.  
-   A material which changes its properties when exposed to electromagnetic
-   radiation
+1. Coat $\text{Si}$ wafer with a photosensitive material. A material which
+   changes its properties when exposed to electromagnetic radiation
 2. Add a mask and use an EM radiation.
 3. Developer solution removes either reacted or unreacted material.
 4. The silicon wafer is etched to transfer the pattern onto silicon wafer.
