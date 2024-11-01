@@ -22,6 +22,12 @@ Inter-molecular bonds: Covalent and Van der Waals or Hydrogen.
   [conductive polymers](/properties-of-materials/electrical-properties/conductive-polymers/)
   exist)
 
+:::note
+
+Elastomers are a type of polymers.
+
+:::
+
 ## Examples
 
 ### Plastics
@@ -34,6 +40,7 @@ Inter-molecular bonds: Covalent and Van der Waals or Hydrogen.
 - Polymethylmethacrylite (PMMA) Perspex It's transparent and lightweight. Used
   in aircraft windows and contact lenses.
 - Polytetrafluoroethylene (PTFE) Teflon
+- Polysiloxane or Silicone
 
 ### Rubber
 

@@ -10,10 +10,7 @@ generally crystalline.
 
 :::note
 
-Metals can be made amorphous by
-
-- Melting
-- Cooling it suddenly
+Metals can be made amorphous by melting and then suddenly cooling a sample.
 
 :::
 
@@ -24,7 +21,8 @@ Inter-molecular bonds: Metallic bonds. Commonly not used in the pure form.
 Pure metals might be:
 
 - not strong enough
-- too weak to corrosion
+- too weak to
+  [corrosion](/properties-of-materials/degradation/forms-of-corrosion/)
 
 ### Alloys
 
@@ -43,18 +41,16 @@ Examples:
 Alloys have a parent metal (mostly used metal, percentage-wise) and one or more
 alloying elements (all elements other than parent metal).
 
-:::note[Super Alloys]
-
-Alloys containing too many alloying elements (maybe even 20).
-
-:::
-
 :::note
 
 Steel (Fe + C) has maximum of 2% C. Won't break easily (ductile). Cast Iron
 (Fe + C) has 2%-4% C. Will break easily (brittle).
 
 :::
+
+#### Super Alloys
+
+Alloys containing too many alloying elements (maybe even 20).
 
 ## Properties
 

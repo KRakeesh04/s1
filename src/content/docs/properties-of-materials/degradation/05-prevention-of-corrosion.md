@@ -66,6 +66,13 @@ environment.
 - Organic
   - Paints
 
+:::note
+
+Stainless steel is usually protected from corrosion by $\text{Cr}_2\text{O}_3$
+layer.
+
+:::
+
 ### Galvanizing
 
 The process of coating steel sheets with a thin coat of zinc to prevent them

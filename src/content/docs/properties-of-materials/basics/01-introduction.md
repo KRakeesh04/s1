@@ -21,6 +21,13 @@ Materials can be divided into 4 sub-classifications.
 Materials can also be categorized based on their usage or their
 [functionalities](/properties-of-materials/basics/functional-materials/).
 
+:::note
+
+Previously wood is considered as a separate classification, along with the
+above-mentioned ones.
+
+:::
+
 ## Property
 
 A property is the response given by a material to a specific stimulus
