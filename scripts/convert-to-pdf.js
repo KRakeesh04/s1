@@ -1,5 +1,8 @@
-import { mkdir } from "node:fs/promises";
+import { mkdir, rm } from "node:fs/promises";
+import { join } from "node:path";
+import { Glob } from "bun";
 import puppeteer from "puppeteer";
+import { CONTENT_DIRECTORY } from "./generate-summary";
 
 (async () => {
 	const browser = await puppeteer.launch();
@@ -50,10 +53,19 @@ import puppeteer from "puppeteer";
 				format: "A4",
 				scale: 0.9,
 			});
-			console.log(`Saved: ${baseLink} (to ${path})`);
+			console.log(`saved: ${baseLink} (to ${path})`);
 			await summaryPage.close();
 		}),
 	);
 
 	await browser.close();
+
+	// clean up summary files
+	const summaryFilesGlob = new Glob("**/summary.md");
+
+	for await (const file of summaryFilesGlob.scan(CONTENT_DIRECTORY)) {
+		const filePath = join(CONTENT_DIRECTORY, file);
+		rm(filePath);
+		console.log(`removed: ${filePath}`);
+	}
 })();

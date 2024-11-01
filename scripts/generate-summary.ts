@@ -1,7 +1,7 @@
 import { dirname, join } from "node:path";
 import { Glob } from "bun";
 
-const CONTENT_DIRECTORY = "./src/content/docs";
+export const CONTENT_DIRECTORY = "./src/content/docs";
 
 function outputFilename(filePath: string) {
 	return join(CONTENT_DIRECTORY, dirname(filePath), "summary.md");
