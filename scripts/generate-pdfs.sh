@@ -2,7 +2,6 @@
 
 cd src/content/docs
 files=$(find "summary" -name "*.md")
-echo $files
 
 mkdir -p ../../../public/as-pdf
 cd ../../../public/as-pdf

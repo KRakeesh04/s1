@@ -32,8 +32,8 @@ function findSections(entries: Props["sidebar"], parentLabel = "") {
 		if (entry.entries[0].type === "link") {
 			sections.push({
 				label: `${entry.label}${parentLabel}`,
-				href: "/as-pdf".concat(
-					entry.entries[0].href.split("/").slice(0, -2).join("/").toLowerCase(),
+				href: "/as-pdf/".concat(
+					entry.entries[0].href.split("/").slice(1, -2).join("--").toLowerCase(),
 					".pdf"
 				),
 			});
