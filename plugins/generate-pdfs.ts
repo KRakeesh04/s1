@@ -1,13 +1,6 @@
 import { exec } from "node:child_process";
 import { existsSync } from "node:fs";
-import {
-	exists,
-	mkdir,
-	readFile,
-	readdir,
-	rename,
-	writeFile,
-} from "node:fs/promises";
+import { mkdir, readFile, readdir, rename, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import type { AstroIntegration } from "astro";
@@ -134,7 +127,7 @@ export default function generatePdfsPlugin(): AstroIntegration {
 				// `dir` is the final output directory where your generated files should go
 				const outputDir = join(fileURLToPath(dir.toString()), "as-pdf");
 				// Make sure the directory exists
-				if (!(await exists(outputDir))) {
+				if (!existsSync(outputDir)) {
 					await mkdir(outputDir, { recursive: true });
 				}
 
