@@ -4,7 +4,11 @@ import { Glob } from "bun";
 export const CONTENT_DIRECTORY = "./src/content/docs";
 
 function outputFilename(filePath: string) {
-	return join(CONTENT_DIRECTORY, dirname(filePath), "summary.md");
+	return join(
+		CONTENT_DIRECTORY,
+		"summary",
+		dirname(filePath).replaceAll("/", "--").concat(".md"),
+	);
 }
 
 const outputFileContents: Record<string, string> = {};
@@ -15,7 +19,7 @@ const inputFiles = Array.from(
 ).sort();
 
 for (const fileString of inputFiles) {
-	if (!fileString.includes("/") || fileString.endsWith("summary.md")) {
+	if (!fileString.includes("/") || fileString.includes("summary")) {
 		continue;
 	}
 	const f = Bun.file(join(CONTENT_DIRECTORY, fileString));
@@ -23,15 +27,18 @@ for (const fileString of inputFiles) {
 	const outputPath = outputFilename(fileString);
 	if (outputFileContents[outputPath] === undefined) {
 		const parts = content.split("---");
+		const sidebarLabel = parts[1]
+			.split("\n")[1]
+			.replaceAll("title: Introduction to ", "");
 		const frontmatter = parts[1]
 			.split("\n")[1]
-			.concat("\nsidebar:\n  label: Summary\n")
-			.replaceAll("Introduction to ", "Summary | ");
+			.replaceAll("Introduction to ", "Summary | ")
+			.concat(`\nsidebar:\n  label: ${sidebarLabel}\n`);
 		outputFileContents[outputPath] = "---".concat(
 			"\n",
 			frontmatter,
 			"---\n\n",
-			"## Introduction",
+			"## Introduction\n",
 			parts[parts.length - 1]
 				.replaceAll(/^#### /gm, "##### ")
 				.replaceAll(/^### /gm, "#### ")

@@ -11,7 +11,7 @@
 		"astro": "astro",
 		"lint": "prettier --check .; biome check; biome format",
 		"lint-fix": "prettier --write . && biome check --write && biome format --write",
-		"generate-summaries": "bun ./scripts/generate-summary.ts; bun ./scripts/convert-to-pdf.js; bash ./scripts/remove-metadata-from-summary-files.sh"
+		"generate-summaries": "bun ./scripts/generate-summary.ts; bash ./scripts/generate-pdfs.sh"
 	},
 	"dependencies": {
 		"@astrojs/check": "0.9.4",
@@ -20,19 +20,21 @@
 		"@astrojs/tailwind": "5.1.2",
 		"@types/bun": "^1.1.12",
 		"astro": "4.16.3",
-		"astro-og-canvas": "^0.5.4",
+		"astro-og-canvas": "^0.5.3",
 		"bun-types": "^1.1.33",
-		"puppeteer": "^23.6.1",
+		"pdf-lib": "^1.17.1",
+		"puppeteer": "^23.3.0",
 		"rehype-katex": "^7.0.1",
 		"rehype-mathjax": "^6.0.0",
 		"remark-math": "^6.0.0",
 		"sharp": "^0.32.6",
-		"starlight-links-validator": "^0.12.4",
-		"tailwindcss": "^3.4.14",
-		"typescript": "^5.6.3"
+		"starlight-links-validator": "^0.12.3",
+		"tailwindcss": "^3.4.11",
+		"typescript": "^5.6.2"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^1.9.4",
+		"@biomejs/biome": "^1.9.0",
+		"html-export-pdf-cli": "^1.2.0",
 		"husky": "^9.1.6",
 		"lint-staged": "^15.2.10",
 		"prettier": "^3.3.3"
