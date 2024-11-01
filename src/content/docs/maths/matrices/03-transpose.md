@@ -14,3 +14,5 @@ Denoted by a superscript T, like $A^T$. $ $
 2. Distributive over addition: $(A+B)^T=A^T+B^T$
 3. $(kA)^T=kA^T$
 4. $(A\times B)^T=B^T\times A^T$
+5. [Spectrum](/maths/matrices/eigenvalues-eigenvectors/#spectrum) of $A^T$ is
+   equal to the spectrum of $A$

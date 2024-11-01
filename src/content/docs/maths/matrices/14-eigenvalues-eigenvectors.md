@@ -25,6 +25,7 @@ Roots of the equation $p(\lambda) = 0$ are the eigenvalues of $A$.
   can be written in terms of all of its eigenvalues.
 - If $\lambda$ is an eigenvalue of $A$, then $\lambda^2$ is an eigenvalue of
   $A^2$
+- $A$ and $A^T$ have the same eigenvalues.
 
 :::
 
@@ -90,6 +91,7 @@ Suppose $A$ is a symmetric matrix with all real entries. Then: $ $
   $\forall \lambda \in S_A, (\lambda_i \in \mathbb{R})$
 - The eigenvectors of $A$ (corresponding to distinct values of $\lambda$) are
   mutually orthogonal
+- $A$ and $A^T$ have the same eigenvalues
 
 ### Upper triangular matrix
 

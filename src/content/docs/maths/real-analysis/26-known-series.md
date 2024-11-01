@@ -8,34 +8,24 @@ sidebar:
 These series are helpful when using the direct comparison test or limit
 comparison test.
 
-### Convergent
+## p-series
 
-When $s \gt 1$: $ $
+Not to be confused with [power series](/maths/real-analysis/power-series).
 
 ```math
 \sum_{k=1}^\infty \frac{1}{k^s}
 ```
 
-The above series is known as p-series (not power series) and occurs in the
-definition of
+Converges **iff** $s \gt 1$. $ $
+
+This series occurs in the definition of
 [Riemann zeta function](/maths/real-analysis/riemann-zeta-function).
 
-When $\lvert r \rvert \lt 1$: $ $
+## Geometric series
 
 ```math
 \sum_{k=1}^\infty r^k
 ```
 
-### Divergent
-
-When $s \le 1$: $ $
-
-```math
-\sum_{k=1}^\infty \frac{1}{k^s}
-```
-
-When $\lvert r \rvert \ge 1$: $ $
-
-```math
-\sum_{k=1}^\infty r^k
-```
+Converges **iff** $\lvert r \rvert \lt 1$. In that case, it converges to
+$\frac{1}{1-r}$.

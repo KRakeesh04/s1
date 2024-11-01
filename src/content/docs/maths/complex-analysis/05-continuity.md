@@ -16,5 +16,5 @@ $f(z)$ is continuous at $z_0$ **iff**:
 \forall{\epsilon>0}\;
 \exists{\delta>0}\;
 \forall{x}\;
-(|z-z_0|<\delta\implies{|f(z)-f(z_0)|<\epsilon})
+\big(\,|z-z_0|<\delta\implies{\lvert f(z)-f(z_0)\rvert<\epsilon}\,\big)
 ```

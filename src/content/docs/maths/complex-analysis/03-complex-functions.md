@@ -5,7 +5,7 @@ sidebar:
   order: 3
 ---
 
-Suppose $w=f(z)$ where $z,w \in \mathbb{C}$. Input and output points are denoted
+Suppose $w=f(z)$ where $z,w \in \mathbb{C}$. Input and output points are marked
 in 2 separate complex planes.
 
 ![Complex function mapping](/maths/complex/complex-function.jpg)
@@ -31,4 +31,4 @@ f(z)\;|\;z\in D
 f(z) = u(x,y) + iv(x,y)
 ```
 
-Here $u, v$ are real functions.
+Here $u, v$ are real functions. $ $

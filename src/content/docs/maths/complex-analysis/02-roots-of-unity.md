@@ -18,4 +18,5 @@ m\in \mathbb{Z}\cup[0,n)
 
 The solution can be written as $1, w, w^2, w^3, \dots, w^{n-1}$. $ $
 
-$1$ is called the trivial solution. Other solutions are primitive $n$-th roots.
+$1$ is called the trivial solution. Other solutions are called as primitive
+$n$-th roots.
