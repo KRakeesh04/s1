@@ -27,8 +27,15 @@ Zermelo-Fraenkel set theory with axiom of choice (ZFC) --
 
 ## The axioms
 
-These are mentioned here for reference and they are not exact and formal
-definitions. A formal definition can be found on
+:::note
+
+This section was **not** discussed in class, and can be skipped.
+
+:::
+
+All the axioms defined in Zermelo-Fraenkel set theory and axiom of choice are
+mentioned here for the sake of completeness. Their exact, formal definition is
+not included here. Formal definitions can be found on
 [ZFC set theory - Wikipedia](https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory).
 
 ### Axiom of extensionality
