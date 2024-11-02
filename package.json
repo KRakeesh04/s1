@@ -47,5 +47,8 @@
 		"*.{md,mdx}": ["bun scripts/auto-slug.js", "prettier --write ."],
 		"*.astro": ["prettier --write ."]
 	},
+	"engines": {
+		"node": "^18"
+	},
 	"trustedDependencies": ["@biomejs/biome", "esbuild", "puppeteer", "sharp"]
 }
