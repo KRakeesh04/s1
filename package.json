@@ -50,8 +50,5 @@
 	"engines": {
 		"node": "^18"
 	},
-	"trustedDependencies": ["@biomejs/biome", "esbuild", "puppeteer", "sharp"],
-	"overrides": {
-		"puppeteer": "^23"
-	}
+	"trustedDependencies": ["@biomejs/biome", "esbuild", "puppeteer", "sharp"]
 }
