@@ -88,5 +88,13 @@ W(x)=c\exp{\bigg(-\int{P}\,\text{d}x\bigg)}
 
 ## Theorem 2
 
-The solutions of the above differential equation are _linearly dependent_
-**iff** their Wronskian vanish identically.
+```math
+W(f_1, f_2)(x)\;\text{does not vanish identically}
+\implies
+\set{f_1, f_2}\;\text{are linearly independent}
+```
+
+The above statement was taken from Wikipeida. However UoM's notes says:
+
+> The solutions of the above differential equation are _linearly dependent_
+> **iff** their Wronskian vanish identically.

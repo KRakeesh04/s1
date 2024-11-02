@@ -2,7 +2,7 @@
 title: Cauchy Sequence
 slug: maths/real-analysis/cauchy-sequence
 sidebar:
-  order: 23
+  order: 22
 ---
 
 A sequence $u:\mathbb{Z}^+ \rightarrow A$ is Cauchy **iff**: $ $
@@ -20,7 +20,7 @@ u_n - u_m
 
 ## Bounded
 
-All Cauchy sequences are bounded. (has an upper bound).
+All Cauchy sequences are bounded.
 
 :::note[Proof Hint]
 
@@ -31,20 +31,19 @@ All Cauchy sequences are bounded. (has an upper bound).
 
 ## Convergence & Cauchy
 
-A sequence is converging **iff** it is Cauchy.
+```math
+u_n\;\text{is converging}
+\implies
+u_n\;\text{is a Cauchy sequence}
+```
+
+Converse is **not** true.
 
 :::note[Proof Hint]
-
-To prove $implies$: $ $
 
 - Consider the limit definition of converging sequences
 - Introduce the converging value (say $L$) into the inequality and split into 2
   parts
-
-To prove $impliedby$: $ $
-
-- Consider the definition of Cauchy sequences
-- Show that the sequence is bounded
 
 :::
 
@@ -62,10 +61,4 @@ A set $A$ is complete **iff**: $ $
 \sum_{k=1}^\infty \frac{1}{k!} = e - 1 \not\in \mathbb{Q}
 ```
 
-IMPORTANT: $\mathbb{R}$ is complete. $ $
-
-:::note[Proof Hint]
-
-Proof is quite hard.
-
-:::
+<b>IMPORTANT</b>: $\mathbb{R}$ is complete. Proof is quite hard. $ $

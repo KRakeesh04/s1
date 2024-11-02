@@ -27,6 +27,11 @@ Squeeze theorem with $\sin \theta \cos \theta \lt \theta \lt \tan\theta$. $ $
 \lim_\limits{x\to \infty} \big(1+\frac{a}{x}\big)^x = e^a
 ```
 
+```math
+\forall x\in\mathbb{R}\;\;
+\lim_\limits{n\to\infty}\frac{x^n}{n!}=0
+```
+
 ### Limits that DNE
 
 ```math

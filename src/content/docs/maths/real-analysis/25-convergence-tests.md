@@ -5,7 +5,13 @@ sidebar:
   order: 25
 ---
 
-## Known series
+## Divergence test
+
+```math
+\lim_\limits{k \to \infty} u_k \neq 0
+\implies
+\sum_{k=1}^n u_k\; \text{is converging}
+```
 
 ## Direct Comparison Test
 

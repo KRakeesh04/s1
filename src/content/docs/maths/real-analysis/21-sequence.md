@@ -52,15 +52,6 @@ n > N
 )
 ```
 
-:::note
-
-```math
-\forall x\in\mathbb{R}\;\;
-\lim_\limits{n\to\infty}\frac{x^n}{n!}=0
-```
-
-:::
-
 ### Diverging
 
 A sequence is diverging **iff** it is not converging.
@@ -76,7 +67,8 @@ A sequence is diverging **iff** it is not converging.
 
 ## Convergence test
 
-All converging sequences are bounded.
+All converging sequences are bounded. Contrapositive can be used to prove the
+divergence.
 
 ### Increasing and bounded above
 
@@ -114,3 +106,6 @@ Suppose $f$ is a function. To find its roots: $ $
 ```math
 x_{n+1}=x_n - \frac{f(x_n)}{f'(x_n)}
 ```
+
+Sequence of $x_n$ converges to one of the roots. Different points can be taken
+to find other roots. $ $

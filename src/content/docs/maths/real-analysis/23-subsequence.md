@@ -2,14 +2,14 @@
 title: Subsequence
 slug: maths/real-analysis/subsequence
 sidebar:
-  order: 22
+  order: 23
 ---
 
 Suppose $u:\mathbb{Z}^+\rightarrow \mathbb{R}$ be a sequence and
 $v:\mathbb{Z}^+\rightarrow\mathbb{Z}^+$ be an increasing sequence. Then
 $u\circ v: \mathbb{Z}^+\rightarrow \mathbb{R}$ is a subsequence of $u$.
 
-## Existence of subsequence
+## Monotonic subsubsequence
 
 Every sequence has a monotonic subsequence.
 
@@ -46,27 +46,19 @@ For a set $A$, all $3$ statements are equivalent:
 
 :::
 
-## Theorem 1
+## Convergence
 
-Suppose $u_n$ is a sequence converging to $L$, and $u_{n_k}$ is a subsequence of
-$u_n$. Then $u_{n_k}$ is converging to $L$.
+Suppose $u_{n_k}$ is a subsequence of $u_n$.
+
+### Sequence converging
 
 ```math
-\lim_\limits{n \to \infty} u_k = L
+\lim_\limits{n \to \infty} u_n = L
 \implies
 \lim_\limits{n_k \to \infty} u_{n_k} = L
 ```
 
-:::note[Proof Hint]
-
-Note that $n_k \ge k$. $ $
-
-:::
-
-## Theorem 2
-
-Suppose $u_n$ is a sequence diverging to $\infty$, and $u_{n_k}$ is a
-subsequence of $u_n$. Then $u_{n_k}$ is diverging to $\infty$.
+### Sequence diverging to infinity
 
 ```math
 \lim_\limits{n \to \infty} u_k = \infty
@@ -76,11 +68,11 @@ subsequence of $u_n$. Then $u_{n_k}$ is diverging to $\infty$.
 
 :::note[Proof Hint]
 
-Note that $n_k \ge k$. $ $
+Above 2 conclusions can be derived using $n_k \ge k$. $ $
 
 :::
 
-## Subsequence of a cauchy sequence
+### Converging subsequence
 
 If $u_n$ is Cauchy and $u_{n_k}$ is a subsequence converging to $L$, then $u_n$
 converges to $L$.

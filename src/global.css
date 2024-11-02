@@ -239,7 +239,7 @@ br {
 	color: var(--sl-color-bg-nav);
 }
 blockquote {
-	@apply text-lg font-medium py-2 bg-[var(--sl-color-green-low)] rounded-md;
+	@apply text-lg font-medium py-2 bg-[var(--sl-color-blue-low)] rounded-md;
 }
 #starlight__sidebar li span {
 	@apply !leading-snug text-[1rem];
