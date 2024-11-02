@@ -174,3 +174,15 @@ Consider the limit definition with:
 - For $L=\infty$:$M>1$
 
 :::
+
+## Dirichlet's test
+
+Let:
+
+- $b_n$ is a decreasing sequence, converging to $0$ **and**
+- $a_n$ is a sequence **and**
+- $A_n = \sum_{k=1}^n a_k$ is bounded
+
+```math
+\implies \sum_{n=1}^\infty a_nb_n\; \text{is converging}
+```

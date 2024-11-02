@@ -43,3 +43,12 @@ $\frac{1}{1-r}$.
 ```
 
 The above series is conditionally converging.
+
+## Special ones
+
+```math
+\sum_{k=1}^\infty \frac{\sin k}{k}\;\text{is converging}
+```
+
+Convergence of the above series can be proven using
+[Dirichlet's test](/maths/real-analysis/convergence-tests/#dirichlets-test).
