@@ -29,3 +29,13 @@ $f(f^{-1}(x))=x=f^{-1}(f(x))=x$
 
 When both domain and codomains of a function are subsets of $\mathbb{R}$, the
 function is said to be a real-valued function. $ $
+
+## Odd and Even functions
+
+### Odd function
+
+A function $f$ that is $f(-x)=-f(x)\; \forall x \in \text{Dom}(f)$.
+
+### Even function
+
+A function $f$ that is $f(-x)=f(x)\; \forall x \in \text{Dom}(f)$.

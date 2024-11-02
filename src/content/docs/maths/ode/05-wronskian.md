@@ -28,12 +28,16 @@ w(x)
 
 ## Theorem 1
 
-The Wronskian of two solutions of the above differential equation is
-**identically zero or never zero**.
+Suppose $u$ and $v$ are two solutions of a 2nd order differential equation, in
+the form mentioned above.
+
+$W(u,v)$ is **always zero or never zero** (in the intended range of solutions).
+$ $
 
 :::note
 
-Identically zero means the function is always zero.
+If the Wronskian is non-zero at a point and zero on another point, $u,v$ cannot
+be solutions to the same differential equation. $ $
 
 :::
 
@@ -89,12 +93,14 @@ W(x)=c\exp{\bigg(-\int{P}\,\text{d}x\bigg)}
 ## Theorem 2
 
 ```math
-W(f_1, f_2)(x)\;\text{does not vanish identically}
-\implies
-\set{f_1, f_2}\;\text{are linearly independent}
+\set{f_1, f_2,\dots, f_n}\;\text{are linearly dependent}
+\iff
+\forall x;\;W(f_1, f_2,\dots, f_n)(x) = 0 \;
 ```
 
-The above statement was taken from Wikipeida. However UoM's notes says:
+:::note
 
-> The solutions of the above differential equation are _linearly dependent_ >
-> **iff** their Wronskian vanish identically.
+This theorem is valid only under some conditions, which are out of the scope of
+the course and not covered.
+
+:::

@@ -155,10 +155,11 @@ Let $u(x) \gt 0$ and $\lim_\limits{n\to \infty}{\frac{u_{n+1}}{u_n}} =L$.
 
 ## Root Test
 
-Let $u(x) \gt 0$ and $\lim_\limits{n\to \infty}{u_n^{1/n}} =L$.
+Let $u_n$ is a sequence and
+$\lim_\limits{n\to \infty}{(\rvert u_n\rvert)^{1/n}} =L$.
 
 ```math
- L \lt 1 \implies \sum_{n=1}^\infty u_n\;\text{is converging}
+ L \lt 1 \implies \sum_{n=1}^\infty u_n\;\text{is absolutely converging}
 ```
 
 ```math
