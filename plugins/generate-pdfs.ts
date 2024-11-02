@@ -123,7 +123,7 @@ export default function generatePdfsPlugin(): AstroIntegration {
 					commandArgs += ` -i ${newFilePath}`;
 				}
 				commandArgs +=
-					" --outDir dist/as-pdf --browserArgs --disable-gpu --browserArgs --no-sandbox --headless new";
+					" --outDir dist/as-pdf --browserArgs --disable-gpu --browserArgs --no-sandbox --headless new --browserArgs --disable-setuid-sandbox --browserArgs --disable-dev-shm-usage";
 
 				// `dir` is the final output directory where your generated files should go
 				const outputDir = join(fileURLToPath(dir.toString()), "as-pdf");
