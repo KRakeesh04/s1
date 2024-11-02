@@ -17,42 +17,42 @@ function countTotalEntries(entries: Props["sidebar"]) {
 	return count;
 }
 
-interface SectionSummaryLink {
-	label: string;
-	href: string;
-}
+// interface SectionSummaryLink {
+// 	label: string;
+// 	href: string;
+// }
 
-function findSections(entries: Props["sidebar"], parentLabel = "") {
-	const sections: Array<SectionSummaryLink> = [];
-	for (const entry of entries) {
-		if (entry.type !== "group") {
-			continue;
-		}
+// function findSections(entries: Props["sidebar"], parentLabel = "") {
+// 	const sections: Array<SectionSummaryLink> = [];
+// 	for (const entry of entries) {
+// 		if (entry.type !== "group") {
+// 			continue;
+// 		}
 
-		if (entry.entries[0].type === "link") {
-			sections.push({
-				label: `${entry.label}${parentLabel}`,
-				href: "/as-pdf/".concat(
-					entry.entries[0].href.split("/").slice(1, -2).join("--").toLowerCase(),
-					".pdf"
-				),
-			});
-		} else {
-			for (const subsection of findSections(
-				entry.entries,
-				` | ${entry.label}${parentLabel}`
-			)) {
-				sections.push(subsection);
-			}
-		}
-	}
+// 		if (entry.entries[0].type === "link") {
+// 			sections.push({
+// 				label: `${entry.label}${parentLabel}`,
+// 				href: "/as-pdf/".concat(
+// 					entry.entries[0].href.split("/").slice(1, -2).join("--").toLowerCase(),
+// 					".pdf"
+// 				),
+// 			});
+// 		} else {
+// 			for (const subsection of findSections(
+// 				entry.entries,
+// 				` | ${entry.label}${parentLabel}`
+// 			)) {
+// 				sections.push(subsection);
+// 			}
+// 		}
+// 	}
 
-	return sections;
-}
+// 	return sections;
+// }
 
 const totalPages = countTotalEntries(Astro.props.sidebar);
 const isHomepage = Astro.props.slug === "";
-const sections = findSections(Astro.props.sidebar);
+// const sections = findSections(Astro.props.sidebar);
 ---
 
 {
@@ -83,10 +83,11 @@ const sections = findSections(Astro.props.sidebar);
 			</ul>{" "}
 			<h2>Notes as PDFs</h2>
 			<p>
-				The PDFs automatically updates whenever the content changes. However the
-				format of the PDF may not be perfect.
+			Due to some issues, the pdfs are not available. :(
+				<!-- The PDFs automatically updates whenever the content changes. However the
+				format of the PDF may not be perfect. -->
 			</p>
-			<ul class="notes-as-pdf-links">
+			<!-- <ul class="notes-as-pdf-links">
 				{sections.map((section) => {
 					return (
 						<li>
@@ -94,7 +95,7 @@ const sections = findSections(Astro.props.sidebar);
 						</li>
 					);
 				})}
-			</ul>
+			</ul> -->
 			<h2 class="mb-1">Content Included</h2>
 			<p>
  All modules other than Mechanics, are fully updated, totaling to{" "}
