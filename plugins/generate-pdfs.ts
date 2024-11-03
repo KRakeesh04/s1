@@ -19,7 +19,7 @@ function outputFilename(filePath: string) {
 	);
 }
 
-async function waitForServer(url: string, timeout = 5000, interval = 500) {
+async function waitForServer(url: string, timeout = 10000, interval = 500) {
 	const start = Date.now();
 
 	while (Date.now() - start < timeout) {
