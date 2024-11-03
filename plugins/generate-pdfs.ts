@@ -1,10 +1,11 @@
+import { spawn } from "node:child_process";
 import { existsSync } from "node:fs";
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import chromium from "@sparticuz/chromium";
 import type { AstroIntegration } from "astro";
-import type { Browser } from "puppeteer-core";
+import type { Browser, Page } from "puppeteer-core";
 import puppeteer from "puppeteer-core";
 
 chromium.setHeadlessMode = true;
@@ -18,18 +19,26 @@ function outputFilename(filePath: string) {
 	);
 }
 
-async function waitUntilAllBecomeAvailable(pages: string[]) {
-	return new Promise<void>((resolve) => {
-		while (pages.length >= 0) {
-			if (pages.length === 0) {
-				resolve();
-				return;
+async function waitForServer(url: string, timeout = 10000, interval = 500) {
+	const start = Date.now();
+
+	while (Date.now() - start < timeout) {
+		try {
+			const response = await fetch(url);
+
+			if (response.ok) {
+				console.log(`Server is ready at ${url}`);
+				return true; // Server responded successfully, it's ready
 			}
-			if (existsSync(pages[0])) {
-				pages.splice(0, 1);
-			}
+		} catch {
+			// Ignore errors and try again after a delay
 		}
-	});
+
+		// Wait before retrying
+		await new Promise((resolve) => setTimeout(resolve, interval));
+	}
+
+	throw new Error(`Server did not become ready within ${timeout}ms`);
 }
 
 export default function generatePdfsPlugin(): AstroIntegration {
@@ -116,19 +125,13 @@ export default function generatePdfsPlugin(): AstroIntegration {
 					if (!page.pathname.startsWith("summary")) {
 						continue;
 					}
-					pagesToExport.push(
-						join(process.cwd(), "./dist/", page.pathname, "index.html"),
-					);
+					pagesToExport.push(page.pathname);
 				}
 
-				await waitUntilAllBecomeAvailable([...pagesToExport]);
-
-				browser = await puppeteer.launch({
-					args: chromium.args,
-					defaultViewport: chromium.defaultViewport,
-					executablePath: await chromium.executablePath(),
-					headless: chromium.headless,
-				});
+				const devServer = spawn("astro", ["dev"]);
+				await waitForServer("http://localhost:4321/");
+				logger.info("dev server started");
+				devServer.on("data", console.log);
 
 				const outputDir = join(fileURLToPath(dir.toString()), "as-pdf");
 				// Make sure the directory exists
@@ -136,29 +139,52 @@ export default function generatePdfsPlugin(): AstroIntegration {
 					await mkdir(outputDir, { recursive: true });
 				}
 
+				browser = await puppeteer.launch({
+					devtools: false,
+					args: chromium.args,
+					defaultViewport: chromium.defaultViewport,
+					executablePath: await chromium.executablePath(),
+					headless: chromium.headless,
+				});
+
+				let usedAboutBlankPage = false;
+				const browserTabs = await browser.pages();
+
 				await Promise.all(
 					pagesToExport.map(async (pageUrl) => {
-						const baseLink = pageUrl.replace(join(process.cwd(), "dist"), "");
-						const linkParts = baseLink.split("/").slice(0, -1);
+						const linkParts = pageUrl.split("/").slice(0, -1);
 						const lastPart = linkParts.at(-1);
 						if (!lastPart) return;
 						const fileName = lastPart.concat(".pdf");
 						const path = join(outputDir, fileName);
-						const summaryPage = await browser.newPage();
-						await summaryPage.goto("file://".concat(pageUrl), {
+
+						let summaryPage: Page;
+						if (usedAboutBlankPage || browserTabs.length === 0) {
+							summaryPage = await browser.newPage();
+						} else {
+							summaryPage = browserTabs[0];
+							usedAboutBlankPage = true;
+						}
+
+						const pageFullUrl = "http://localhost:4321/".concat(pageUrl);
+						logger.info(`opening ${pageFullUrl}`);
+						await summaryPage.bringToFront();
+						await summaryPage.goto(pageFullUrl, {
 							waitUntil: "networkidle2",
+							timeout: 60000,
 						});
 						await summaryPage.pdf({
 							path,
 							format: "A4",
 							scale: 0.9,
 						});
-						logger.info(`saved: ${baseLink} (to ${path})`);
+						logger.info(`saved: ${pageUrl} (to ${path})`);
 						await summaryPage.close();
 					}),
 				);
 
 				await browser.close();
+				devServer.kill();
 
 				// let commandArgs = "html-export-pdf-cli";
 				// for (const page of pagesToExport) {
