@@ -19,7 +19,7 @@ function outputFilename(filePath: string) {
 	);
 }
 
-async function waitForServer(url: string, timeout = 1000, interval = 500) {
+async function waitForServer(url: string, timeout = 5000, interval = 500) {
 	const start = Date.now();
 
 	while (Date.now() - start < timeout) {
@@ -39,7 +39,7 @@ async function waitForServer(url: string, timeout = 1000, interval = 500) {
 
 export default function generatePdfsIntegration(): AstroIntegration {
 	let browser: Browser;
-	let devServer: ChildProcessWithoutNullStreams;
+	const devServer: ChildProcessWithoutNullStreams = spawn("astro", ["dev"]);
 	return {
 		name: "generate-pdfs",
 		hooks: {
@@ -115,7 +115,6 @@ export default function generatePdfsIntegration(): AstroIntegration {
 						}),
 					),
 				);
-				devServer = spawn("astro", ["dev"]);
 				await waitForServer("http://localhost:4321/");
 				logger.info("dev server started");
 			},
