@@ -45,6 +45,7 @@ export const { getStaticPaths, GET } = OGImageRoute({
 				path: "./public/me.png",
 				size: [120],
 			},
+			fonts: ["./public/fonts/noto-sans_5.0.22_latin-400-normal.ttf"],
 			font: {
 				title: {
 					color: [0, 0, 0],
