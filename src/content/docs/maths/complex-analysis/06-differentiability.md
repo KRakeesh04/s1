@@ -25,14 +25,3 @@ of $f(z)$.
 
 Suppose $z_0 \in \mathbb{C}$. A neighborhood of $z_0$ is the region contained in
 the circle $|z − z_0| = r \gt 0$.
-
-## Analytic
-
-A function $f$ is said to be analytic at $z_0$ **iff** it is differentiable
-throughout a neighbourhood of $z_0$.
-
-### Analytic implies differentiable
-
-```math
-f \text{ is analytic at } z_0 \implies f \text{ is differentiable at } z_0
-```

@@ -2,8 +2,16 @@
 title: Cauchy Riemann Equations
 slug: maths/complex-analysis/cauchy-riemann-equations
 sidebar:
-  order: 7
+  order: 8
 ---
+
+Suppose $f$ is a complex-valued function of a complex variable. If the
+derivatives are the same for the 2 paths --real and imaginary axes--, then $f$
+is analytic.
+
+Suppose $f(z)=u(x,y)+iv(x,y)$ for the theorems below. $ $
+
+## The equations
 
 The set of equations mentioned below are the Cauchy Riemann Equations, where
 $u,v$ are functions of $x,y$.
@@ -27,9 +35,9 @@ $u,v$ are functions of $x,y$.
 
 ## Theorem 1
 
-Suppose $f(z)=u(x,y)+iv(x,y)$, and $f$ is differentiable at $z_0$. Then
+**If** $f$ is differentiable at $z_0$, **then**
 
-- All partial derivatives $u_x,u_y,v_x,v_y$ exist
+- All partial derivatives $u_x,u_y,v_x,v_y$ exist **and**
 - They satisfy the Cauchy Riemann equations
 
 ```math
@@ -44,8 +52,8 @@ Contrapositive is useful when proving $f$ is **not** differentiable at $z_0$.
 
 ## Theorem 2
 
-Suppose $f(z)=u(x,y)+iv(x,y)$. All partial derivatives exist, and they are all
-continuous at $z_0$. Then $f$ is differentiable at $z_0$. And:
+**If** All partial derivatives of $u,v$ with respect to $x,y$ exist **and** they
+are continuous at $z_0$, **then** $f$ is differentiable at $z_0$. And:
 
 ```math
 f'(z_0)=u_x(x_0,y_0) + iv_x(x_0,y_0)
@@ -53,5 +61,5 @@ f'(z_0)=u_x(x_0,y_0) + iv_x(x_0,y_0)
 
 ## Theorem 3
 
-If $f$ is analytic at $z_0$, then its first-order partial derivatives are
-continuous in a neighbourhood of $z_0$.
+**If** $f$ is analytic at $z_0$, **then** its first-order partial derivatives
+are continuous in a neighbourhood of $z_0$.
