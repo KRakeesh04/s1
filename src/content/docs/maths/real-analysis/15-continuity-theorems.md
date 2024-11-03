@@ -43,9 +43,15 @@ Let:
 
 Then $\lim_\limits{x\to a} g(x) = L$. $ $
 
-:::note
-
 Works for any kind of x limits.
+
+:::note[Proof Hint]
+
+- Consider the limit definition of both $f$ and $h$ at $x=a$
+- Show that $f$ is bounded below by $L-\epsilon$
+- Show that $h$ is bounded above by $L+\epsilon$
+- That concludes $g(x)-L$ is bounded by $\epsilon$ which leads to the required
+  limit
 
 :::
 
