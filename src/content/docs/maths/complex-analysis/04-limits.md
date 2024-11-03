@@ -52,4 +52,13 @@ Suppose $f(z)=u(x,y)+iv(x,y)$, $z_0 = x_0 + iy_0$, $z=x+iy$, and:
 \lim_\limits{z\to 0} \frac{z}{\overline{z}}\;\text{doesn't exist}
 ```
 
-The above limit is important as it shows up in many questions.
+The above limit is important as it shows up in many questions. Can be disproved
+by taking two paths: real, imaginary axes.
+
+```math
+
+\lim_\limits{z\to 0} \frac{z \overline{z}}{z+\overline{z}}\;\text{doesn't exist}
+
+```
+
+Can be proven usign taking 2 paths: real axis, $t+\sqrt{t}i$.

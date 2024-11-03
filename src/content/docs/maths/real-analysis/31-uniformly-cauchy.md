@@ -17,7 +17,7 @@ u_n(x)-u_m(x)
 \rvert \lt \epsilon
 ```
 
-If $u_n(x)$ is a sequence of functions on $\mathbb{R}$, then:
+If $u_n(x)$ is a sequence of real-valued functions, then:
 
 ```math
 u_n(x)\text{ converges uniformly} \iff

@@ -18,3 +18,11 @@ $f(z)$ is continuous at $z_0$ **iff**:
 \forall{x}\;
 \big(\,|z-z_0|<\delta\implies{\lvert f(z)-f(z_0)\rvert<\epsilon}\,\big)
 ```
+
+### Conditions
+
+For $f$ to be continuous on $z_0$, all these conditions are required.
+
+- $f$ is defined at $z_0$
+- $\lim_\limits{z\to z_0} f(z)$ exists
+- $\lim_\limits{z\to z_0} f(z) = f(z_0)$

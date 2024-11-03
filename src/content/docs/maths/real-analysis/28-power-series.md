@@ -43,6 +43,12 @@ $(c-R,c+R)$ is the range of convergence. Aka. interval of convergence. The
 series may converge or diverge at the endpoints. Endpoints must be checked
 separately to find out if they must be included in the range of convergence. $ $
 
+The series is:
+
+- Absolutely converging for $\lvert x-a \rvert \lt R$
+- Diverging for $\lvert x-a \rvert \lt R$
+- Uniformly converging for $\lvert x-a \rvert \le \rho \lt R$
+
 ## Theorem 1
 
 If $R \in (0,\infty)$ and $\lvert x-a \rvert \le p$ for $p \lt R$, then $s_n(x)$

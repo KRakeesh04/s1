@@ -1,5 +1,5 @@
 ---
-title: Cauchy Riemann Equations
+title: Cauchy-Riemann Equations
 slug: maths/complex-analysis/cauchy-riemann-equations
 sidebar:
   order: 8
@@ -52,8 +52,15 @@ Contrapositive is useful when proving $f$ is **not** differentiable at $z_0$.
 
 ## Theorem 2
 
-**If** All partial derivatives of $u,v$ with respect to $x,y$ exist **and** they
-are continuous at $z_0$, **then** $f$ is differentiable at $z_0$. And:
+If:
+
+- All partial derivatives $u_x,u_y,v_x,v_y$ exist **and**
+- They satisfy Cauchy-Riemann equations **and**
+- They are continuous at $z_0$
+
+Then:
+
+- $f$ is differentiable at $z_0$ **and**
 
 ```math
 f'(z_0)=u_x(x_0,y_0) + iv_x(x_0,y_0)
