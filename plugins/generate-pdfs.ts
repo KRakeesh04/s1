@@ -115,13 +115,9 @@ export default function generatePdfsIntegration(): AstroIntegration {
 						}),
 					),
 				);
-				await waitForServer("http://localhost:4321/");
-				logger.info("dev server started");
-			},
-			"astro:config:done": () => {
-				devServer = spawn("astro", ["dev"]);
 			},
 			"astro:build:done": async ({ dir, pages, logger }) => {
+				devServer = spawn("astro", ["dev"]);
 				const pagesToExport: string[] = [];
 				for (const page of pages) {
 					if (!page.pathname.startsWith("summary")) {
@@ -135,6 +131,8 @@ export default function generatePdfsIntegration(): AstroIntegration {
 					await mkdir(outputDir, { recursive: true });
 				}
 
+				await waitForServer("http://localhost:4321/");
+				logger.info("dev server started");
 				browser = await puppeteer.launch({
 					devtools: false,
 					args: chromium.args,
