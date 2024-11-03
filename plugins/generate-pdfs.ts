@@ -1,10 +1,13 @@
-import { exec } from "node:child_process";
 import { existsSync } from "node:fs";
-import { mkdir, readFile, readdir, rename, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import chromium from "@sparticuz/chromium";
 import type { AstroIntegration } from "astro";
+import type { Browser } from "puppeteer-core";
+import puppeteer from "puppeteer-core";
 
+chromium.setHeadlessMode = true;
 const CONTENT_DIRECTORY = "./src/content/docs";
 
 function outputFilename(filePath: string) {
@@ -30,6 +33,7 @@ async function waitUntilAllBecomeAvailable(pages: string[]) {
 }
 
 export default function generatePdfsPlugin(): AstroIntegration {
+	let browser: Browser;
 	return {
 		name: "generate-pdfs",
 		hooks: {
@@ -112,35 +116,70 @@ export default function generatePdfsPlugin(): AstroIntegration {
 					if (!page.pathname.startsWith("summary")) {
 						continue;
 					}
-					pagesToExport.push(join("./dist/", page.pathname, "index.html"));
+					pagesToExport.push(
+						join(process.cwd(), "./dist/", page.pathname, "index.html"),
+					);
 				}
 
 				await waitUntilAllBecomeAvailable([...pagesToExport]);
-				let commandArgs = "html-export-pdf-cli";
-				for (const page of pagesToExport) {
-					const newFilePath = page.replace("/index", "");
-					await rename(page, newFilePath);
-					commandArgs += ` -i ${newFilePath}`;
-				}
-				commandArgs +=
-					" --outDir dist/as-pdf --browserArgs --disable-gpu --browserArgs --no-sandbox --headless new --browserArgs --disable-setuid-sandbox --browserArgs --disable-dev-shm-usage";
 
-				// `dir` is the final output directory where your generated files should go
+				browser = await puppeteer.launch({
+					args: chromium.args,
+					defaultViewport: chromium.defaultViewport,
+					executablePath: await chromium.executablePath(),
+					headless: chromium.headless,
+				});
+
 				const outputDir = join(fileURLToPath(dir.toString()), "as-pdf");
 				// Make sure the directory exists
 				if (!existsSync(outputDir)) {
 					await mkdir(outputDir, { recursive: true });
 				}
 
-				return new Promise((resolve, reject) => {
-					exec(commandArgs, (error, stdout) => {
-						if (error) {
-							reject(error);
-						}
-						logger.info(`html-export-pdf-cli ${stdout}`);
-						resolve();
-					});
-				});
+				await Promise.all(
+					pagesToExport.map(async (pageUrl) => {
+						const baseLink = pageUrl.replace(join(process.cwd(), "dist"), "");
+						const linkParts = baseLink.split("/").slice(0, -1);
+						const lastPart = linkParts.at(-1);
+						if (!lastPart) return;
+						const fileName = lastPart.concat(".pdf");
+						const path = join(outputDir, fileName);
+						const summaryPage = await browser.newPage();
+						await summaryPage.goto("file://".concat(pageUrl), {
+							waitUntil: "networkidle2",
+						});
+						await summaryPage.pdf({
+							path,
+							format: "A4",
+							scale: 0.9,
+						});
+						logger.info(`saved: ${baseLink} (to ${path})`);
+						await summaryPage.close();
+					}),
+				);
+
+				await browser.close();
+
+				// let commandArgs = "html-export-pdf-cli";
+				// for (const page of pagesToExport) {
+				// 	const newFilePath = page.replace("/index", "");
+				// 	await rename(page, newFilePath);
+				// 	commandArgs += ` -i ${newFilePath}`;
+				// }
+				// commandArgs +=
+				// 	" --outDir dist/as-pdf --browserArgs --disable-gpu --browserArgs --no-sandbox --headless new --browserArgs --disable-setuid-sandbox --browserArgs --disable-dev-shm-usage";
+
+				// `dir` is the final output directory where your generated files should go
+
+				// return new Promise((resolve, reject) => {
+				// 	exec(commandArgs, (error, stdout) => {
+				// 		if (error) {
+				// 			reject(error);
+				// 		}
+				// 		// logger.info(`html-export-pdf-cli ${stdout}`);
+				// 		resolve();
+				// 	});
+				// });
 			},
 		},
 	};
