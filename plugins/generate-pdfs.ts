@@ -1,4 +1,4 @@
-import { spawn } from "node:child_process";
+import { type ChildProcessWithoutNullStreams, spawn } from "node:child_process";
 import { existsSync } from "node:fs";
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
@@ -19,7 +19,7 @@ function outputFilename(filePath: string) {
 	);
 }
 
-async function waitForServer(url: string, timeout = 10000, interval = 500) {
+async function waitForServer(url: string, timeout = 1000, interval = 500) {
 	const start = Date.now();
 
 	while (Date.now() - start < timeout) {
@@ -28,13 +28,9 @@ async function waitForServer(url: string, timeout = 10000, interval = 500) {
 
 			if (response.ok) {
 				console.log(`Server is ready at ${url}`);
-				return true; // Server responded successfully, it's ready
+				return true;
 			}
-		} catch {
-			// Ignore errors and try again after a delay
-		}
-
-		// Wait before retrying
+		} catch {}
 		await new Promise((resolve) => setTimeout(resolve, interval));
 	}
 
@@ -43,6 +39,7 @@ async function waitForServer(url: string, timeout = 10000, interval = 500) {
 
 export default function generatePdfsIntegration(): AstroIntegration {
 	let browser: Browser;
+	let devServer: ChildProcessWithoutNullStreams;
 	return {
 		name: "generate-pdfs",
 		hooks: {
@@ -118,6 +115,9 @@ export default function generatePdfsIntegration(): AstroIntegration {
 						}),
 					),
 				);
+				devServer = spawn("astro", ["dev"]);
+				await waitForServer("http://localhost:4321/");
+				logger.info("dev server started");
 			},
 			"astro:build:done": async ({ dir, pages, logger }) => {
 				const pagesToExport: string[] = [];
@@ -127,10 +127,6 @@ export default function generatePdfsIntegration(): AstroIntegration {
 					}
 					pagesToExport.push(page.pathname);
 				}
-
-				const devServer = spawn("astro", ["dev"]);
-				await waitForServer("http://localhost:4321/");
-				logger.info("dev server started");
 
 				const outputDir = join(fileURLToPath(dir.toString()), "as-pdf");
 				if (!existsSync(outputDir)) {
