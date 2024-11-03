@@ -36,7 +36,6 @@
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.0",
 		"@types/rollup": "^0.54.0",
-		"html-export-pdf-cli": "^1.2.0",
 		"husky": "^9.1.6",
 		"lint-staged": "^15.2.10",
 		"prettier": "^3.3.3"
