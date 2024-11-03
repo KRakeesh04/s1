@@ -39,7 +39,7 @@ async function waitForServer(url: string, timeout = 10000, interval = 500) {
 
 export default function generatePdfsIntegration(): AstroIntegration {
 	let browser: Browser;
-	const devServer: ChildProcessWithoutNullStreams = spawn("astro", ["dev"]);
+	let devServer: ChildProcessWithoutNullStreams;
 	return {
 		name: "generate-pdfs",
 		hooks: {
@@ -117,6 +117,9 @@ export default function generatePdfsIntegration(): AstroIntegration {
 				);
 				await waitForServer("http://localhost:4321/");
 				logger.info("dev server started");
+			},
+			"astro:config:done": () => {
+				devServer = spawn("astro", ["dev"]);
 			},
 			"astro:build:done": async ({ dir, pages, logger }) => {
 				const pagesToExport: string[] = [];
