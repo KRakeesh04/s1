@@ -45,6 +45,11 @@ Proofs are required for each property mentioned below.
 - $\Gamma(1)=1$
 - $\Gamma(n+1)=n\Gamma(n)$
 - $\Gamma(n+1)=n!$
+- $\Gamma(n) \Gamma(1-n) = \pi \csc(\pi x)$
+- $\Gamma(\frac{n}{2})$ can be extrapolated from
+  $\Gamma(\frac{1}{2})=\sqrt{\pi}$ (see below for explanation)
+- $\Gamma(k)$, where $k$ is a rational number (other than integers and half of
+  any integer), cannot be expressed in a closed form value.
 
 ## Extension of gamma function
 
@@ -126,7 +131,8 @@ Use $x=kt$. $ $
 
 :::note[Proof Hint]
 
-Use $e^{-x}=t$. $ $
+Use $e^{-x}=t$. If the given integral's range is from $0$ to $1$ and there is
+$\ln$, it's better to try this substitution.
 
 :::
 
