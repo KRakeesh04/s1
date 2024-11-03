@@ -5,7 +5,7 @@ import rehypeMathjax from "rehype-mathjax";
 import remarkMath from "remark-math";
 import starlightLinksValidator from "starlight-links-validator";
 import { SITE_TITLE } from "./config.mjs";
-import generatePdfsPlugin from "./plugins/generate-pdfs";
+import generatePdfsIntegration from "./plugins/generate-pdfs";
 
 // https://astro.build/config
 export default defineConfig({
@@ -15,7 +15,7 @@ export default defineConfig({
 	},
 	site: "https://s1.sahithyan.dev",
 	integrations: [
-		generatePdfsPlugin(),
+		generatePdfsIntegration(),
 		starlight({
 			plugins: [
 				starlightLinksValidator({

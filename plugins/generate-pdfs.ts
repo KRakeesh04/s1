@@ -41,7 +41,7 @@ async function waitForServer(url: string, timeout = 10000, interval = 500) {
 	throw new Error(`Server did not become ready within ${timeout}ms`);
 }
 
-export default function generatePdfsPlugin(): AstroIntegration {
+export default function generatePdfsIntegration(): AstroIntegration {
 	let browser: Browser;
 	return {
 		name: "generate-pdfs",
@@ -131,10 +131,8 @@ export default function generatePdfsPlugin(): AstroIntegration {
 				const devServer = spawn("astro", ["dev"]);
 				await waitForServer("http://localhost:4321/");
 				logger.info("dev server started");
-				devServer.on("data", console.log);
 
 				const outputDir = join(fileURLToPath(dir.toString()), "as-pdf");
-				// Make sure the directory exists
 				if (!existsSync(outputDir)) {
 					await mkdir(outputDir, { recursive: true });
 				}
@@ -171,7 +169,7 @@ export default function generatePdfsPlugin(): AstroIntegration {
 						await summaryPage.bringToFront();
 						await summaryPage.goto(pageFullUrl, {
 							waitUntil: "networkidle2",
-							timeout: 60000,
+							timeout: 90000,
 						});
 						await summaryPage.pdf({
 							path,
@@ -185,27 +183,6 @@ export default function generatePdfsPlugin(): AstroIntegration {
 
 				await browser.close();
 				devServer.kill();
-
-				// let commandArgs = "html-export-pdf-cli";
-				// for (const page of pagesToExport) {
-				// 	const newFilePath = page.replace("/index", "");
-				// 	await rename(page, newFilePath);
-				// 	commandArgs += ` -i ${newFilePath}`;
-				// }
-				// commandArgs +=
-				// 	" --outDir dist/as-pdf --browserArgs --disable-gpu --browserArgs --no-sandbox --headless new --browserArgs --disable-setuid-sandbox --browserArgs --disable-dev-shm-usage";
-
-				// `dir` is the final output directory where your generated files should go
-
-				// return new Promise((resolve, reject) => {
-				// 	exec(commandArgs, (error, stdout) => {
-				// 		if (error) {
-				// 			reject(error);
-				// 		}
-				// 		// logger.info(`html-export-pdf-cli ${stdout}`);
-				// 		resolve();
-				// 	});
-				// });
 			},
 		},
 	};
