@@ -70,7 +70,7 @@ Suppose $s_n$ is a conditionally converging series. Then: $ $
    - $-\infty$
    - Does not exist
 
-## Divergence test
+### Terms limit to 0
 
 ```math
 \sum_{k=1}^{n}{u_k}\text{ is converging}
@@ -78,23 +78,5 @@ Suppose $s_n$ is a conditionally converging series. Then: $ $
 \lim_\limits{k\to\infty}{u_k} = 0
 ```
 
-The converse is more useful:
-
-```math
-\lim_\limits{k\to\infty}{u_k} \neq 0
-\implies
-\sum_{k=1}^{n}{u_k}\text{ is diverging}
-```
-
-## A secret note
-
-For any $p\gt0$, as $n$ tends to $\infty$, the below inequality holds:
-
-```math
-\ln n
-\lt
-n^p
-\lt n!
-```
-
-The above inequality can be used to
+The converse is known as the
+[divergence test](/maths/real-analysis/convergence-tests/#divergence-test):

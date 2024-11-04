@@ -2,7 +2,7 @@
 title: Riemann Zeta Function
 slug: maths/real-analysis/riemann-zeta-function
 sidebar:
-  order: 33
+  order: 34
 ---
 
 ```math

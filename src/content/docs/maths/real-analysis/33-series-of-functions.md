@@ -2,7 +2,7 @@
 title: Series of Functions
 slug: maths/real-analysis/series-of-functions
 sidebar:
-  order: 32
+  order: 33
 ---
 
 Let $u_k(x)$ is a sequence of integrable functions. And series of those

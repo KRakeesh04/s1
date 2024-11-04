@@ -2,7 +2,7 @@
 title: Taylor Series
 slug: maths/real-analysis/taylor-series
 sidebar:
-  order: 29
+  order: 30
 ---
 
 Let $f$ be infinitely many times differentiable on $(a,b)$ and $c,x \in (a,b)$.

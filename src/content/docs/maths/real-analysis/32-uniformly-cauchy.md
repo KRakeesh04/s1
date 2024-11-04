@@ -2,7 +2,7 @@
 title: Uniformly Cauchy
 slug: maths/real-analysis/uniformly-cauchy
 sidebar:
-  order: 31
+  order: 32
 ---
 
 $u_n(x)$ in $x\in A$ is said to be uniformly cauchy **iff**:

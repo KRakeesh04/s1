@@ -2,7 +2,7 @@
 title: Sequence of Functions
 slug: maths/real-analysis/sequence-of-functions
 sidebar:
-  order: 30
+  order: 31
 ---
 
 ## Types of Convergence

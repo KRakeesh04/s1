@@ -16,7 +16,8 @@ Not to be confused with [power series](/maths/real-analysis/power-series).
 \sum_{k=1}^\infty \frac{1}{k^s}
 ```
 
-Converges **iff** $s \gt 1$. $ $
+Converges **iff** $s \gt 1$. When $s=1$ the series is called the **harmonic
+series**. $ $
 
 This series occurs in the definition of
 [Riemann zeta function](/maths/real-analysis/riemann-zeta-function).

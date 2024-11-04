@@ -30,6 +30,9 @@ One way of disproving a complex limit is to choose 2 different paths and showing
 the limits on each path are different. This is similar to showing the right and
 left limits are different in real analysis.
 
+In a limit, when using $y=mx$ in $z=x+iy$, if $m$ doesn't cancel out, then the
+limit doesn't exists.
+
 ## Real and imaginary limits
 
 Suppose $f(z)=u(x,y)+iv(x,y)$, $z_0 = x_0 + iy_0$, $z=x+iy$, and:
@@ -61,4 +64,4 @@ by taking two paths: real, imaginary axes.
 
 ```
 
-Can be proven usign taking 2 paths: real axis, $t+\sqrt{t}i$.
+Can be proven usign taking 2 paths: real axis, $t+\sqrt{t}i$. $ $
