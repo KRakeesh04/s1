@@ -40,10 +40,21 @@ async function waitForServer(url: string, timeout = 10000, interval = 500) {
 export default function generatePdfsIntegration(): AstroIntegration {
 	let browser: Browser;
 	let devServer: ChildProcessWithoutNullStreams;
+	/**
+    used to signal if the integration must do its work or not
+  */
+	let isEnabled = true;
+
 	return {
 		name: "generate-pdfs",
 		hooks: {
-			"astro:config:setup": async ({ logger }) => {
+			"astro:config:setup": async ({ logger, command }) => {
+				if (command !== "build") {
+					isEnabled = false;
+					logger.info("disabled as non-production build");
+					return;
+				}
+
 				const outputFileContents: Record<string, string> = {};
 
 				await mkdir(join(CONTENT_DIRECTORY, "summary"), {
@@ -117,6 +128,7 @@ export default function generatePdfsIntegration(): AstroIntegration {
 				);
 			},
 			"astro:build:done": async ({ dir, pages, logger }) => {
+				if (!isEnabled) return;
 				devServer = spawn("astro", ["dev"]);
 				const pagesToExport: string[] = [];
 				for (const page of pages) {
