@@ -8,8 +8,8 @@ import type { AstroIntegration } from "astro";
 import { PDFDocument } from "pdf-lib";
 import type { Browser, Page } from "puppeteer-core";
 import puppeteer from "puppeteer-core";
-import { setMetadata } from "./meta";
-import { type OutlineNode, getOutline, setOutline } from "./outline";
+import { setMetadata } from "./helpers/meta";
+import { type OutlineNode, getOutline, setOutline } from "./helpers/outline";
 
 chromium.args.splice(chromium.args.indexOf("--single-process"), 1);
 chromium.setHeadlessMode = true;
