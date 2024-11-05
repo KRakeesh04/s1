@@ -1,5 +1,5 @@
 ---
-title: Convergence Functions
+title: Converging Functions
 slug: maths/riemann-integration/converging-functions
 sidebar:
   order: 14
@@ -26,6 +26,9 @@ and:
 ```math
 \lim_\limits{n\to \infty}
 \int_a^b f_n(x)\,\text{d}x
+=
+\int_a^b
+\lim_\limits{n\to \infty} f_n(x)\,\text{d}x
 =
 \int_a^b f(x)\,\text{d}x
 ```

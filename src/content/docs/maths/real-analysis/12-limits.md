@@ -16,6 +16,14 @@ $\lim_\limits{x\to{a}}{f(x)}=L$ **iff**: $ $
 
 Defining $\delta$ in terms of a given $\epsilon$ is enough to prove a limit.
 
+## Properties
+
+Suppose $\lim f(x) = L, \lim g(x) =M$. $ $
+
+- $\lim {f \pm g} = L \pm M$
+- $\lim {fg} = LM$
+- $\lim \frac{f}{g} = \frac{L}{M}$ (provided $g(x)\neq 0$ and $M\neq 0$)
+
 ## One sided limits
 
 ### In x-limit

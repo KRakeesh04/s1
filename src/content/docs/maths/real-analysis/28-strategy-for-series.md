@@ -1,5 +1,5 @@
 ---
-title: Strategy For Series
+title: Strategy for Series
 slug: maths/real-analysis/strategy-for-series
 sidebar:
   order: 28

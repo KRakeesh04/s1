@@ -65,6 +65,7 @@ is $1$. $ $
 - $\det{A} = \pm 1$
 - $A$ is invertible, non-singular
 - $A^{-1} = A^{T}$
+- $A^T, A^{-1}$ are orthogonal
 - It is diagonalizable over $\mathbb{C}$ (may not be, over $\mathbb{R}$)
 - $\text{rank}\,A=\text{order}\,A$
 - Product of 2 orthogonal matrices of the same order is also an orthogonal

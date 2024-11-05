@@ -11,10 +11,9 @@ A complex function $f$ is differentiable at $z_0$ **iff**:
 \lim_\limits{z\to z_0}{\frac{f(z)-f(z_0)}{z-z_0}} = L = f'(z_0)
 ```
 
-$f'(z_0)$ is called the derivative of $f$ at $z_0$. The rules for
-differentiation in real functions can also be applied to complex functions. So,
-go through
-[Differentiability -- Real Analysis](/maths/real-analysis/differentiability/).
+$f'(z_0)$ is called the derivative of $f$ at $z_0$. Properties of
+[Differentiability | Real Analysis](/maths/real-analysis/differentiability/).
+can be applied to complex functions.
 
 ## Singular point
 

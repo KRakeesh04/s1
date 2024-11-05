@@ -126,7 +126,7 @@ Use $x=kt$. $ $
 
 ```math
 \Gamma(n)=
-\int_0^1 \ln\bigg(\frac{1}{x}\bigg)^{n-1} \,\text{d}x
+\int_0^1 \bigg(\ln\frac{1}{x}\bigg)^{n-1} \,\text{d}x
 ```
 
 :::note[Proof Hint]

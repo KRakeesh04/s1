@@ -14,7 +14,17 @@ $\lim_\limits{z\to z_0} f(z) = L$ **iff**: $ $
 \big(0<|z-z_0|<\delta\implies{|f(z)-L|<\epsilon})
 ```
 
-Complex limit properties are similar to real limits.
+## Properties
+
+All properties mentioned in
+[Limits | Real Analysis](/maths/real-analysis/limits/#properties) are applicable
+to complex limits. Additional properties are mentioned below:
+
+Suppose $\lim f(z)=L$. $ $
+
+- $\lim \overline{f(z)}=\overline{L}$
+- $\lim \text{Re}(f(z))=\text{Re}(L)$
+- $\lim \text{Im}(f(z))=\text{Im}(L)$
 
 ## Difference from real functions
 
