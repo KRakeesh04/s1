@@ -8,6 +8,7 @@ import type { AstroIntegration } from "astro";
 import type { Browser, Page } from "puppeteer-core";
 import puppeteer from "puppeteer-core";
 
+chromium.args.splice(chromium.args.indexOf("--single-process"), 1);
 chromium.setHeadlessMode = true;
 const CONTENT_DIRECTORY = "./src/content/docs";
 
@@ -171,6 +172,7 @@ export default function generatePdfsIntegration(): AstroIntegration {
 							summaryPage = browserTabs[0];
 							usedAboutBlankPage = true;
 						}
+						await summaryPage.setJavaScriptEnabled(false);
 
 						const pageFullUrl = "http://localhost:4321/".concat(pageUrl);
 						logger.info(`opening ${pageFullUrl}`);
