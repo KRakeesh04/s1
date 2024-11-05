@@ -23,3 +23,6 @@ pnpm-debug.log*
 summary.md
 src/content/docs/summary/
 .vercel
+.obsidian
+.idea
+.cache
