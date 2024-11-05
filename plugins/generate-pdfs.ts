@@ -1,12 +1,15 @@
 import { type ChildProcessWithoutNullStreams, spawn } from "node:child_process";
 import { existsSync } from "node:fs";
-import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import chromium from "@sparticuz/chromium";
 import type { AstroIntegration } from "astro";
+import { PDFDocument } from "pdf-lib";
 import type { Browser, Page } from "puppeteer-core";
 import puppeteer from "puppeteer-core";
+import { setMetadata } from "./meta";
+import { type OutlineNode, getOutline, setOutline } from "./outline";
 
 chromium.args.splice(chromium.args.indexOf("--single-process"), 1);
 chromium.setHeadlessMode = true;
@@ -139,23 +142,38 @@ export default function generatePdfsIntegration(): AstroIntegration {
 					pagesToExport.push(page.pathname);
 				}
 
-				const outputDir = join(fileURLToPath(dir.toString()), "as-pdf");
+				const buildDir = join(fileURLToPath(dir.toString()));
+				const outputDir = join(buildDir, "as-pdf");
 				if (!existsSync(outputDir)) {
 					await mkdir(outputDir, { recursive: true });
 				}
 
 				await waitForServer("http://localhost:4321/");
 				logger.info("dev server started");
-				browser = await puppeteer.launch({
-					devtools: false,
-					args: chromium.args,
-					defaultViewport: chromium.defaultViewport,
-					executablePath: await chromium.executablePath(),
-					headless: chromium.headless,
-				});
+				browser = await puppeteer.launch(
+					// FOR production
+					{
+						devtools: false,
+						args: chromium.args,
+						defaultViewport: chromium.defaultViewport,
+						executablePath: await chromium.executablePath(),
+						headless: chromium.headless,
+					},
+					// FOR local testing
+					// {
+					// devtools: false,
+					// executablePath: "/usr/bin/google-chrome",
+					// headless: false,
+					// }
+				);
 
 				let usedAboutBlankPage = false;
 				const browserTabs = await browser.pages();
+				const pagesAdditionalInformations: Array<{
+					path: string;
+					meta: Record<string, string>;
+					outlines: OutlineNode[];
+				}> = [];
 
 				await Promise.all(
 					pagesToExport.map(async (pageUrl) => {
@@ -163,7 +181,7 @@ export default function generatePdfsIntegration(): AstroIntegration {
 						const lastPart = linkParts.at(-1);
 						if (!lastPart) return;
 						const fileName = lastPart.concat(".pdf");
-						const path = join(outputDir, fileName);
+						const pathToSavePdf = join(outputDir, fileName);
 
 						let summaryPage: Page;
 						if (usedAboutBlankPage || browserTabs.length === 0) {
@@ -176,23 +194,74 @@ export default function generatePdfsIntegration(): AstroIntegration {
 
 						const pageFullUrl = "http://localhost:4321/".concat(pageUrl);
 						logger.info(`opening ${pageFullUrl}`);
-						await summaryPage.bringToFront();
 						await summaryPage.goto(pageFullUrl, {
 							waitUntil: "networkidle2",
-							timeout: 90000,
+							timeout: 120000,
 						});
 						await summaryPage.pdf({
-							path,
+							path: pathToSavePdf,
 							format: "A4",
 							scale: 0.9,
 						});
-						logger.info(`saved: ${pageUrl} (to ${path})`);
+						logger.info(`saved: ${pageUrl} (to ${pathToSavePdf})`);
+
+						pagesAdditionalInformations.push({
+							path: pathToSavePdf,
+							meta: await summaryPage.evaluate(() => {
+								const meta: Record<string, string> = {};
+								const title = document.querySelector("title");
+								if (title?.textContent)
+									meta.title = title.textContent
+										.trim()
+										.replace("Summary | ", "");
+
+								const lang = document
+									.querySelector("html")
+									?.getAttribute("lang");
+								if (lang) meta.lang = lang;
+
+								const metaTags = document.querySelectorAll("meta");
+								for (let tagIndex = 0; tagIndex < metaTags.length; tagIndex++) {
+									const tag = metaTags.item(tagIndex);
+									if (tag.name) meta[tag.name] = tag.content;
+								}
+								return meta;
+							}),
+							outlines: (
+								await getOutline(summaryPage, ["h2", "h3", "h4", "h5", "h6"])
+							).slice(1), // to remove "On this section label"
+						});
+
 						await summaryPage.close();
 					}),
 				);
-
 				await browser.close();
 				devServer.kill();
+
+				// const summaryFolder = join(buildDir, "summary");
+				// rm(summaryFolder, {
+				// 	recursive: true,
+				// }).then(() => {
+				// 	logger.info(`deleted: ${summaryFolder}`);
+				// });
+
+				await Promise.all(
+					pagesAdditionalInformations.map(async (pageInfo) => {
+						const pdfBuffer = await readFile(pageInfo.path, {});
+						const pdfDoc = await PDFDocument.load(Uint8Array.from(pdfBuffer));
+
+						//meta overrides
+						pageInfo.meta.creator =
+							"Sahithyan Kandathasan (https://sahithyan.dev)";
+						pageInfo.meta.author = pageInfo.meta.creator;
+						pageInfo.meta.producer = "Sahithyan's S1";
+
+						setMetadata(pdfDoc, pageInfo.meta);
+						setOutline(pdfDoc, pageInfo.outlines, false);
+						const updatedPdfDocBuffer = await pdfDoc.save();
+						return await writeFile(pageInfo.path, updatedPdfDocBuffer);
+					}),
+				);
 			},
 		},
 	};
