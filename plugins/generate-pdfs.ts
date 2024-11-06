@@ -190,7 +190,6 @@ export default function generatePdfsIntegration(): AstroIntegration {
 							summaryPage = browserTabs[0];
 							usedAboutBlankPage = true;
 						}
-						await summaryPage.setJavaScriptEnabled(false);
 
 						const pageFullUrl = "http://localhost:4321/".concat(pageUrl);
 						logger.info(`opening ${pageFullUrl}`);
