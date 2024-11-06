@@ -59,5 +59,5 @@ a_1,b_1,c_1
 
 Here
 
-- $\underline{n}$ is the normal to both $l_1,l_2$
+- $\underline{n}$ is the unit normal to both $l_1,l_2$
 - $A$ and $B$ are points lying on each line

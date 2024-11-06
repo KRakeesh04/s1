@@ -138,12 +138,14 @@ $\ln$, it's better to try this substitution.
 
 ### Form 4
 
+For $k\in \mathbb{R}$:
+
 ```math
-\Gamma(n) = 2 \int_0^\infty e^{-x^2} x^{2n-1}\,\text{d}x
+\Gamma(n) = k \int_0^\infty e^{-x^k} x^{kn-1}\,\text{d}x
 ```
 
 :::note[Proof Hint]
 
-Use $x=t^2$. $ $
+Use $x=t^k$. $ $
 
 :::

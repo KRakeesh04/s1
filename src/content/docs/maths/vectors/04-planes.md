@@ -77,16 +77,16 @@ The angle between the planes $\phi$ is given by: $ $
 
 Here $\underline{n_A},\underline{n_B}$ are normal to the planes $A,B$.
 
-## Shortest distance to a point
+## Shortest distance from a point
 
-Considering a plane $ax+by+cz=d$.$ $
+Consider the plane $ax+by+cz=d$.$ $
 
 ```math
 \text{distance}=
 \frac{
-\lvert
+\big\lvert
 (\underline{r_1}-\underline{r_0})\cdot\underline{n}
-\rvert
+\big\rvert
 }{
 \lvert{\underline{n}}\rvert
 }
@@ -94,4 +94,29 @@ Considering a plane $ax+by+cz=d$.$ $
 
 - $\underline{n}$ is a normal to the plane
 - $\underline{r_0}$ is the position vector of any known point on the plane
-- $\underline{r_1}$ is the position vector to the arbitrary point
+- $\overline{r_1}$ is the position vector to the arbitrary point
+
+## Intersection
+
+In 3D, to prove 2 planes intersect, it has to be proven that there is a point
+satisfiying both of the planes.
+
+### Of 2 planes
+
+Can either be a:
+
+- Plane - when the planes coincicde
+- Line - otherwise
+
+Equation of the line of intersection can be found by:
+
+- Solving $y,z$ with respect to $x$
+- Subject $x$ and symmetric form can be found
+
+### Of 3 planes
+
+Can either be a:
+
+- Plane - when the planes coincide
+- Line
+- Point

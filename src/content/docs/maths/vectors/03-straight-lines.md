@@ -95,15 +95,21 @@ Using the $\alpha,\beta$ lines mentioned above: $ $
 
 Here $v_1, v_2$ are $2$ vectors parallel to $\alpha, \beta$ respectively.
 
-## Shortest distance to a point
+## Shortest distance from a point
 
-Suppose $x_1$ and $x_2$ lie on a line. Shortest distance to the point $P$ is:
+The distance can be calculated using Pythogoras' theorem.
 
 ```math
 d^2 =
-\frac{
-\bigg|(\underline{x_2} - \overrightarrow{OP}) \times (\underline{x_1}-\overrightarrow{OP})\bigg|^2
-}{
-\big|\underline{x_2} - \underline{x_1}\big|^2
-}
+{\big\lvert\underline{r} - \underline{p}\big\rvert}^2 -
+\bigg[
+\frac{\underline{n}\cdot (\underline{r} - \underline{p})}{\lvert \underline{n} \rvert}
+\bigg]^2
 ```
+
+Here:
+
+- $P$ is the arbitrary point
+- $\underline{p}$ is the position vector of $P$
+- $\underline{r}$ is the position vector of a point on the line
+- $\underline{n}$ is parallel to the line
