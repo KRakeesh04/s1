@@ -23,8 +23,10 @@ $f(a)<u<f(b)$: $\exists c \in (a,b)$ such that $f(c)=u$.
 :::note[Proof Hint]
 
 - Define $g(x)=f(x)-u$
-- Define $A=\{ x \in [a,b) \,|\,g(x)\gt 0 \}$
-- Show that $\sup A$ ($=c$) exists. Assume and contradict these cases:
+- Start with $f(b)\lt u \lt f(a)$
+- Define $A=\{ x \in [a,b] \,|\,g(x)\gt 0 \}$
+- Show that $\sup A$ ($=c$) exists.
+- Use the continuity definition. Assume and contradict these cases:
   - $c=a$ (use $2\epsilon = g(a)$)
   - $c=b$ (use $2\epsilon = -g(b)$)
   - $c\in(a,b)$ then contradict:

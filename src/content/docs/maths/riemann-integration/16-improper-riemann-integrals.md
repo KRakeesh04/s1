@@ -21,17 +21,6 @@ Suppose $f:(a,b]\to\mathbb{R}$ is integrable on $[c,b]\;\forall c\in (a,b)$.
 Can be similarly defined on the other endpoint. The above integral converges
 **iff** the limit exists and finite. Otherwise diverges.
 
-#### Examples
-
-```math
-\int_0^1 \frac{1}{x^p}\,\text{d}x =
-\lim_\limits{\epsilon \to 0^+}
-\int_\epsilon^1 \frac{1}{x^p}\,\text{d}x
-```
-
-The above integral converges (to $\frac{1}{p-1}$) **iff** $0 \lt p \lt 1$. When
-$p\ge 1$, it diverges to $\infty$.
-
 ### Type 2
 
 A function defined on unbounded interval (including $\infty$). $ $
@@ -44,17 +33,6 @@ Suppose $f:[a,\infty)\to\mathbb{R}$ is integrable on $[a,r] \forall r > a$.
 
 Can be similarly defined on the other endpoint. The above integral converges
 **iff** the limit exists and finite. Otherwise diverges.
-
-#### Examples
-
-```math
-\int_1^\infty \frac{1}{x^p}\,\text{d}x =
-\lim_\limits{r \to \infty}
-\int_1^r \frac{1}{x^p}\,\text{d}x
-```
-
-The above integral converges (to $\frac{1}{p-1}$) **iff** $p \gt 1$. When
-$0 \lt p \le 1$, it diverges to $\infty$.
 
 ### Type 3
 
@@ -79,3 +57,29 @@ Convergence of improper integrals is similar to the convergence of
 \implies
 \int_a^b f \;\text{converges}
 ```
+
+## Common integrals
+
+```math
+\int_0^1 \frac{1}{x^p}\,\text{d}x
+\;\;\;
+\;\;\;
+\;\;\;
+\int_1^\infty \frac{1}{x^p}\,\text{d}x
+```
+
+The above integrals converge **iff** $p$ is in the integrating (open) interval.
+Converges to $\frac{1}{p-1}$ in that case.
+
+```math
+\int_0^1 \frac{\sin^2 x}{x^2}\,\text{d}x
+\;\;\;
+\;\;\;
+\;\;\;
+\int_1^\infty \frac{\sin^2 x}{x^2}\,\text{d}x
+```
+
+Both of the above integrals converges. Direct comparison test can be used.
+
+- For the 1st integral, $\sqrt{x^{-1}}$ can be used
+- For the 2nd integral, $x^{-2}$ can be used
