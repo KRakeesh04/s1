@@ -43,7 +43,7 @@ async function waitForServer(url: string, timeout = 10000, interval = 500) {
 
 export default function generatePdfsIntegration(): AstroIntegration {
 	let browser: Browser;
-	let devServer: ChildProcessWithoutNullStreams;
+	let previewServer: ChildProcessWithoutNullStreams;
 	/**
     used to signal if the integration must do its work or not
   */
@@ -133,7 +133,7 @@ export default function generatePdfsIntegration(): AstroIntegration {
 			},
 			"astro:build:done": async ({ dir, pages, logger }) => {
 				if (!isEnabled) return;
-				devServer = spawn("astro", ["dev"]);
+				previewServer = spawn("astro", ["preview"]);
 				const pagesToExport: string[] = [];
 				for (const page of pages) {
 					if (!page.pathname.startsWith("summary")) {
@@ -235,14 +235,14 @@ export default function generatePdfsIntegration(): AstroIntegration {
 					}),
 				);
 				await browser.close();
-				devServer.kill();
+				previewServer.kill();
 
-				// const summaryFolder = join(buildDir, "summary");
-				// rm(summaryFolder, {
-				// 	recursive: true,
-				// }).then(() => {
-				// 	logger.info(`deleted: ${summaryFolder}`);
-				// });
+				const summaryFolder = join(buildDir, "summary");
+				rm(summaryFolder, {
+					recursive: true,
+				}).then(() => {
+					logger.info(`deleted: ${summaryFolder}`);
+				});
 
 				await Promise.all(
 					pagesAdditionalInformations.map(async (pageInfo) => {
@@ -258,7 +258,7 @@ export default function generatePdfsIntegration(): AstroIntegration {
 						setMetadata(pdfDoc, pageInfo.meta);
 						setOutline(pdfDoc, pageInfo.outlines, false);
 						const updatedPdfDocBuffer = await pdfDoc.save();
-						return await writeFile(pageInfo.path, updatedPdfDocBuffer);
+						return writeFile(pageInfo.path, updatedPdfDocBuffer, {});
 					}),
 				);
 			},
