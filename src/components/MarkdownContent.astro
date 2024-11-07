@@ -132,7 +132,7 @@ const sections = findSections(Astro.props.sidebar);
 	) : (
 		<div>
 			{/* @ts-ignore */}
-			<Default {...Astro.props}>
+			<Default {...Astro.props} data-pagefind-body>
 				<slot />
 			</Default>
 		</div>
