@@ -45,9 +45,12 @@
 		"*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [
 			"biome check --write --no-errors-on-unmatched"
 		],
-		"*.{json,md}": ["bun scripts/fix-vercel-config.ts"],
 		"*.css": ["biome lint --write", "biome format --write"],
-		"*.md": ["bun scripts/auto-slug.js", "prettier --write ."],
+		"*.md": [
+			"bun scripts/auto-slug.js",
+			"prettier --write .",
+			"bun scripts/fix-vercel-config.ts"
+		],
 		"*.astro": ["prettier --write ."]
 	},
 	"trustedDependencies": ["@biomejs/biome", "esbuild", "puppeteer", "sharp"]
