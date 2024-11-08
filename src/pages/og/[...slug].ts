@@ -42,7 +42,7 @@ export const { getStaticPaths, GET } = OGImageRoute({
 			description: page.data.description,
 			bgGradient: [[250, 254, 247]],
 			logo: {
-				path: "./public/me.png",
+				path: "./public/logo.png",
 				size: [120],
 			},
 			fonts: ["./public/fonts/noto-sans_5.0.22_latin-400-normal.ttf"],
