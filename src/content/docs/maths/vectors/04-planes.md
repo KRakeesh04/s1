@@ -118,5 +118,8 @@ Equation of the line of intersection can be found by:
 Can either be a:
 
 - Plane - when the planes coincide
-- Line
-- Point
+- Line - when the lines of intersection between the planes pairwise coincide
+- Point - otherwise
+
+First pairwise intersection of the planes must be found. And then intersection
+of those 2 can be found.

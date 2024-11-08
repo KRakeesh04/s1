@@ -45,14 +45,13 @@ $\underline{r}=(1-t)\underline{r_A}+t\underline{r_B};\;t\in\mathbb{R}$
 \frac{z-z_1}{z_2-z_1}
 ```
 
-:::note
+## Intersection
 
-To show that two straight lines intersect in 3D space, it is **not** enough to
-show that the cross product of their parallel vectors is non-zero.
+To show that two straight lines intersect in 3D space, existence of a point
+which satisfies both lines must be proven.
 
-**Also**: Existence of a point which satisfies both lines must be proven.
-
-:::
+It is **not** enough to show that the cross product of their parallel vectors is
+non-zero.
 
 ## Normal to 2 lines
 
@@ -66,8 +65,9 @@ Let $\alpha,\beta$ be two lines. $ $
 Here $v_1=\langle a_1, b_1, c_1\rangle$, $v_2=\langle a_2, b_2, c_2\rangle$ are
 $2$ vectors parallel to $\alpha, \beta$ respectively.
 
-Normal to both lines: $v_1 \times v_2$. Unit normal to both lines can be found
-by: $ $
+Normal to both lines: $v_1 \times v_2$. $ $
+
+### Unit normal
 
 ```math
 \frac{v_1 \times v_2}{|v_1 \times v_2|}

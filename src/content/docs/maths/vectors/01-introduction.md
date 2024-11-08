@@ -51,53 +51,40 @@ $ a \times b = 0 \implies \lvert a \rvert = 0 \lor \lvert b \rvert = 0 \lor a
 
 Cross products between $i$, $j$, $k$ are circular.
 
-![Cross products of i,j,k](/maths/ijk-cross-product.jpg)
+![Cross products of i,j,k](/maths/vectors/ijk-cross-product.jpg)
 
 ### Properties
 
 - $a \times a = 0$
 - $(a\times b) = -(b \times a)$
 - $a \times (b + c) = (a \times b) + (a \times c)$
-
-:::note
-
-Area of a parallelogram $ABCD = \lvert \vec{AB} \times \vec{AD} \rvert $ $ $
-
-:::
+- Area of a parallelogram $ABCD = \lvert \vec{AB} \times \vec{AD} \rvert $ $ $
 
 ## Scalar Triple Product
 
 ```math
 [a,b,c]
 = a \cdot (b \times c)
-= \det
-\Bigg(
-\begin{matrix}
+=
+\begin{vmatrix}
 	 a_x & a_y & a_z \\
    b_x & b_y & b_z \\
    c_x & c_y & c_z
-\end{matrix}
-\Bigg)
+\end{vmatrix}
 ```
 
-$ [a,b,c] = a \cdot (b \times c) = (a \times b) \cdot c $
+### Properties
 
-$ [a,b,c] = [b,c,a] = [c,a,b] = -[a,c,b] $
-
-$ [a,b,c] = 0 $ **iff** $a$, $b$, $c$ are coplanar. Swapping any 2 vectors will
-negate the product.
-
-:::note
-
-Volume of a parallelepiped with $a$, $b$, $c$ as adjacent edges = $ [a,b,c] $
-
-Volume of a tetrahedron with $a$, $b$, $c$ as adjacent edges = $
-\frac{1}{6}[a,b,c] $
-
-:::
+- $ [a,b,c] = a \cdot (b \times c) = (a \times b) \cdot c $
+- $ [a,b,c] = [b,c,a] = [c,a,b] = -[a,c,b] $
+- Swapping any 2 vectors will negate the product.
+- $ [a,b,c] = 0 $ **iff** $a$, $b$, $c$ are coplanar.
+- Volume of a parallelepiped with $a$, $b$, $c$ as adjacent edges = $ [a,b,c] $
+- Volume of a tetrahedron with $a$, $b$, $c$ as adjacent edges = $
+  \frac{1}{6}[a,b,c] $
 
 ## Vector Triple Product
 
 $ a \times (b \times c) = (a \cdot c)b - (a \cdot b)c $
 
-Resulting vector lies in the plane that contains $b$ and $c$
+Resulting vector lies in the plane that contains $b$ and $c$.
