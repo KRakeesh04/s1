@@ -4,6 +4,7 @@ sidebar:
   label: Introduction
   order: 1
 slug: programming-fundamentals/a-book/introduction
+prev: false
 ---
 
 ## Definitions

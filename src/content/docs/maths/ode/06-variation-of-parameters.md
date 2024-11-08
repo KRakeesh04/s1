@@ -3,6 +3,7 @@ title: Variation of parameters
 slug: maths/ode/variation-of-parameters
 sidebar:
   order: 6
+next: false
 ---
 
 Consider the equation, where $P,Q$ are functions of $x$ alone, and which has 2

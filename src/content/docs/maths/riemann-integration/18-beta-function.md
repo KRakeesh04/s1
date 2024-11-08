@@ -3,6 +3,7 @@ title: Beta function
 slug: maths/riemann-integration/beta-function
 sidebar:
   order: 18
+next: false
 ---
 
 Beta function is defined as below, for $m,n\gt 0$: $ $

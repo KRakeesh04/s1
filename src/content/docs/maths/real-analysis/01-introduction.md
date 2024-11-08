@@ -4,6 +4,7 @@ slug: maths/real-analysis/introduction
 sidebar:
   label: Introduction
   order: 1
+prev: false
 ---
 
 ## Mathematical logic

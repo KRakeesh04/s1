@@ -4,6 +4,7 @@ sidebar:
   label: Introduction
   order: 1
 slug: properties-of-materials/degradation/introduction
+prev: false
 ---
 
 ### Corrosion

@@ -3,6 +3,7 @@ title: Carbon Nanotubes
 slug: properties-of-materials/nanotechnology/carbon-nanotubes
 sidebar:
   order: 3
+next: false
 ---
 
 A rolled up sheet of graphene.

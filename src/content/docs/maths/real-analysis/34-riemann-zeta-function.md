@@ -3,6 +3,7 @@ title: Riemann Zeta Function
 slug: maths/real-analysis/riemann-zeta-function
 sidebar:
   order: 34
+next: false
 ---
 
 ```math

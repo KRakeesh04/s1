@@ -3,6 +3,7 @@ title: Entire Functions
 slug: maths/complex-analysis/entire-functions
 sidebar:
   order: 9
+next: false
 ---
 
 A complex function that is differentiable everywhere. Which implies that they

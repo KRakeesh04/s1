@@ -4,6 +4,7 @@ sidebar:
   label: Introduction
   order: 14
 slug: properties-of-materials/basics/selection-of-materials
+next: false
 ---
 
 Materials are categorized into a tree.

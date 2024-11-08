@@ -4,6 +4,7 @@ slug: mechanics/statics/introduction
 sidebar:
   label: Introduction
   order: 1
+prev: false
 ---
 
 ## Centroid / Centre of area

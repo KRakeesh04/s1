@@ -3,6 +3,7 @@ title: Matrix Norms
 slug: maths/matrices/matrix-norms
 sidebar:
   order: 20
+next: false
 ---
 
 Let $A_{n\times n}$. A norm of $A$ is denoted by $||A||$.

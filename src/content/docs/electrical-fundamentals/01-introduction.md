@@ -4,6 +4,8 @@ slug: electrical-fundamentals/introduction
 sidebar:
   label: Introduction
   order: 1
+prev: false
+next: false
 ---
 
 Be sure to revise the Electricity unit of G.C.E. (A/L) Physics.

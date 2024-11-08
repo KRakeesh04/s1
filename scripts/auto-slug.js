@@ -1,4 +1,4 @@
-import { lstat, readdir, writeFile } from "node:fs/promises";
+import { writeFile } from "node:fs/promises";
 import { relative } from "node:path";
 const matter = require("gray-matter");
 
@@ -21,7 +21,8 @@ const TIME_NOW = new Date().valueOf();
     @param {Array<string>} mdFilePaths
 */
 export async function autoSlug(mdFilePaths) {
-	for (const filePath of mdFilePaths) {
+	for (let i = 0; i < mdFilePaths.length; i++) {
+		const filePath = mdFilePaths[i];
 		if (!filePath.endsWith(".md")) {
 			continue;
 		}
@@ -31,16 +32,25 @@ export async function autoSlug(mdFilePaths) {
 		if (!currentFrontMatter.title) {
 			return;
 		}
-		const slugSection = relative("./src/content/docs", filePath).replace(
-			".md",
-			"",
-		);
-		const newSlug = slugSection.replace(PATTERN_TITLE_PREFIX, "/");
+		const relativeFromDocsDirectory = relative("./src/content/docs", filePath);
+		const parts = relativeFromDocsDirectory.split("/");
+		const filename = parts.pop();
+		const section = parts.join("/");
 
 		file.data = {
 			...currentFrontMatter,
-			slug: newSlug,
 		};
+		if (filename.startsWith("01")) {
+			file.data.prev = false;
+		}
+		if (i === mdFilePaths.length - 1 || !mdFilePaths[i + 1].includes(section)) {
+			file.data.next = false;
+		}
+
+		const slugSection = relativeFromDocsDirectory.replace(".md", "");
+		const newSlug = slugSection.replace(PATTERN_TITLE_PREFIX, "/");
+		file.data.slug = newSlug;
+
 		// const s = await lstat(filePath);
 		// const timeDelta = TIME_NOW - s.mtimeMs;
 		// let isInsideTimeDelta = false;

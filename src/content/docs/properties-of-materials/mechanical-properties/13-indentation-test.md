@@ -3,6 +3,7 @@ title: Indentation Test
 slug: properties-of-materials/mechanical-properties/indentation-test
 sidebar:
   order: 13
+next: false
 ---
 
 Metal is subjected to indentation with a hard indenter. Depth of the indent is a

@@ -3,6 +3,7 @@ title: Introduction to Computers
 slug: programming-fundamentals/c-book/computers
 sidebar:
   order: 1
+prev: false
 ---
 
 An electronic device for analyzing and storing data, making calculations, etc.

@@ -4,6 +4,7 @@ slug: mechanics/dynamics/introduction
 sidebar:
   label: Introduction
   order: 1
+prev: false
 ---
 
 A branch of mechanics, which deals with motion of bodies.

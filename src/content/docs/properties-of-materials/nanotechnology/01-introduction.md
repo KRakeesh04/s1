@@ -4,6 +4,7 @@ slug: properties-of-materials/nanotechnology/introduction
 sidebar:
   label: Introduction
   order: 1
+prev: false
 ---
 
 A material with

@@ -3,6 +3,7 @@ title: Losses
 slug: fluid-mechanics/dynamics/losses
 sidebar:
   order: 4
+next: false
 ---
 
 Energy losses in a fluid under motion.

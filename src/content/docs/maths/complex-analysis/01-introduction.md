@@ -4,6 +4,7 @@ slug: maths/complex-analysis/introduction
 sidebar:
   label: Introduction
   order: 1
+prev: false
 ---
 
 ### Representation methods

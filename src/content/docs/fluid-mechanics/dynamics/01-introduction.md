@@ -4,6 +4,7 @@ slug: fluid-mechanics/dynamics/introduction
 sidebar:
   label: Introduction
   order: 1
+prev: false
 ---
 
 ## Flow

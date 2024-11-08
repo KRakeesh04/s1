@@ -4,6 +4,7 @@ slug: fluid-mechanics/statics/introduction
 sidebar:
   label: Introduction
   order: 1
+prev: false
 ---
 
 Study of Fluids Mechanics include

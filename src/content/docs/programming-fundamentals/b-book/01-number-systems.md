@@ -3,6 +3,7 @@ title: Introduction to Number Systems
 slug: programming-fundamentals/b-book/number-systems
 sidebar:
   order: 1
+prev: false
 ---
 
 A writing system for expressing numbers. Each number system defines a set of

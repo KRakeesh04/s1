@@ -4,6 +4,7 @@ sidebar:
   label: Introduction
   order: 1
 slug: maths/riemann-integration/introduction
+prev: false
 ---
 
 ## Interval
