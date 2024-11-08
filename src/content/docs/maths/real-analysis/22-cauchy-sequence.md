@@ -20,7 +20,11 @@ u_n - u_m
 
 ## Bounded
 
-All Cauchy sequences are bounded.
+```math
+u_n\;\text{is Cauchy} \implies u_n\;\text{is bounded}
+```
+
+Converse is **not** true.
 
 :::note[Proof Hint]
 
@@ -37,7 +41,8 @@ u_n\;\text{is converging}
 u_n\;\text{is a Cauchy sequence}
 ```
 
-Converse is **not** true.
+Converse is true **only when** the sequence is a subset of a
+[Complete](/maths/real-analysis/cauchy-sequence/#complete) set.
 
 :::note[Proof Hint]
 
@@ -55,10 +60,12 @@ A set $A$ is complete **iff**: $ $
 \forall u:\mathbb{Z}^+ \rightarrow A;\; u\;\text{converges to}\; L \in A
 ```
 
+<b>IMPORTANT</b>: $\mathbb{R}$ is complete. Proof is quite hard. $ $
+
 <b>IMPORTANT</b>: $Q$ is **not** complete because: $ $
 
 ```math
 \sum_{k=1}^\infty \frac{1}{k!} = e - 1 \not\in \mathbb{Q}
 ```
 
-<b>IMPORTANT</b>: $\mathbb{R}$ is complete. Proof is quite hard. $ $
+<b>IMPORTANT</b>: $\mathbb{Z}$ is complete. $ $

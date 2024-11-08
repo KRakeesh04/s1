@@ -94,6 +94,8 @@ converging (to $\inf\,\set{u_n}$).
 
 :::
 
+Both of the above results are referred to as "monotone convergence theorem".
+
 ## Newton's method of finding roots
 
 Suppose $f$ is a function. To find its roots: $ $

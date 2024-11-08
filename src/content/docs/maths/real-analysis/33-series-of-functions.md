@@ -12,33 +12,32 @@ functions is defined as: $ $
 s_n(x) = \sum_{k=1}^n u_k(x)
 ```
 
-## Convergence
-
-$s_n(x)$ converges to $s(x)$ uniformly.
-
-:::caution[TODO]
-
-Include the Proof Hint.
-
-:::
-
 ## Convergence tests
 
 ### Weierstrass M-test
 
 To test if a series of functions converges uniformly and absolutely.
 
-Let $f_n$ be a sequence functions on a set $A$. And both these conditions are
-met:
+Suppose $f_n$ is a sequence of functions on a set $A$. **If** both these
+conditions are met:
 
 - $\forall n \ge 1\;\exists M_n \ge 0\; \forall x \in A\;; \lvert f_n(x) \rvert \le M_n$
-- $\sum_{n=1}^\infty M_n$ converges
+- $T_n = \sum_{n=1}^\infty M_n$ converges
 
-Then:
+**Then**:
 
 ```math
 \sum_{n=1}^\infty f_n(x)\; \text{converges uniformly \& absolutely}
 ```
+
+:::note[Proof Hint]
+
+- $T_n$ is Cauchy
+- $\lvert s_n(x) - s_m(x) \rvert \lt \lvert T_n - T_m \rvert$
+- $s_n(x)$ is uniformly Cauchy which implies it's converging uniformly and
+  absolutely
+
+:::
 
 ## Differentiation
 

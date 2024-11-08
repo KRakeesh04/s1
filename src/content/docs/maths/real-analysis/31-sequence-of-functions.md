@@ -43,7 +43,8 @@ Examples:
 
 ### Supremum test
 
-A sequence of functions $u_n(x)$ converges to $u(x)$ uniformly **iff**:
+Suppose $u_n(x)$ is sequence of bounded functions. $u_n(x)$ converges to $u(x)$
+uniformly **iff**:
 
 ```math
 \lim_\limits{n\to\infty} \sup_x\, \lvert u_n(x) - u(x) \rvert = 0
@@ -68,7 +69,7 @@ To prove $\impliedby$: $ $
 
 ## Properties of uniform convergence
 
-### Continuity is preserved
+### Continuity
 
 If $u_n(x)$ is continuous and converging to $u(x)$, then $u(x)$ is also
 continuous.
@@ -85,23 +86,26 @@ Split into 3 absolute values. Show that the sum is lesser than $3\epsilon$.
 
 :::
 
-### Limit and integral can be switched
+### Integrability
 
 Explained in
 [Converging Functions | Riemann Integration](/maths/riemann-integration/converging-functions/).
 
-### Differentiation is complicated
+### Differentiability
 
 Uniform convergence-differentiation pair doesn't go as smooth like integration
 was.
 
 Suppose $u_n(x)$ is a sequence of differentiable functions, and they uniformly
-converges to $u(x)$. Then we can't say, for sure, $u(x)$ is differentiable. An
-example is:
+converges to $u(x)$. Differentiability of $u(x)$ is not guaranteed. An example
+is:
 
 ```math
 u_n(x) = \sqrt{x^2 + \frac{1}{n}}
 ```
+
+$u_n(x)$ is differentiable but $u(x)$ is only differentiable on
+$\mathbb{R}-\set{0}$.
 
 #### Theorem
 

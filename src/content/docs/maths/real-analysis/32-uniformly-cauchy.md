@@ -5,7 +5,7 @@ sidebar:
   order: 32
 ---
 
-$u_n(x)$ in $x\in A$ is said to be uniformly cauchy **iff**:
+$u_n(x)$ in $x\in A$ is said to be uniformly Cauchy **iff**:
 
 ```math
 \forall \epsilon \gt 0
@@ -36,6 +36,6 @@ To prove $\implies$: $ $
 To prove $\impliedby$: $ $
 
 - Consider the definition of uniformly Cauchy
-- Let $m$ go to $\infty$
+- $\mathbb{R}$ is complete which implies the convergence.
 
 :::

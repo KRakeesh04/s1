@@ -13,7 +13,7 @@ $u\circ v: \mathbb{Z}^+\rightarrow \mathbb{R}$ is a subsequence of $u$.
 
 Every sequence has a monotonic subsequence.
 
-:::note[Proof Hint]
+### Proof
 
 - Let $n\in\mathbb{Z}^+$ be called "good" **iff** $\forall m>n,\,u_n > u_m$.
 - Suppose $u_n$ has infinitely many "good" points. That implies $u_n$ has a
@@ -22,18 +22,14 @@ Every sequence has a monotonic subsequence.
   those. $\forall n_1 > N,\,n_1\;\text{is not "good"}$ That implies $u_n$ has a
   increasing subsequence.
 
-:::
-
 ## Bolzano-Weierstrass
 
 Every bounded sequence on $\mathbb{R}$ has a converging subsequence. $ $
 
-:::note[Proof Hint]
+### Proof
 
 From the above theorem, there is a monotonic subsequence $u_{n_k}$ which is also
 bounded. Bounded monotone sequences converge. $ $
-
-:::
 
 :::note
 
@@ -74,5 +70,5 @@ Above 2 conclusions can be derived using $n_k \ge k$. $ $
 
 ### Converging subsequence
 
-If $u_n$ is Cauchy and $u_{n_k}$ is a subsequence converging to $L$, then $u_n$
-converges to $L$.
+**If** $u_n$ is Cauchy and $u_{n_k}$ is a subsequence converging to $L$,
+**then** $u_n$ converges to $L$.
