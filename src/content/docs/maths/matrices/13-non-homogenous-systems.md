@@ -3,6 +3,7 @@ title: Solution of Non-homogenous Systems
 slug: maths/matrices/non-homogenous-systems
 sidebar:
   order: 13
+next: false
 ---
 
 Consider the system: $A_{n\times n}X_{n\times 1}=B_{n\times 1}$. $ $
@@ -39,6 +40,6 @@ $B$.
 ### Method 3: Reducing to Echelon Form
 
 Start with $(A|B)$. Convert the $\text{LHS}$ to
-[echelon form](/maths/matrices/eschelon-form). The solution can be found easily.
+[echelon form](/maths/matrices/echelon-form). The solution can be found easily.
 If a contradiction is encountered while solving the equation, then the system
 has no solutions.
