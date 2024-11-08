@@ -11,26 +11,6 @@ Mathematics.
 
 ## Types of matrices
 
-### Square matrix
-
-Number of columns equal to number of rows.
-
-:::note[Main diagonals of a square matrix]
-
-Formed by elements having equal subscripts.
-
-:::
-
-### Diagonal matrix
-
-A square matrix whose only non-zero elements are main-diagonal elements. Denoted
-by $D$. Subset of triangular matrices. $ $
-
-### Identity matrix or Unit matrix
-
-A diagonal matrix whose diagonal elements are all equal to $1$. Denoted by $I$.
-Subset of diagonal matrices.
-
 ### Zero matrix / Null matrix
 
 All elements are $0$. $ $
@@ -43,9 +23,17 @@ Only $1$ column. $ $
 
 Only $1$ row. $ $
 
-### Triangular matrix
+### Square matrix
 
-Upper triangular matrix or lower triangular matrix.
+Number of columns equal to number of rows.
+
+:::note[Main diagonals of a square matrix]
+
+Formed by elements having equal subscripts.
+
+:::
+
+### Triangular matrix
 
 #### Upper triangular matrix
 
@@ -54,6 +42,16 @@ All elements below the main diagonal are $0$. Subset of square matrices. $ $
 #### Lower triangular matrix
 
 All elements above the main diagonal are $0$. Subset of square matrices. $ $
+
+### Diagonal matrix
+
+A square matrix whose with non-zero elements only on the main diagonal. Denoted
+by $D$. Subset of upper and lower triangular matrices. $ $
+
+### Identity matrix
+
+Aka. unit matrix. A diagonal matrix and all diagonal elements are $1$. Denoted
+by $I$. Subset of diagonal matrices.
 
 ## Matrix operations
 
@@ -65,14 +63,3 @@ corresponding elements.
 ### Scalar multiplication
 
 Matrix obtained by multiplying all elements by the scalar.
-
-### Matrix multiplication
-
-Explained on a separate page:
-[Matrix multiplication](/maths/matrices/matrix-multiplication)
-
-:::note
-
-Other operations are also defined in separate pages.
-
-:::

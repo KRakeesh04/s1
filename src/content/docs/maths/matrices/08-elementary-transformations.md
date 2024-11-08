@@ -38,11 +38,11 @@ Denoted by $(A\lvert B)$. Example: $ $
 Let $A$ be a square matrix with order $n\times n$.
 
 - Start with $(A_{n\times n}|I_n)$
-- Repeatedly add **row** transformations (not column) to both of the matrices
-  until the $LHS$ becomes an identity matrix.
-  - Convert all elements outside the main diagonal to $0$.
-  - Convert elements on the main diagonal to $1$ by multiplying by a constant.
-- When $LHS$ is an identity matrix, $RHS$ is $A^{-1}$.
+- Repeatedly perform **row** transformations (**not** column) to both matrices
+  until the $\text{LHS}$ becomes an identity matrix.
+  - Transform all elements outside the main diagonal to $0$.
+  - Transform elements on the main diagonal to $1$ by multiplying by a constant.
+- $\text{RHS}$ is $A^{-1}$.
 
 :::caution[TODO]
 

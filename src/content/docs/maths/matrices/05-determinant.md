@@ -52,7 +52,7 @@ If $A = (a_{ij})_{n\times n}$ then the **determinant** of $A$ is defined by:
 \sum_{j=1}^{n}{a_{ij}A_{ij}}
 ```
 
-where $1\le j\le n$. $ $
+For some $i \in [1,n]$. $ $
 
 ## Properties of determinants
 

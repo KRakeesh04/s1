@@ -5,10 +5,8 @@ sidebar:
   order: 2
 ---
 
-Defined only when the number of columns of the first matrix is equal to the
-number of rows of the second matrix.
-
-Suppose $A=(a_{ij})_{m\times{p}}$ and $B=(b_{ij})_{p\times{n}}$.
+Suppose $A=(a_{ij})_{m\times{p}}$ and $B=(b_{ij})_{q\times{n}}$. Matrix
+multiplication is only defined when $q=p$ here.
 
 ```math
 A\times{B}=C
@@ -29,8 +27,8 @@ c_{ij} =
 
 ## Properties of matrix multiplication
 
-$A,B,C,I\;(\text{Identity})$ matrices must be chosen so that below-mentioned
-product matrices are defined. $ $
+$A,B,C,I$ matrices must be chosen so that below-mentioned products are defined.
+$ $
 
 1. Associative: $A(BC) = (AB)C$
 2. Right distributive over addition: $(A+B)C=AC+BC$

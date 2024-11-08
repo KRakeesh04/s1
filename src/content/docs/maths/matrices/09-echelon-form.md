@@ -5,7 +5,7 @@ sidebar:
   order: 9
 ---
 
-A matrix is in row echelon form (or just "row echelon" form) **iff**:
+A matrix is in row echelon form (or just "echelon" form) **iff**:
 
 - All rows having only zero entries are at the bottom.
 - For all row that does not contain entirely zeros, the first non-zero entry

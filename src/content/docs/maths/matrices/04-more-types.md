@@ -38,3 +38,10 @@ $A=\overline{A^{T}}$.
 
 A square matrix $A$ is said to be a Hermitian matrix **iff**
 $A=-\overline{A^{T}}$.
+
+:::note
+
+Any square matrix can be expressed as a sum of a hermitian matrix and a
+skew-hermitian matrix.
+
+:::

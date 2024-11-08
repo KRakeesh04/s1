@@ -14,15 +14,11 @@ exists an invertible matrix $P$ such that:
 B=P^{-1}AP
 ```
 
-Similarity of 2 matrices is commutative.
+### Properties
 
-Similar matrices have the set of eigenvalues.
-
-:::note
-
-If $A$ and $B$ are similar, then $A^2$ and $B^2$ are similar.
-
-:::
+- Similarity of 2 matrices is commutative.
+- Similar matrices have the set of eigenvalues.
+- If $A$ and $B$ are similar, then $A^2$ and $B^2$ are similar.
 
 ## Definition
 
@@ -59,8 +55,8 @@ D=
 
 :::note
 
-Order of those eigenvectors is **not** a problem. Here the matrix $P$ differs
-based on the order, and hence is not unique. $ $
+The matrix $P$ differs based on the order of the eigenvectors, and hence is not
+unique. $ $
 
 :::
 

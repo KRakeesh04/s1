@@ -13,30 +13,22 @@ below.
 - $a_{31}x+a_{32}y+a_{33}z=b_3$
 
 ```math
-\Bigg(
-\,
-\begin{matrix}
+\begin{pmatrix}
 a_{11} & a_{12} & a_{13} \\
 a_{21} & a_{22} & a_{23} \\
 a_{31} & a_{32} & a_{33} \\
-\end{matrix}
-\,
-\Bigg)
-\Bigg(
-\begin{matrix}
+\end{pmatrix}
+\begin{pmatrix}
 x \\
 y \\
 z \\
-\end{matrix}
-\Bigg)
+\end{pmatrix}
 =
-\Bigg(
-\begin{matrix}
+\begin{pmatrix}
 b_{1} \\
 b_{2} \\
 b_{3} \\
-\end{matrix}
-\Bigg)
+\end{pmatrix}
 \implies
 AX=B
 ```
@@ -46,6 +38,14 @@ AX=B
 - $=0$: [Homogeneous system](/maths/matrices/homogenous-systems/)
 - $\neq0$: [Non-homogeneous system](/maths/matrices/non-homogenous-systems/)
 
-## Consistent
+## Number of solutions
 
-When the system of equations has at least 1 solution. Otherwise inconsistent.
+A system of equations can have 0 or 1 or infinitely many solutions.
+
+### Consistent
+
+When the system of equations has at least 1 solution.
+
+### Inconsistent
+
+When the system of equations has no solution.
