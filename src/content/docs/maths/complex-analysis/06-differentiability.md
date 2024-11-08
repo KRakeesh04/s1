@@ -12,13 +12,12 @@ A complex function $f$ is differentiable at $z_0$ **iff**:
 ```
 
 $f'(z_0)$ is called the derivative of $f$ at $z_0$. Properties of
-[Differentiability | Real Analysis](/maths/real-analysis/differentiability/).
-can be applied to complex functions.
+[Differentiability | Real Analysis](/maths/real-analysis/differentiability/) can
+be applied to complex functions.
 
 ## Singular point
 
-If $f(z)$ is not differentiable at $z_0$ then $z_0$ is called a singular point
-of $f(z)$.
+A point $z_0$ where $f(z)$ is not differentiable.
 
 ## Neighbourhood
 

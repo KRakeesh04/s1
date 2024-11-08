@@ -3,6 +3,7 @@ title: Analytic Functions
 slug: maths/complex-analysis/analytic-functions
 sidebar:
   order: 7
+next: false
 ---
 
 A function $f$ is said to be analytic at $z_0$ **iff** it is differentiable
@@ -23,10 +24,10 @@ functions and monogenic functions.
 | -------------------- | -------------------------------------------------------------------------------------- |
 | $\lvert z \rvert ^2$ | Differentiable only at $z=0$.                                                          |
 | $\overline{z}$       | Nowhere differentiable. Derivative taken on the real and imaginary axes are different. |
-| $\text{Re}(z)$       | Nowhere differentiable. Derivative taken on the real and imaginary axes are different. |
-| $z+overline{z}$      | Nowhere differentiable. Similar to above.                                              |
-| $\text{Im}(z)$       | Nowhere differentiable. Derivative taken on the real and imaginary axes are different. |
-| $z-overline{z}$      | Nowhere differentiable. Similar to above.                                              |
+| $\text{Re}(z)$       | Similar to above.                                                                      |
+| $z+\overline{z}$     | Similar to above.                                                                      |
+| $\text{Im}(z)$       | Similar to above.                                                                      |
+| $z-\overline{z}$     | Similar to above.                                                                      |
 
 ## Analytic implies differentiable
 

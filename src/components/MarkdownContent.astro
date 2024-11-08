@@ -66,6 +66,14 @@ const sections = findSections(Astro.props.sidebar);
 				short notes of my 1st semester of Engineering at University of Moratuwa.{" "}
 			</p>
 			<p>
+ All modules other than Mechanics, are fully updated, totaling to{" "}
+				<span class="font-bold">{totalPages} pages</span>.
+				 Mechanics module will soon be updated, before the final exam.
+
+					Let me
+					know if something is missing or you find anything wrong.
+			</p>
+			<p>
 				This wouldn't be possible without the help of my friends. Huge thanks
 				for everyone involved. Want to support this effort? Star the
 				<a href="https://github.com/sahithyandev/s1">
@@ -83,8 +91,8 @@ const sections = findSections(Astro.props.sidebar);
 			</ul>{" "}
 			<h2>Notes as PDFs</h2>
 			<p>
-				The PDFs automatically updates whenever the content changes. However the
-				format of the PDF may not be perfect.
+				The PDFs are automatically generated.
+				Formatting may not be perfect.
 			</p>
 			<ul class="notes-as-pdf-links">
 				{sections.map((section) => {
@@ -96,16 +104,6 @@ const sections = findSections(Astro.props.sidebar);
 				})}
 			</ul>
 			<h2 class="mb-1">Content Included</h2>
-			<p>
- All modules other than Mechanics, are fully updated, totaling to{" "}
-				<span class="font-bold">{totalPages} pages</span>.
-				 Mechanics module will soon be updated,before the final exam.
-			</p>
-			<p>
-			All 17 weeks of the semester are over.
-				Let me
-				know if something is missing or you find anything wrong.
-			</p>
 
 			<div id="content-included">
 				<p>
