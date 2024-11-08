@@ -8,8 +8,9 @@ sidebar:
 A device for opening a circuit by means of a conductor designed to melt when an
 excessive current flows along it. Simple. Relatively cheap.
 
-When overcurrent flows through a fuse, the fuse element melts and followed by
-arcing.
+When overcurrent flows through a fuse, the fuse element melts, vaporizes. A gap
+is formed in the circuit. Electrical current tries to _jump_ over the gap
+causing a high-temperature plasma path, which is seen as an arc.
 
 ### Fuse element
 
@@ -20,9 +21,15 @@ Part of a fuse. Designed to melt and open the circuit when overcurrent flows.
 Part of a fuse, which comprises a fuse element and a cartridge (or other
 container) and is capable of being attached to the fuse contacts.
 
+:::caution[Todo]
+
+Improve the explanation.
+
+:::
+
 ### Current rating
 
-Maximum current, which the fuse can carry for an indefinite period.
+Maximum current the fuse can carry without breaking.
 
 ### Fusing current
 
@@ -30,7 +37,9 @@ Minimum current that will cause the fuse element to heat up melt or blow.
 
 ### Fusing factor
 
-The ratio of the fusing current to current rating.
+```math
+\text{Fusing factor}=\frac{\text{Fusing current}}{\text{Current rating}}
+```
 
 ### Rupturing capacity
 
@@ -40,15 +49,17 @@ Product of maximum current and supply voltage.
 
 ### Semi-enclosed fuse
 
-Consist of a fuse holder made up of a fuse base and a fuse carrier. The fuse
-carrier contains the fuse element usually in wire form. "Rewireable" because the
-elements are directly replaceable. Cheap. Low rupturing capacity.
+Consists of a fuse holder, which is made up of a fuse base and a fuse carrier.
+The fuse carrier contains the fuse element usually in wire form. "Rewireable"
+because the elements are directly replaceable. Cheap. Low rupturing capacity.
+
+#### Disadvantages
 
 But not recommended nowadays because of these disadvantages:
 
-- Deterioration with time due to oxidation - may operate at lower currents than
-  expected due to the reduction in cross sectional area and hence increase in
-  resistance
+- **Deterioration with time** - due to oxidation. cross sectional area might get
+  reduced with time. resistance will increase. may operate at lower currents
+  than expected.
 - Very easy for an inexperienced person to replace a blown fuse-element with a
   wire of incorrect size or type
 - **Slow**: time taken for the fuse to blow may be as long as several seconds

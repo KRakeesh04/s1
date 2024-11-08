@@ -3,9 +3,10 @@ title: Electric Shock
 slug: electrical-fundamentals/electric-shock
 sidebar:
   order: 25
+next: false
 ---
 
-Electric shock is when a current flows through the human body.
+Occurs when current flows through the human body.
 
 ### Ventricular fibrillation
 

@@ -14,14 +14,15 @@ To make sure there are no short circuits and the circuit is properly insulated.
 
 ### Procedure
 
-1. All main circuit breaker, MCBs, RCCBs are turned off
+1. Turn off all main circuit breaker, MCBs, RCCBs
 2. Turn on the required MCB and switch
-3. All appliances are unplugged
-4. Appropriate scale is set on the tester
-5. One probe is connected to the earth bus bar
-6. Other probe is connected to the live of the load
-7. Circuit is tested
-8. If the reading is higher than $1\,\text{M}\Omega$, test is passed
+3. Unplug all appliances
+4. Set the appropriate scale on the tester
+5. Connect one probe to the earth bus bar
+6. Connect other probe to the live of the load
+7. Test the circuit
+
+If the reading is higher than $1\,\text{M}\Omega$, test is passed. $ $
 
 ## Continuity test
 
@@ -29,11 +30,12 @@ To check if current passes through 2 points of the circuit continuously.
 
 ### Procedure
 
-1. Installation is disconnected by turning off main switches, MCB, RCCB
-2. All appliances are unplugged
-3. All switches are in on state
-4. Appropriate scale is set on the tester
-5. One probe is connected to the earth bus bar
-6. Other probe is connected to the earth of the socket
-7. Circuit is tested
-8. If the reading is less than $10\,\Omega$, test is passed
+1. Turn off main switches, MCBs, RCCBs - to disconnect the installation
+2. Unplug all appliances
+3. Turn on all switches
+4. Set appropriate scale on the tester
+5. Connect one probe to the earth bus bar
+6. Connect other probe to the earth of the socket
+7. Test the circuit
+
+If the reading is less than $10\,\Omega$, test is passed. $ $

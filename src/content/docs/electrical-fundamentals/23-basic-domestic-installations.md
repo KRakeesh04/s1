@@ -49,8 +49,8 @@ Socket outlets are wired in 2 ways.
 ![Ring circuit](/electrical/ring-circuit.jpg)
 
 Each circuit commences from consumer unit (or distribution board) through an MCB
-(or fuse) of specific rating usually 30 A, loops into each socket outlet and
-returns to the same MCB (or fuse) in the consumer unit (distribution board).
+(or fuse), loops into each socket outlet and returns to the same MCB (or fuse)
+in the consumer unit (distribution board).
 
 Looping must be done for the live, neutral and the protective conductors in
 separate rings.

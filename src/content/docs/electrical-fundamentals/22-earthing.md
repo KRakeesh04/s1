@@ -11,9 +11,9 @@ electrical protection equipment during fault condition.
 
 Potential of an installation is measured with respect to earth.
 
-Earthing is done for 2 purposes.
+## Purposes
 
-## Neutral Earthing
+### Neutral Earthing
 
 Limiting the voltage of current carrying conductors forming a part of the
 system.
@@ -23,7 +23,7 @@ circuits, stability, protection, etc., is greatly affected by the state of the
 neutral conductor. When the neutral is properly grounded, voltages of the phases
 are limited to near phase to ground voltage.
 
-## Equipment Earthing
+### Equipment Earthing
 
 Limiting the potential of non-current carrying metal work associated with
 equipment, apparatus and appliances in the system.

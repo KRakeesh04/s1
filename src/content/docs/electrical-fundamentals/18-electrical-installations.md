@@ -58,7 +58,7 @@ Protecting livestock and electrical equipments from electric faults.
 
 - Certainty and reliability of operation under normal, fault, non-operational
   conditions
-- Discrimination
+- Discrimination: ability to isolate faulty part from the system
 - Rapidity of operation: how fast the equipment responses
 - Simplicity
 - Low initial and maintenance cost
