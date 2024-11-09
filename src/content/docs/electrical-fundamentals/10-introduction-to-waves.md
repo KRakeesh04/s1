@@ -3,6 +3,7 @@ title: Introduction to Waves
 slug: electrical-fundamentals/introduction-to-waves
 sidebar:
   order: 10
+next: false
 ---
 
 ## Waveform
@@ -24,7 +25,7 @@ waveform.
 
 Same as $\sin\theta$ vs $\theta$ (in rad). Also called sine waves or sinusoid.
 
-$y=Asin(\omega{t}+\phi)$
+$y=A\sin(\omega{t}+\phi)$
 
 When $\phi$ is: $ $
 
@@ -32,7 +33,7 @@ When $\phi$ is: $ $
 - $=0$ - the wave is the **reference**
 - $\lt{0}$ - the wave is said to be **lagging** by $\phi$
 
-Sinusoidal voltages are be easily generated using rotating machines.
+Sinusoidal voltages can be easily generated using rotating machines.
 
 ## Complex Waveforms
 

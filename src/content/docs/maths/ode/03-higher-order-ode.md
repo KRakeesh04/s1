@@ -4,6 +4,7 @@ sidebar:
   label: Higher Order ODE
   order: 3
 slug: maths/ode/higher-order-ode
+next: false
 ---
 
 ## Linear Differential Equations
@@ -21,7 +22,7 @@ Based on $q(x)$, the above equation is categorized into $2$ types:
 - **Homogenous** if $q(x)=0$
 - **Non-homogenous** if $q(x)\not=0$
 
-:::caution[For 1st semester]
+:::note[For 1st semester]
 
 Only linear, ordinary differential equations with constant coefficients are
 required.

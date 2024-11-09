@@ -8,15 +8,15 @@ slug: maths/ode/first-order-ode
 
 ## Separable equation
 
-Separable if $x$ and $y$ functions can be separated into separate one-variable
-functions (as shown below).
+When $x$ and $y$ functions can be separated into separate one-variable functions
+(as shown below).
 
 ```math
 \frac{\text{d}y}{\text{d}x} = f(x)g(y)
 ```
 
 ```math
-\int{\frac{1}{g(y)} \text{d}y} = \int{f(x) \text{d}x}
+\int{\frac{1}{g(y)}\,\text{d}y} = \int{f(x)\,\text{d}x}
 ```
 
 ## Homogenous equation
@@ -69,11 +69,9 @@ The equation would be separable if $ Q(x) = 0 $. $ $
 Otherwise:
 
 - Identify $P(x)$ from the standard form
-- Calculate **integrating factor**: $ I = e^{\int{P(x) \text{d}x}}
-  $. Integrate
-  $P(x)$. Put it as the power of $e$
+- Calculate **integrating factor**: $ I = \exp{\int{P(x) \text{d}x}} $.
 - Multiply both sides by $ I $
-- $ \text{L.H.S} $ becomes $ \frac{d}{dx}(yI) $
+- $ \text{LHS} $ becomes $ \frac{d}{dx}(yI) $
 - Integrate both sides to solve for $y$
 
 ## Bernoulli's equation
