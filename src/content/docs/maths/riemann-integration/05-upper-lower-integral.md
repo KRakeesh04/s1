@@ -2,11 +2,10 @@
 title: Upper & Lower integral
 slug: maths/riemann-integration/upper-lower-integral
 sidebar:
-  order: 6
+  order: 5
 ---
 
-Let $\mathbb{P}$ be the collection of all possible partitions of the interval
-$[a, b]$.
+Let $\mathbb{P}$ be the set of all possible partitions of the interval $[a, b]$.
 
 ## Upper Integral
 

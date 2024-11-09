@@ -2,7 +2,7 @@
 title: Converging Functions
 slug: maths/riemann-integration/converging-functions
 sidebar:
-  order: 14
+  order: 13
 ---
 
 Convergence of functions is introduced in

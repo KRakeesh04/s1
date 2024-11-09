@@ -2,7 +2,7 @@
 title: Beta function
 slug: maths/riemann-integration/beta-function
 sidebar:
-  order: 18
+  order: 17
 next: false
 ---
 
@@ -36,7 +36,59 @@ Use $t = 1 - x$. $ $
 
 :::
 
+## Relation with gamma function
+
+$\forall m,n \gt 0$. $ $
+
+```math
+B(m,n) = \frac{\Gamma(m)\Gamma(n)}{\Gamma(m+n)}
+```
+
 ## Transformations
+
+This section is intended to be exam-focused.
+[Proofs for the transformations](#transformation-proofs) are included in a
+separate section.
+
+### Form 0, 6
+
+```math
+\int_a^b {(x-a)^{m-1}(b-x)^{n-1}}\,\text{d}x = (b-a)^{m+n-1} B(m,n)
+```
+
+Form 0 (definition) is derived by setting $a=0$ and $b=1$, .
+
+### Form 1, 3
+
+```math
+\int_0^\infty \frac{x^{m-1}}{(ax + b)^{m+n}}\,\text{d}x = \frac{B(m,n)}{a^m b^n}
+```
+
+Form 1 is derived by setting $a=b=1$. $ $
+
+### Form 2
+
+```math
+B(m,n) = \int_0^1 \frac{x^{m-1} + x^{n-1}}{(1+x)^{m+n}}\,\text{d}x
+```
+
+### Form 4
+
+```math
+\int_0^\frac{\pi}{2} \frac{\sin^{2m-1}(x) \cos^{2n-1}(x)}{(a\sin^2 x + b\cos^2 x)^{m+n}}\,\text{d}x = \frac{B(m,n)}{2a^m b^n}
+```
+
+### Form 5, 7
+
+```math
+\int_0^1 \frac{x^{m-1}(1-x)^{n-1}}{(a + bx)^{m+n}}\,\text{d}x
+=
+\frac{B(m,n)}{a^n(a+b)^m}
+```
+
+Form 5 is derived by setting $b=1$. $ $
+
+## Transformation Proofs
 
 ### Form 1
 
@@ -79,7 +131,7 @@ Use $x=\frac{a}{b}t$ in Form 1. $ $
 ### Form 4
 
 ```math
-\int_0^\frac{\pi}{2} \frac{\sin^{2m-1}(\theta) \cos^{2n-1}(\theta)}{(a\sin^2 \theta + b\cos^2 \theta)^{m+n}}\,\text{d}x = \frac{B(m,n)}{2a^m b^n}
+\int_0^\frac{\pi}{2} \frac{\sin^{2m-1}(x) \cos^{2n-1}(x)}{(a\sin^2 x + b\cos^2 x)^{m+n}}\,\text{d}x = \frac{B(m,n)}{2a^m b^n}
 ```
 
 :::note[Proof Hint]
@@ -125,21 +177,7 @@ Use $x=at + b(1-t)$ in the definition. $ $
 ```
 
 ```math
-\int_0^1 \frac{x^{m-1}(1-x)^{n-1}}{(b + cx)^{m+n}}\,\text{d}x
+\int_0^1 \frac{x^{m-1}(1-x)^{n-1}}{(a + bx)^{m+n}}\,\text{d}x
 =
-\frac{B(m,n)}{(b+c)^nb^m}
-```
-
-:::caution[Proof Hint]
-
-I don't know.
-
-:::
-
-## Relation with gamma function
-
-$\forall m,n \gt 0$. $ $
-
-```math
-B(m,n) = \frac{\Gamma(m)\Gamma(n)}{\Gamma(m+n)}
+\frac{B(m,n)}{a^n(a+b)^m}
 ```

@@ -3,7 +3,7 @@ title: Intermediate Value Theorem for Integrals
 slug: maths/riemann-integration/ivt-for-integrals
 sidebar:
   label: IVT for Integrals
-  order: 12
+  order: 11
 ---
 
 Suppose $f$ is a continuous function on $[a,b]$. Then $\exists x \in (a,b)$:
@@ -12,7 +12,7 @@ Suppose $f$ is a continuous function on $[a,b]$. Then $\exists x \in (a,b)$:
 f(x)=\frac{1}{b-a}\int_a^b f
 ```
 
-:::note[Proof Hint]
+## Proof
 
 Suppose $f_{\text{max}} = M = f(x_0)$ and $f_\text{min} = m=f(y_0)$.
 
@@ -25,5 +25,3 @@ m(b-a) \le \int_a^b f \le M(b-a)
 ```
 
 Then there exists $x \in (x_0, y_0)$. $ $
-
-:::

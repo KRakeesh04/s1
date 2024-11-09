@@ -2,7 +2,7 @@
 title: Gamma function
 slug: maths/riemann-integration/gamma-function
 sidebar:
-  order: 17
+  order: 16
 ---
 
 Defined as below for $n\gt 0$: $ $
@@ -138,7 +138,7 @@ $\ln$, it's better to try this substitution.
 
 ### Form 4
 
-For $k\in \mathbb{R}$:
+For $k\in \mathbb{R}$: $ $
 
 ```math
 \Gamma(n) = k \int_0^\infty e^{-x^k} x^{kn-1}\,\text{d}x

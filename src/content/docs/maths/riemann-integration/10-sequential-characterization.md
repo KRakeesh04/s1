@@ -2,7 +2,7 @@
 title: Sequential Characterization of Integrability
 slug: maths/riemann-integration/sequential-characterization
 sidebar:
-  order: 11
+  order: 10
 ---
 
 A bounded function $f:[a,b]\to \mathbb{R}$ is Riemann integrable **iff**
@@ -54,10 +54,13 @@ U(f;P_n) - L(f;L_n) \le
 
 ## Theorem
 
-Suppose $f$ is Riemann integrable on $[a,b]$ and $\epsilon>0$. Then
-$\exists \epsilon \gt 0 \forall P$:
+Suppose $f$ is Riemann integrable on $[a,b]$.
 
 ```math
+\forall \epsilon \gt 0\;
+\exists \delta \gt 0\;
+\forall P\;
+\bigg(
 \lvert P \rvert \lt \delta
 \implies
 \Bigg\lvert
@@ -67,6 +70,7 @@ $\exists \epsilon \gt 0 \forall P$:
 \Bigg\rvert
 \lt
 \epsilon
+\bigg)
 ```
 
 where $\zeta_j \in [x_{j-1},x_j], j=1,2,\cdots,n$. $ $

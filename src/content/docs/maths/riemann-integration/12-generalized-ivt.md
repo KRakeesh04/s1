@@ -2,7 +2,7 @@
 title: Generlized IVT
 slug: maths/riemann-integration/generalized-ivt
 sidebar:
-  order: 13
+  order: 12
 ---
 
 Suppose $f,g$ are continuous functions on $[a,b]$ and $g \ge 0$. Then

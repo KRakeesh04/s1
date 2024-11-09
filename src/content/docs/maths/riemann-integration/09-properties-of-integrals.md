@@ -2,22 +2,18 @@
 title: Properties of Integrals
 slug: maths/riemann-integration/properties-of-integrals
 sidebar:
-  order: 10
+  order: 9
 ---
 
-### Notation
+Suppose $f$ and $g$ are integrable on $[a,b]$.
 
-If $a<b$ and $f$ is integrable on $[a,b]$, then:
+## Flipping the range
 
 ```math
 \int_a^bf=-\int_b^af
 ```
 
-## Properties
-
-Suppose $f$ and $g$ are integrable on $[a,b]$.
-
-### Addition
+## Addition
 
 $f+g$ will be integrable on $[a,b]$.
 
@@ -28,23 +24,27 @@ $f+g$ will be integrable on $[a,b]$.
 \int_a^bg
 ```
 
+Converse is **not** true.
+
 :::note[Proof Hint]
 
 - Prove $f+g$ is integrable using:
-  - $sup(f+g)\le \sup(f) + \sup(g)$
-  - $inf(f+g)\ge \inf(f) + \inf(g)$
+  - $\sup(f+g)\le \sup(f) + \sup(g)$
+  - $\inf(f+g)\ge \inf(f) + \inf(g)$
 - Start with $U(f+g)$ and show $U(f+g)\le U(f)+U(g)$
 - Start with $L(f+g)$ and show $L(f+g)\ge L(f)+L(g)$
 
 :::
 
-### Constant multiplication
+## Constant multiplication
 
 Suppose $k\in\mathbb{R}$. $kf$ will be integrable $[a,b]$.
 
 ```math
 \int_a^bkf=k\int_a^bf
 ```
+
+Converse is **not** true.
 
 :::note[Proof Hint]
 
@@ -54,7 +54,7 @@ Suppose $k\in\mathbb{R}$. $kf$ will be integrable $[a,b]$.
 
 :::
 
-### Bounds
+## Bounds
 
 If $m\le f(x) \le M$ on $[a,b]$:
 
@@ -68,7 +68,7 @@ If $f(x)\le g(x)$ on $[a,b]$:
 \int_a^bf \le \int_a^bg
 ```
 
-### Modulus
+## Modulus
 
 $|f|$ will be integrable on $[a,b]$.
 
@@ -82,9 +82,9 @@ Start with $-|f|\le f \le |f|$. And integrate both sides. $ $
 
 :::
 
-### Multiple
+## Multiple
 
-$fg$ will be integrable on $[a,b]$.
+$fg$ will be integrable on $[a,b]$. Converse is **not** true.
 
 :::note[Proof Hint]
 
@@ -96,7 +96,7 @@ $fg=\frac{1}{2}\big[(f+g)^2 - f^2 - g^2\big]$
 
 :::
 
-### Max, Min
+## Max, Min
 
 $\max(f,g)$ and $\min(f,g)$ are integrable.
 
@@ -106,7 +106,7 @@ $\max(f,g)=\frac{1}{2}(|f-g|+f+g)$
 
 $\min(f,g)=\frac{1}{2}(-|f-g|+f+g)$
 
-### Additivity
+## Additivity
 
 $\iff f$ is Riemann integrable on $[a,c]\text{ and } [c,b]$ where $c \in (a,b)$.
 

@@ -2,7 +2,7 @@
 title: Improper Riemann Integrals
 slug: maths/riemann-integration/improper-riemann-integrals
 sidebar:
-  order: 16
+  order: 15
 ---
 
 Iniitally Riemann integrals are defined only for **bounded** functions defined

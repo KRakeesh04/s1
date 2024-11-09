@@ -2,7 +2,7 @@
 title: Partition
 slug: maths/riemann-integration/partition
 sidebar:
-  order: 3
+  order: 2
 ---
 
 Let $I$ be a non-empty, compact interval (closed and bounded). A partition of

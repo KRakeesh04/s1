@@ -2,7 +2,7 @@
 title: Fundamental Theorem of Calculus
 slug: maths/riemann-integration/fundamental-theorem-of-calculus
 sidebar:
-  order: 15
+  order: 14
 ---
 
 ## Theorem I

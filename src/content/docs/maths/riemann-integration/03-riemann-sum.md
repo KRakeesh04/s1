@@ -2,7 +2,7 @@
 title: Riemann Sum
 slug: maths/riemann-integration/riemann-sum
 sidebar:
-  order: 4
+  order: 3
 ---
 
 Let
