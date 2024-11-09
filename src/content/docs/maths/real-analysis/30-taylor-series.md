@@ -23,6 +23,19 @@ Taylor series, and called the **Maclaurin series**. $ $
 
 :::
 
+## Procedure
+
+Suppose a function $f$ is given and its Taylor series is required. $ $
+
+- Differentiate $f$ repeatedly and find a general solution for $n$-th derivative
+- Construct Taylor polynomial
+- Use root test or ratio test to find the range of convergence of the Taylor
+  polynomial
+- Consider the endpoints of range of convergence to check if the Taylor
+  polynomial converges
+- Construct the Taylor remainder
+- Find for which values of $x$, the remainder converges to $0$
+
 ## Examples
 
 ### e^x

@@ -5,6 +5,23 @@ sidebar:
   order: 18
 ---
 
+## Darboux's Theorem
+
+Let $f$ be differentiable on $[a,b]$, $f'(a)\neq f'(b)$ and $u$ is strictly
+between $f'(a)$ and $f'(b)$:
+
+```math
+\exists c \in (a,b)\;\text{s.t.}\,f'(c)=u
+```
+
+:::note[Proof Hint]
+
+Use $g(x)=ux - f(x)$ and follow the proof pattern of
+[IVT](/maths/real-analysis/continuity-theorems/#intermediate-value-theorem)
+proof. $ $
+
+:::
+
 ## Rolle's Theorem
 
 Let $f$ be continuous on $[a,b]$ and differentiable on $(a,b)$. And $f(a)=f(b)$.

@@ -37,3 +37,20 @@ $ \pi = 3 + \cfrac{1}{7 + \cfrac{1}{15 + \cfrac{1}{1 + \cfrac{1}{292 +
 
 Conintued fraction expansion of $ \pi $ is $ [3; 7, 15, 1, 292, 1, 1, 1, 2,
 1, 3, 1, 14, 2, 1, 1, 2, \ldots] $.
+
+## Convergence
+
+In the case of infinite continued fraction expansion, on each "+" part, the
+expansion can be separated. Each separated part will generate a sequence of
+numbers, which is converging to the original number.
+
+For example, for $\pi$, the sequence will be: $ $
+
+```math
+3,\frac{22}{7},\frac{303}{106},\frac{355}{113}\; \dots
+```
+
+Here:
+
+- Elements with the odd index are lesser than the converging value.
+- Elements with the even index are greater than the converging value.

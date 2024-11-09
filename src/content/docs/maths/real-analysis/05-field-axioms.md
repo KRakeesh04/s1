@@ -5,7 +5,7 @@ sidebar:
   order: 5
 ---
 
-## Field Axioms of $\mathbb{R}$
+## Field Axioms of R
 
 $ \mathbb{R} \not = \emptyset $ with two binary operations $ + $ and $ \cdot $
 satisfying the following properties
@@ -60,9 +60,9 @@ and $ \cdot $) is called a **field**. Written as:
 ```math
 (\mathbb{R}, +, \cdot)
 \;\text{is a Field}
-```
-
-```math
+\;\;
+\text{but}
+\;\;
 (\mathbb{R}, \cdot, +)\;\text{is not a field}
 ```
 

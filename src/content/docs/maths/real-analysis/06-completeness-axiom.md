@@ -38,8 +38,8 @@ proof. $ $
 
 ## Required proofs
 
-- $sup(a,b)=b$
-- $inf(a,b)=a$
+- $\sup(a,b)=b$
+- $\inf(a,b)=a$
 
 ## Completeness property
 

@@ -12,13 +12,8 @@ next: false
 
 Convergence of this function can be derived using
 [integral test](/maths/real-analysis/convergence-tests/#integral-test). The
-above-mentioned series is also referred to as p-series.
-
-This function converges **iff** $s>1$. And it converges to: $ $
-
-```math
-\frac{1}{s-1}
-```
+above-mentioned series is referred to as
+[p-series](/maths/real-analysis/known-series/#p-series).
 
 ## Extension
 
