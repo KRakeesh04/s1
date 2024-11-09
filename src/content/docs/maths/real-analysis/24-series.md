@@ -80,3 +80,15 @@ Suppose $s_n$ is a conditionally converging series. Then: $ $
 
 The converse is known as the
 [divergence test](/maths/real-analysis/convergence-tests/#divergence-test):
+
+## Grouping
+
+Suppose $\sum u_k$ is a given series. **If** $v_n$ is formed by grouping a
+finite number of adjacent terms $u_k$, **then** $\sum v_k$ is a grouping of the
+given series.
+
+## Rearrangement
+
+Suppose $\sum u_k$ is a given series. **If** there is a bijection sequence $k_n$
+such that $v_n = u_{k_n}$, **then** $\sum v_n$ is a rearrangement of the given
+series.

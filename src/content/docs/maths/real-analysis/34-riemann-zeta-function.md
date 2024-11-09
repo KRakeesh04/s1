@@ -44,3 +44,12 @@ The $\zeta$ function has its zeros only at negative even integers and complex
 numbers with real part $\frac{1}{2}$. $ $
 
 One of the most important unsolved problems in mathematics.
+
+## Euler Product formula
+
+```math
+\zeta(z)=\prod_{n=1}^\infty
+\frac{1}{1-p_n^{-z}}
+```
+
+Where $p_n$ is the $n$-th prime number.

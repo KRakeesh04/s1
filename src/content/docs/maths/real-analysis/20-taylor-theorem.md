@@ -58,6 +58,8 @@ f(c)
 
 ## Remainder
 
+### Derivative form
+
 Denoted by $R_n(x,c)$. $ $
 
 ```math
@@ -65,7 +67,7 @@ R_n(x,c)=
 \frac{f^{(n+1)}(\zeta)}{(n+1)!}{(x-c)}^{n+1}
 ```
 
-### Integral form of the remainder
+### Integral form
 
 ```math
 R_n(x,c)=

@@ -51,8 +51,9 @@ The series is:
 
 ## Theorem 1
 
-If $R \in (0,\infty)$ and $\lvert x-a \rvert \le p$ for $p \lt R$, then $s_n(x)$
-is uniformly (and absolutely) converging.
+Suppose $R \in (0,\infty)$ and $0 \lt p \lt R$. Then $\forall x \forall n$
+($\lvert x-a \rvert \le p \implies s_n(x))$ is uniformly (and absolutely)
+converging.
 
 :::note[Proof Hint]
 
