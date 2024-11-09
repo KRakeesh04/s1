@@ -3,6 +3,7 @@ title: Taylor's Theorem
 slug: maths/real-analysis/taylor-theorem
 sidebar:
   order: 20
+next: false
 ---
 
 Let $f$ is $n+1$ differentiable on $(a,b)$. Let $c,x \in (a,b)$. Then
@@ -79,7 +80,7 @@ R_n(x,c)=
 
 - Method 1: Use integration by parts and mathematical induction.
 - Method 2: Use
-  [Generalized MVT for Riemann Integrals](/maths/real-analysis/other-theorems/#generalized-mvt-for-riemann-integrals)
+  [Generalized IVT for Riemann Integrals](/maths/riemann-integration/generalized-ivt)
   where:
   - $F=f^{(n+1)}$
   - $G=(x-t)^n$

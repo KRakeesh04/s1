@@ -3,6 +3,7 @@ title: Cauchy Criterion
 slug: maths/riemann-integration/cauchy-criterion
 sidebar:
   order: 7
+next: false
 ---
 
 ## Theorem
@@ -30,5 +31,7 @@ $f:[a,b]\rightarrow\mathbb{R}$ is integrable on $[a,b]$ when:
 - The set of points of discontinuity of a bounded function $f$ is finite.
 - The set of points of discontinuity of a bounded function $f$ is finite number
   of limit points. (may have infinite number of discontinuities)
+
+In these cases, the discontinuities don't affect the result of the integration.
 
 :::
