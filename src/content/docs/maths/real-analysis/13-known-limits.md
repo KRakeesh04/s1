@@ -24,7 +24,7 @@ Squeeze theorem with $\sin \theta \cos \theta \lt \theta \lt \tan\theta$. $ $
 ```
 
 ```math
-\lim_\limits{x\to \infty} \big(1+\frac{a}{x}\big)^x = e^a
+\lim_\limits{x\to \infty} \big(1+\frac{a}{x}\big)^{bx} = e^{ab}
 ```
 
 ```math
