@@ -252,3 +252,7 @@ blockquote {
 svg text {
 	@apply fill-current;
 }
+
+.sl-link-button {
+	@apply rounded-lg py-3;
+}
